@@ -22,10 +22,8 @@ export function render(el, ctx) {
   if (persisted === null && navigator.storage?.persisted) navigator.storage.persisted().then((p) => ((persisted = p), ctx.refresh())).catch(() => {});
 
   el.innerHTML = `
-    <div class="topbar">
-      <button class="icon-btn" data-act="back" aria-label="Wróć">${icon('back')}</button>
-      <h1 class="grow">Ustawienia</h1>
-    </div>
+    <div class="topbar"><button class="icon-btn" data-act="back" aria-label="Wróć">${icon('back')}</button><div class="grow"></div></div>
+    <header class="screen-head"><h1 class="t-display">Ustawienia</h1></header>
 
     <section class="set-group">
       <h2 class="set-title">Cel roczny</h2>

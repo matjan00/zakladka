@@ -22,7 +22,9 @@ function quoteHTML(q, { compact = false } = {}) {
     <blockquote class="q-text"><button class="q-open" data-edit="${esc(q.id)}" aria-label="Otwórz cytat">${esc(q.text)}</button></blockquote>
     ${q.note ? `<p class="q-note">${esc(q.note)}</p>` : ''}
     <footer class="q-foot">
-      <p class="q-src">${sourceLine(q)}${q.page ? ` <span class="num faint">· s. ${esc(q.page)}</span>` : ''}</p>
+      ${compact /* on the book's own page title and author are already in the header */
+        ? q.page ? `<p class="q-src"><span class="num faint">s.&nbsp;${esc(q.page)}</span></p>` : ''
+        : `<p class="q-src">${sourceLine(q)}${q.page ? ` <span class="num faint">· s.&nbsp;${esc(q.page)}</span>` : ''}</p>`}
       ${tags.length && !compact ? `<div class="q-tags">${tags.map((t) => `<button class="q-tag" data-tag="${esc(t)}">#${esc(t)}</button>`).join('')}</div>` : ''}
       ${compact ? '' : `<button class="icon-btn q-share" data-share="${esc(q.id)}" aria-label="Udostępnij jako obraz">${icon('upload', 20)}</button>`}
     </footer>
@@ -221,7 +223,7 @@ export function renderQuoteOfDay(el, ctx) {
   const b = bookOf(q);
   fig.classList.remove('placeholder');
   fig.innerHTML = `<blockquote>${esc(q.text.length > 380 ? q.text.slice(0, 377).trimEnd() + '…' : q.text)}</blockquote>
-    <figcaption class="qod-cap"><span class="t-sm muted">${b ? `<b>${esc(b.title)}</b>${b.author ? ` · ${esc(b.author)}` : ''}` : ''}${q.page ? ` · s. ${esc(q.page)}` : ''}</span>
+    <figcaption class="qod-cap"><span class="t-sm muted">${b ? `<b>${esc(b.title)}</b>${b.author ? ` · ${esc(b.author)}` : ''}` : ''}${q.page ? ` <span class="num" style="white-space:nowrap">· s.&nbsp;${esc(q.page)}</span>` : ''}</span>
     <span class="qod-actions"><button class="icon-btn" data-qod-share aria-label="Udostępnij jako obraz">${icon('upload', 20)}</button><button class="icon-btn" data-qod-all aria-label="Wszystkie cytaty">${icon('chev', 20)}</button></span></figcaption>`;
   fig.onclick = (e) => {
     if (e.target.closest('[data-qod-share]')) return shareQuote(q);

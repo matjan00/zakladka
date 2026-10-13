@@ -59,9 +59,10 @@
 
 /* availability badge on the book detail */
 .lib-badge {
-  display: inline-flex; align-items: center; gap: 6px; min-height: 32px; padding: 0 12px; margin-top: var(--s3);
+  position: relative; display: inline-flex; align-items: center; gap: 6px; min-height: 34px; padding: 0 12px; margin-top: var(--s3);
   border-radius: 999px; border: 1px solid currentColor; font: 600 .8125rem/1 var(--font-ui);
 }
+.lib-badge::after { content: ''; position: absolute; inset: -5px 0; }
 .lib-badge.st-ok { color: var(--ok); }
 .lib-badge.st-warn { color: var(--warn); }
 .lib-badge.st-none { color: var(--ink-3); }

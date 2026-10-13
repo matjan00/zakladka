@@ -414,6 +414,7 @@ export function openAdd(opts = {}) {
 }
 
 // ---------- book detail ----------
+let freshStamp = ''; // id of a book that has just been finished: its ex libris is pressed on once
 export function renderDetail(el, ctx) {
   const b = store.book(ctx.params[0]);
   if (!b) {
@@ -421,6 +422,11 @@ export function renderDetail(el, ctx) {
     return;
   }
   const reads = store.readsOf(b.id);
+  const finishedCount = reads.filter((r) => r.finished && !r.abandoned).length;
+  // Goodreads exports only the last date read: earlier readings are known by count, not by date
+  const timesRead = Math.max(Number(b.readCount) || 0, finishedCount);
+  const stampFresh = freshStamp === b.id;
+  freshStamp = '';
   const lastDone = [...reads].reverse().find((r) => r.finished && !r.abandoned);
   const p = store.progressOf(b);
   const tags = b.tags || [];
@@ -433,7 +439,7 @@ export function renderDetail(el, ctx) {
     </div>
     <article class="book">
       <header class="book-hero">
-        <div class="hero-cover">${ui.coverHTML(b, 'l', { ribbon: b.status === 'czytam' })}${b.status === 'przeczytane' ? `<div class="hero-stamp">${ui.exlibris(lastDone?.finished?.slice(0, 4) || '', 82)}</div>` : ''}</div>
+        <div class="hero-cover">${ui.coverHTML(b, 'l', { ribbon: b.status === 'czytam' })}${b.status === 'przeczytane' ? `<div class="hero-stamp${stampFresh ? ' fresh' : ''}">${ui.exlibris(lastDone?.finished?.slice(0, 4) || '', 82)}</div>` : ''}</div>
         <h1 class="t-display book-title">${esc(b.title)}</h1>
         <p class="book-author">${esc(b.author || 'Autor nieznany')}</p>
         ${libBadge(b)}
@@ -451,8 +457,8 @@ export function renderDetail(el, ctx) {
         </div>
         ${b.pages ? ui.thread(p) : `<p class="faint t-sm">Dodaj liczbę stron, a pokażę, ile zostało.</p>`}
         <div class="btn-row" style="margin-top:14px">
-          <button class="btn" data-act="page">${icon('book')}Zapisz stronę</button>
-          <button class="btn primary" data-go="sesja?book=${esc(b.id)}">${icon('timer')}Sesja czytania</button>
+          <button class="btn" data-act="page">Zapisz stronę</button>
+          <button class="btn primary" data-go="sesja?book=${esc(b.id)}">${icon('timer')}Sesja</button>
         </div>
       </section>` : ''}
 
@@ -479,6 +485,7 @@ export function renderDetail(el, ctx) {
 
       <section class="section">
         <div class="section-head"><h2>Czytania</h2><button class="link-btn" data-act="add-read">${icon('plus', 18)}Dodaj</button></div>
+        ${timesRead > 1 ? `<p class="muted reads-note">Czytana ${timesRead} razy${timesRead > finishedCount ? (finishedCount ? `. Datę ${finishedCount === 1 ? 'znam tylko z ostatniego razu' : 'znam tylko z części czytań'}` : ', bez zapisanych dat') : ''}.</p>` : ''}
         ${reads.length ? `<ul class="list reads">${reads
           .map((r) => {
             const days = r.started && r.finished ? daysBetween(r.started, r.finished) + 1 : r.started ? daysBetween(r.started, todayStr()) + 1 : null;
@@ -513,6 +520,7 @@ export function renderDetail(el, ctx) {
     const t = e.target.closest('[data-act],[data-status],[data-read]');
     if (!t) return;
     if (t.dataset.status) {
+      if (t.dataset.status === 'przeczytane' && b.status !== 'przeczytane') freshStamp = b.id;
       await store.setStatus(b.id, t.dataset.status);
       if (t.dataset.status === 'przeczytane') ui.toast('Gratulacje! Kolejna przeczytana.');
       return;

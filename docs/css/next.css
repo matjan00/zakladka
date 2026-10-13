@@ -3,9 +3,9 @@
 .nx-filters { display: grid; gap: 0; }
 .nx-filters .field { margin-bottom: var(--s4); }
 .nx-filters .pills button { min-height: 40px; }
-.nx-moods { flex-wrap: nowrap; overflow-x: auto; margin: 0 calc(-1 * var(--gutter)); padding: 0 var(--gutter) 2px; scrollbar-width: none; }
+.nx-moods { flex-wrap: wrap; }
 .nx-moods::-webkit-scrollbar { display: none; }
-.nx-moods .chip { flex: none; min-height: 40px; padding: 0 16px; font-size: .875rem; }
+.nx-moods .chip { flex: none; min-height: 40px; padding: 0 14px; font-size: .875rem; }
 .nx-avail { margin-bottom: var(--s4); display: grid; gap: 6px; justify-items: start; }
 .nx-avail .chip { min-height: 40px; padding: 0 14px; }
 .nx-avail .chip:disabled { opacity: .5; }

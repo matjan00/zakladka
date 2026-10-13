@@ -148,6 +148,18 @@ const CSV = [
     assert.equal(dups.length, 2);
     assert.equal(fresh.length, 2);
     assert.equal(G.dedupe([...r.books, ...r.books], []).fresh.length, 4);
+    const m = G.dedupe(r.books, [{ id: 'x1', title: 'Pan Tadeusz', author: 'Adam Mickiewicz', isbn: '' }]);
+    assert.equal(m.dups[0].matchId, 'x1');
+  });
+  ok('Goodreads fills only empty fields', () => {
+    const [c] = G.parseGoodreads(CSV).books;
+    const shelf = { id: 'b1', title: c.title, author: c.author, status: 'przeczytane', rating: 3, pages: null, year: null, isbn: '', review: '', tags: [] };
+    const f = G.missingFrom(shelf, c, []);
+    assert.equal(f.patch.rating, undefined); // 3 stays 3
+    assert.equal(f.patch.pages, 320);
+    assert.equal(f.patch.readCount, 2);
+    assert.deepEqual(f.addRead, { bookId: 'b1', started: null, finished: '2024-03-10' });
+    assert.equal(G.missingFrom(shelf, c, [{ finished: '2020-01-01' }]).addRead, null);
   });
   console.log(`\n${n} test groups passed`);
   fs.rmSync(tmp, { recursive: true, force: true });

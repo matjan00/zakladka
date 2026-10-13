@@ -3,7 +3,7 @@ import * as store from './store.js';
 import * as ui from './ui.js';
 import { icon } from './icons.js';
 import { esc, plN, uid, parseYmd } from './util.js';
-import { parseGoodreads, dedupe } from './goodreads-parse.js';
+import { parseGoodreads, dedupe, missingFrom } from './goodreads-parse.js';
 import { coverForIsbn } from './sources.js';
 
 const MAX_BYTES = 30 * 1024 * 1024;
@@ -14,14 +14,23 @@ const SHELVES = [
 ];
 
 // state lives at module level so a re-render (store change) doesn't lose the preview
-let st = { stage: 'idle', file: '', parsed: [], fresh: [], dups: [], error: '', result: null, covers: null };
+let st = { stage: 'idle', file: '', parsed: [], fresh: [], dups: [], fill: true, error: '', result: null, covers: null };
+
+/** Shelf books the file can complete: [{ book, g, patch, addRead, fields }] (only books with something to add). */
+function fillable() {
+  return st.dups
+    .filter((g) => g.matchId && store.book(g.matchId))
+    .map((g) => {
+      const book = store.book(g.matchId);
+      return { book, g, ...missingFrom(book, g, store.readsOf(book.id)) };
+    })
+    .filter((x) => x.fields.length);
+}
 
 export function render(el, ctx) {
   el.innerHTML = `
-    <div class="topbar">
-      <button class="icon-btn" data-act="back" aria-label="Wróć">${icon('back')}</button>
-      <h1 class="grow">Import z Goodreads</h1>
-    </div>
+    <div class="topbar"><button class="icon-btn" data-act="back" aria-label="Wróć">${icon('back')}</button><div class="grow"></div></div>
+    <header class="screen-head"><h1 class="t-display">Import z Goodreads</h1></header>
     ${st.stage === 'preview' ? previewHTML() : st.stage === 'done' ? doneHTML() : stepsHTML()}`;
 
   el.onclick = async (e) => {
@@ -32,6 +41,7 @@ export function render(el, ctx) {
     if (a === 'cancel') return ((st = { ...st, stage: 'idle' }), ctx.refresh());
     if (a === 'more') return ((st = { ...st, stage: 'idle', result: null }), ctx.refresh());
     if (a === 'shelf') return ctx.go('polka');
+    if (a === 'fill') return ((st = { ...st, fill: !st.fill }), ctx.refresh());
     if (a === 'import') {
       t.disabled = true;
       try {
@@ -88,11 +98,17 @@ function previewHTML() {
   const withReview = st.fresh.filter((b) => b.review).length;
   const withRating = st.fresh.filter((b) => b.rating).length;
   const sample = st.fresh.slice(0, 6);
+  const fill = fillable();
+  const doFill = st.fill && fill.length;
+  const fieldsAll = [...new Set(fill.flatMap((x) => x.fields))].slice(0, 4).join(', ');
+  const action = st.fresh.length ? `Importuj ${plN(st.fresh.length, 'książkę', 'książki', 'książek')}` : doFill ? `Uzupełnij ${plN(fill.length, 'książkę', 'książki', 'książek')}` : '';
   return `
     <p class="faint t-sm">Plik: ${esc(st.file)}</p>
     <section class="section" style="margin-top:12px">
-      <h2>${st.fresh.length ? `Do zaimportowania: ${plN(st.fresh.length, 'książka', 'książki', 'książek')}` : 'Nie ma nic nowego'}</h2>
-      ${st.dups.length ? `<p class="muted" style="margin-top:6px">${plN(st.dups.length, 'książkę', 'książki', 'książek')} już masz na półce — ${st.dups.length === 1 ? 'pominę ją' : 'pominę je'}.</p>` : ''}
+      <h2>${st.fresh.length ? `Do zaimportowania: ${plN(st.fresh.length, 'książka', 'książki', 'książek')}` : 'Nie ma nowych książek'}</h2>
+      ${st.dups.length ? `<p class="muted" style="margin-top:6px">${plN(st.dups.length, 'książkę', 'książki', 'książek')} już masz na półce — nie zdublują się.</p>` : ''}
+      ${fill.length ? `<label class="check gr-fill"><input type="checkbox" data-act="fill" ${st.fill ? 'checked' : ''}>
+        <span>Uzupełnij brakujące dane w ${plN(fill.length, 'książce', 'książkach', 'książkach')} z półki <span class="faint t-sm">(${esc(fieldsAll)}). Nic, co już wpisałeś, nie zostanie nadpisane.</span></span></label>` : ''}
     </section>
     ${st.fresh.length ? `<dl class="card-fields" style="margin-top:16px">
       ${SHELVES.map(([k, l]) => `<dt class="t-label">${l}</dt><dd>${count(st.fresh, k)}</dd>`).join('')}
@@ -101,13 +117,18 @@ function previewHTML() {
     </dl>
     <ul class="list gr-sample">${sample.map((b) => `<li class="row"><span class="grow"><span class="t-book">${esc(b.title)}</span><br><span class="faint t-sm">${esc(b.author)}</span></span><span class="faint t-sm">${esc(SHELVES.find((s) => s[0] === b.status)?.[1] || '')}</span></li>`).join('')}</ul>
     ${st.fresh.length > sample.length ? `<p class="faint t-sm">…i ${st.fresh.length - sample.length} więcej</p>` : ''}` : ''}
-    <div class="btn-row" style="margin-top:24px"><button class="btn" data-act="cancel">Wróć</button>${st.fresh.length ? `<button class="btn primary" data-act="import">Importuj ${plN(st.fresh.length, 'książkę', 'książki', 'książek')}</button>` : ''}</div>`;
+    <div class="btn-row" style="margin-top:24px"><button class="btn" data-act="cancel">Wróć</button>${action ? `<button class="btn primary" data-act="import">${action}</button>` : ''}</div>`;
 }
 
 function doneHTML() {
   const r = st.result;
   const c = st.covers;
-  return `${ui.empty({ title: `Zaimportowano ${plN(r.books, 'książkę', 'książki', 'książek')}`, text: r.dups ? `${plN(r.dups, 'książka', 'książki', 'książek')} już była na półce.` : 'Wszystko wylądowało na półkach.' })}
+  const title = r.books ? `Zaimportowano ${plN(r.books, 'książkę', 'książki', 'książek')}` : `Uzupełniono ${plN(r.filled, 'książkę', 'książki', 'książek')}`;
+  const text = [
+    r.books && r.filled ? `${plN(r.filled, 'książka', 'książki', 'książek')} z półki ${ui.pl(r.filled, 'dostała', 'dostały', 'dostało')} brakujące dane.` : '',
+    r.dups && !r.filled ? `${plN(r.dups, 'książka', 'książki', 'książek')} ${ui.pl(r.dups, 'była', 'były', 'było')} już na półce.` : '',
+  ].filter(Boolean).join(' ') || 'Wszystko wylądowało na półkach.';
+  return `${ui.empty({ title, text })}
     ${c && c.total ? `<p class="faint t-sm center" role="status">${c.done < c.total ? `Dociągam okładki… ${c.done} z ${c.total}` : `Okładki: znalazłem ${c.found} z ${c.total}. Reszta dostanie zaprojektowaną obwolutę.`}</p>` : ''}
     <div class="btn-row" style="margin-top:20px"><button class="btn" data-act="more">Wczytaj inny plik</button><button class="btn primary" data-act="shelf">Zobacz półkę</button></div>`;
 }
@@ -142,12 +163,17 @@ async function runImport() {
     if (g.status === 'przeczytane' && g.dateRead) reads.push({ bookId: id, started: null, finished: g.dateRead });
     if (g.status === 'czytam') reads.push({ bookId: id, started: g.dateAdded || new Date().toISOString().slice(0, 10), finished: null });
   }
-  await store.putMany('books', books);
+  // books already on the shelf: fill only what is empty there
+  const fill = st.fill ? fillable() : [];
+  const patched = fill.filter((x) => Object.keys(x.patch).length).map((x) => ({ ...x.book, ...x.patch, updated: Date.now() }));
+  for (const x of fill) if (x.addRead) reads.push(x.addRead);
+  if (books.length) await store.putMany('books', books);
+  if (patched.length) await store.putMany('books', patched);
   if (reads.length) await store.putMany('reads', reads);
   const withIsbn = books.filter((b) => b.isbn);
-  st = { ...st, stage: 'done', result: { books: books.length, dups: st.dups.length }, covers: { total: withIsbn.length, done: 0, found: 0 } };
+  st = { ...st, stage: 'done', result: { books: books.length, dups: st.dups.length, filled: fill.length }, covers: { total: withIsbn.length, done: 0, found: 0 } };
   fetchCovers(withIsbn.map((b) => ({ id: b.id, isbn: b.isbn })));
-  ui.toast(`Zaimportowano ${plN(books.length, 'książkę', 'książki', 'książek')}`);
+  ui.toast(books.length ? `Zaimportowano ${plN(books.length, 'książkę', 'książki', 'książek')}` : `Uzupełniono ${plN(fill.length, 'książkę', 'książki', 'książek')}`);
 }
 
 // ---------- covers in the background (never blocks the UI) ----------

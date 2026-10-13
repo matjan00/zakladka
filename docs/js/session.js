@@ -32,7 +32,7 @@ export function durText(ms) {
   const m = Math.round(ms / 60000);
   if (m < 1) return 'mniej niż minutę';
   const h = Math.floor(m / 60);
-  return h ? `${h} h${m % 60 ? ` ${m % 60} min` : ''}` : `${m} min`;
+  return h ? `${h}\u00a0h${m % 60 ? ` ${m % 60}\u00a0min` : ''}` : `${m}\u00a0min`;
 }
 
 /** Minutes read today (finished sessions + the one in progress). */
@@ -49,7 +49,7 @@ const sessionsOf = (bookId) => store.where('sessions', (s) => s.bookId === bookI
 const GEN = ['niedzieli', 'poniedziałku', 'wtorku', 'środy', 'czwartku', 'piątku', 'soboty'];
 const fmtDM = new Intl.DateTimeFormat('pl-PL', { day: 'numeric', month: 'long' });
 
-/** "skończysz za ~3 h 20 min · około czwartku" (or a gentle invitation when there is no data yet). */
+/** "Zostało około 3 h 20 min czytania. Skończysz około czwartku." (or a gentle invitation when there is no data yet). */
 export function estimate(b) {
   if (!b.pages) return { text: 'Dodaj liczbę stron książki, a oszacuję, kiedy ją skończysz.' };
   const left = b.pages - (Number(b.currentPage) || 0);
@@ -62,7 +62,7 @@ export function estimate(b) {
   // recent daily pace: reading time per calendar day over the last 14 days (shorter if you only just began)
   const now = Date.now();
   const recent = store.where('sessions', (s) => s.start > now - 14 * DAY);
-  let text = `Skończysz za ~${durText(needMs)}`;
+  let text = `Zostało około ${durText(needMs)} czytania`;
   let when = '';
   if (recent.length) {
     const first = Math.min(...recent.map((s) => s.start));
@@ -73,12 +73,12 @@ export function estimate(b) {
       const d = new Date(now + days * DAY);
       if (days <= 0) when = 'jeszcze dziś';
       else if (days === 1) when = 'jutro';
-      else if (days <= 6) when = `około ${GEN[d.getDay()]}`;
-      else if (days <= 200) when = `około ${fmtDM.format(d)}`;
+      else if (days <= 6) when = `około\u00a0${GEN[d.getDay()]}`;
+      else if (days <= 200) when = `około\u00a0${fmtDM.format(d).replace(' ', '\u00a0')}`;
     }
   }
   const basis = ownSpeed ? 'z Twojego tempa przy tej książce' : 'z Twojego średniego tempa';
-  return { text: when ? `${text} · ${when}` : text, speed, basis };
+  return { text: when ? `${text}. Skończysz ${when}.` : `${text}.`, speed, basis };
 }
 
 // ---------- screen ----------
@@ -141,8 +141,7 @@ export function render(el, ctx) {
   const ownSpeed = speedOf(own);
 
   el.innerHTML = `
-    <header class="screen-head"><h1 class="t-display">Sesja</h1>
-      ${run ? '' : `<button class="icon-btn" data-act="manual" aria-label="Dodaj sesję ręcznie">${icon('plus')}</button>`}</header>
+    <header class="screen-head"><h1 class="t-display">Sesja</h1></header>
 
     <section class="ss-book">
       <button class="ss-cover" data-act="pick" ${run ? 'disabled' : ''} aria-label="${run ? esc(b.title) : 'Zmień książkę'}">${ui.coverHTML(b, 'm', { ribbon: reading })}</button>
@@ -176,7 +175,7 @@ export function render(el, ctx) {
     </section>
 
     <section class="section">
-      <div class="section-head"><h2>Historia sesji</h2>${run ? '' : `<button class="link-btn" data-act="manual">${icon('plus', 18)}Dodaj</button>`}</div>
+      <div class="section-head"><h2>Historia sesji</h2>${run ? '' : `<button class="link-btn" data-act="manual" aria-label="Dodaj dawną sesję ręcznie">${icon('plus', 18)}Dodaj dawną</button>`}</div>
       ${own.length
         ? `<p class="faint t-sm num ss-total">${plN(own.length, 'sesja', 'sesje', 'sesji')} · ${durText(ownMs)}${ownSpeed ? ` · ${Math.round(ownSpeed)} str./h` : ''}</p>
            <ul class="list ss-list">${own.slice(0, 30).map(sessionRow).join('')}</ul>`

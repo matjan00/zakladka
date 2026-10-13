@@ -70,11 +70,25 @@ function authorMatch(bookAuthor, candAuthor) {
   if (!s.length || !c.length) return null;
   return s.some((x) => c.some((y) => tokEq(x, y)));
 }
+/**
+ * Our title runs word for word inside the catalogue title: at the start ("Wiedźmin" ~ "Wiedźmin. Ostatnie życzenie")
+ * or, for two words or more, after a series name ("Ostatnie życzenie" ~ "Wiedźmin. Ostatnie życzenie").
+ */
+function titleWithin(bookTitle, candTitle) {
+  const a = core(bookTitle), c = core(candTitle);
+  if (!a.length || a.length > c.length) return false;
+  if (!a.filter(isNum).every((n) => c.includes(n))) return false;
+  const runAt = (i) => a.every((x, j) => tokEq(x, c[i + j]));
+  if (runAt(0)) return a.length > 1 || a[0].length >= 4;
+  if (a.length < 2) return false;
+  for (let i = 1; i + a.length <= c.length; i++) if (runAt(i)) return true;
+  return false;
+}
 /** Is catalogue record / suggestion `cand` {title, author} the same work as `book`? Author surname must match when known. */
 export function sameBook(book, cand) {
   const t = titleMatch(book.title, cand.title);
-  if (!t) return false;
   const am = authorMatch(book.author, cand.author);
+  if (!t) return am === true && titleWithin(book.title, cand.title);
   if (am === true) return true;
   if (am === false) return false;
   return t === 'exact'; // no author on one side: only an exact title counts
@@ -176,9 +190,9 @@ function rowHTML(b, proxy) {
       <button class="lc-title t-book" data-book="${esc(b.id)}">${esc(b.title)}</button>
       <p class="lc-author">${esc(b.author || 'autor nieznany')}${b.status === 'czytam' ? ' <span class="lc-shelf">czytam</span>' : ''}</p>
     </div>
-    <span class="lc-stamp st-${st.cls}${isBusy ? ' busy' : ''}" ${c?.statusText ? `title="${esc(c.statusText)}"` : ''}>${isBusy ? 'Sprawdzam…' : esc(st.label)}</span>
+    ${proxy || c ? `<span class="lc-stamp st-${st.cls}${isBusy ? ' busy' : ''}" ${c?.statusText ? `title="${esc(c.statusText)}"` : ''}>${isBusy ? 'Sprawdzam…' : esc(st.label)}</span>` : '<span></span>'}
     <div class="lc-meta">
-      <span class="lc-date num">${c ? `sprawdzono ${esc(dateShort(c.checkedAt))}, ${esc(timeOf(c.checkedAt))}` : proxy ? 'jeszcze nie sprawdzano' : 'otwórz katalog, by sprawdzić'}</span>
+      ${proxy || c ? `<span class="lc-date num">${c ? `sprawdzono ${esc(dateShort(c.checkedAt))}, ${esc(timeOf(c.checkedAt))}` : 'jeszcze nie sprawdzano'}</span>` : ''}
       <span class="lc-links">
         ${c?.recordUrl ? `<a class="lc-link" href="${esc(c.recordUrl)}" target="_blank" rel="noopener">Rekord ${icon('external', 14)}</a>` : ''}
         ${proxy
@@ -207,7 +221,7 @@ export function render(el, ctx) {
     <header class="screen-head"><h1 class="t-display">Biblioteka w Nekli</h1></header>
     <p class="t-read lib-intro">Zanim kupisz, zajrzyj na półkę w bibliotece. Sprawdzam katalog dla książek, które chcesz przeczytać i właśnie czytasz.</p>
 
-    ${proxy ? '' : `<aside class="panel lib-note"><b>Sprawdzanie automatyczne jeszcze nie działa</b><p class="muted">Potrzebuje małego serwera pośredniczącego, który zostanie włączony osobnym krokiem. Do tego czasu przy każdej książce znajdziesz przycisk otwierający katalog biblioteki z wpisanym tytułem.</p></aside>`}
+    ${proxy ? '' : `<aside class="panel lib-note"><b>Na razie zaglądasz do katalogu sam</b><p class="muted">Automatyczne sprawdzanie ruszy po jednym kroku konfiguracji. Do tego czasu przy każdej książce jest link, który otwiera katalog biblioteki z już wpisanym tytułem.</p></aside>`}
 
     ${list.length ? `
     <section class="lib-card" aria-label="Karta wypożyczeń">

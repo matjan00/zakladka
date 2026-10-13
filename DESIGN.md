@@ -24,7 +24,7 @@ Strategy: **Committed** — cloth green owns the shell (tab bar, Start header ba
 | `--leaf` | `#FBF8F1` | `#1D1A15` | raised surfaces: sheets, cards |
 | `--ink` | `#1C1A16` | `#EAE0CB` | primary text |
 | `--ink-2` | `#4B453B` | `#BCB19C` | secondary text |
-| `--ink-3` | `#6E6759` | `#8E8471` | tertiary, placeholders (≥4.5:1) |
+| `--ink-3` | `#655E51` | `#8E8471` | tertiary, placeholders (≥4.5:1) |
 | `--rule` | `#D5CBB9` | `#332D25` | 1px hairlines |
 | `--cloth` | `#1F4A40` | `#0F2A24` | bookcloth: tab bar, primary button, header band |
 | `--cloth-2` | `#2B5E52` | `#1A3D35` | cloth hover / pressed |
@@ -32,7 +32,7 @@ Strategy: **Committed** — cloth green owns the shell (tab bar, Start header ba
 | `--ribbon` | `#C23E28` | `#E0714F` | location + progress ONLY |
 | `--gilt` | `#A9843A` | `#C9A55A` | gold-foil details (spine bands, stars) |
 | `--stamp` | `#2C4A8C` | `#8FA8E0` | ex-libris stamp ink, links |
-| `--ok` / `--warn` / `--bad` | `#3C6A39` / `#9A6110` / `#A3322A` | `#8CC08A` / `#E0A64A` / `#EE8A7E` | states (library availability etc.) |
+| `--ok` / `--warn` / `--bad` | `#3C6A39` / `#8A560C` / `#A3322A` | `#8CC08A` / `#E0A64A` / `#EE8A7E` | states (library availability etc.) |
 
 Dark mode is a lamp-lit room, not an inversion: warm near-black paper, parchment ink (not white), a deeper cloth, a warmer ribbon. Covers are dimmed (`filter: brightness(.86) saturate(.9)`) so they don't glare.
 
@@ -73,6 +73,7 @@ Tracking never below -0.03em. Headings `text-wrap: balance`.
 - **Sheet**: bottom sheet with grab handle, swipe-down + Back closes. **Toast**: ink pill above the tab bar. **Confirm**: small sheet with two buttons.
 - **Stars**: `ui.stars(value, {input})` half-star steps, gilt fill.
 - **Cover**: `ui.coverHTML(book, size)` → real image (OL/photo) with generated jacket fallback.
+- **Sub-page header**: back `.icon-btn` in a `.topbar`, then `.screen-head` with a `.t-display` title (Co dalej, Biblioteka, Ustawienia, Goodreads). Never a small inline title.
 - **Empty state**: `ui.empty({title, text, action})` — an open-book line figure + warm Polish copy.
 - **Progress**: `.thread` — a 3px ribbon thread on a `--rule` track.
 

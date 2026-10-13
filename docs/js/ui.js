@@ -229,7 +229,8 @@ const FIG = {
   bands: (a) => `<rect x="0" y="16" width="100" height="5" fill="${a}"/><rect x="0" y="25" width="100" height="2" fill="${a}"/><rect x="0" y="128" width="100" height="2" fill="${a}"/><rect x="0" y="133" width="100" height="5" fill="${a}"/>`,
   half: (a) => `<path d="M-4 150a54 54 0 0 1 108 0z" fill="${a}"/>`,
   diag: (a) => `<path d="M100 58 100 150 8 150z" fill="${a}"/>`,
-  stack: (a, f) => `<rect x="14" y="78" width="40" height="40" fill="${a}"/><rect x="38" y="96" width="40" height="40" fill="none" stroke="${f}" stroke-width="2.4"/>`,
+  // figure in the upper half: the lettering sits underneath it, never across it
+  stack: (a, f) => `<rect x="14" y="16" width="40" height="40" fill="${a}"/><rect x="38" y="34" width="40" height="40" fill="none" stroke="${f}" stroke-width="2.4"/>`,
   label: (a, f) => `<rect x="7" y="7" width="86" height="136" fill="none" stroke="${a}" stroke-width="1.6"/><rect x="14" y="44" width="72" height="56" fill="${f}"/>`,
 };
 export function jacketOf(b) {
@@ -244,7 +245,7 @@ export function jacketHTML(b) {
   const title = String(b.title || 'Bez tytułu');
   const len = title.length;
   const fs = len <= 8 ? 15 : len <= 16 ? 12.5 : len <= 28 ? 10.5 : len <= 48 ? 9 : 7.5;
-  const pos = motif === 'sun' || motif === 'diag' || motif === 'stack' ? 'bottom' : motif === 'half' || motif === 'arch' ? 'top' : 'mid';
+  const pos = motif === 'sun' || motif === 'stack' ? 'bottom' : motif === 'half' || motif === 'arch' || motif === 'diag' ? 'top' : 'mid';
   return `<div class="jacket j-${motif} j-${pos}" style="--bg:${bg};--fg:${fg};--ac:${ac};--fs:${fs}">
     <svg class="j-fig" viewBox="0 0 100 150" preserveAspectRatio="none" aria-hidden="true">${FIG[motif](ac, fg)}</svg>
     <div class="j-text"><div class="j-title">${esc(title)}</div>${b.author ? `<div class="j-author">${esc(b.author)}</div>` : ''}</div>

@@ -87,7 +87,7 @@ export function render(el, ctx) {
         <h2>Cel na ${year}</h2>
         <p class="muted">${done ? plN(done, 'książka przeczytana', 'książki przeczytane', 'książek przeczytanych') : 'Jeszcze nic w tym roku — pierwsza będzie najprzyjemniejsza.'}</p>
         ${pace ? `<p class="pace ${pace.tone}">${esc(pace.text)}</p>` : ''}
-        ${left ? `<p class="faint t-sm">Do celu brakuje ${plN(left, 'książki', 'książek', 'książek')}.</p>` : ''}
+        ${left && done ? `<p class="faint t-sm">Do celu brakuje ${plN(left, 'książki', 'książek', 'książek')}.</p>` : ''}
       </div>
     </section>` : ''}
 
@@ -152,7 +152,7 @@ function nowCard(b) {
       <p class="muted nc-author">${esc(b.author || '')}</p>
       ${b.pages ? `<div class="nc-progress">${ui.thread(p)}<p class="t-sm num"><b>${Math.round(p * 100)}%</b><span class="faint"> · strona ${b.currentPage || 0} z ${b.pages}</span></p>${left ? `<p class="faint t-sm">zostało ${plN(left, 'strona', 'strony', 'stron')}</p>` : ''}</div>` : `<p class="faint t-sm">strona ${b.currentPage || 0}</p>`}
       <div class="btn-row">
-        <button class="btn" data-page="${esc(b.id)}">Strona</button>
+        <button class="btn" data-page="${esc(b.id)}">Zapisz stronę</button>
         <button class="btn primary" data-go="sesja?book=${esc(b.id)}">${icon('timer')}Sesja</button>
       </div>
     </div>

@@ -20,7 +20,7 @@
 .now-list { display: grid; gap: var(--s4); }
 .now-list.many {
   grid-auto-flow: column; grid-auto-columns: 88%; overflow-x: auto; scroll-snap-type: x mandatory;
-  margin: 0 calc(-1 * var(--gutter)); padding: 0 var(--gutter) var(--s5); scrollbar-width: none;
+  margin: 0 calc(-1 * var(--gutter)); padding: 0 var(--gutter) var(--s2); scroll-padding-inline: var(--gutter); scrollbar-width: none;
 }
 .now-list.many::-webkit-scrollbar { display: none; }
 .now-card {

@@ -39,7 +39,8 @@ function taste() {
     if (!(b.rating >= 4)) continue;
     if (b.author) {
       const k = surnames(b.author)[0] || norm(b.author);
-      const a = authors.get(k) || { name: b.author, n: 0, sum: 0 };
+      const a = authors.get(k) || { name: b.author, n: 0, sum: 0, best: '', top: 0 };
+      if (b.rating > a.top) (a.top = b.rating), (a.best = b.title);
       a.n++;
       a.sum += b.rating;
       authors.set(k, a);
@@ -48,7 +49,7 @@ function taste() {
     if (g) genres.set(norm(g), { name: g, n: (genres.get(norm(g))?.n || 0) + 1 });
   }
   return {
-    authors: [...authors.entries()].map(([k, a]) => ({ key: k, name: a.name, n: a.n, avg: a.sum / a.n })).sort((x, y) => y.avg - x.avg || y.n - x.n),
+    authors: [...authors.entries()].map(([k, a]) => ({ key: k, name: a.name, best: a.best, n: a.n, avg: a.sum / a.n })).sort((x, y) => y.avg - x.avg || y.n - x.n),
     genres: [...genres.entries()].map(([k, g]) => ({ key: k, ...g })).sort((x, y) => y.n - x.n),
   };
 }
@@ -140,7 +141,7 @@ function filtersHTML(all) {
         <label class="field"><span class="t-label">Format</span><select data-f="format"><option value="">Dowolny</option>${formats.map((f) => `<option value="${f}" ${view.format === f ? 'selected' : ''}>${esc(store.FORMAT_LABEL[f] || f)}</option>`).join('')}</select></label>
       </div>
       <div class="nx-avail"><button class="chip ${view.avail ? 'on' : ''}" data-act="avail" aria-pressed="${view.avail}" ${proxy ? '' : 'disabled'}>${icon('library', 14)}Dostępna teraz w bibliotece</button>
-      ${proxy ? '' : '<p class="faint t-sm">To filtr działa po włączeniu automatycznego sprawdzania katalogu w Nekli.</p>'}</div>`
+      ${proxy ? '' : '<p class="faint t-sm">Ten filtr zadziała, gdy włączymy automatyczne sprawdzanie katalogu w Nekli.</p>'}</div>`
       : `<button class="link-btn" data-act="more">Więcej filtrów</button>`}
   </section>`;
 }
@@ -233,7 +234,10 @@ async function startReading(id, ctx) {
 function ownedBy(c) {
   return store.books().some((o) => (c.isbn && o.isbn && c.isbn === o.isbn) || sameBook(o, c));
 }
-const polish = (c) => c.source?.includes('bn') || String(c.isbn || '').startsWith('97883');
+// Open Library often lists a Polish ISBN under an English work title ("Season of Storms"): reject titles that read as English
+const ENGLISH = /\b(the|of|and|with|from|for)\b/i;
+const looksEnglish = (t) => ENGLISH.test(t) && !/[ąćęłńóśźż]/i.test(t);
+const polish = (c) => c.source?.includes('bn') || (String(c.isbn || '').startsWith('97883') && !looksEnglish(c.title));
 function sugList() {
   const tz = taste();
   const out = [];
@@ -252,7 +256,7 @@ function sugList() {
       const as = surnames(c.author);
       if (!as.length || !as.includes(a.key)) continue;
       const before = out.length;
-      push(c, `Inny tytuł autora, którego cenisz: ${a.name}`);
+      push(c, a.best ? `Ten sam autor co „${a.best}”` : 'Autor, którego cenisz');
       n += out.length - before;
     }
   }
@@ -319,14 +323,14 @@ function sugRow(c, i) {
       <p class="sg-author">${esc(c.author || '')}${meta ? ` <span class="faint num">· ${esc(meta)}</span>` : ''}</p>
       <p class="sg-why faint t-sm">${esc(c.why)}</p>
     </div>
-    <button class="btn sg-add" data-add="${i}">${icon('plus', 18)}Dodaj do Chcę przeczytać</button>
+    <button class="btn sg-add" data-add="${i}">${icon('plus', 18)}Dodaj do „Chcę przeczytać”</button>
   </li>`;
 }
 async function addSuggestion(i) {
   const c = lastSug[i];
   if (!c) return;
   await store.addBook({ title: c.title, author: c.author, pages: c.pages, year: c.year, genre: c.genre, isbn: c.isbn, publisher: c.publisher, subjects: c.subjects || [], coverUrl: c.coverUrl, source: c.source?.includes('bn') ? 'bn' : 'ol', status: 'chce' });
-  ui.toast(`Dodano „${c.title}” do Chcę przeczytać`);
+  ui.toast(`„${c.title}” czeka w „Chcę przeczytać”`);
 }
 
 // ---------- Start-screen slot ----------

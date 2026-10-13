@@ -158,6 +158,10 @@ textarea.review { min-height: 120px; }
 .ec-actions { display: grid; gap: 8px; flex: 1; }
 .tag-edit { margin-bottom: 8px; }
 .tag-edit:empty { display: none; }
-.status-seg { margin-left: 0; margin-right: 0; padding: 0; justify-content: space-between; }
-.status-seg button { padding: 0 6px; font-size: .8125rem; }
-.status-seg button.on::after { left: 6px; right: 6px; }
+.status-seg { display: grid; grid-template-columns: repeat(4, auto); justify-content: space-between; margin-left: 0; margin-right: 0; padding: 0; overflow: visible; }
+.status-seg button { padding: 6px 4px; font-size: .8125rem; line-height: 1.15; white-space: normal; text-wrap: balance; text-align: center; min-height: 48px; }
+.status-seg button.on::after { left: 4px; right: 4px; }
+.reads-note { margin-bottom: var(--s2); }
+/* the ex libris is pressed onto the page when a book is finished */
+.hero-stamp.fresh .exlibris { animation: stamp-in 520ms var(--ease) both; }
+@keyframes stamp-in { 0% { opacity: 0; transform: rotate(-16deg) scale(1.35); } 60% { opacity: 1; transform: rotate(-8deg) scale(.96); } 100% { opacity: .9; transform: rotate(-9deg) scale(1); } }

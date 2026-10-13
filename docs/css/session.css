@@ -7,7 +7,7 @@
 .ss-title { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .ss-author { font-family: var(--font-read); font-style: italic; }
 .ss-prog { width: 100%; display: grid; gap: 6px; margin-top: 8px; }
-.ss-change { min-height: 36px; font-size: .875rem; }
+.ss-change { min-height: 44px; font-size: .875rem; margin-top: -4px; }
 
 .ss-timer {
   margin: var(--s5) 0 var(--s4); padding: var(--s6) var(--s4) var(--s5);
@@ -37,7 +37,9 @@
 .ss-est-text { max-width: none; }
 
 .ss-total { margin-bottom: var(--s2); }
-.ss-row .chev { width: 18px; height: 18px; }
+.ss-row { align-items: flex-start; }
+.ss-row .grow { display: flex; flex-direction: column; gap: 3px; }
+.ss-row .chev { width: 18px; height: 18px; margin-top: 3px; opacity: .7; }
 .ss-pick-cover { flex: none; }
 .ss-stop-sum { margin: -6px 0 var(--s4); }
 .ss-err { color: var(--bad); margin-bottom: var(--s3); }

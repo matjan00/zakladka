@@ -103,19 +103,50 @@ export function parseGoodreads(text) {
 
 export const bookKey = (b) => norm(b.title) + '|' + norm(b.author);
 
-/** Split parsed books into new ones and ones already on the shelf (by ISBN or title+author) or repeated in the file. */
+/**
+ * Split parsed books into new ones and ones already on the shelf (by ISBN or title+author) or repeated in the file.
+ * A duplicate of a shelf book carries `matchId` (that book's id); a repeat inside the file has none.
+ */
 export function dedupe(parsed, existing) {
-  const isbns = new Set(existing.map((b) => cleanIsbn(b.isbn)).filter(Boolean));
-  const keys = new Set(existing.map(bookKey));
+  const byIsbn = new Map(existing.filter((b) => cleanIsbn(b.isbn)).map((b) => [cleanIsbn(b.isbn), b.id]));
+  const byKey = new Map(existing.map((b) => [bookKey(b), b.id]));
+  const seenIsbn = new Set(), seenKey = new Set();
   const fresh = [], dups = [];
   for (const b of parsed) {
     const k = bookKey(b);
-    if ((b.isbn && isbns.has(b.isbn)) || keys.has(k)) dups.push(b);
+    const onShelf = (b.isbn && byIsbn.has(b.isbn)) || byKey.has(k);
+    if (onShelf) dups.push({ ...b, matchId: b.isbn && byIsbn.has(b.isbn) ? byIsbn.get(b.isbn) : byKey.get(k) });
+    else if ((b.isbn && seenIsbn.has(b.isbn)) || seenKey.has(k)) dups.push(b);
     else {
       fresh.push(b);
-      keys.add(k);
-      if (b.isbn) isbns.add(b.isbn);
+      seenKey.add(k);
+      if (b.isbn) seenIsbn.add(b.isbn);
     }
   }
   return { fresh, dups };
+}
+
+/**
+ * What a Goodreads row can add to a book already on the shelf without overwriting anything:
+ * only empty fields are filled. `reads` = that book's reading history. Returns { patch, addRead, fields }.
+ */
+export function missingFrom(book, g, reads = []) {
+  const patch = {};
+  const fields = [];
+  const empty = (v) => v == null || v === '' || v === 0 || (Array.isArray(v) && !v.length);
+  const take = (key, label, val = g[key]) => {
+    if (empty(book[key]) && !empty(val)) (patch[key] = val), fields.push(label);
+  };
+  take('rating', 'ocena');
+  take('pages', 'strony');
+  take('year', 'rok');
+  take('publisher', 'wydawca');
+  take('isbn', 'ISBN');
+  take('review', 'recenzja');
+  take('tags', 'tagi');
+  if (g.readCount > 1 && !(Number(book.readCount) > 1)) (patch.readCount = g.readCount), fields.push('liczba czytań');
+  const finished = reads.filter((r) => r.finished && !r.abandoned);
+  const addRead = g.status === 'przeczytane' && g.dateRead && !finished.length && book.status === 'przeczytane' ? { bookId: book.id, started: null, finished: g.dateRead } : null;
+  if (addRead) fields.push('data przeczytania');
+  return { patch, addRead, fields };
 }

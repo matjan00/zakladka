@@ -9,7 +9,7 @@
 .st-num { padding: var(--s4) var(--s2); text-align: center; display: grid; gap: 4px; }
 .st-num + .st-num { border-left: 1px solid var(--rule); }
 .st-num b { font: 600 1.75rem/1.1 var(--font-read); font-variation-settings: 'opsz' 48; }
-.st-num:nth-child(3) b { font-size: 1.25rem; padding-top: .4rem; }
+.st-num:nth-child(3) b { font-size: 1.25rem; padding-top: .4rem; line-height: 1.25; text-wrap: balance; }
 .st-num span { font: 600 .6875rem/1.2 var(--font-ui); letter-spacing: .09em; text-transform: uppercase; color: var(--ink-3); }
 
 .st-goal { display: flex; align-items: center; gap: var(--s5); }

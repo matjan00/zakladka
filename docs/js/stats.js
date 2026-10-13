@@ -177,7 +177,7 @@ export function render(el, ctx) {
     <section class="st-hero">
       <div class="st-num"><b class="num">${done}</b><span>${pl(done, 'książka', 'książki', 'książek')}</span></div>
       <div class="st-num"><b class="num">${totalPages}</b><span>${pl(totalPages, 'strona', 'strony', 'stron')}</span></div>
-      <div class="st-num"><b class="num">${timeMs ? durText(timeMs) : '—'}</b><span>z timerem</span></div>
+      <div class="st-num"><b class="num">${timeMs ? durText(timeMs) : '—'}</b><span>w sesjach</span></div>
     </section>
 
     ${goal ? `<section class="section st-goal">
@@ -202,7 +202,7 @@ export function render(el, ctx) {
         <dt class="t-label">Średnia długość</dt><dd>${avgLen ? one(avgLen, 'strona', 'strony', 'stron') : '—'}</dd>
         <dt class="t-label">Średnio na książkę</dt><dd>${avgDays ? one(Math.round(avgDays), 'dzień', 'dni', 'dni') : '—'}</dd>
         <dt class="t-label">Tempo czytania</dt><dd>${speed ? `${Math.round(speed)} str./h` : '—'}</dd>
-        <dt class="t-label">Serii dni z rzędu</dt><dd>${cur ? one(cur, 'dzień', 'dni', 'dni') : '0'}</dd>
+        <dt class="t-label">Obecna seria</dt><dd>${cur ? one(cur, 'dzień', 'dni', 'dni') : '0'}</dd>
         <dt class="t-label">Najdłuższa seria</dt><dd>${best ? one(best, 'dzień', 'dni', 'dni') : '—'}</dd>
       </dl>
       ${speed ? '' : '<p class="faint t-sm st-hint">Tempo policzę po kilku sesjach z timerem w zakładce Sesja.</p>'}

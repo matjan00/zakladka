@@ -4,7 +4,7 @@ const VERSION = 'zakladka-v1';
 const FONT_CACHE = 'zakladka-fonts';
 const COVER_CACHE = 'zakladka-covers';
 // FILES-START
-const FILES = ["./","css/base.css","css/books.css","css/home.css","css/library.css","css/next.css","css/quotes.css","css/session.css","css/stats.css","icons/apple-touch-icon.png","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable-512.png","index.html","js/app.js","js/books.js","js/config.js","js/goodreads-parse.js","js/goodreads.js","js/home.js","js/icons.js","js/install.js","js/kindle-parse.js","js/kindle.js","js/library.js","js/next.js","js/ocr.js","js/placeholder.js","js/quotes.js","js/routes.js","js/session.js","js/settings.js","js/slots.js","js/sources.js","js/stats.js","js/store.js","js/theme.js","js/ui.js","js/util.js","js/version.js","manifest.webmanifest"];
+const FILES = ["./","css/base.css","css/books.css","css/home.css","css/library.css","css/next.css","css/quotes.css","css/session.css","css/stats.css","favicon.ico","icons/apple-touch-icon.png","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable-512.png","index.html","js/app.js","js/books.js","js/config.js","js/goodreads-parse.js","js/goodreads.js","js/home.js","js/icons.js","js/install.js","js/kindle-parse.js","js/kindle.js","js/library.js","js/next.js","js/ocr.js","js/placeholder.js","js/quotes.js","js/routes.js","js/session.js","js/settings.js","js/slots.js","js/sources.js","js/stats.js","js/store.js","js/theme.js","js/ui.js","js/util.js","js/version.js","manifest.webmanifest"];
 // FILES-END
 
 self.addEventListener('install', (e) => {
