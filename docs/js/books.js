@@ -6,6 +6,7 @@ import * as ui from './ui.js';
 import { icon } from './icons.js';
 import * as sources from './sources.js';
 import { sowaSearchUrl } from './config.js';
+import { badgeHTML as libBadge } from './library.js';
 import { go } from './app.js';
 import { esc, pl, plN, norm, cleanIsbn, dateLong, dateShort, todayStr, daysBetween, debounce, shrinkImage } from './util.js';
 
@@ -435,6 +436,7 @@ export function renderDetail(el, ctx) {
         <div class="hero-cover">${ui.coverHTML(b, 'l', { ribbon: b.status === 'czytam' })}${b.status === 'przeczytane' ? `<div class="hero-stamp">${ui.exlibris(lastDone?.finished?.slice(0, 4) || '', 82)}</div>` : ''}</div>
         <h1 class="t-display book-title">${esc(b.title)}</h1>
         <p class="book-author">${esc(b.author || 'Autor nieznany')}</p>
+        ${libBadge(b)}
         <div class="stars-wrap rate">${ui.starsInput(b.rating)}<span class="faint t-sm num rate-label">${b.rating ? String(b.rating).replace('.', ',') : 'Oceń'}</span></div>
       </header>
 
@@ -488,12 +490,16 @@ export function renderDetail(el, ctx) {
           .join('')}</ul>` : `<p class="faint">Jeszcze nie zaczęte. Przełącz na „Czytam”, a zapiszę datę startu.</p>`}
       </section>
 
+      <section class="section" data-quotes-hook></section>
+
       <section class="section book-more">
+        <button class="row" data-go="sesja?book=${esc(b.id)}">${icon('timer')}<span class="grow">Sesje czytania${(() => { const n = store.where('sessions', (s) => s.bookId === b.id).length; return n ? ` · ${n}` : ''; })()}</span>${icon('chev', 18, 'chev')}</button>
         <button class="row" data-go="cytaty?book=${esc(b.id)}">${icon('quote')}<span class="grow">Cytaty z tej książki</span>${icon('chev', 18, 'chev')}</button>
         <a class="row" href="${esc(sowaSearchUrl(`${b.title} ${surname(b.author)}`))}" target="_blank" rel="noopener">${icon('library')}<span class="grow">Sprawdź w katalogu biblioteki w Nekli</span>${icon('external', 18, 'chev')}</a>
       </section>
     </article>`;
 
+  import('./quotes.js').then((m) => { const h = el.querySelector('[data-quotes-hook]'); if (h) m.renderBookQuotes(h, b.id, { go }); }).catch(() => {});
   ui.bindStars(el.querySelector('[data-stars]'), (v) => {
     el.querySelector('.rate-label').textContent = v ? String(v).replace('.', ',') : 'Oceń';
     store.updateBook(b.id, { rating: v }, { silent: true });

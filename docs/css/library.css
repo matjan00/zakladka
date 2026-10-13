@@ -1,0 +1,67 @@
+/* Biblioteka w Nekli: a library checkout card. */
+
+.lib-intro { color: var(--ink-2); margin-bottom: var(--s5); }
+.lib-note { margin-bottom: var(--s5); display: grid; gap: 6px; }
+.lib-note p { font-family: var(--font-read); line-height: 1.55; }
+
+/* the card: leaf paper, ruled rows, a quiet margin line like an index card */
+.lib-card {
+  position: relative; background: var(--leaf); border: 1px solid var(--rule); border-radius: var(--r-card);
+  padding: 0 var(--s4) var(--s2) calc(var(--s4) + 14px); overflow: hidden;
+}
+.lib-card::before { /* the vertical margin rule of a catalogue card */
+  content: ''; position: absolute; top: 0; bottom: 0; left: calc(var(--s4) + 2px); width: 1px; background: var(--rule-strong); opacity: .7;
+}
+.lc-head { padding: var(--s4) 0 var(--s3); row-gap: var(--s2); border-bottom: 2px solid var(--ink); display: flex; align-items: flex-end; justify-content: space-between; gap: var(--s3); flex-wrap: wrap; }
+.lc-head h2 { margin-top: 4px; }
+.lc-sum { color: var(--ink-2); flex-basis: 100%; }
+.lc-actions { display: flex; align-items: center; gap: var(--s3); padding: var(--s3) 0; border-bottom: 1px solid var(--rule); }
+.lc-prog { flex: 1; min-width: 0; display: grid; gap: 8px; }
+
+.lc-list { list-style: none; margin: 0; padding: 0; }
+.lc-row {
+  display: grid; grid-template-columns: 1fr auto; column-gap: var(--s3); row-gap: 6px; align-items: start;
+  padding: var(--s3) 0; border-bottom: 1px solid var(--rule);
+}
+.lc-row:last-child { border-bottom: 0; }
+.lc-main { min-width: 0; }
+.lc-title { display: block; text-align: left; min-height: 24px; max-width: 100%; }
+.lc-author { font-family: var(--font-read); font-style: italic; color: var(--ink-2); font-size: .875rem; }
+.lc-shelf { font: 600 .6875rem/1 var(--font-ui); font-style: normal; text-transform: uppercase; letter-spacing: .09em; color: var(--ink-3); margin-left: 6px; }
+
+/* availability as a rubber stamp */
+.lc-stamp {
+  align-self: start; padding: 5px 9px 4px; border: 2px solid currentColor; border-radius: 4px;
+  font: 700 .6875rem/1.15 var(--font-ui); text-transform: uppercase; letter-spacing: .1em; text-align: center; max-width: 130px;
+  transform: rotate(-2.5deg); opacity: .92; mix-blend-mode: multiply;
+}
+:root[data-theme='dark'] .lc-stamp { mix-blend-mode: normal; }
+.lc-stamp.st-ok { color: var(--ok); }
+.lc-stamp.st-warn { color: var(--warn); }
+.lc-stamp.st-none { color: var(--ink-3); }
+.lc-stamp.st-unk { color: var(--ink-3); border-style: dashed; font-weight: 600; }
+.lc-stamp.busy { border-style: dotted; animation: lc-pulse 1.1s var(--ease) infinite alternate; }
+@keyframes lc-pulse { from { opacity: .45; } to { opacity: 1; } }
+
+.lc-meta { grid-column: 1 / -1; display: flex; align-items: center; justify-content: space-between; gap: var(--s3); flex-wrap: wrap; }
+.lc-date { font-size: .8125rem; color: var(--stamp); }
+.lc-links { display: inline-flex; align-items: center; gap: var(--s3); flex-wrap: wrap; }
+.lc-link, .lc-btn {
+  display: inline-flex; align-items: center; gap: 5px; min-height: 44px; font: 600 .8125rem/1 var(--font-ui); color: var(--stamp);
+}
+.lc-link svg, .lc-btn svg { width: 15px; height: 15px; }
+.lc-btn:disabled { opacity: .4; pointer-events: none; }
+
+.lib-extra { display: grid; gap: var(--s4); }
+.lib-box { display: grid; gap: var(--s3); justify-items: start; }
+.lib-box p { font-family: var(--font-read); line-height: 1.55; }
+.lib-box .card-fields { width: 100%; }
+
+/* availability badge on the book detail */
+.lib-badge {
+  display: inline-flex; align-items: center; gap: 6px; min-height: 32px; padding: 0 12px; margin-top: var(--s3);
+  border-radius: 999px; border: 1px solid currentColor; font: 600 .8125rem/1 var(--font-ui);
+}
+.lib-badge.st-ok { color: var(--ok); }
+.lib-badge.st-warn { color: var(--warn); }
+.lib-badge.st-none { color: var(--ink-3); }

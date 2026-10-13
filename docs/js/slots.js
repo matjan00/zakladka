@@ -3,8 +3,8 @@
 // TO FILL A SLOT: point its loader at your module's export, e.g.
 //   'cytat-dnia': () => import('./quotes.js').then((m) => m.renderQuoteOfDay),
 export const SLOTS = {
-  'cytat-dnia': null, // quotes builder: quote of the day
-  'co-dalej': null, // what-next builder: one suggestion from "Chcę przeczytać"
+  'cytat-dnia': () => import('./quotes.js').then((m) => m.renderQuoteOfDay), // quotes builder: quote of the day
+  'co-dalej': () => import('./next.js').then((m) => m.renderSlot), // what-next builder: one suggestion from "Chcę przeczytać"
 };
 
 /** Render a slot. Resolves true when a feature filled it, false when the placeholder stays. */

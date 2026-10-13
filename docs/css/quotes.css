@@ -1,0 +1,63 @@
+/* Cytaty (commonplace book), OCR sheet, Kindle import preview, Goodreads import. */
+
+.q-filter-note { margin: calc(-1 * var(--s3)) 0 var(--s3); }
+.q-tools { display: flex; flex-direction: column; gap: var(--s3); }
+.q-tools .field { margin: 0; }
+.q-tagbar { margin-top: var(--s3); }
+.q-count { margin: var(--s4) 0 var(--s1); }
+
+/* a quote set on the page like a commonplace book entry: serif, generous leading, a gilt hairline between entries */
+.q-list { display: flex; flex-direction: column; }
+.q { position: relative; padding: var(--s5) 0 var(--s4) 26px; border-bottom: 1px solid var(--rule); }
+.q:last-child { border-bottom: 0; }
+.q::before { /* opening quotation mark hanging in the margin */
+  content: '„'; position: absolute; left: -2px; top: 10px; font: 600 2.75rem/1 var(--font-read); color: var(--gilt);
+}
+.q-text { margin: 0; }
+.q-open {
+  display: block; width: 100%; text-align: left; white-space: pre-line; text-wrap: pretty;
+  font: 400 1.1875rem/1.62 var(--font-read); font-variation-settings: 'opsz' 18; color: var(--ink);
+}
+.q-note { margin-top: var(--s3); padding-left: var(--s3); border-left: 2px solid var(--rule-strong); font: italic 400 0.9375rem/1.5 var(--font-read); color: var(--ink-2); white-space: pre-line; }
+.q-foot { display: flex; align-items: center; flex-wrap: wrap; gap: 2px var(--s3); margin-top: var(--s3); }
+.q-src { flex: 1; min-width: 0; font-size: 0.8125rem; color: var(--ink-2); }
+.q-src b { font-weight: 650; color: var(--ink); }
+.q-tags { display: flex; flex-wrap: wrap; gap: 2px 10px; width: 100%; order: 3; }
+.q-tag { min-height: 32px; font: 500 0.8125rem/1 var(--font-ui); color: var(--stamp); }
+.q-share { margin: -8px -10px -8px 0; }
+.q.compact { padding-top: var(--s4); }
+.q.compact .q-open { font-size: 1.0625rem; }
+.q.compact::before { top: 4px; }
+.q-menu .row { text-align: left; cursor: pointer; }
+
+/* Start: cytat dnia */
+.quote-card .qod-cap { display: flex; align-items: center; gap: var(--s2); margin-top: var(--s2); }
+.quote-card .qod-cap > span:first-child { flex: 1; min-width: 0; }
+.quote-card .qod-actions { display: flex; margin: -8px -10px -8px 0; }
+.quote-card:has(.qod-cap) { cursor: pointer; }
+
+/* OCR sheet */
+.ocr-progress { padding: var(--s4) 0; display: grid; gap: var(--s3); }
+.ocr-lines { display: flex; flex-direction: column; border: 1px solid var(--rule); border-radius: 12px; overflow: hidden; background: var(--paper-2); max-height: 36dvh; overflow-y: auto; }
+.ocr-line {
+  text-align: left; min-height: 44px; padding: 9px 14px; font: 400 1rem/1.4 var(--font-read); color: var(--ink-2);
+  border-bottom: 1px solid var(--rule); transition: background var(--dur) var(--ease);
+}
+.ocr-line:last-child { border-bottom: 0; }
+.ocr-line.on { background: var(--leaf); color: var(--ink); box-shadow: inset 3px 0 0 var(--gilt); }
+
+/* Kindle import preview */
+.kd-list { display: grid; gap: var(--s3); margin-top: var(--s4); }
+.kd-group { padding: var(--s3) var(--s4); background: var(--paper-2); border: 1px solid var(--rule); border-radius: var(--r-card); }
+.kd-group .field { margin: var(--s3) 0 0; }
+.kd-group.off { opacity: .6; }
+
+/* Goodreads */
+.gr-steps { margin: var(--s3) 0 0; padding-left: 1.5em; display: grid; gap: var(--s3); font: 400 1rem/1.55 var(--font-read); color: var(--ink-2); }
+.gr-steps li::marker { font: 700 0.9375rem var(--font-ui); color: var(--cloth); }
+:root[data-theme='dark'] .gr-steps li::marker { color: var(--gilt); }
+.gr-steps b { color: var(--ink); font-weight: 650; }
+.gr-error { margin-top: var(--s4); padding: var(--s3) var(--s4); border-radius: 10px; color: var(--bad); border: 1px solid color-mix(in srgb, var(--bad) 35%, var(--rule)); }
+.gr-sample { margin-top: var(--s4); }
+.gr-sample .row { min-height: 52px; }
+.q-src .num { white-space: nowrap; }

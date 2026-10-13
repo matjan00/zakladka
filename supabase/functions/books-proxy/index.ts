@@ -14,6 +14,7 @@ const ALLOWED_HOSTS = new Set(['data.bn.org.pl', 'www.nekla-bpmig.sowa.pl']);
 const BN_PARAMS = new Set(['title', 'author', 'isbnIssn', 'limit', 'kind', 'publicationYear', 'sinceId']);
 const MAX_INPUT = 300;
 const TIMEOUT_MS = 8000;
+const MAX_BYTES = 3_000_000; // refuse absurdly large upstream pages
 const UA = 'Mozilla/5.0 (compatible; Zakladka/1.0; +https://matjan00.github.io/zakladka/)';
 
 function cors(origin: string | null): Record<string, string> {
@@ -38,15 +39,26 @@ function json(body: unknown, status: number, origin: string | null, maxAge = 0):
   });
 }
 
-async function fetchUpstream(url: URL): Promise<Response> {
-  if (url.protocol !== 'https:' || !ALLOWED_HOSTS.has(url.hostname)) throw new Error('host not allowed');
-  const ctrl = new AbortController();
-  const t = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
-  try {
-    return await fetch(url, { headers: { 'User-Agent': UA, Accept: '*/*' }, signal: ctrl.signal, redirect: 'follow' });
-  } finally {
-    clearTimeout(t);
+async function fetchUpstream(first: URL): Promise<Response> {
+  // Redirects are followed by hand so that every hop stays on the allow-list (no open-redirect / SSRF).
+  let url = first;
+  for (let hop = 0; hop < 4; hop++) {
+    if (url.protocol !== 'https:' || !ALLOWED_HOSTS.has(url.hostname)) throw new Error('host not allowed');
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
+    try {
+      const r = await fetch(url, { headers: { 'User-Agent': UA, Accept: '*/*' }, signal: ctrl.signal, redirect: 'manual' });
+      const loc = r.headers.get('location');
+      if (r.status >= 300 && r.status < 400 && loc) {
+        url = new URL(loc, url);
+        continue;
+      }
+      return r;
+    } finally {
+      clearTimeout(t);
+    }
   }
+  throw new Error('too many redirects');
 }
 
 async function handleBn(raw: string, origin: string | null): Promise<Response> {
@@ -82,6 +94,7 @@ async function handleSowa(phrase: string, origin: string | null): Promise<Respon
   const r = await fetchUpstream(url);
   if (!r.ok) return json({ error: `sowa ${r.status}` }, 502, origin);
   const html = await r.text();
+  if (html.length > MAX_BYTES) return json({ error: 'sowa too large' }, 502, origin);
   const results = parseSowa(html).slice(0, 30);
   return json({ query: words.join(' '), searchUrl: url.toString(), results }, 200, origin, 3600);
 }

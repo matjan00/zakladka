@@ -1,0 +1,70 @@
+/* Co dalej? : filters, a small deck of cards from Chcę przeczytać, suggestions. */
+
+.nx-filters { display: grid; gap: 0; }
+.nx-filters .field { margin-bottom: var(--s4); }
+.nx-filters .pills button { min-height: 40px; }
+.nx-moods { flex-wrap: nowrap; overflow-x: auto; margin: 0 calc(-1 * var(--gutter)); padding: 0 var(--gutter) 2px; scrollbar-width: none; }
+.nx-moods::-webkit-scrollbar { display: none; }
+.nx-moods .chip { flex: none; min-height: 40px; padding: 0 16px; font-size: .875rem; }
+.nx-avail { margin-bottom: var(--s4); display: grid; gap: 6px; justify-items: start; }
+.nx-avail .chip { min-height: 40px; padding: 0 14px; }
+.nx-avail .chip:disabled { opacity: .5; }
+.nx-filters > .link-btn { justify-self: start; margin-bottom: var(--s2); }
+
+/* the deck: the top card sits on two offset cards behind it, like cards in a catalogue drawer */
+.nx-deck { margin-top: var(--s2); }
+.nx-stack { position: relative; padding-bottom: 0; margin-bottom: var(--s5); }
+.nx-back { position: absolute; inset: 0; display: none; border-radius: var(--r-card); background: var(--leaf); border: 1px solid var(--rule); }
+.nx-stack.two .nx-back.b1 { display: block; transform: translate(5px, 7px) rotate(1deg); }
+.nx-stack.three .nx-back.b2 { display: block; transform: translate(-4px, 13px) rotate(-1.2deg); opacity: .8; }
+.nx-stack.two { margin-bottom: calc(var(--s5) + 8px); }
+.nx-stack.three { margin-bottom: calc(var(--s5) + 14px); }
+.nx-card {
+  position: relative; display: flex; gap: var(--s4); align-items: flex-start; padding: var(--s4);
+  background: var(--leaf); border-radius: var(--r-card); border: 1px solid var(--rule);
+  box-shadow: none;
+}
+.nx-cover { flex: none; }
+.nx-cover .cover { --cw: 116px; }
+.nx-body { flex: 1; min-width: 0; display: grid; gap: 6px; align-content: start; }
+.nx-title { display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; font-size: 1.3125rem; }
+.nx-author { font-family: var(--font-read); font-style: italic; color: var(--ink-2); }
+.nx-reasons { list-style: none; margin: var(--s2) 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 2px 0; color: var(--ink-2); font-size: .875rem; line-height: 1.5; }
+.nx-reasons li:not(:last-child)::after { content: '\00b7'; margin: 0 .5em; color: var(--ink-3); }
+.nx-reasons.small { font-size: .8125rem; }
+.nx-actions { display: grid; gap: var(--s2); }
+
+/* "Zaskocz mnie" / "Następna": the card is dealt onto the pile */
+.nx-card.deal { animation: nx-deal 420ms var(--ease) both; }
+.nx-stack:has(.nx-card.deal) .nx-back.b1 { animation: nx-riffle-1 420ms var(--ease) both; }
+.nx-stack:has(.nx-card.deal) .nx-back.b2 { animation: nx-riffle-2 420ms var(--ease) both; }
+@keyframes nx-deal {
+  0% { opacity: 0; transform: translateY(-26px) rotate(-4deg) scale(.97); }
+  55% { opacity: 1; transform: translateY(3px) rotate(1deg); }
+  100% { opacity: 1; transform: none; }
+}
+@keyframes nx-riffle-1 { 0% { transform: translate(-16px, 2px) rotate(-5deg); } 100% { transform: translate(5px, 7px) rotate(1deg); } }
+@keyframes nx-riffle-2 { 0% { transform: translate(18px, 4px) rotate(5deg); } 100% { transform: translate(-4px, 13px) rotate(-1.2deg); } }
+
+.nx-none { display: grid; gap: var(--s3); }
+.nx-none .t-read { color: var(--ink); }
+
+/* suggestions: dashed, so they never pass for books on the shelf */
+.sg-note { color: var(--ink-2); font-family: var(--font-read); line-height: 1.55; margin-bottom: var(--s4); max-width: 46ch; }
+.sg-list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s3); }
+.sg-row {
+  display: grid; grid-template-columns: auto 1fr; gap: var(--s3) var(--s3); align-items: start;
+  padding: var(--s3); border: 1px dashed var(--rule-strong); border-radius: var(--r-card);
+}
+.sg-body { min-width: 0; display: grid; gap: 3px; justify-items: start; }
+.sg-tag { font: 700 .625rem/1 var(--font-ui); text-transform: uppercase; letter-spacing: .1em; color: var(--stamp); border: 1px solid currentColor; border-radius: 3px; padding: 3px 5px 2px; }
+.sg-title { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.sg-author { font-family: var(--font-read); font-style: italic; color: var(--ink-2); font-size: .875rem; }
+.sg-add { grid-column: 1 / -1; }
+
+/* Start-screen slot */
+.nx-slot { display: grid; grid-template-columns: auto 1fr; gap: var(--s3) var(--s4); align-items: start; }
+.nx-slot-cover { flex: none; }
+.nx-slot-body { min-width: 0; display: grid; gap: 4px; }
+.nx-slot-title { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; text-align: left; }
+.nx-slot-go { grid-column: 1 / -1; }

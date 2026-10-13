@@ -23,12 +23,12 @@ export const ROUTES = {
   ustawienia: { tab: 'start', title: 'Ustawienia', load: () => import('./settings.js') },
 
   // ---- placeholders: later builders replace `load` with their own module ----
-  sesja: { tab: 'sesja', title: 'Sesja', load: placeholder }, // timer & sessions (#/sesja?book=<id>)
-  cytaty: { tab: 'cytaty', title: 'Cytaty', load: placeholder }, // quotes, OCR, Kindle import (#/cytaty?book=<id>)
-  statystyki: { tab: 'statystyki', title: 'Statystyki', load: placeholder },
-  'co-dalej': { tab: 'start', title: 'Co dalej?', load: placeholder },
-  biblioteka: { tab: 'polka', title: 'Biblioteka w Nekli', load: placeholder },
-  goodreads: { tab: 'polka', title: 'Import z Goodreads', load: placeholder },
+  sesja: { tab: 'sesja', title: 'Sesja', load: () => import('./session.js') }, // timer & sessions (#/sesja?book=<id>)
+  cytaty: { tab: 'cytaty', title: 'Cytaty', load: () => import('./quotes.js') }, // quotes, OCR, Kindle import (#/cytaty?book=<id>)
+  statystyki: { tab: 'statystyki', title: 'Statystyki', load: () => import('./stats.js') },
+  'co-dalej': { tab: 'start', title: 'Co dalej?', load: () => import('./next.js') },
+  biblioteka: { tab: 'polka', title: 'Biblioteka w Nekli', load: () => import('./library.js') },
+  goodreads: { tab: 'polka', title: 'Import z Goodreads', load: () => import('./goodreads.js') },
 };
 
 export const DEFAULT_ROUTE = 'start';

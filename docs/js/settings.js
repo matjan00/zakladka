@@ -45,6 +45,11 @@ export function render(el, ctx) {
     </section>
 
     <section class="set-group">
+      <h2 class="set-title">Import</h2>
+      <button class="row" data-go="goodreads">${icon('upload')}<span class="grow"><b>Import z Goodreads</b><br><span class="faint t-sm">Półki, oceny, daty i recenzje z pliku CSV</span></span>${icon('chev', 18, 'chev')}</button>
+    </section>
+
+    <section class="set-group">
       <h2 class="set-title">Kopia zapasowa</h2>
       <p class="t-read muted">Wszystko jest zapisane tylko w tym telefonie. Raz na jakiś czas zrób kopię — jeden plik z książkami, cytatami, sesjami i zdjęciami.</p>
       <p class="faint t-sm num" style="margin:8px 0 14px">Teraz: ${plN(nBooks, 'książka', 'książki', 'książek')}, ${plN(nQuotes, 'cytat', 'cytaty', 'cytatów')}${persisted === true ? ' · pamięć chroniona przed czyszczeniem' : ''}</p>

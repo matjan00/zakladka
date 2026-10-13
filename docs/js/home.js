@@ -5,6 +5,7 @@ import { icon } from './icons.js';
 import { esc, plN } from './util.js';
 import { openAdd, openPageSheet } from './books.js';
 import { fillSlot } from './slots.js';
+import { runningSession, todayMinutes, activeMs, durText } from './session.js';
 import { isStandalone, install, onInstallChange } from './install.js';
 
 const greet = () => {
@@ -68,6 +69,8 @@ export function render(el, ctx) {
     ${books.length ? '' : `<section class="welcome">
       ${ui.empty({ title: 'Witaj w Zakładce', text: 'Tu zamieszka Twoja biblioteczka: co czytasz, co chcesz przeczytać i co już za Tobą. Zacznij od książki, którą masz teraz pod ręką.', action: 'Dodaj pierwszą książkę', actionAttr: 'data-act="add"' })}
     </section>`}
+
+    ${sessionCard()}
 
     ${reading.length ? `<section class="now">
       <div class="section-head"><h2>Czytam teraz</h2>${reading.length > 1 ? `<span class="faint t-sm num">${plN(reading.length, 'książka', 'książki', 'książek')}</span>` : ''}</div>
@@ -154,4 +157,17 @@ function nowCard(b) {
       </div>
     </div>
   </article>`;
+}
+
+/** Running session / today's reading minutes (from session.js). Empty when there is nothing to say. */
+function sessionCard() {
+  const run = runningSession();
+  const b = run && store.book(run.bookId);
+  const min = todayMinutes();
+  if (!b && !min) return '';
+  const text = b
+    ? `${run.pausedAt ? 'Przerwa' : 'Trwa sesja'} · ${durText(activeMs(run))} · ${esc(b.title)}`
+    : `Dziś czytasz już ${min} min`;
+  return `<section class="section ss-home"><button class="panel next-card" data-go="sesja${b ? '?book=' + esc(b.id) : ''}">${icon('timer', 26)}
+    <span class="grow"><b>${b ? 'Wróć do timera' : 'Dzisiejsze czytanie'}</b><span class="muted t-sm">${text}</span></span>${icon('chev', 18, 'chev')}</button></section>`;
 }

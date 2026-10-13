@@ -178,3 +178,19 @@ export async function libraryCheck(phrase) {
     return { ok: false, searchUrl, results: [], error: String(e.message || e) };
   }
 }
+
+// ---------- other books by an author (Co dalej? suggestions) ----------
+/** Books by an author: BN (`author=`) when the proxy is configured, otherwise Open Library only. Never throws. */
+export async function searchAuthor(name) {
+  name = String(name || '').trim();
+  if (!name) return { results: [], errors: {} };
+  const bnP = PROXY_URL
+    ? getJson(`${PROXY_URL}?bn=${encodeURIComponent(new URLSearchParams({ author: name, limit: '30' }).toString())}`).then((j) => (j.bibs || []).map(fromBn).filter((b) => b && b.title))
+    : Promise.resolve([]);
+  const olP = getJson(`https://openlibrary.org/search.json?author=${encodeURIComponent(name)}&fields=${OL_FIELDS}&limit=20`).then((j) => (j.docs || []).map(fromOl).filter((b) => b.title));
+  const [bn, ol] = await Promise.allSettled([bnP, olP]);
+  const errors = {};
+  if (bn.status === 'rejected') errors.bn = String(bn.reason?.message || bn.reason);
+  if (ol.status === 'rejected') errors.ol = String(ol.reason?.message || ol.reason);
+  return { results: merge(bn.value || [], ol.value || []), errors };
+}
