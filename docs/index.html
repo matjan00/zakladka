@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,interactive-widget=resizes-content">
+<meta name="theme-color" content="#1F4A40">
+<meta name="color-scheme" content="light dark">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Zakładka">
+<meta name="description" content="Twoja biblioteczka, sesje czytania, cytaty i statystyki — po polsku, na telefonie.">
+<title>Zakładka</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<script>
+  // Theme before first paint (no flash). Saved by js/theme.js as 'auto' | 'light' | 'dark'.
+  (function () {
+    var t = 'auto';
+    try { t = localStorage.getItem('zakladka.theme') || 'auto'; } catch (e) {}
+    var dark = t === 'dark' || (t === 'auto' && matchMedia('(prefers-color-scheme: dark)').matches);
+    document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+  })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Literata:ital,opsz,wght@0,7..72,400..800;1,7..72,400..600&display=swap" crossorigin="anonymous">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/books.css">
+<link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+<div id="app">
+  <main id="screen" tabindex="-1"></main>
+  <nav id="nav" aria-label="Główne"></nav>
+</div>
+<div id="banner" hidden></div>
+<div id="layers"></div>
+<div id="toasts" aria-live="polite"></div>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
