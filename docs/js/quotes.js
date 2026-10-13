@@ -193,6 +193,7 @@ export function openQuoteEditor(opts = {}) {
     if (f.tag.value.trim()) addTag();
     const rec2 = read();
     if (!rec2.text) return ui.toast('Cytat jest pusty');
+    if (rec.closed) return; // double tap
     if (!ex) rec2.createdAt = Date.now();
     rec.close();
     await store.put('quotes', rec2);

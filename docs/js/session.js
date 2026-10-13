@@ -308,6 +308,7 @@ function openStop(r0, b) {
   };
   f.onsubmit = async (e) => {
     e.preventDefault();
+    if (done) return; // double tap
     let page = Math.max(0, Number(String(f.page.value).replace(/\D/g, '')) || 0);
     if (b.pages) page = Math.min(page, b.pages);
     done = true;
@@ -366,6 +367,7 @@ function openManual(b) {
     const start = new Date(`${f.day.value}T${f.time.value}`).getTime();
     const bad = !min ? 'Wpisz, ile minut trwała sesja.' : !start ? 'Podaj dzień i godzinę.' : start > Date.now() ? 'Ta sesja jest jeszcze w przyszłości.' : toP < fromP ? 'Strona końcowa nie może być przed początkową.' : '';
     if (bad) return (err.textContent = bad), (err.hidden = false);
+    if (rec.closed) return; // double tap
     rec.close();
     const s = await store.put('sessions', { bookId: b.id, start, end: start + min * 60000, pausedMs: 0, fromPage: fromP, toPage: toP, manual: true });
     if (toP > (Number(b.currentPage) || 0)) await afterSave(b, s, toP);

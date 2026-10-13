@@ -208,6 +208,7 @@ export function openAdd(opts = {}) {
     const run = async () => {
       const q = input.value.trim();
       if (q.length < 2) {
+        seq++;
         out.innerHTML = '';
         return;
       }
@@ -314,9 +315,10 @@ export function openAdd(opts = {}) {
     stopScan?.();
     stopScan = null;
     body.innerHTML = `<div class="searching"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span> Szukam ISBN ${esc(isbn)}…</div>`;
-    const { results } = await sources.byIsbn(isbn);
+    const { results, errors } = await sources.byIsbn(isbn);
     if (results.length) return confirmAdd({ ...results[0], isbn: results[0].isbn || isbn });
-    body.innerHTML = `${ui.empty({ title: 'Nie znalazłem tego numeru', text: `ISBN ${isbn} nie występuje w katalogach. Dodaj książkę ręcznie — numer już wpisałem.` })}
+    const offline = errors.ol && (!sources.hasProxy() || errors.bn);
+    body.innerHTML = `${ui.empty(offline ? { title: 'Brak połączenia z katalogiem', text: `Nie mogę teraz sprawdzić ISBN ${isbn}. Sprawdź internet albo dodaj książkę ręcznie — numer już wpisałem.` } : { title: 'Nie znalazłem tego numeru', text: `ISBN ${isbn} nie występuje w katalogach. Dodaj książkę ręcznie — numer już wpisałem.` })}
       <button class="btn primary wide" data-m>${icon('edit')}Dodaj ręcznie</button>`;
     body.querySelector('[data-m]').onclick = () => {
       showTab('recznie');
@@ -389,6 +391,8 @@ export function openAdd(opts = {}) {
       e.preventDefault();
       const title = f.title.value.trim();
       if (!title) return f.title.focus();
+      if (f.dataset.busy) return; // double tap
+      f.dataset.busy = '1';
       const p = {
         title,
         author: f.author.value.trim(),
@@ -401,7 +405,7 @@ export function openAdd(opts = {}) {
       };
       if (p.isbn) p.coverUrl = sources.coverForIsbn(p.isbn);
       const dup = findDuplicate(p);
-      if (dup && !(await ui.confirmSheet({ title: 'Ta książka już jest na półce', text: `„${dup.title}” masz już w „${STATUS_LABEL[dup.status]}”. Dodać drugi egzemplarz?`, ok: 'Dodaj mimo to' }))) return;
+      if (dup && !(await ui.confirmSheet({ title: 'Ta książka już jest na półce', text: `„${dup.title}” masz już w „${STATUS_LABEL[dup.status]}”. Dodać drugi egzemplarz?`, ok: 'Dodaj mimo to' }))) return void delete f.dataset.busy;
       const b = await store.addBook(p);
       ui.toast(`Dodano „${b.title}”`);
       go(`ksiazka/${b.id}`);
@@ -562,6 +566,7 @@ export function openPageSheet(id) {
     e.preventDefault();
     let page = Math.max(0, Number(String(f.page.value).replace(/\D/g, '')) || 0);
     if (b.pages) page = Math.min(page, b.pages);
+    if (rec.closed) return; // double tap
     rec.close();
     await store.updateBook(id, { currentPage: page });
     if (b.pages && page >= b.pages && b.status === 'czytam') {
@@ -593,6 +598,7 @@ function openRead(bookId, readId) {
   f.onsubmit = async (e) => {
     e.preventDefault();
     if (f.started.value && f.finished.value && f.finished.value < f.started.value) return ui.toast('Koniec nie może być przed początkiem');
+    if (rec.closed) return; // double tap
     rec.close();
     await store.put('reads', { ...r, started: f.started.value || null, finished: f.finished.value || null, abandoned: f.abandoned.checked });
   };

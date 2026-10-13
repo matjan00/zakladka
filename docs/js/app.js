@@ -111,7 +111,7 @@ function render(keepScroll) {
 
 let pending = false;
 store.on((detail) => {
-  if (detail.store === 'settings') applyTheme();
+  if (detail.store === 'settings' || detail.store === '*') applyTheme();
   if (!current) return;
   if (current.mod.onChange?.(detail, ctx()) === true) return;
   if (pending) return;

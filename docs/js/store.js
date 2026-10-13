@@ -234,9 +234,15 @@ export async function setStatus(id, status) {
   if (!b || b.status === status) return b;
   const open = openRead(id);
   const today = todayStr();
-  if (status === 'czytam' && !open) await put('reads', { bookId: id, started: today, finished: null }, { silent: true });
+  // a read closed today is reopened / reused, so a mis-tap and its correction don't count the book twice
+  const doneToday = readsOf(id).find((r) => r.finished === today);
+  if (status === 'czytam' && !open) {
+    if (doneToday) await put('reads', { ...doneToday, started: doneToday.started || today, finished: null, abandoned: false }, { silent: true });
+    else await put('reads', { bookId: id, started: today, finished: null }, { silent: true });
+  }
   if (status === 'przeczytane') {
     if (open) await put('reads', { ...open, finished: today }, { silent: true });
+    else if (doneToday) await put('reads', { ...doneToday, abandoned: false }, { silent: true });
     else await put('reads', { bookId: id, started: null, finished: today }, { silent: true });
   }
   if (status === 'porzucone' && open) await put('reads', { ...open, finished: today, abandoned: true }, { silent: true });
