@@ -96,3 +96,67 @@ Cognitive load: low (1 failure: the Co dalej mood chips scrolled sideways so opt
 - Automatic Nekla checks and BN search still need the `books-proxy` deployment (out of scope).
 
 Screenshots of the final state: `screenshots/01-start.png`, `02-polka.png`, `03-ksiazka.png`, `04-cytaty.png`, `05-statystyki.png` (light) and `06-polka-noc.png` (dark).
+
+---
+
+## 2026-10-14 — second pass at real scale
+
+DEGRADED: single-context (run inside a delegated agent; Assessment A and B were done one after the other, without separate sub-agents)
+
+Seed data: the owner's real Goodreads export (193 books) loaded through the app's own importer (file fed into the import screen), plus 5 hand-added books (one with a 100-character Polish title), 9 sessions and 4 quotes. Result: 198 books, 192 on Przeczytane, **133 of them with no read date**, many foreign titles, 39 Open Library covers. Everything was deleted afterwards (database left empty). Checked at 375 px light and dark, and at 1024 px.
+
+Deterministic scan (`impeccable detect`) on the changed files: no findings.
+
+### Heuristic scores (this pass)
+
+| # | Heuristic | Before | After | What moved it |
+|---|---|---|---|---|
+| 1 | Visibility of system status | 3 | 3 | — |
+| 2 | Match with the real world | 3 | 4 | Undated reads explained, contradictory copy gone |
+| 3 | User control & freedom | 3 | 3 | — |
+| 4 | Consistency & standards | 3 | 3 | Library rows match the rest |
+| 5 | Error prevention | 3 | 3 | — |
+| 6 | Recognition over recall | 2 | 3 | The book in hand stands first on a 198-book shelf; list shows the year read |
+| 7 | Flexibility & efficiency | 3 | 3 | — |
+| 8 | Aesthetic & minimalist | 2 | 3 | Long titles, the double cloth band, library noise |
+| 9 | Error recovery | 3 | 3 | — |
+| 10 | Help & documentation | 3 | 3 | — |
+| **Total** | | **28/40** | **31/40** | |
+
+The earlier pass scored 29→~33 on a 13-book shelf; at the owner's real scale some of those wins did not hold, so this pass starts lower.
+
+### Found and fixed
+
+**P1. Long Polish titles broke four screens.** "Księgi Jakubowe albo Wielka podróż przez siedem granic…" became six lines of 9 px type on its spine, a six-line display title on the book page, and a full sentence in every quote caption and library row. *Fixed* with `splitTitle()` / `shortTitle()` in `util.js`. It splits on " albo ", " czyli ", ". ", ": " and spaced dashes, but never after initials ("Thomasa F. dla ogółu" stays whole).
+- Spines, generated jackets, the Start card, Sesja, Co dalej, quote captions, the quote book filter and library rows now use the main title. The full title stays in `aria-label`.
+- The book page sets the main title as the display line and the rest as a Literata subtitle (`.book-sub`).
+
+**P1. A read book with no date contradicted itself.** All 133 undated Goodreads books said "Jeszcze nie zaczęte. Przełącz na „Czytam”…" right under "Przeczytane". *Fixed*: the page now says "Przeczytana, ale bez daty. Dodaj ją, jeśli pamiętasz — wtedy trafi do statystyk swojego roku." When the read count is above 1, it asks only for a date. Porzucone says "Bez zapisanych dat."
+
+**P1. Statystyki hid two thirds of the library.** Only dated reads count, so 133 of the 192 read books appeared nowhere, with no explanation. *Fixed*: a one-line note under the year tabs gives the lifetime count and the number without a date, with correct plurals and verb agreement.
+
+**P1. The book in hand got lost on a 198-book shelf.** "Wszystkie" sorted by date added, so the two current books (ribbons) were buried among the Goodreads books. *Fixed*: on "Wszystkie" the books being read stand first in both spines and list view, whatever the sort.
+
+**P2. Start hierarchy.** The new "Zainstaluj na telefonie" was a full cloth primary button directly under the cloth header band. It read as a second band and outweighed "Czytam teraz". The date also sat as an uppercase eyebrow above the greeting (a banned pattern). *Fixed*:
+- The install action is still at the very top, but it is now set into the band as a paper label: an on-cloth fill, an icon and a chevron.
+- The first paper element is the reading card again.
+- The date moved under "Dzień dobry" as an italic Literata line.
+- "strona 122 z 304" no longer breaks before "304".
+
+**P2. List view at scale.** 192 read rows showed only stars, so there was no sense of when anything was read. *Fixed*: read books show the year finished after the stars. With no rating and no date, the row says "przeczytana".
+
+**P2. Library rows said the same thing twice.** With the proxy connected, every row showed the stamp "NIE SPRAWDZONO" and then "jeszcze nie sprawdzano". *Fixed*: an unchecked row shows only the title, the author and "Sprawdź". The stamp and the date appear once a check has run.
+
+**P2. Performance at ~200 books.**
+- The spine view is 26 shelf rows (~6.5k px) and the list ~19k px.
+- `.shelf-row` and `.book-list > li` now use `content-visibility: auto` with intrinsic sizes, so off-screen rows are not laid out or painted.
+- Shelf rows got inner padding, so the lifted spine and the hanging ribbon stay inside the paint box.
+- Covers were already lazy.
+
+**P3. The Goodreads preview listed "Chcę przeczytać 0".** Empty shelf rows are now hidden in the preview.
+
+### Left open
+- A single 404 appeared in the console after the import. It came from an external resource (most likely an Open Library cover redirect); every app file returned 200.
+- Goodreads gives foreign transliterations for some authors ("Fyodor Dostoevsky" next to a hand-added "Fiodor Dostojewski"). These are separate authors in stats. An author-alias merge would be a feature, not a design fix.
+- Co dalej: the mood chips (ink-filled) and the length segment (leaf) are two selection styles side by side. This is taste, left as it is.
+- Preview-only: a service worker from an earlier session controlled localhost and served stale files until it was unregistered. On the phone this is the normal "Aktualizacja dostępna" flow.

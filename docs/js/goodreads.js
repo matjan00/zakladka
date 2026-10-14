@@ -111,7 +111,7 @@ function previewHTML() {
         <span>Uzupełnij brakujące dane w ${plN(fill.length, 'książce', 'książkach', 'książkach')} z półki <span class="faint t-sm">(${esc(fieldsAll)}). Nic, co już wpisałeś, nie zostanie nadpisane.</span></span></label>` : ''}
     </section>
     ${st.fresh.length ? `<dl class="card-fields" style="margin-top:16px">
-      ${SHELVES.map(([k, l]) => `<dt class="t-label">${l}</dt><dd>${count(st.fresh, k)}</dd>`).join('')}
+      ${SHELVES.filter(([k]) => count(st.fresh, k)).map(([k, l]) => `<dt class="t-label">${l}</dt><dd>${count(st.fresh, k)}</dd>`).join('')}
       <dt class="t-label">Z oceną</dt><dd>${withRating}</dd>
       <dt class="t-label">Z recenzją</dt><dd>${withReview}</dd>
     </dl>

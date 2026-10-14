@@ -4,7 +4,7 @@
 import * as store from './store.js';
 import * as ui from './ui.js';
 import { icon } from './icons.js';
-import { esc, norm, plN, hash, todayStr } from './util.js';
+import { esc, norm, plN, hash, todayStr, shortTitle } from './util.js';
 import { openAdd } from './books.js';
 import { hasProxy, search, searchAuthor } from './sources.js';
 import { checkOf, sameBook, surnames } from './library.js';
@@ -111,7 +111,7 @@ function cardHTML(item, i, n, anim) {
       <button class="nx-cover" data-book="${esc(b.id)}" aria-label="Otwórz ${esc(b.title)}">${ui.coverHTML(b, 'l')}</button>
       <div class="nx-body">
         <p class="t-label num">Propozycja ${i + 1} z ${n}</p>
-        <h2 class="nx-title t-title">${esc(b.title)}</h2>
+        <h2 class="nx-title t-title">${esc(shortTitle(b.title))}</h2>
         <p class="nx-author">${esc(b.author || 'autor nieznany')}</p>
         <ul class="nx-reasons">${reasons.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>
       </div>
@@ -350,7 +350,7 @@ export function renderSlot(el, ctx) {
     <article class="panel nx-slot">
       <button class="nx-slot-cover" data-book="${esc(b.id)}" aria-label="Otwórz ${esc(b.title)}">${ui.coverHTML(b, 's')}</button>
       <div class="nx-slot-body">
-        <b class="t-book nx-slot-title">${esc(b.title)}</b>
+        <b class="t-book nx-slot-title">${esc(shortTitle(b.title))}</b>
         <p class="nx-author">${esc(b.author || '')}</p>
         <ul class="nx-reasons small">${it.reasons.slice(0, 3).map((x) => `<li>${esc(x)}</li>`).join('')}</ul>
       </div>

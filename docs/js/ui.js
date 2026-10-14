@@ -1,6 +1,6 @@
 // Shared UI: sheets, toasts, confirm, star rating, covers & spines, ex libris, empty states.
 // Sheets push a history entry so Android's Back gesture closes them instead of leaving the app.
-import { esc, hash, pl, plN } from './util.js';
+import { esc, hash, pl, plN, shortTitle } from './util.js';
 import { icon } from './icons.js';
 import * as store from './store.js';
 
@@ -242,7 +242,7 @@ export function jacketOf(b) {
 export function jacketHTML(b) {
   const { ink, motif } = jacketOf(b);
   const [bg, fg, ac] = ink;
-  const title = String(b.title || 'Bez tytułu');
+  const title = shortTitle(b.title) || 'Bez tytułu';
   const len = title.length;
   const fs = len <= 8 ? 15 : len <= 16 ? 12.5 : len <= 28 ? 10.5 : len <= 48 ? 9 : 7.5;
   const pos = motif === 'sun' || motif === 'stack' ? 'bottom' : motif === 'half' || motif === 'arch' || motif === 'diag' ? 'top' : 'mid';
@@ -289,14 +289,15 @@ export function spineHTML(b, { current = false } = {}) {
   const pages = Number(b.pages) || 300;
   const w = Math.round(Math.max(26, Math.min(58, 20 + pages / 18)));
   const h = 150 + (hash(b.id || b.title) % 5) * 9 + Math.min(20, pages / 60);
-  const title = String(b.title || 'Bez tytułu');
+  const full = String(b.title || 'Bez tytułu');
+  const title = shortTitle(full) || full; // a spine carries the main title only
   // fit the title along the spine: shrink the type, and on thick spines allow a second line
   const last = String(b.author || '').split(' ').at(-1) || '';
   const avail = h - 34 - (last ? last.length * 6.4 + 10 : 0);
   let fs = Math.max(9, Math.min(13.5, avail / (title.length * 0.6)));
   const two = title.length * 0.6 * fs > avail && w >= 36;
   if (two) fs = Math.max(9, Math.min(12, (avail * 2) / (title.length * 0.6)));
-  return `<button class="spine${two ? ' two' : ''}${current ? ' current' : ''}${b.status === 'przeczytane' ? ' done' : ''}" data-book="${esc(b.id)}" style="--bg:${ink[0]};--fg:${ink[1]};--ac:${ink[2]};--w:${w}px;--h:${Math.round(h)}px;--fs:${fs.toFixed(1)}px" aria-label="${esc(title)}${b.author ? `, ${esc(b.author)}` : ''}">
+  return `<button class="spine${two ? ' two' : ''}${current ? ' current' : ''}${b.status === 'przeczytane' ? ' done' : ''}" data-book="${esc(b.id)}" style="--bg:${ink[0]};--fg:${ink[1]};--ac:${ink[2]};--w:${w}px;--h:${Math.round(h)}px;--fs:${fs.toFixed(1)}px" aria-label="${esc(full)}${b.author ? `, ${esc(b.author)}` : ''}">
     <span class="sp-band"></span>
     <span class="sp-title">${esc(title)}</span>
     ${b.author ? `<span class="sp-author">${esc(last)}</span>` : ''}

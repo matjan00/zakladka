@@ -63,7 +63,7 @@
 .shelf-body { margin-top: var(--s4); min-height: 40vh; }
 
 .bookcase { padding-top: var(--s3); }
-.shelf-row { margin-bottom: var(--s6); }
+.shelf-row { margin: -12px 0 10px; padding: 12px 0 22px; content-visibility: auto; contain-intrinsic-size: auto 230px; } /* padding keeps the lifted spine and the hanging ribbon inside the paint box */
 .spines { display: flex; align-items: flex-end; gap: 3px; padding: 0 8px; }
 .spine {
   position: relative; flex: none; width: var(--w); height: var(--h);
@@ -93,6 +93,7 @@
 .ledge::before { content: ''; position: absolute; left: 0; right: 0; top: 3px; height: 1px; background: var(--gilt); opacity: .5; }
 
 .book-list .book-row { align-items: flex-start; min-height: 88px; }
+.book-list > li { content-visibility: auto; contain-intrinsic-size: auto 97px; }
 .book-row .grow { display: flex; flex-direction: column; gap: 3px; padding-top: 2px; }
 .book-row .meta { display: flex; align-items: center; gap: 8px; margin-top: 4px; }
 .book-row .meta .thread { width: 96px; }
@@ -130,6 +131,7 @@
 .hero-cover .cover { --cw: 148px; }
 .hero-stamp { position: absolute; right: -46px; bottom: -22px; }
 .book-title { font-size: 1.875rem; max-width: 22ch; }
+.book-sub { display: block; margin-top: 8px; font: 400 1.0625rem/1.35 var(--font-read); font-variation-settings: 'opsz' 18; letter-spacing: 0; color: var(--ink-2); text-wrap: balance; }
 .book-author { margin-top: 6px; font: italic 400 1.0625rem/1.3 var(--font-read); color: var(--ink-2); }
 .rate { margin-top: var(--s4); justify-content: center; }
 .rate-label { min-width: 3ch; text-align: left; }

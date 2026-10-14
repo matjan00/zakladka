@@ -96,3 +96,5 @@ Restrained. `--ease: cubic-bezier(.2,.8,.2,1)`, 180–260ms. One authored moment
 - Start-screen slots: `docs/js/slots.js` (`cytat-dnia`, `co-dalej`).
 - Data: `docs/js/store.js` header. Shared UI: `docs/js/ui.js`. Put feature CSS in its own `docs/css/<feature>.css` and link it in `index.html`; run `node scripts/sync-sw.cjs` (or `release.cjs` when publishing) so the service worker caches it.
 - Covers: Open Library `-M.jpg` without `?default=false` — a missing cover comes back as a 1×1 GIF that `ui.js` removes (no console 404s).
+- Titles: spines, jackets, cards and captions show `shortTitle(b.title)` (from `util.js`; it cuts at " albo ", ". ", ": " and dashes). The book page shows `splitTitle()`: the main title as the display line, the rest as `.book-sub`. Keep the full title in `aria-label`.
+- Start header: the date sits *under* the greeting (no eyebrow). The install action lives inside the cloth band as a paper label (`.install-top`), never as a second cloth button.

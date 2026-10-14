@@ -4,7 +4,7 @@
 import * as store from './store.js';
 import * as ui from './ui.js';
 import { icon } from './icons.js';
-import { esc, norm, plN, dateShort, timeOf } from './util.js';
+import { esc, norm, plN, dateShort, timeOf, shortTitle } from './util.js';
 import { libraryCheck, hasProxy } from './sources.js';
 import { sowaSearchUrl, LEGIMI_NEKLA_URL } from './config.js';
 
@@ -187,12 +187,12 @@ function rowHTML(b, proxy) {
   const isBusy = busy.has(b.id);
   return `<li class="lc-row" data-id="${esc(b.id)}">
     <div class="lc-main">
-      <button class="lc-title t-book" data-book="${esc(b.id)}">${esc(b.title)}</button>
+      <button class="lc-title t-book" data-book="${esc(b.id)}" aria-label="${esc(b.title)}">${esc(shortTitle(b.title))}</button>
       <p class="lc-author">${esc(b.author || 'autor nieznany')}${b.status === 'czytam' ? ' <span class="lc-shelf">czytam</span>' : ''}</p>
     </div>
-    ${proxy || c ? `<span class="lc-stamp st-${st.cls}${isBusy ? ' busy' : ''}" ${c?.statusText ? `title="${esc(c.statusText)}"` : ''}>${isBusy ? 'Sprawdzam…' : esc(st.label)}</span>` : '<span></span>'}
+    ${c || isBusy ? `<span class="lc-stamp st-${st.cls}${isBusy ? ' busy' : ''}" ${c?.statusText ? `title="${esc(c.statusText)}"` : ''}>${isBusy ? 'Sprawdzam…' : esc(st.label)}</span>` : '<span></span>'}
     <div class="lc-meta">
-      ${proxy || c ? `<span class="lc-date num">${c ? `sprawdzono ${esc(dateShort(c.checkedAt))}, ${esc(timeOf(c.checkedAt))}` : 'jeszcze nie sprawdzano'}</span>` : ''}
+      ${c ? `<span class="lc-date num">sprawdzono ${esc(dateShort(c.checkedAt))}, ${esc(timeOf(c.checkedAt))}</span>` : ''}
       <span class="lc-links">
         ${c?.recordUrl ? `<a class="lc-link" href="${esc(c.recordUrl)}" target="_blank" rel="noopener">Rekord ${icon('external', 14)}</a>` : ''}
         ${proxy

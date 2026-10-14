@@ -4,6 +4,8 @@
 
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .st-years { margin-bottom: var(--s5); }
+.st-undated { margin: var(--s3) 0 0; max-width: 52ch; line-height: 1.5; }
+.st-undated b { color: var(--ink-2); }
 
 .st-hero { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
 .st-num { padding: var(--s4) var(--s2); text-align: center; display: grid; gap: 4px; }

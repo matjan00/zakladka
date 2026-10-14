@@ -4,7 +4,7 @@
 import * as store from './store.js';
 import * as ui from './ui.js';
 import { icon } from './icons.js';
-import { esc, norm, plN, debounce, hash, todayStr } from './util.js';
+import { esc, norm, plN, debounce, hash, todayStr, shortTitle } from './util.js';
 
 const view = { q: '', tag: '' };
 
@@ -13,7 +13,7 @@ const byNewest = (a, b) => (b.createdAt || b.created || 0) - (a.createdAt || a.c
 const bookOf = (q) => (q.bookId ? store.book(q.bookId) : null);
 const sourceLine = (q) => {
   const b = bookOf(q);
-  return b ? `<b>${esc(b.title)}</b>${b.author ? ` · ${esc(b.author)}` : ''}` : '<b>Bez książki</b>';
+  return b ? `<b>${esc(shortTitle(b.title))}</b>${b.author ? ` · ${esc(b.author)}` : ''}` : '<b>Bez książki</b>';
 };
 
 function quoteHTML(q, { compact = false } = {}) {
@@ -60,7 +60,7 @@ export function render(el, ctx) {
     ${all.length ? `
     <div class="q-tools">
       <label class="search grow">${icon('search')}<input class="input" type="search" data-keep="q-q" placeholder="Szukaj w cytatach" value="${esc(view.q)}" aria-label="Szukaj w cytatach"></label>
-      ${books.length > 1 || (books.length === 1 && !cur) ? `<label class="field q-book-pick"><span class="t-label">Książka</span><select data-act="book" aria-label="Filtruj po książce"><option value="">Wszystkie książki</option>${books.map((b) => `<option value="${esc(b.id)}" ${b.id === bookId ? 'selected' : ''}>${esc(b.title)}</option>`).join('')}</select></label>` : ''}
+      ${books.length > 1 || (books.length === 1 && !cur) ? `<label class="field q-book-pick"><span class="t-label">Książka</span><select data-act="book" aria-label="Filtruj po książce"><option value="">Wszystkie książki</option>${books.map((b) => `<option value="${esc(b.id)}" ${b.id === bookId ? 'selected' : ''}>${esc(shortTitle(b.title))}</option>`).join('')}</select></label>` : ''}
     </div>
     ${tags.length ? `<div class="chips q-tagbar">${tags.map((t) => `<button class="chip ${view.tag === t ? 'on' : ''}" data-tag="${esc(t)}">${icon('tag')}${esc(t)}</button>`).join('')}</div>` : ''}` : ''}
     <div class="q-body">${listBody(list, all.length, bookId)}</div>`;
@@ -214,7 +214,7 @@ export function renderQuoteOfDay(el, ctx) {
   const b = bookOf(q);
   fig.classList.remove('placeholder');
   fig.innerHTML = `<blockquote>${esc(q.text.length > 380 ? q.text.slice(0, 377).trimEnd() + '…' : q.text)}</blockquote>
-    <figcaption class="qod-cap"><span class="t-sm muted">${b ? `<b>${esc(b.title)}</b>${b.author ? ` · ${esc(b.author)}` : ''}` : ''}${q.page ? ` <span class="num" style="white-space:nowrap">· s.&nbsp;${esc(q.page)}</span>` : ''}</span>
+    <figcaption class="qod-cap"><span class="t-sm muted">${b ? `<b>${esc(shortTitle(b.title))}</b>${b.author ? ` · ${esc(b.author)}` : ''}` : ''}${q.page ? ` <span class="num" style="white-space:nowrap">· s.&nbsp;${esc(q.page)}</span>` : ''}</span>
     <span class="qod-actions"><button class="icon-btn" data-qod-share aria-label="Udostępnij jako obraz">${icon('upload', 20)}</button><button class="icon-btn" data-qod-all aria-label="Wszystkie cytaty">${icon('chev', 20)}</button></span></figcaption>`;
   fig.onclick = (e) => {
     if (e.target.closest('[data-qod-share]')) return shareQuote(q);

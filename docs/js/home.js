@@ -2,7 +2,7 @@
 import * as store from './store.js';
 import * as ui from './ui.js';
 import { icon } from './icons.js';
-import { esc, plN } from './util.js';
+import { esc, plN, shortTitle } from './util.js';
 import { openAdd, openPageSheet } from './books.js';
 import { fillSlot } from './slots.js';
 import { runningSession, todayMinutes, activeMs, durText } from './session.js';
@@ -54,15 +54,16 @@ export function render(el, ctx) {
   const showInstall = !isStandalone();
 
   el.innerHTML = `
-    <header class="home-head">
-      <div class="grow">
-        <p class="hh-date">${esc(dayFmt.format(new Date()))}</p>
-        <h1 class="t-display">${greet()}</h1>
+    <header class="home-head${showInstall ? ' with-install' : ''}">
+      <div class="hh-row">
+        <div class="grow">
+          <h1 class="t-display">${greet()}</h1>
+          <p class="hh-date">${esc(dayFmt.format(new Date()))}</p>
+        </div>
+        <button class="icon-btn" data-go="ustawienia" aria-label="Ustawienia">${icon('settings')}</button>
       </div>
-      <button class="icon-btn" data-go="ustawienia" aria-label="Ustawienia">${icon('settings')}</button>
+      ${showInstall ? `<button class="install-top" data-act="install">${icon('install', 20)}<span class="grow">Zainstaluj na telefonie</span>${icon('chev', 18)}</button>` : ''}
     </header>
-
-    ${showInstall ? `<button class="btn primary wide install-top" data-act="install">${icon('install')}Zainstaluj na telefonie</button>` : ''}
 
     ${books.length ? '' : `<section class="welcome">
       ${ui.empty({ title: 'Witaj w Zakładce', text: 'Tu zamieszka Twoja biblioteczka: co czytasz, co chcesz przeczytać i co już za Tobą. Zacznij od książki, którą masz teraz pod ręką.', action: 'Dodaj pierwszą książkę', actionAttr: 'data-act="add"' })}
@@ -134,9 +135,9 @@ function nowCard(b) {
   return `<article class="now-card">
     <button class="nc-cover" data-book="${esc(b.id)}" aria-label="Otwórz ${esc(b.title)}">${ui.coverHTML(b, 'l', { ribbon: true })}</button>
     <div class="nc-body">
-      <button class="nc-title t-title" data-book="${esc(b.id)}">${esc(b.title)}</button>
+      <button class="nc-title t-title" data-book="${esc(b.id)}" aria-label="${esc(b.title)}">${esc(shortTitle(b.title))}</button>
       <p class="muted nc-author">${esc(b.author || '')}</p>
-      ${b.pages ? `<div class="nc-progress">${ui.thread(p)}<p class="t-sm num"><b>${Math.round(p * 100)}%</b><span class="faint"> · strona ${b.currentPage || 0} z ${b.pages}</span></p>${left ? `<p class="faint t-sm">zostało ${plN(left, 'strona', 'strony', 'stron')}</p>` : ''}</div>` : `<p class="faint t-sm">strona ${b.currentPage || 0}</p>`}
+      ${b.pages ? `<div class="nc-progress">${ui.thread(p)}<p class="t-sm num"><b>${Math.round(p * 100)}%</b><span class="faint"> · strona&nbsp;${b.currentPage || 0}&nbsp;z&nbsp;${b.pages}</span></p>${left ? `<p class="faint t-sm">zostało ${plN(left, 'strona', 'strony', 'stron')}</p>` : ''}</div>` : `<p class="faint t-sm">strona ${b.currentPage || 0}</p>`}
       <div class="btn-row">
         <button class="btn" data-page="${esc(b.id)}">Zapisz stronę</button>
         <button class="btn primary" data-go="sesja?book=${esc(b.id)}">${icon('timer')}Sesja</button>

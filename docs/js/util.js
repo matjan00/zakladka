@@ -93,3 +93,15 @@ export async function shrinkImage(file, max = 900, quality = 0.85) {
   c.getContext('2d').drawImage(bmp, 0, 0, c.width, c.height);
   return new Promise((res) => c.toBlob((b) => res(b || file), 'image/jpeg', quality));
 }
+
+/**
+ * Main title + subtitle, the way a spine or a jacket would set it:
+ * "Księgi Jakubowe albo Wielka podróż…" → { main: 'Księgi Jakubowe', sub: 'albo Wielka podróż…' }
+ * "Korea. Nowa historia…" → { main: 'Korea', sub: 'Nowa historia…' }. Initials ("Thomasa F. dla") never split.
+ */
+export function splitTitle(t) {
+  const s = String(t || '').trim();
+  const m = /^(.*?[\p{L}\d]{3,})(?:\s*[.:]\s+|\s+[–—-]\s+|\s+(?=(?:albo|czyli)\s))(.{3,})$/u.exec(s);
+  return m ? { main: m[1], sub: m[2] } : { main: s, sub: '' };
+}
+export const shortTitle = (t) => splitTitle(t).main;

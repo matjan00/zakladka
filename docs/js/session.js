@@ -4,7 +4,7 @@
 import * as store from './store.js';
 import * as ui from './ui.js';
 import { icon } from './icons.js';
-import { esc, plN, ymd, todayStr, dateShort, timeOf, clamp } from './util.js';
+import { esc, plN, ymd, todayStr, dateShort, timeOf, clamp, shortTitle } from './util.js';
 
 const DAY = 86400000;
 const MIN_SPEED_MS = 10 * 60000; // below this much reading time the speed is not meaningful
@@ -146,7 +146,7 @@ export function render(el, ctx) {
     <section class="ss-book">
       <button class="ss-cover" data-act="pick" ${run ? 'disabled' : ''} aria-label="${run ? esc(b.title) : 'Zmień książkę'}">${ui.coverHTML(b, 'm', { ribbon: reading })}</button>
       <div class="ss-meta">
-        <p class="t-book ss-title">${esc(b.title)}</p>
+        <p class="t-book ss-title">${esc(shortTitle(b.title))}</p>
         <p class="muted ss-author">${esc(b.author || '')}</p>
         ${b.pages ? `<div class="ss-prog">${ui.thread(p)}<p class="t-sm num faint">strona ${b.currentPage || 0} z ${b.pages}</p></div>` : `<p class="t-sm faint num">strona ${b.currentPage || 0}</p>`}
         ${run ? '' : `<button class="link-btn ss-change" data-act="pick">Zmień książkę</button>`}

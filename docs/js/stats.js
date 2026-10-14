@@ -120,6 +120,14 @@ const hbars = (rows, unit) => {
 };
 
 // ---------- screen ----------
+/** Read books with no finished date never land in a year: say so once, with the lifetime count. */
+function undatedNote() {
+  const read = store.where('books', (b) => b.status === 'przeczytane');
+  const undated = read.filter((b) => !store.readsOf(b.id).some((r) => r.finished && !r.abandoned)).length;
+  if (!undated) return '';
+  return `<p class="st-undated faint t-sm">Wszystkich przeczytanych: <b class="num">${read.length}</b>. ${undated === read.length ? 'Żadna nie ma daty' : `${plN(undated, 'książka nie ma', 'książki nie mają', 'książek nie ma')} daty`}, więc ${undated === 1 ? 'nie liczy' : 'nie liczą'} się do żadnego roku — datę dodasz na stronie książki.</p>`;
+}
+
 export function render(el, ctx) {
   const thisYear = new Date().getFullYear();
   const years = availableYears();
@@ -179,6 +187,8 @@ export function render(el, ctx) {
       <div class="st-num"><b class="num">${totalPages}</b><span>${pl(totalPages, 'strona', 'strony', 'stron')}</span></div>
       <div class="st-num"><b class="num">${timeMs ? durText(timeMs) : '—'}</b><span>w sesjach</span></div>
     </section>
+
+    ${undatedNote()}
 
     ${goal ? `<section class="section st-goal">
       <div class="st-goal-ring">${goalRing(done, goal)}<div class="st-goal-num"><b class="num">${done}</b><span class="num">z ${goal}</span></div></div>

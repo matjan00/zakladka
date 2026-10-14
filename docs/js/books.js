@@ -8,7 +8,7 @@ import * as sources from './sources.js';
 import { sowaSearchUrl } from './config.js';
 import { badgeHTML as libBadge } from './library.js';
 import { go } from './app.js';
-import { esc, pl, plN, norm, cleanIsbn, dateLong, dateShort, todayStr, daysBetween, debounce, shrinkImage } from './util.js';
+import { esc, pl, plN, norm, cleanIsbn, dateLong, dateShort, todayStr, daysBetween, debounce, shrinkImage, splitTitle } from './util.js';
 
 const SORTS = [
   ['added', 'Ostatnio dodane'],
@@ -32,6 +32,9 @@ function sorted(list, by) {
   return L.sort((a, b) => (b.created || 0) - (a.created || 0));
 }
 
+/** On „Wszystkie” the books being read stand at the front of the shelf, whatever the sort. */
+const readingFirst = (L) => [...L.filter((b) => b.status === 'czytam'), ...L.filter((b) => b.status !== 'czytam')];
+
 const SHELF_EMPTY = {
   all: ['Półka czeka na pierwszą książkę', 'Dodaj to, co czytasz teraz — wyszukaj tytuł, zeskanuj kod kreskowy albo wpisz ręcznie.'],
   czytam: ['Nic teraz nie czytasz', 'Wybierz coś z „Chcę przeczytać” albo dodaj nową książkę.'],
@@ -52,6 +55,7 @@ export function render(el, ctx) {
   if (q) list = list.filter((b) => norm(`${b.title} ${b.author} ${b.isbn} ${(b.tags || []).join(' ')}`).includes(q));
   if (view.tag) list = list.filter((b) => (b.tags || []).includes(view.tag));
   list = sorted(list, sortBy);
+  if (shelf === 'all') list = readingFirst(list);
   const tags = store.allTags();
 
   el.innerHTML = `
@@ -103,6 +107,7 @@ export function render(el, ctx) {
       if (qq) L = L.filter((b) => norm(`${b.title} ${b.author} ${b.isbn} ${(b.tags || []).join(' ')}`).includes(qq));
       if (view.tag) L = L.filter((b) => (b.tags || []).includes(view.tag));
       L = sorted(L, sortBy);
+      if (shelf === 'all') L = readingFirst(L);
       body.innerHTML = L.length ? (mode === 'spines' ? spinesHTML(L, el) : listHTML(L)) : emptyShelf(shelf, store.books().length, qq || view.tag);
       ui.hydrate(body);
     }, 120);
@@ -140,6 +145,8 @@ function spinesHTML(list, el) {
     .join('')}</div>`;
 }
 
+const doneYear = (b) => store.readsOf(b.id).filter((r) => r.finished && !r.abandoned).at(-1)?.finished?.slice(0, 4) || '';
+
 function listHTML(list) {
   return `<ul class="list book-list">${list
     .map((b) => {
@@ -149,7 +156,7 @@ function listHTML(list) {
         <span class="grow">
           <span class="t-book clamp2">${esc(b.title)}</span>
           <span class="muted t-sm ellipsis">${esc(b.author || 'Autor nieznany')}</span>
-          <span class="meta">${b.status === 'czytam' && b.pages ? `${ui.thread(p)}<span class="faint t-sm num">${Math.round(p * 100)}%</span>` : b.rating ? ui.stars(b.rating, { size: 13 }) : `<span class="faint t-sm">${STATUS_LABEL[b.status]}${b.pages ? ` · ${plN(b.pages, 'strona', 'strony', 'stron')}` : ''}</span>`}</span>
+          <span class="meta">${b.status === 'czytam' && b.pages ? `${ui.thread(p)}<span class="faint t-sm num">${Math.round(p * 100)}%</span>` : b.status === 'przeczytane' ? `${b.rating ? ui.stars(b.rating, { size: 13 }) : ''}<span class="faint t-sm num">${doneYear(b) || (b.rating ? '' : 'przeczytana')}</span>` : b.rating ? ui.stars(b.rating, { size: 13 }) : `<span class="faint t-sm">${STATUS_LABEL[b.status]}${b.pages ? ` · ${plN(b.pages, 'strona', 'strony', 'stron')}` : ''}</span>`}</span>
         </span>
       </button></li>`;
     })
@@ -444,7 +451,7 @@ export function renderDetail(el, ctx) {
     <article class="book">
       <header class="book-hero">
         <div class="hero-cover">${ui.coverHTML(b, 'l', { ribbon: b.status === 'czytam' })}${b.status === 'przeczytane' ? `<div class="hero-stamp${stampFresh ? ' fresh' : ''}">${ui.exlibris(lastDone?.finished?.slice(0, 4) || '', 82)}</div>` : ''}</div>
-        <h1 class="t-display book-title">${esc(b.title)}</h1>
+        ${(({ main, sub }) => `<h1 class="t-display book-title">${esc(main)}${sub ? `<span class="book-sub">${esc(sub)}</span>` : ''}</h1>`)(splitTitle(b.title))}
         <p class="book-author">${esc(b.author || 'Autor nieznany')}</p>
         ${libBadge(b)}
         <div class="stars-wrap rate">${ui.starsInput(b.rating)}<span class="faint t-sm num rate-label">${b.rating ? String(b.rating).replace('.', ',') : 'Oceń'}</span></div>
@@ -498,7 +505,7 @@ export function renderDetail(el, ctx) {
               <span class="faint t-sm">${r.abandoned ? 'porzucone' : r.finished ? 'przeczytane' : 'w trakcie'}${days ? ` · ${plN(days, 'dzień', 'dni', 'dni')}` : ''}</span>
             </span>${icon('edit', 18, 'chev')}</button></li>`;
           })
-          .join('')}</ul>` : `<p class="faint">Jeszcze nie zaczęte. Przełącz na „Czytam”, a zapiszę datę startu.</p>`}
+          .join('')}</ul>` : `<p class="faint">${b.status === 'przeczytane' ? (timesRead > 1 ? 'Dodaj datę, jeśli pamiętasz — wtedy książka trafi do statystyk swojego roku.' : 'Przeczytana, ale bez daty. Dodaj ją, jeśli pamiętasz — wtedy trafi do statystyk swojego roku.') : b.status === 'porzucone' ? 'Bez zapisanych dat.' : 'Jeszcze nie zaczęte. Przełącz na „Czytam”, a zapiszę datę startu.'}</p>`}
       </section>
 
       <section class="section" data-quotes-hook></section>
