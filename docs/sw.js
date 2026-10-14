@@ -1,5 +1,5 @@
 // Offline cache. Bump VERSION (scripts/release.cjs does it) so phones replace their saved copy.
-const VERSION = 'zakladka-v4';
+const VERSION = 'zakladka-v5';
 // Fonts and book covers come from other hosts: they live in their own long-lived caches (not wiped on update).
 const FONT_CACHE = 'zakladka-fonts';
 const COVER_CACHE = 'zakladka-covers';

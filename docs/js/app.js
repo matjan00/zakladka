@@ -151,10 +151,23 @@ setInterval(() => {
 function showUpdate(reg) {
   banner.innerHTML = `<p>Aktualizacja dostępna</p><button class="btn" data-upd>Odśwież</button><button class="icon-btn" data-x aria-label="Później">${icon('close', 20)}</button>`;
   banner.hidden = false;
-  banner.querySelector('[data-upd]').onclick = () => {
-    banner.querySelector('[data-upd]').disabled = true;
-    if (reg.waiting) reg.waiting.postMessage('skipWaiting');
-    else location.reload();
+  banner.querySelector('[data-upd]').onclick = async () => {
+    const btn = banner.querySelector('[data-upd]');
+    btn.disabled = true;
+    btn.textContent = 'Odświeżam…';
+    // ask the newest waiting worker to take over (controllerchange then reloads the page)
+    const fresh = (await navigator.serviceWorker.getRegistration().catch(() => null)) || reg;
+    (fresh.waiting || reg.waiting)?.postMessage('skipWaiting');
+    // fallback: if nothing happened, drop the old worker + app-file caches and load fresh from the network
+    // (books live in IndexedDB, which this never touches)
+    setTimeout(async () => {
+      try {
+        await fresh.unregister();
+        const keys = await caches.keys();
+        await Promise.all(keys.filter((k) => /^zakladka-v\d+$/.test(k)).map((k) => caches.delete(k)));
+      } catch {}
+      location.reload();
+    }, 2500);
   };
   banner.querySelector('[data-x]').onclick = () => (banner.hidden = true);
 }
