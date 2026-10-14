@@ -109,7 +109,7 @@
 
 /* ---------- reset ---------- */
 *, *::before, *::after { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; height: 100%; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; height: 100%; overflow-x: clip; }
 body {
   margin: 0; min-height: 100%; overflow-x: clip;
   background: var(--wall); color: var(--ink);
@@ -177,7 +177,11 @@ h2 { font: 400 1.3125rem/1.2 var(--font-plate); letter-spacing: .01em; }
 }
 /* the brass rail along the foot of the panelling */
 .screen-head::after, #screen > .topbar:first-child::after, .screen-head + .seg::after, .home-head::after {
-  content: ''; position: absolute; left: -100vmax; right: -100vmax; bottom: 0; height: 3px; background: var(--rail); pointer-events: none;
+  content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 3px; background: var(--rail); pointer-events: none;
+}
+/* wide screens: the rail runs to the window edges (on phones that would widen the page and make Chrome zoom out) */
+@media (min-width: 600px) {
+  .screen-head::after, #screen > .topbar:first-child::after, .screen-head + .seg::after, .home-head::after { left: -100vmax; right: -100vmax; }
 }
 #screen > .topbar:first-child {
   margin-top: calc(-1 * (var(--safe-t) + var(--s4))); margin-bottom: var(--s4);
