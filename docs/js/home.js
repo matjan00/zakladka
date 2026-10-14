@@ -51,11 +51,7 @@ export function render(el, ctx) {
   const everFinished = store.where('reads', (r) => r.finished && !r.abandoned).length > 0;
   const pace = goal && everFinished ? goalPace(done, goal) : null;
   const left = Math.max(0, goal - done);
-  let dismissed = false;
-  try {
-    dismissed = !!localStorage.getItem('zakladka.installDismissed');
-  } catch {}
-  const showInstall = !isStandalone() && !dismissed;
+  const showInstall = !isStandalone();
 
   el.innerHTML = `
     <header class="home-head">
@@ -65,6 +61,8 @@ export function render(el, ctx) {
       </div>
       <button class="icon-btn" data-go="ustawienia" aria-label="Ustawienia">${icon('settings')}</button>
     </header>
+
+    ${showInstall ? `<button class="btn primary wide install-top" data-act="install">${icon('install')}Zainstaluj na telefonie</button>` : ''}
 
     ${books.length ? '' : `<section class="welcome">
       ${ui.empty({ title: 'Witaj w Zakładce', text: 'Tu zamieszka Twoja biblioteczka: co czytasz, co chcesz przeczytać i co już za Tobą. Zacznij od książki, którą masz teraz pod ręką.', action: 'Dodaj pierwszą książkę', actionAttr: 'data-act="add"' })}
@@ -112,13 +110,7 @@ export function render(el, ctx) {
       <button class="row" data-go="biblioteka">${icon('library')}<span class="grow">Biblioteka w Nekli</span>${icon('chev', 18, 'chev')}</button>
       <button class="row" data-go="goodreads">${icon('upload')}<span class="grow">Import z Goodreads</span>${icon('chev', 18, 'chev')}</button>
       <button class="row" data-go="ustawienia">${icon('settings')}<span class="grow">Ustawienia i kopia zapasowa</span>${icon('chev', 18, 'chev')}</button>
-    </nav>
-
-    ${showInstall ? `<aside class="install-card">
-      <div class="grow"><b>Zainstaluj Zakładkę</b><p class="t-sm">Będzie na ekranie telefonu i zadziała bez internetu.</p></div>
-      <button class="btn" data-act="install">Zainstaluj</button>
-      <button class="icon-btn" data-act="no-install" aria-label="Nie teraz">${icon('close', 20)}</button>
-    </aside>` : ''}`;
+    </nav>`;
 
   for (const s of el.querySelectorAll('[data-slot]')) fillSlot(s.dataset.slot, s, ctx);
 
@@ -130,12 +122,6 @@ export function render(el, ctx) {
     const a = t.dataset.act;
     if (a === 'add') openAdd({ status: 'czytam' });
     if (a === 'install') install();
-    if (a === 'no-install') {
-      try {
-        localStorage.setItem('zakladka.installDismissed', '1');
-      } catch {}
-      el.querySelector('.install-card')?.remove();
-    }
   };
   unsubInstall?.();
   unsubInstall = onInstallChange(() => ctx.refresh());

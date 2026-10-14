@@ -2,7 +2,8 @@
 // with the event it opens the real dialog, without it it shows step-by-step instructions.
 import { openSheet } from './ui.js';
 
-let evt = null;
+// The early listener in index.html stores the offer in window.__bip (it often fires before this module loads).
+let evt = window.__bip || null;
 const subs = new Set();
 const notify = () => subs.forEach((f) => f());
 export const isStandalone = () => matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
@@ -10,20 +11,19 @@ export const isIos = () => /iphone|ipad|ipod/i.test(navigator.userAgent);
 export const onInstallChange = (f) => (subs.add(f), () => subs.delete(f));
 export const canPrompt = () => !!evt;
 
-addEventListener('beforeinstallprompt', (e) => {
-  e.preventDefault();
-  evt = e;
+addEventListener('zk-bip', () => {
+  evt = window.__bip;
   notify();
 });
 addEventListener('appinstalled', () => {
-  evt = null;
+  evt = window.__bip = null;
   notify();
 });
 
 export async function install() {
   if (evt) {
     const e = evt;
-    evt = null;
+    evt = window.__bip = null;
     try {
       e.prompt();
       await e.userChoice;
