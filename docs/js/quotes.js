@@ -1,4 +1,4 @@
-// Cytaty: a commonplace book. List + search + filters, add/edit (by hand, OCR photo, Kindle clippings),
+// Cytaty: a commonplace book. List + search + filters, add/edit (by hand, OCR photo; Kindle import hidden at owner's request),
 // "cytat dnia" for the Start slot, and "share as image" (canvas card).
 // Exports: render (tab), renderQuoteOfDay (slot), renderBookQuotes (book detail hook), openQuoteEditor, shareQuote.
 import * as store from './store.js';
@@ -95,7 +95,7 @@ function listBody(list, total, bookId) {
   if (!total)
     return ui.empty({
       title: 'Twój zeszyt z cytatami jest pusty',
-      text: 'Przepisz zdanie, które Cię zatrzymało, sfotografuj stronę albo wczytaj zakreślenia z Kindle.',
+      text: 'Przepisz zdanie, które Cię zatrzymało, albo sfotografuj stronę.',
       action: 'Dodaj pierwszy cytat',
       actionAttr: 'data-act="add-first"',
     });
@@ -110,7 +110,6 @@ function openAddMenu({ bookId } = {}) {
      <div class="list q-menu">
        <button class="row" data-m="type">${icon('edit')}<span class="grow"><b>Wpisz lub wklej</b><br><span class="faint t-sm">Przepisz zdanie z książki</span></span>${icon('chev', 18, 'chev')}</button>
        <button class="row" data-m="ocr">${icon('camera')}<span class="grow"><b>Zdjęcie strony</b><br><span class="faint t-sm">Rozpoznam tekst, a Ty zaznaczysz fragment</span></span>${icon('chev', 18, 'chev')}</button>
-       <label class="row" role="button" tabindex="0">${icon('book')}<span class="grow"><b>Import z Kindle</b><br><span class="faint t-sm">Plik „My Clippings.txt” z czytnika</span></span>${icon('chev', 18, 'chev')}<input type="file" accept=".txt,text/plain" hidden data-kindle></label>
      </div>`,
     { label: 'Dodaj cytat' }
   );
@@ -118,15 +117,6 @@ function openAddMenu({ bookId } = {}) {
     const m = e.target.closest('[data-m]')?.dataset.m;
     if (m === 'type') (rec.close(), openQuoteEditor({ bookId }));
     if (m === 'ocr') (rec.close(), startOcr({ bookId }));
-  };
-  rec.body.querySelector('label.row').onkeydown = (e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), e.currentTarget.querySelector('input').click());
-  rec.body.querySelector('[data-kindle]').onchange = async (e) => {
-    const file = e.target.files?.[0];
-    e.target.value = '';
-    if (!file) return;
-    rec.close();
-    const m = await import('./kindle.js');
-    m.importClippingsFile(file);
   };
 }
 

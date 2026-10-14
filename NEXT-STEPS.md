@@ -1,6 +1,6 @@
 # Zakładka: what's left (needs you)
 
-Everything below needs your OK or your hands. Built and tested so far: shelf, adding books, reading timer, stats, quotes (typed, photo text recognition, Kindle import), Goodreads import, "Co dalej?", Nekla library screen, backup.
+Everything below needs your OK or your hands. Built and tested so far: shelf, adding books, reading timer, stats, quotes (typed, photo text recognition), Goodreads import, "Co dalej?", Nekla library screen, backup.
 
 ## 1. Look at it on your computer (optional, 1 min)
 Ask Claude: "show me Zakładka in the preview". Or look at the pictures in the `screenshots` folder.
@@ -18,11 +18,7 @@ Until then: searching uses Open Library only (fewer Polish books, but you can al
 Laptop: goodreads.com → My Books → (left menu) Import and export → Export Library → download `goodreads_library_export.csv`.
 Then in the app: Ustawienia → Import z Goodreads → choose the file. You'll see a preview before anything is saved.
 
-## 5. Kindle highlights (Legimi books)
-Connect the Kindle to the laptop with a USB cable → open the Kindle drive → `documents` → `My Clippings.txt`.
-Send that file to your phone (or open the app on the laptop), then: Cytaty → Import z Kindle.
-
-## 6. Things to test on the real phone (the computer preview can't)
+## 5. Things to test on the real phone (the computer preview can't)
 - Barcode scanning with the camera (add book → scan).
 - Photo of a page → text (first use downloads ~10 MB of Polish language data; after that it's quick).
 - "Install" on the home screen and opening it offline.

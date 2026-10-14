@@ -1,7 +1,7 @@
 // App configuration. PROXY_URL points to the Supabase edge function `books-proxy`
 // (https://txhcnqwrdazgaxjwabln.supabase.co/functions/v1/books-proxy) once it is deployed.
 // While it is empty the app skips Biblioteka Narodowa and the Nekla availability check gracefully.
-export const PROXY_URL = '';
+export const PROXY_URL = 'https://txhcnqwrdazgaxjwabln.supabase.co/functions/v1/books-proxy';
 
 // Nekla public library (SOWA OPAC).
 export const SOWA_BASE = 'https://www.nekla-bpmig.sowa.pl/index.php';

@@ -12,8 +12,8 @@ const COPY = {
   },
   cytaty: {
     title: 'Cytaty',
-    lead: 'Twój zeszyt z ulubionymi zdaniami — przepisane, sfotografowane ze strony albo zaimportowane z Kindle.',
-    items: ['zdjęcie strony i rozpoznawanie tekstu', 'import zakreśleń z pliku My Clippings.txt (Legimi na Kindle)', 'tagi, notatki i wyszukiwanie', 'cytat dnia na ekranie Start i ładne karty do udostępnienia'],
+    lead: 'Twój zeszyt z ulubionymi zdaniami — przepisane albo sfotografowane ze strony.',
+    items: ['zdjęcie strony i rozpoznawanie tekstu', 'tagi, notatki i wyszukiwanie', 'cytat dnia na ekranie Start i ładne karty do udostępnienia'],
   },
   statystyki: {
     title: 'Statystyki',

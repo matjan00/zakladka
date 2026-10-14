@@ -157,8 +157,11 @@ export async function search(q) {
   if (bn.status === 'rejected') errors.bn = String(bn.reason?.message || bn.reason);
   if (ol.status === 'rejected') errors.ol = String(ol.reason?.message || ol.reason);
   const results = merge(bn.value || [], ol.value || []);
-  // books with a Polish ISBN / from BN first; keep the original order otherwise
-  results.sort((a, b) => (b.source !== 'ol') - (a.source !== 'ol') || (b.isbn?.startsWith('97883') ? 1 : 0) - (a.isbn?.startsWith('97883') ? 1 : 0));
+  // title match first (exact > starts with > contains), then BN / Polish ISBN; keep the original order otherwise
+  const fold = (s) => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/ł/g, 'l').replace(/[^a-z0-9 ]+/g, ' ').replace(/\s+/g, ' ').trim();
+  const fq = fold(q);
+  const titleScore = (b) => { const t = fold(b.title); return t === fq ? 3 : t.startsWith(fq) ? 2 : (' ' + t + ' ').includes(' ' + fq + ' ') ? 1 : 0; };
+  results.sort((a, b) => titleScore(b) - titleScore(a) || (b.source !== 'ol') - (a.source !== 'ol') || (b.isbn?.startsWith('97883') ? 1 : 0) - (a.isbn?.startsWith('97883') ? 1 : 0));
   return { results: results.slice(0, 20), errors, bnSkipped: !PROXY_URL };
 }
 export const byIsbn = (isbn) => search(cleanIsbn(isbn) || isbn);
