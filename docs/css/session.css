@@ -5,26 +5,18 @@
 .ss-cover:disabled { cursor: default; }
 .ss-meta { flex: 1; min-width: 0; display: grid; gap: 2px; justify-items: start; }
 .ss-title { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-.ss-author { font-family: var(--font-read); font-style: italic; }
+.ss-author { font-style: italic; }
 .ss-prog { width: 100%; display: grid; gap: 6px; margin-top: 8px; }
 .ss-change { min-height: 44px; font-size: .875rem; margin-top: -4px; }
 
-.ss-timer {
-  margin: var(--s5) 0 var(--s4); padding: var(--s6) var(--s4) var(--s5);
-  text-align: center; background: var(--leaf); border: 1px solid var(--rule); border-radius: var(--r-card);
-  position: relative;
-}
-.ss-timer::before, .ss-timer::after { /* gilt rules, like the head of a printed page */
-  content: ''; position: absolute; left: var(--s5); right: var(--s5); height: 1px; background: var(--gilt); opacity: .5;
-}
-.ss-timer::before { top: 10px; }
-.ss-timer::after { bottom: 10px; }
-.ss-state { margin-bottom: var(--s2); }
+/* the timer lies on the green leather desk under the lamp */
+.ss-timer { margin: var(--s5) 6px var(--s5); padding: var(--s6) var(--s4) var(--s5); text-align: center; }
+.ss-state { margin-bottom: var(--s2); color: var(--on-desk-2); }
 .ss-timer.live .ss-state { color: var(--ok); }
 .ss-timer.paused .ss-state { color: var(--warn); }
 .ss-clock {
-  display: block; font: 500 clamp(3.5rem, 19vw, 5.25rem)/1 var(--font-read); font-variation-settings: 'opsz' 72;
-  letter-spacing: -0.03em; margin: var(--s2) 0;
+  display: block; font: 400 clamp(3.5rem, 19vw, 5.25rem)/1 var(--font-plate); color: var(--on-desk);
+  letter-spacing: 0; margin: var(--s2) 0; text-shadow: 0 0 24px color-mix(in srgb, var(--glow) 25%, transparent);
 }
 .ss-timer.paused .ss-clock { opacity: .55; }
 .ss-sub { min-height: 1.4em; }

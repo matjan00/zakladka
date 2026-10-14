@@ -1,6 +1,6 @@
 // One stroke icon set (24px grid, 1.75 stroke, round caps). icon('name', size?)
 const P = {
-  home: '<path d="M4 10.5 12 4l8 6.5V19a1 1 0 0 1-1 1h-4.5v-5.5h-5V20H5a1 1 0 0 1-1-1z"/>',
+  home: '<path d="M3.5 12.5c0-4 3.8-6.2 8.5-6.2s8.5 2.2 8.5 6.2z"/><path d="M12 6.3V3.5M12 12.5V19M7.5 20.5h9M16.5 12.5v2.5"/>', // the banker's lamp
   shelf: '<path d="M4 4.5h3.2v14H4zM8.8 6.5H12v12H8.8zM13.4 5.2l3-.8 3.4 13.3-3 .8z"/><path d="M3 20.5h18"/>',
   timer: '<circle cx="12" cy="13.5" r="7"/><path d="M12 13.5V10M9.5 3h5M18.5 7l1.2-1.2"/>',
   quote: '<path d="M5 18.5c0-5 1.2-9.3 6-11.5M14 18.5c0-5 1.2-9.3 6-11.5"/><path d="M5 18.5h4.6v-4.6H5zM14 18.5h4.6v-4.6H14z"/>',

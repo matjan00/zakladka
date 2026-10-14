@@ -13,6 +13,7 @@ const greet = () => {
   return h < 5 ? 'Dobranoc' : h < 18 ? 'Dzień dobry' : 'Dobry wieczór';
 };
 const dayFmt = new Intl.DateTimeFormat('pl-PL', { weekday: 'long', day: 'numeric', month: 'long' });
+const cap = (s) => s.charAt(0).toLocaleUpperCase('pl-PL') + s.slice(1);
 
 /** Finished reads (not abandoned) in a given year. */
 export function finishedIn(year) {
@@ -31,15 +32,6 @@ export function goalPace(done, goal, now = new Date()) {
   return { text: 'Idziesz równo z planem', tone: 'ok' };
 }
 
-function ring(done, goal) {
-  const r = 42, c = 2 * Math.PI * r;
-  const p = goal ? Math.min(1, done / goal) : 0;
-  return `<svg class="ring" viewBox="0 0 100 100" aria-hidden="true">
-    <circle cx="50" cy="50" r="${r}" fill="none" stroke="var(--rule)" stroke-width="6"/>
-    ${p ? `<circle cx="50" cy="50" r="${r}" fill="none" stroke="var(--ribbon)" stroke-width="6" stroke-linecap="round" stroke-dasharray="${(c * p).toFixed(1)} ${c.toFixed(1)}" transform="rotate(-90 50 50)"/>` : ''}
-  </svg>`;
-}
-
 let unsubInstall = null;
 export function render(el, ctx) {
   const books = store.books();
@@ -54,16 +46,14 @@ export function render(el, ctx) {
   const showInstall = !isStandalone();
 
   el.innerHTML = `
-    <header class="home-head${showInstall ? ' with-install' : ''}">
-      <div class="hh-row">
-        <div class="grow">
-          <h1 class="t-display">${greet()}</h1>
-          <p class="hh-date">${esc(dayFmt.format(new Date()))}</p>
-        </div>
-        <button class="icon-btn" data-go="ustawienia" aria-label="Ustawienia">${icon('settings')}</button>
-      </div>
-      ${showInstall ? `<button class="install-top" data-act="install">${icon('install', 20)}<span class="grow">Zainstaluj na telefonie</span>${icon('chev', 18)}</button>` : ''}
+    <header class="home-head">
+      ${ui.LAMP}
+      <button class="icon-btn hh-set" data-go="ustawienia" aria-label="Ustawienia">${icon('settings')}</button>
+      <span class="plate">Czytelnia</span>
+      <h1 class="t-display">${greet()}</h1>
+      <p class="hh-date">${esc(cap(dayFmt.format(new Date())))}</p>
     </header>
+    ${showInstall ? `<button class="install-top" data-act="install">${icon('install', 20)}<span class="grow">Zainstaluj na telefonie</span>${icon('chev', 18)}</button>` : ''}
 
     ${books.length ? '' : `<section class="welcome">
       ${ui.empty({ title: 'Witaj w Zakładce', text: 'Tu zamieszka Twoja biblioteczka: co czytasz, co chcesz przeczytać i co już za Tobą. Zacznij od książki, którą masz teraz pod ręką.', action: 'Dodaj pierwszą książkę', actionAttr: 'data-act="add"' })}
@@ -72,8 +62,8 @@ export function render(el, ctx) {
     ${sessionCard()}
 
     ${reading.length ? `<section class="now">
-      <div class="section-head"><h2>Czytam teraz</h2>${reading.length > 1 ? `<span class="faint t-sm num">${plN(reading.length, 'książka', 'książki', 'książek')}</span>` : ''}</div>
-      <div class="now-list ${reading.length > 1 ? 'many' : ''}">${reading.map(nowCard).join('')}</div>
+      ${reading.length > 1 ? `<div class="section-head"><h2>Czytam teraz</h2><span class="faint t-sm num">${plN(reading.length, 'książka', 'książki', 'książek')}</span></div>` : ''}
+      <div class="now-list ${reading.length > 1 ? 'many' : ''}">${reading.map((b) => nowCard(b, reading.length === 1)).join('')}</div>
     </section>` : books.length ? `<section class="now">
       <div class="section-head"><h2>Czytam teraz</h2></div>
       <div class="panel now-empty"><p class="t-read">Nic nie jest teraz otwarte. Weź coś z listy „Chcę przeczytać” albo dodaj nową książkę.</p>
@@ -81,10 +71,10 @@ export function render(el, ctx) {
     </section>` : ''}
 
     ${goal ? `<section class="section goal">
-      <div class="goal-ring">${ring(done, goal)}<div class="goal-num"><b class="num">${done}</b><span class="num">z ${goal}</span></div></div>
+      <div class="section-head"><h2>Cel na ${year}</h2></div>
+      ${ui.tokens(done, goal)}
       <div class="goal-text">
-        <h2>Cel na ${year}</h2>
-        <p class="muted">${done ? plN(done, 'książka przeczytana', 'książki przeczytane', 'książek przeczytanych') : 'Jeszcze nic w tym roku — pierwsza będzie najprzyjemniejsza.'}</p>
+        <p class="muted">${done ? `<b class="num">${done} z ${goal}.</b> ${done >= goal ? 'Wszystkie numerki wypolerowane.' : 'Jedna książka, jeden mosiężny numerek.'}` : 'Jeszcze nic w tym roku — pierwsza będzie najprzyjemniejsza.'}</p>
         ${pace ? `<p class="pace ${pace.tone}">${esc(pace.text)}</p>` : ''}
         ${left && done ? `<p class="faint t-sm">Do celu brakuje ${plN(left, 'książki', 'książek', 'książek')}.</p>` : ''}
       </div>
@@ -129,19 +119,25 @@ export function render(el, ctx) {
   return () => (unsubInstall?.(), (unsubInstall = null));
 }
 
-function nowCard(b) {
+/** The book in hand, lying on the green leather desk under the lamp. */
+function nowCard(b, titled) {
   const p = store.progressOf(b);
   const left = b.pages ? Math.max(0, b.pages - (b.currentPage || 0)) : null;
-  return `<article class="now-card">
-    <button class="nc-cover" data-book="${esc(b.id)}" aria-label="Otwórz ${esc(b.title)}">${ui.coverHTML(b, 'l', { ribbon: true })}</button>
-    <div class="nc-body">
-      <button class="nc-title t-title" data-book="${esc(b.id)}" aria-label="${esc(b.title)}">${esc(shortTitle(b.title))}</button>
-      <p class="muted nc-author">${esc(b.author || '')}</p>
-      ${b.pages ? `<div class="nc-progress">${ui.thread(p)}<p class="t-sm num"><b>${Math.round(p * 100)}%</b><span class="faint"> · strona&nbsp;${b.currentPage || 0}&nbsp;z&nbsp;${b.pages}</span></p>${left ? `<p class="faint t-sm">zostało ${plN(left, 'strona', 'strony', 'stron')}</p>` : ''}</div>` : `<p class="faint t-sm">strona ${b.currentPage || 0}</p>`}
-      <div class="btn-row">
-        <button class="btn" data-page="${esc(b.id)}">Zapisz stronę</button>
-        <button class="btn primary" data-go="sesja?book=${esc(b.id)}">${icon('timer')}Sesja</button>
+  const { cls, no } = ui.callNo(b);
+  return `<article class="now-card desk">
+    ${titled ? '<h2>Czytam teraz</h2>' : ''}
+    <div class="nc-book">
+      <button class="nc-cover" data-book="${esc(b.id)}" aria-label="Otwórz ${esc(b.title)}">${ui.coverHTML(b, 'm', { ribbon: true })}</button>
+      <div class="nc-body">
+        <button class="nc-title t-title" data-book="${esc(b.id)}" aria-label="${esc(b.title)}">${esc(shortTitle(b.title))}</button>
+        <p class="nc-author">${esc(b.author || '')}</p>
+        <span class="sig">Sygn. ${esc(cls)} ${esc(no)}</span>
+        ${b.pages ? `<div class="nc-progress">${ui.thread(p)}<p class="t-sm num"><b>${Math.round(p * 100)}%</b><span class="faint"> · strona&nbsp;${b.currentPage || 0}&nbsp;z&nbsp;${b.pages}</span></p>${left ? `<p class="faint t-sm">zostało ${plN(left, 'strona', 'strony', 'stron')}</p>` : ''}</div>` : `<p class="faint t-sm">strona ${b.currentPage || 0}</p>`}
       </div>
+    </div>
+    <div class="nc-btns">
+      <button class="btn" data-page="${esc(b.id)}">Zapisz stronę</button>
+      <button class="btn primary" data-go="sesja?book=${esc(b.id)}">${icon('timer')}Sesja</button>
     </div>
   </article>`;
 }

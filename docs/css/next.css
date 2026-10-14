@@ -28,7 +28,7 @@
 .nx-cover .cover { --cw: 116px; }
 .nx-body { flex: 1; min-width: 0; display: grid; gap: 6px; align-content: start; }
 .nx-title { display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; font-size: 1.3125rem; }
-.nx-author { font-family: var(--font-read); font-style: italic; color: var(--ink-2); }
+.nx-author { font-family: var(--font-text); font-style: italic; color: var(--ink-2); }
 .nx-reasons { list-style: none; margin: var(--s2) 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 2px 0; color: var(--ink-2); font-size: .875rem; line-height: 1.5; }
 .nx-reasons li:not(:last-child)::after { content: '\00b7'; margin: 0 .5em; color: var(--ink-3); }
 .nx-reasons.small { font-size: .8125rem; }
@@ -50,16 +50,16 @@
 .nx-none .t-read { color: var(--ink); }
 
 /* suggestions: dashed, so they never pass for books on the shelf */
-.sg-note { color: var(--ink-2); font-family: var(--font-read); line-height: 1.55; margin-bottom: var(--s4); max-width: 46ch; }
+.sg-note { color: var(--ink-2); font-family: var(--font-text); line-height: 1.55; margin-bottom: var(--s4); max-width: 46ch; }
 .sg-list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s3); }
 .sg-row {
   display: grid; grid-template-columns: auto 1fr; gap: var(--s3) var(--s3); align-items: start;
   padding: var(--s3); border: 1px dashed var(--rule-strong); border-radius: var(--r-card);
 }
 .sg-body { min-width: 0; display: grid; gap: 3px; justify-items: start; }
-.sg-tag { font: 700 .625rem/1 var(--font-ui); text-transform: uppercase; letter-spacing: .1em; color: var(--stamp); border: 1px solid currentColor; border-radius: 3px; padding: 3px 5px 2px; }
+.sg-tag { font: 400 .6875rem/1 var(--font-plate); text-transform: uppercase; letter-spacing: .14em; color: var(--link); border: 1px solid currentColor; border-radius: 3px; padding: 3px 5px 2px; }
 .sg-title { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-.sg-author { font-family: var(--font-read); font-style: italic; color: var(--ink-2); font-size: .875rem; }
+.sg-author { font-family: var(--font-text); font-style: italic; color: var(--ink-2); font-size: .875rem; }
 .sg-add { grid-column: 1 / -1; }
 
 /* Start-screen slot */

@@ -35,11 +35,11 @@ function png(size, pixel) {
   return Buffer.concat([Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]), chunk('IHDR', ihdr), chunk('IDAT', zlib.deflateSync(raw, { level: 9 })), chunk('IEND', Buffer.alloc(0))]);
 }
 
-// Design: near-black rounded square, a coral progress ring (3/4 arc, round caps) with a dot in the middle.
-
-// Design: deep bookcloth-green square, two thin gilt bands (like a cloth spine), and a vermilion silk ribbon
-// bookmark hanging from the top edge with a forked (V-notch) end.
-const CLOTH = [31, 74, 64], GILT = [201, 165, 90], RIBBON = [194, 62, 40], SHADE = [22, 54, 47];
+// Design (Czytelnia): a mahogany panel, a green-glass banker's lamp with a brass rim and stem,
+// its warm light falling onto a green leather desk edged in brass.
+const MAH = [74, 35, 23], MAH_D = [46, 20, 12], BRASS = [169, 133, 63], BRASS_HI = [222, 192, 122], GLOW = [244, 213, 138];
+const DESK = [35, 64, 46];
+const mix = (a, b, t) => a.map((v, i) => v + (b[i] - v) * t);
 function make(size, { maskable, rounded }) {
   const SS = 4;
   return png(size, (px, py) => {
@@ -51,23 +51,40 @@ function make(size, { maskable, rounded }) {
         const rad = 0.2, ax = Math.abs(cx) - (0.5 - rad), ay = Math.abs(cy) - (0.5 - rad);
         const inside = !rounded || (ax <= 0 || ay <= 0 ? true : Math.hypot(ax, ay) <= rad);
         if (!inside) continue;
-        let col = CLOTH;
         // content box: maskable keeps everything inside the 80% safe circle
-        const k = maskable ? 0.62 : 0.8, ox = (1 - k) / 2;
-        const u = (x - ox) / k, v = (y - ox) / k; // 0..1 inside content box
-        // gilt bands (horizontal), across the whole width like a spine
-        const band = (c, h) => Math.abs(y - (ox + c * k)) <= h * k;
-        if (band(0.16, 0.012) || band(0.205, 0.006)) col = GILT;
-        if (band(0.84, 0.012) || band(0.795, 0.006)) col = GILT;
-        // ribbon: from the very top edge down to v=0.78, between u 0.52..0.70, V-notch at the end
-        const left = 0.53, right = 0.71, mid = (left + right) / 2, end = 0.76, notch = 0.085;
-        if (u >= left && u <= right && y >= 0 && v <= end + notch) {
-          const depth = end + notch - (Math.abs(u - mid) / ((right - left) / 2)) * notch; // V cut: centre is shortest
-          const vEdge = end + (Math.abs(u - mid) / ((right - left) / 2)) * notch;
-          if (v <= vEdge) col = u < left + 0.022 ? [168, 52, 34] : RIBBON;
+        const k = maskable ? 0.66 : 0.86, ox = (1 - k) / 2;
+        const u = (x - ox) / k, v = (y - ox) / k;
+        // wall: mahogany with a soft vertical shading and fine grain
+        let col = mix(MAH, MAH_D, Math.min(1, Math.abs(cx) * 1.6));
+        if (Math.sin(y * 210 + Math.sin(x * 9) * 2) > 0.92) col = mix(col, MAH_D, 0.35);
+        // desk: green leather across the bottom, brass edge on top of it
+        const deskTop = ox + 0.8 * k;
+        if (y >= deskTop + 0.018 * k) col = mix(DESK, [17, 36, 26], (y - deskTop) * 3);
+        else if (y >= deskTop) col = BRASS;
+        // light cone from the shade down to the desk
+        const rimV = 0.44, half = 0.4 + (v - rimV) * 0.5;
+        if (v > rimV && Math.abs(u - 0.5) < half && y < deskTop + 0.2 * k) {
+          const t = Math.max(0, 1 - (v - rimV) / 0.6) * (1 - Math.abs(u - 0.5) / half);
+          col = mix(col, GLOW, 0.42 * t + (y >= deskTop ? 0.12 * (1 - Math.abs(u - 0.5) * 2) : 0));
         }
-        // soft shadow to the right of the ribbon
-        if (col === CLOTH && u > 0.71 && u < 0.745 && v < 0.8) col = SHADE;
+        // brass column and foot standing on the desk
+        if (Math.abs(u - 0.5) < 0.026 && v > rimV && v < 0.8) col = mix(BRASS_HI, BRASS, Math.abs(u - 0.5) / 0.026);
+        const fx = (u - 0.5) / 0.2, fy = (v - 0.8) / 0.045;
+        if (fx * fx + fy * fy <= 1 && v <= 0.82) col = fy < -0.3 ? BRASS_HI : BRASS;
+        // green glass shade: a long, low half-cylinder seen from the front
+        const ex = (u - 0.5) / 0.44, ey = (v - rimV) / 0.24;
+        if (v <= rimV && ex * ex + ey * ey <= 1) {
+          const t = (v - (rimV - 0.24)) / 0.24; // 0 top .. 1 rim
+          col = t < 0.5 ? mix([77, 178, 126], [30, 106, 68], t * 2) : mix([30, 106, 68], [12, 58, 35], (t - 0.5) * 2);
+          const hx = (u - 0.38) / 0.22, hy = (v - (rimV - 0.15)) / 0.035;
+          const h = 1 - (hx * hx + hy * hy);
+          if (h > 0) col = mix(col, [200, 244, 218], 0.5 * Math.min(1, h * 2));
+        }
+        // brass rim
+        if (Math.abs(u - 0.5) <= 0.46 && v > rimV - 0.012 && v < rimV + 0.03) col = v < rimV + 0.008 ? BRASS_HI : BRASS;
+        // pull chain
+        if (Math.abs(u - 0.74) < 0.006 && v > rimV + 0.03 && v < rimV + 0.15 && Math.floor(v * 140) % 2 === 0) col = BRASS_HI;
+        if (Math.hypot(u - 0.74, v - (rimV + 0.16)) < 0.014) col = BRASS;
         rr += col[0]; gg += col[1]; bb += col[2]; aa += 255;
       }
     const n = SS * SS;
@@ -80,4 +97,11 @@ fs.writeFileSync(path.join(out, 'icon-192.png'), make(192, { rounded: true }));
 fs.writeFileSync(path.join(out, 'icon-512.png'), make(512, { rounded: true }));
 fs.writeFileSync(path.join(out, 'icon-maskable-512.png'), make(512, { maskable: true, rounded: false }));
 fs.writeFileSync(path.join(out, 'apple-touch-icon.png'), make(180, { rounded: false }));
+// favicon.ico: one 32×32 PNG wrapped in an ICO header
+const fav = make(32, { rounded: true });
+const head = Buffer.alloc(22);
+head.writeUInt16LE(0, 0); head.writeUInt16LE(1, 2); head.writeUInt16LE(1, 4);
+head[6] = 32; head[7] = 32; head[8] = 0; head[9] = 0; head.writeUInt16LE(1, 10); head.writeUInt16LE(32, 12);
+head.writeUInt32LE(fav.length, 14); head.writeUInt32LE(22, 18);
+fs.writeFileSync(path.join(out, '..', 'favicon.ico'), Buffer.concat([head, fav]));
 console.log('icons written');

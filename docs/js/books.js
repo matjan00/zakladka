@@ -126,11 +126,12 @@ function emptyShelf(shelf, total, filtered) {
 }
 
 function spinesHTML(list, el) {
-  const width = Math.max(260, (el.clientWidth || 360) - 36 - 16);
+  // the case: gutters (36) − case margin (12) + side posts (18) + row padding (12)
+  const width = Math.max(240, (el.clientWidth || 360) - 54);
   const rows = [];
   let row = [], used = 0;
   for (const b of list) {
-    const w = Math.round(Math.max(26, Math.min(58, 20 + (Number(b.pages) || 300) / 18))) + 3;
+    const w = ui.spineWidth(b) + 2;
     if (used + w > width && row.length) {
       rows.push(row);
       row = [];
@@ -140,8 +141,13 @@ function spinesHTML(list, el) {
     used += w;
   }
   if (row.length) rows.push(row);
+  // each board carries a brass label holder with the shelf marks of its first and last book, as in a library stack
+  const holder = (r) => {
+    const a = ui.callNo(r[0]).cls, z = ui.callNo(r.at(-1)).cls;
+    return a === z ? a : `${a} – ${z}`;
+  };
   return `<div class="bookcase">${rows
-    .map((r) => `<div class="shelf-row"><div class="spines">${r.map((b) => ui.spineHTML(b, { current: b.status === 'czytam' })).join('')}</div><div class="ledge" aria-hidden="true"></div></div>`)
+    .map((r) => `<div class="shelf-row"><div class="spines">${r.map((b) => ui.spineHTML(b, { current: b.status === 'czytam' })).join('')}</div><div class="ledge" aria-hidden="true"><span class="holder">${esc(holder(r))}</span></div></div>`)
     .join('')}</div>`;
 }
 
@@ -453,6 +459,7 @@ export function renderDetail(el, ctx) {
         <div class="hero-cover">${ui.coverHTML(b, 'l', { ribbon: b.status === 'czytam' })}${b.status === 'przeczytane' ? `<div class="hero-stamp${stampFresh ? ' fresh' : ''}">${ui.exlibris(lastDone?.finished?.slice(0, 4) || '', 82)}</div>` : ''}</div>
         ${(({ main, sub }) => `<h1 class="t-display book-title">${esc(main)}${sub ? `<span class="book-sub">${esc(sub)}</span>` : ''}</h1>`)(splitTitle(b.title))}
         <p class="book-author">${esc(b.author || 'Autor nieznany')}</p>
+        <span class="sig hero-sig">Sygn. ${esc(ui.callNo(b).cls)} ${esc(ui.callNo(b).no)}</span>
         ${libBadge(b)}
         <div class="stars-wrap rate">${ui.starsInput(b.rating)}<span class="faint t-sm num rate-label">${b.rating ? String(b.rating).replace('.', ',') : 'Oceń'}</span></div>
       </header>
@@ -460,7 +467,7 @@ export function renderDetail(el, ctx) {
       <div class="seg status-seg" role="tablist" aria-label="Półka">${STATUSES.map(([k, l]) => `<button data-status="${k}" class="${b.status === k ? 'on' : ''}" role="tab" aria-selected="${b.status === k}">${l}</button>`).join('')}</div>
 
       ${b.status === 'czytam' ? `
-      <section class="progress-card">
+      <section class="progress-card desk">
         <div class="pc-top">
           <div><span class="t-label">Postęp</span>
             <p class="pc-num num">${b.pages ? `<b>${b.currentPage || 0}</b> / ${b.pages} <span class="faint">${pl(b.pages, 'strona', 'strony', 'stron')}</span>` : `<span class="faint">strona</span> <b>${b.currentPage || 0}</b>`}</p></div>
@@ -482,6 +489,7 @@ export function renderDetail(el, ctx) {
       <section class="section">
         <div class="section-head"><h2>Karta katalogowa</h2><button class="link-btn" data-act="edit">Edytuj</button></div>
         <dl class="card-fields">
+          <dt class="t-label">Sygnatura</dt><dd>${esc(ui.callNo(b).cls)} ${esc(ui.callNo(b).no)}</dd>
           <dt class="t-label">Autor</dt><dd>${esc(b.author || '—')}</dd>
           <dt class="t-label">Strony</dt><dd>${b.pages || '—'}</dd>
           <dt class="t-label">Rok wydania</dt><dd>${b.year || '—'}</dd>

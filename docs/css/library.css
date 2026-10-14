@@ -2,7 +2,7 @@
 
 .lib-intro { color: var(--ink-2); margin-bottom: var(--s5); }
 .lib-note { margin-bottom: var(--s5); display: grid; gap: 6px; }
-.lib-note p { font-family: var(--font-read); line-height: 1.55; }
+.lib-note p { font-family: var(--font-text); line-height: 1.55; }
 
 /* the card: leaf paper, ruled rows, a quiet margin line like an index card */
 .lib-card {
@@ -26,13 +26,13 @@
 .lc-row:last-child { border-bottom: 0; }
 .lc-main { min-width: 0; }
 .lc-title { display: block; text-align: left; min-height: 24px; max-width: 100%; }
-.lc-author { font-family: var(--font-read); font-style: italic; color: var(--ink-2); font-size: .875rem; }
-.lc-shelf { font: 600 .6875rem/1 var(--font-ui); font-style: normal; text-transform: uppercase; letter-spacing: .09em; color: var(--ink-3); margin-left: 6px; }
+.lc-author { font-family: var(--font-text); font-style: italic; color: var(--ink-2); font-size: .875rem; }
+.lc-shelf { font: 400 .6875rem/1 var(--font-plate); font-style: normal; text-transform: uppercase; letter-spacing: .12em; color: var(--ink-3); margin-left: 6px; }
 
 /* availability as a rubber stamp */
 .lc-stamp {
   align-self: start; padding: 5px 9px 4px; border: 2px solid currentColor; border-radius: 4px;
-  font: 700 .6875rem/1.15 var(--font-ui); text-transform: uppercase; letter-spacing: .1em; text-align: center; max-width: 130px;
+  font: 400 .6875rem/1.15 var(--font-plate); text-transform: uppercase; letter-spacing: .12em; text-align: center; max-width: 130px;
   transform: rotate(-2.5deg); opacity: .92; mix-blend-mode: multiply;
 }
 :root[data-theme='dark'] .lc-stamp { mix-blend-mode: normal; }
@@ -44,23 +44,23 @@
 @keyframes lc-pulse { from { opacity: .45; } to { opacity: 1; } }
 
 .lc-meta { grid-column: 1 / -1; display: flex; align-items: center; justify-content: space-between; gap: var(--s3); flex-wrap: wrap; }
-.lc-date { font-size: .8125rem; color: var(--stamp); }
+.lc-date { font-size: .875rem; color: var(--link); }
 .lc-links { display: inline-flex; align-items: center; gap: var(--s3); flex-wrap: wrap; }
 .lc-link, .lc-btn {
-  display: inline-flex; align-items: center; gap: 5px; min-height: 44px; font: 600 .8125rem/1 var(--font-ui); color: var(--stamp);
+  display: inline-flex; align-items: center; gap: 5px; min-height: 44px; font: 700 .875rem/1 var(--font-text); color: var(--link);
 }
 .lc-link svg, .lc-btn svg { width: 15px; height: 15px; }
 .lc-btn:disabled { opacity: .4; pointer-events: none; }
 
 .lib-extra { display: grid; gap: var(--s4); }
 .lib-box { display: grid; gap: var(--s3); justify-items: start; }
-.lib-box p { font-family: var(--font-read); line-height: 1.55; }
+.lib-box p { font-family: var(--font-text); line-height: 1.55; }
 .lib-box .card-fields { width: 100%; }
 
 /* availability badge on the book detail */
 .lib-badge {
   position: relative; display: inline-flex; align-items: center; gap: 6px; min-height: 34px; padding: 0 12px; margin-top: var(--s3);
-  border-radius: 999px; border: 1px solid currentColor; font: 600 .8125rem/1 var(--font-ui);
+  border-radius: 3px; border: 1px solid currentColor; font: 700 .875rem/1 var(--font-text);
 }
 .lib-badge::after { content: ''; position: absolute; inset: -5px 0; }
 .lib-badge.st-ok { color: var(--ok); }

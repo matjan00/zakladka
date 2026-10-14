@@ -107,13 +107,6 @@ function heatmap(y, perDay) {
   };
 }
 
-function goalRing(done, goal) {
-  const r = 42, c = 2 * Math.PI * r;
-  const p = goal ? Math.min(1, done / goal) : 0;
-  return `<svg class="st-ring" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="${r}" fill="none" stroke="var(--rule)" stroke-width="6"/>
-    ${p ? `<circle cx="50" cy="50" r="${r}" fill="none" stroke="var(--ribbon)" stroke-width="6" stroke-linecap="round" stroke-dasharray="${(c * p).toFixed(1)} ${c.toFixed(1)}" transform="rotate(-90 50 50)"/>` : ''}</svg>`;
-}
-
 const hbars = (rows, unit) => {
   const max = Math.max(1, ...rows.map((r) => r[1]));
   return `<ul class="st-hbars">${rows.map(([name, n]) => `<li><span class="st-hname ellipsis">${esc(name)}</span><span class="st-htrack" aria-hidden="true"><i style="width:${(n / max) * 100}%"></i></span><span class="st-hn num">${n}<span class="sr-only"> ${unit(n)}</span></span></li>`).join('')}</ul>`;
@@ -191,8 +184,9 @@ export function render(el, ctx) {
     ${undatedNote()}
 
     ${goal ? `<section class="section st-goal">
-      <div class="st-goal-ring">${goalRing(done, goal)}<div class="st-goal-num"><b class="num">${done}</b><span class="num">z ${goal}</span></div></div>
-      <div class="st-goal-text"><h2>Cel na ${y}</h2><p class="pace ${tone}">${esc(goalText)}</p></div>
+      <div class="section-head"><h2>Cel na ${y}</h2><span class="faint t-sm num">${done} z ${goal}</span></div>
+      ${ui.tokens(done, goal, { small: true })}
+      <p class="pace ${tone} st-goal-text">${esc(goalText)}</p>
     </section>` : ''}
 
     ${done ? '' : `<p class="st-note t-read muted">${y === thisYear ? 'W tym roku nie skończyłeś jeszcze żadnej książki — ale to dopiero początek. Pierwsza przeczytana pojawi się tu z pieczątką.' : `W roku ${y} nie zapisałem żadnej przeczytanej książki.`}</p>`}

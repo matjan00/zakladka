@@ -112,7 +112,7 @@ export function openOcr({ onUse }) {
     const lab = box.querySelector('[data-label]');
     if (!lab) return progress(label, p);
     lab.textContent = label;
-    box.querySelector('.thread i').style.setProperty('--k', String(p || 0));
+    box.querySelector('.thread').style.setProperty('--k', String(p || 0));
     box.querySelector('[data-pct]').textContent = status === 'recognizing text' ? `${Math.round((p || 0) * 100)}%` : '';
   };
 

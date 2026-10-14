@@ -153,7 +153,7 @@ export function render(el, ctx) {
       </div>
     </section>
 
-    <section class="ss-timer ${run ? (paused ? 'paused' : 'live') : ''}" aria-label="Timer">
+    <section class="ss-timer desk ${run ? (paused ? 'paused' : 'live') : ''}" aria-label="Timer">
       <p class="t-label ss-state">${run ? (paused ? 'Przerwa' : 'Czytasz') : 'Gotowy'}</p>
       <output class="ss-clock num" id="clock" role="timer" aria-live="off">${clockText(run ? activeMs(run) : 0)}</output>
       <p class="faint t-sm ss-sub">${run ? `od ${timeOf(run.start)} · od strony ${run.fromPage}` : reading ? 'Wciśnij start, kiedy otworzysz książkę.' : 'Ta książka nie jest teraz na półce „Czytam”.'}</p>

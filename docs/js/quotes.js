@@ -238,8 +238,8 @@ export function renderBookQuotes(el, bookId, ctx) {
 }
 
 // ---------- share as image ----------
-const FONT_READ = "'Literata', Georgia, serif";
-const FONT_UI = "'Bricolage Grotesque', system-ui, sans-serif";
+const FONT_READ = "'Alegreya', Georgia, serif";
+const FONT_UI = "'Marcellus', Georgia, serif";
 
 function wrap(g, text, maxW) {
   const out = [];
@@ -259,43 +259,57 @@ function wrap(g, text, maxW) {
 export async function quoteCanvas(q) {
   const b = q.bookId ? store.book(q.bookId) : null;
   try {
-    await Promise.all([document.fonts.load(`italic 400 48px Literata`), document.fonts.load(`600 36px Literata`), document.fonts.load(`600 26px 'Bricolage Grotesque'`)]);
+    await Promise.all([document.fonts.load(`italic 400 48px Alegreya`), document.fonts.load(`700 36px Alegreya`), document.fonts.load(`400 26px Marcellus`)]);
   } catch {}
   const W = 1080, H = 1350, M = 96;
   const c = document.createElement('canvas');
   c.width = W;
   c.height = H;
   const g = c.getContext('2d');
-  // paper
-  g.fillStyle = '#F3EEE4';
+  // the reading-room wall
+  g.fillStyle = '#E8E2D4';
   g.fillRect(0, 0, W, H);
-  // cloth band on top with gilt rules, like the Start header
-  g.fillStyle = '#1F4A40';
+  // mahogany panel with a brass rail, like the Start screen
+  g.fillStyle = '#4A2317';
   g.fillRect(0, 0, W, 150);
-  g.fillStyle = '#A9843A';
-  g.globalAlpha = 0.7;
-  g.fillRect(0, 128, W, 2);
-  g.fillRect(0, 136, W, 2);
+  g.globalAlpha = 0.09;
+  g.fillStyle = '#000';
+  for (let y = 3; y < 150; y += 5 + ((y * 7) % 9)) g.fillRect(0, y, W, 1 + (y % 3 === 0));
   g.globalAlpha = 1;
-  g.fillStyle = '#EFE6D2';
-  g.font = `600 30px ${FONT_UI}`;
+  const rail = g.createLinearGradient(0, 146, 0, 154);
+  rail.addColorStop(0, '#DEC07A');
+  rail.addColorStop(0.6, '#A9853F');
+  rail.addColorStop(1, '#7A5D26');
+  g.fillStyle = rail;
+  g.fillRect(0, 146, W, 8);
+  // brass name plate
+  g.font = `400 28px ${FONT_UI}`;
+  g.letterSpacing = '7px';
+  const pw = g.measureText('ZAKŁADKA').width + 80;
+  const plate = g.createLinearGradient(0, 44, 0, 104);
+  plate.addColorStop(0, '#DEC07A');
+  plate.addColorStop(0.62, '#A9853F');
+  plate.addColorStop(1, '#7E6128');
+  g.fillStyle = plate;
+  g.fillRect(M, 44, pw, 60);
+  g.fillStyle = '#6E5220';
+  for (const x of [M + 18, M + pw - 18]) (g.beginPath(), g.arc(x, 74, 4.5, 0, 7), g.fill());
+  g.fillStyle = '#2A1C0A';
   g.textBaseline = 'middle';
-  g.letterSpacing = '5px';
-  g.fillText('ZAKŁADKA', M, 66);
+  g.fillText('ZAKŁADKA', M + 40, 76);
   g.letterSpacing = '0px';
-  // ribbon
-  g.fillStyle = '#C23E28';
+  // the green glass bead of the reading ruler
+  const bead = g.createRadialGradient(W - M - 30, 66, 2, W - M - 22, 74, 26);
+  bead.addColorStop(0, '#8FE0B3');
+  bead.addColorStop(0.6, '#1E6A44');
+  bead.addColorStop(1, '#0E3B25');
+  g.fillStyle = bead;
   g.beginPath();
-  g.moveTo(W - M - 44, 0);
-  g.lineTo(W - M, 0);
-  g.lineTo(W - M, 120);
-  g.lineTo(W - M - 22, 100);
-  g.lineTo(W - M - 44, 120);
-  g.closePath();
+  g.arc(W - M - 22, 74, 24, 0, 7);
   g.fill();
   // opening mark
-  g.fillStyle = '#A9843A';
-  g.font = `600 220px ${FONT_READ}`;
+  g.fillStyle = '#A9853F';
+  g.font = `700 220px ${FONT_READ}`;
   g.textBaseline = 'alphabetic';
   g.fillText('„', M - 8, 400);
   // text, auto-fit
@@ -311,15 +325,15 @@ export async function quoteCanvas(q) {
     lines = lines.slice(0, maxLines);
     lines[maxLines - 1] = lines[maxLines - 1].replace(/[\s,.;:]*$/, '') + '…';
   }
-  g.fillStyle = '#1C1A16';
+  g.fillStyle = '#1D1813';
   g.font = `italic 400 ${size}px ${FONT_READ}`;
   const blockH = lines.length * size * 1.42;
   let y = top + Math.max(0, (bottom - top - blockH) / 2) + size;
   for (const l of lines) (g.fillText(l, M, y), (y += size * 1.42));
   // fleuron
   const fy = H - 290;
-  g.strokeStyle = '#A9843A';
-  g.fillStyle = '#A9843A';
+  g.strokeStyle = '#7A5D26';
+  g.fillStyle = '#7A5D26';
   g.lineWidth = 2;
   g.beginPath();
   g.moveTo(W / 2 - 150, fy);
@@ -341,21 +355,21 @@ export async function quoteCanvas(q) {
   }
   // source
   g.textAlign = 'center';
-  g.fillStyle = '#1C1A16';
+  g.fillStyle = '#1D1813';
   if (b) {
     let ts = 42;
-    g.font = `600 ${ts}px ${FONT_READ}`;
-    while (g.measureText(b.title).width > maxW && ts > 26) g.font = `600 ${(ts -= 2)}px ${FONT_READ}`;
+    g.font = `700 ${ts}px ${FONT_READ}`;
+    while (g.measureText(b.title).width > maxW && ts > 26) g.font = `700 ${(ts -= 2)}px ${FONT_READ}`;
     g.fillText(b.title.length > 70 ? b.title.slice(0, 68) + '…' : b.title, W / 2, fy + 78);
-    g.fillStyle = '#4B453B';
-    g.font = `600 26px ${FONT_UI}`;
+    g.fillStyle = '#4D4439';
+    g.font = `400 26px ${FONT_UI}`;
     g.letterSpacing = '3px';
     const meta = [b.author, q.page ? `s. ${q.page}` : ''].filter(Boolean).join('  ·  ');
     g.fillText(meta.toUpperCase(), W / 2, fy + 128);
     g.letterSpacing = '0px';
   } else if (q.page) {
-    g.fillStyle = '#4B453B';
-    g.font = `600 26px ${FONT_UI}`;
+    g.fillStyle = '#4D4439';
+    g.font = `400 26px ${FONT_UI}`;
     g.fillText(`S. ${q.page}`, W / 2, fy + 78);
   }
   g.textAlign = 'left';
