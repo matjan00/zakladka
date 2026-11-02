@@ -67,6 +67,23 @@ for b in books:
     if q and not (b["pl"] and b["pl"].get("lc")) and (q.get("lc") or q.get("legimi")):
         old = b["pl"] or {}
         b["pl"] = {"t": q["t"] if q["t"] and norm(q["t"]) != norm(b["t"]) else None, "lc": q["lc"], "r": q["r"], "legimi": q["legimi"] or old.get("legimi")}
+lgs = {}
+for f in (HERE / "raw").glob("lg_*.json"):
+    lgs.update(json.loads(f.read_text(encoding="utf-8")))
+nk = {}
+for f in (HERE / "raw").glob("nekla_*.json"):
+    nk.update(json.loads(f.read_text(encoding="utf-8")))
+for b in books:
+    pl_ = b["pl"]
+    if pl_ and pl_.get("legimi"):
+        s = lgs.get(pl_["legimi"])
+        if s in ("abo", "abo+"):   # only titles you can read inside the subscription, no per-book fee
+            pl_["lgs"] = s
+        else:
+            pl_["legimi"] = None
+    q = nk.get(b["id"])
+    if q:
+        b["nk"] = {"s": q["state"], **({"u": q["url"]} if q.get("url") else {})}
 books = [b for b in books if not b.get("_drop")]
 books.sort(key=lambda b: -b["rank"])
 OUT.parent.mkdir(parents=True, exist_ok=True)

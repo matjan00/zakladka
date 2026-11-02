@@ -76,6 +76,7 @@
   font: 700 .75rem/1 var(--font-text); border: 1px solid var(--rule-strong); color: var(--ink-2); white-space: nowrap;
 }
 .dc-badge.legimi { color: var(--brass-ink); border-color: var(--brass); }
+.dc-badge.nekla { color: var(--ok); border-color: currentColor; }
 .dc-badge.lc .dc-star { width: 11px; height: 11px; fill: currentColor; color: var(--star); }
 .dc-badge.shelf { color: var(--link); border-color: var(--glass); }
 

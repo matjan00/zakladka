@@ -227,14 +227,16 @@ function buildShelves() {
   // 5. short and strong, 6. available at Legimi
   const short = byRank.filter((o) => o.len === 'short').slice(0, 14);
   if (short.length >= 3) shelves.push({ id: 'short', title: 'Krótkie i mocne', sub: 'Do 250 stron, a polecane gorąco', items: short });
+  const nk = byRank.filter((o) => o.nk && o.nk.s !== 'brak').slice(0, 14);
+  if (nk.length >= 3) shelves.push({ id: 'nekla', title: 'W bibliotece w Nekli', sub: 'Są w katalogu biblioteki, wypożyczysz za darmo', items: nk });
   const lg = byRank.filter((o) => o.pl?.legimi).slice(0, 14);
-  if (lg.length >= 3) shelves.push({ id: 'legimi', title: 'Do wzięcia z Legimi', sub: 'Jest polskie wydanie w Legimi', items: lg });
+  if (lg.length >= 3) shelves.push({ id: 'legimi', title: 'W abonamencie Legimi', sub: 'Przeczytasz bez dopłaty do abonamentu', items: lg });
   return { shelves, tz, map, hidden };
 }
 
 // ---------- filters (kept for the session only) ----------
 const SKEY = 'zakladka.odkrywaj';
-const F0 = { q: '', g: '', m: '', len: '', d: '', lang: '', lg: false };
+const F0 = { q: '', g: '', m: '', len: '', d: '', lang: '', lg: false, nk: false };
 let F = { ...F0 };
 let panelOpen = false;
 let shown = 60;
@@ -247,7 +249,7 @@ const saveF = () => {
     sessionStorage.setItem(SKEY, JSON.stringify({ f: F, open: panelOpen }));
   } catch {}
 };
-const nFilters = () => ['g', 'm', 'len', 'd', 'lang'].filter((k) => F[k]).length + (F.lg ? 1 : 0);
+const nFilters = () => ['g', 'm', 'len', 'd', 'lang'].filter((k) => F[k]).length + (F.lg ? 1 : 0) + (F.nk ? 1 : 0);
 const anyFilter = () => !!(F.q.trim() || nFilters());
 function applyFilters(map, hidden) {
   const q = norm(F.q), qt = q.split(' ').filter(Boolean);
@@ -262,6 +264,7 @@ function applyFilters(map, hidden) {
       if (F.lang === 'pl' && !hasPl(e)) return false;
       if (F.lang === 'nopl' && hasPl(e)) return false;
       if (F.lg && !e.pl?.legimi) return false;
+      if (F.nk && !(e.nk && e.nk.s !== 'brak')) return false;
       if (q && !qt.every((t) => hay(e).includes(` ${t}`))) return false;
       return true;
     })
@@ -273,7 +276,8 @@ const STAR = '<svg class="dc-star" viewBox="0 0 24 24" aria-hidden="true"><path 
 function badgesHTML(e, st) {
   const b = [];
   if (st) b.push(`<span class="dc-badge shelf">${esc(store.STATUS_LABEL[st.status] || 'Na półce')}</span>`);
-  if (e.pl?.legimi) b.push('<span class="dc-badge legimi" title="Dostępna w Legimi">Legimi</span>');
+  if (e.pl?.legimi) b.push('<span class="dc-badge legimi" title="W abonamencie Legimi, bez dopłaty">Legimi</span>');
+  if (e.nk && e.nk.s !== 'brak') b.push('<span class="dc-badge nekla" title="W katalogu biblioteki w Nekli">Nekla</span>');
   if (e.pl?.r) b.push(`<span class="dc-badge lc" title="Ocena na lubimyczytac.pl: ${ratingStr(e.pl.r)}/10" aria-label="Ocena na lubimyczytac.pl: ${ratingStr(e.pl.r)} na 10">${STAR}${ratingStr(e.pl.r)}</span>`);
   return b.length ? `<span class="dc-badges">${b.join('')}</span>` : '';
 }
@@ -308,7 +312,8 @@ const chipGroup = (label, key, opts) => `<div class="dc-group"><span class="t-la
 function barRowHTML() {
   const n = nFilters();
   return `<button type="button" class="chip dc-toggle ${panelOpen ? 'open' : ''}" data-act="panel" aria-expanded="${panelOpen}" aria-controls="dc-panel">${icon('sort', 14)}Filtry${n ? ` <b class="dc-count num" aria-label="aktywne: ${n}">${n}</b>` : ''}</button>
-    <button type="button" class="chip ${F.lg ? 'on' : ''}" data-act="lg" aria-pressed="${F.lg}">${icon('library', 14)}Tylko dostępne (Legimi)</button>`;
+    <button type="button" class="chip ${F.lg ? 'on' : ''}" data-act="lg" aria-pressed="${F.lg}">${icon('library', 14)}W abonamencie Legimi</button>
+    <button type="button" class="chip ${F.nk ? 'on' : ''}" data-act="nk" aria-pressed="${F.nk}">${icon('library', 14)}W bibliotece (Nekla)</button>`;
 }
 function panelHTML() {
   const genres = Object.keys(GENRE).filter((g) => DATA.books.some((e) => e.g === g));
@@ -329,7 +334,7 @@ function barHTML() {
 function footHTML(hiddenN) {
   return `<footer class="dc-foot">
     ${hiddenN ? `<button type="button" class="link-btn" data-act="hidden">Ukryte (${hiddenN})</button>` : ''}
-    <p class="faint t-sm">Dane z ${esc(dateLong(DATA.built) || DATA.built || '')} · ${plN(DATA.books.length, 'książka', 'książki', 'książek')} z rekomendacji czytelników Reddita. Oceny i linki pochodzą z lubimyczytac.pl i Legimi.</p>
+    <p class="faint t-sm">Dane z ${esc(dateLong(DATA.built) || DATA.built || '')} · ${plN(DATA.books.length, 'książka', 'książki', 'książek')} z rekomendacji czytelników Reddita. Oceny i linki pochodzą z lubimyczytac.pl, Legimi (tylko pozycje w abonamencie) i katalogu biblioteki w Nekli.</p>
   </footer>`;
 }
 
@@ -441,6 +446,7 @@ export function render(el, ctx) {
       return drawRest();
     }
     if (a === 'lg') return setF({ lg: !F.lg });
+    if (a === 'nk') return setF({ nk: !F.nk });
     if (a === 'clear') {
       const inp = el.querySelector('[data-keep="dc-q"]');
       if (inp) inp.value = '';
@@ -511,7 +517,7 @@ function drawSheet(keep = false) {
   const meta = [e.y, e.p ? `${e.p} s.` : '', TYPE[e.ty], GENRE[e.g]].filter(Boolean).join(' · ');
   const prev = sheet.trail.at(-1);
   const links = [
-    e.pl?.legimi ? `<a class="btn" href="${esc(e.pl.legimi)}" target="_blank" rel="noopener">Czytaj w Legimi ${icon('external', 16)}</a>` : '',
+    e.pl?.legimi ? `<a class="btn" href="${esc(e.pl.legimi)}" target="_blank" rel="noopener">Czytaj w abonamencie Legimi ${icon('external', 16)}</a>` : '',
     e.pl?.lc ? `<a class="btn" href="${esc(e.pl.lc)}" target="_blank" rel="noopener">lubimyczytac.pl ${icon('external', 16)}</a>` : '',
   ].join('');
   const q = `${titleOf(e)} ${norm(e.a).split(' ').at(-1)}`;
@@ -546,7 +552,9 @@ function drawSheet(keep = false) {
     ${subs.length ? `<section class="dc-subs"><span class="t-label">Gdzie polecano</span><div class="chips">${subs.map(([s, n]) => `<span class="chip dc-sub-chip num">r/${esc(s)} ×${n}</span>`).join('')}</div></section>` : ''}
     <section class="dc-links"><span class="t-label">Gdzie to znaleźć</span>
       <div class="btn-row">${links}<a class="btn" href="${esc(sowaSearchUrl(q))}" target="_blank" rel="noopener">${icon('library', 16)}Sprawdź w bibliotece w Nekli</a></div>
+      ${e.nk ? (e.nk.s === 'brak' ? `<p class="faint t-sm">Nie znalazłem tej książki w katalogu biblioteki w Nekli (stan z ${esc(dateLong(DATA.built) || DATA.built || '')}).</p>` : `<p class="t-sm"><b>W katalogu biblioteki w Nekli</b>${e.nk.u ? ` · <a href="${esc(e.nk.u)}" target="_blank" rel="noopener">rekord</a>` : ''} <span class="faint">(stan z ${esc(dateLong(DATA.built) || DATA.built || '')}, aktualną dostępność sprawdzisz niżej)</span></p>`) : ''}
       ${hasProxy() ? `<div class="dc-avail"><button type="button" class="btn" data-avail>${icon('refresh', 16)}Sprawdź dostępność</button><span data-avail-out aria-live="polite">${keepAvail}</span></div>` : ''}
+      ${e.pl?.lgs === 'abo+' ? '<p class="faint t-sm">W Legimi tylko w pakiecie „ebooki + audiobooki bez limitu”, droższym od zwykłego abonamentu.</p>' : ''}
       ${!e.pl?.legimi && !e.pl?.lc ? '<p class="faint t-sm">Nie znalazłem polskiego wydania w naszym zestawie. Książka może być dostępna tylko po angielsku.</p>' : ''}
     </section>
     ${rel.length ? `<section class="dc-rel"><span class="t-label">Często polecane razem z tą</span><div class="dc-rail dc-rail-s" role="group" aria-label="Podobne książki">${rel.map((o) => cardHTML(o, map)).join('')}</div></section>` : ''}`;
@@ -620,8 +628,9 @@ async function checkAvail(e, btn, out) {
   out.innerHTML = '<span class="faint">Sprawdzam katalog…</span>';
   try {
     const tmp = { title: titleOf(e), author: e.a };
+    const tmpPl = e.pl?.t ? { title: e.pl.t, author: e.a } : null;
     let hits = [], failed = null, searchUrl = '';
-    const qs = queriesFor(tmp);
+    const qs = [...(tmpPl ? queriesFor(tmpPl) : []), ...queriesFor(tmp)].filter((q, i, a) => a.indexOf(q) === i).slice(0, 4);
     for (let i = 0; i < qs.length && !hits.length; i++) {
       if (i) await new Promise((r) => setTimeout(r, 1500));
       const res = await libraryCheck(qs[i]);
