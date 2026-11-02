@@ -1,0 +1,1006 @@
+{
+"brideshead revisited": {
+"keep": true,
+"genre": "classic",
+"mood": [
+"melancholic",
+"atmospheric",
+"emotional"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Brideshead Revisited",
+"author": "Evelyn Waugh",
+"why": "A young man is drawn into an aristocratic Catholic family; a wistful, elegant classic recommended for fans of dark academia."
+},
+"grace year": {
+"keep": true,
+"genre": "ya",
+"mood": [
+"dark",
+"tense"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "The Grace Year",
+"author": "Kim Liggett",
+"why": "Girls banished for a year to shed their supposed magic; a Handmaid's Tale-meets-Hunger Games YA, though one reader found it derivative."
+},
+"his masters voice": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"thoughtful",
+"mind-bending"
+],
+"length": "short",
+"diff": 3,
+"type": "novel",
+"title": "His Master's Voice",
+"author": "Stanisław Lem",
+"why": "Scientists try to decode a message from space and learn the limits of understanding; a philosophical Lem classic."
+},
+"nova": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"adventurous",
+"epic"
+],
+"length": "short",
+"diff": 2,
+"type": "novel",
+"title": "Nova",
+"author": "Samuel R. Delany",
+"why": "A crew races to harvest fuel from an exploding star in a Moby Dick-inspired space adventure; recommended classic sci-fi."
+},
+"bonfire of the vanities": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"satirical",
+"dark"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "The Bonfire of the Vanities",
+"author": "Tom Wolfe",
+"why": "A Wall Street trader's life collapses after a hit-and-run in 1980s New York; a sharp satire that changed how readers saw the city."
+},
+"clear": {
+"keep": true,
+"genre": "historical",
+"mood": [
+"atmospheric",
+"melancholic"
+],
+"length": "short",
+"diff": 2,
+"type": "novel",
+"title": "Clear",
+"author": "Carys Davies",
+"why": "A minister is sent to clear a remote Scottish island in the 1840s; a short, atmospheric and beautiful book."
+},
+"fantasticland": {
+"keep": true,
+"genre": "horror",
+"mood": [
+"tense",
+"dark"
+],
+"length": "short",
+"diff": 1,
+"type": "novel",
+"title": "FantasticLand",
+"author": "Mike Bockoven",
+"why": "Staff and guests at a Florida theme park build a society after a hurricane; told as interviews and compared to Lord of the Flies."
+},
+"under heaven": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"epic",
+"emotional",
+"atmospheric"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "Under Heaven",
+"author": "Guy Gavriel Kay",
+"why": "A soldier is given a gift of 250 horses in a Tang-inspired empire; a tragic and satisfying historical fantasy."
+},
+"things have gotten worse since we last spoke": {
+"keep": true,
+"genre": "horror",
+"mood": [
+"dark",
+"tense",
+"bleak"
+],
+"length": "short",
+"diff": 2,
+"type": "novel",
+"title": "Things Have Gotten Worse Since We Last Spoke",
+"author": "Eric LaRocca",
+"why": "A short, disturbing horror novella about two women's online relationship; readers are split but some insist you read it."
+},
+"rage of dragons": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"epic",
+"dark",
+"fast"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "The Rage Of Dragons",
+"author": "Evan Winter",
+"why": "A young man trains for revenge in a society of dragon-riding fighters; a gripping, underrated military fantasy."
+},
+"daemon": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"tense",
+"fast"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "Daemon",
+"author": "Daniel Suarez",
+"why": "A dead programmer's software takes over the world; a techno-thriller with a sequel, recommended by tech-minded readers."
+},
+"never": {
+"keep": true,
+"genre": "crime",
+"mood": [
+"tense",
+"epic"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "Never",
+"author": "Ken Follett",
+"why": "A believable political thriller of how World War III could start; recommended for readers who like long, realistic thrillers."
+},
+"parade of horribles": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"funny",
+"fast",
+"dark"
+],
+"length": "long",
+"diff": 1,
+"type": "novel",
+"title": "A Parade of Horribles",
+"author": "Matt Dinniman",
+"why": "Another Dungeon Crawler Carl installment; the series readers are addicted to for humour and gore."
+},
+"of monsters and mainframes": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"funny",
+"hopeful",
+"thoughtful"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Of Monsters and Mainframes",
+"author": "Barbara Truelove",
+"why": "A cyber-Frankenstein tale about an AI consciousness and a monster; a book club in which everyone loved it."
+},
+"light of other days": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"thoughtful",
+"mind-bending"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "The Light of Other Days",
+"author": "Arthur C. Clarke",
+"why": "A device lets people view the past, with huge social consequences; readers remember its ideas decades later."
+},
+"wish you were here": {
+"keep": false,
+"genre": "romance",
+"mood": [
+"thoughtful"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Wish You Were Here",
+"author": "Jodi Picoult",
+"why": "Comments refer to different books with the same title."
+},
+"feersum endjinn": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"mind-bending",
+"adventurous"
+],
+"length": "medium",
+"diff": 3,
+"type": "novel",
+"title": "Feersum endjinn",
+"author": "Iain Banks",
+"why": "Banks's non-Culture novel set in a vast castle-like future, with a phonetically written narrator; clever and strange."
+},
+"red queen": {
+"keep": false,
+"genre": "ya",
+"mood": [
+"thoughtful"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Red Queen",
+"author": "Victoria Aveyard",
+"why": "Comments are about other books named Red Queen."
+},
+"red country": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"dark",
+"tense",
+"adventurous"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Red Country",
+"author": "Joe Abercrombie",
+"why": "A fantasy-western revenge quest in the First Law world; gritty and violent, with Abercrombie's sharp wit."
+},
+"nostromo": {
+"keep": true,
+"genre": "classic",
+"mood": [
+"atmospheric",
+"thoughtful"
+],
+"length": "long",
+"diff": 3,
+"type": "novel",
+"title": "Nostromo",
+"author": "Joseph Conrad",
+"why": "A South American revolution and a silver mine told with beautiful, dense prose; a Conrad masterpiece for patient readers."
+},
+"ghost story": {
+"keep": true,
+"genre": "horror",
+"mood": [
+"atmospheric",
+"dark",
+"tense"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "Ghost story",
+"author": "Peter Straub",
+"why": "Old men haunted by a shared secret and a vengeful ghost; considered one of the scariest classic horrors."
+},
+"ham on rye": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"bleak",
+"funny",
+"dark"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Ham on Rye",
+"author": "Charles Bukowski",
+"why": "Bukowski's alter ego grows up miserable in Depression-era Los Angeles; resonates with disenfranchised teens."
+},
+"manacled": {
+"keep": false,
+"genre": "romance",
+"mood": [
+"thoughtful"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Manacled",
+"author": "SenLinYu",
+"why": "Fanfiction, not a published book."
+},
+"rosemarys baby": {
+"keep": true,
+"genre": "horror",
+"mood": [
+"tense",
+"dark",
+"atmospheric"
+],
+"length": "short",
+"diff": 1,
+"type": "novel",
+"title": "Rosemary's Baby",
+"author": "Ira Levin",
+"why": "A pregnant woman suspects her neighbours' sinister intentions; a paranoid, quick classic horror."
+},
+"eternity road": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"adventurous",
+"atmospheric"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Eternity Road",
+"author": "Jack McDevitt",
+"why": "A party travels the ruins of America centuries after a collapse; an overlooked post-apocalyptic adventure."
+},
+"amusing ourselves to death": {
+"keep": true,
+"genre": "philosophy",
+"mood": [
+"thoughtful"
+],
+"length": "short",
+"diff": 2,
+"type": "nonfiction",
+"title": "Amusing Ourselves to Death",
+"author": "Neil Postman",
+"why": "An argument that television turns public life into entertainment; readers say it still feels sharp."
+},
+"butcher boy": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"dark",
+"bleak",
+"melancholic"
+],
+"length": "short",
+"diff": 3,
+"type": "novel",
+"title": "The butcher boy",
+"author": "Patrick McCabe",
+"why": "A troubled Irish boy's voice narrates his descent into violence; harrowing and brilliant."
+},
+"darkness visible": {
+"keep": true,
+"genre": "memoir",
+"mood": [
+"bleak",
+"thoughtful",
+"emotional"
+],
+"length": "short",
+"diff": 2,
+"type": "nonfiction",
+"title": "Darkness Visible",
+"author": "William Styron",
+"why": "A novelist's short, honest account of his severe depression; heavy but excellent."
+},
+"voyage of the dawn treader": {
+"keep": true,
+"genre": "ya",
+"mood": [
+"adventurous",
+"cozy"
+],
+"length": "short",
+"diff": 1,
+"type": "novel",
+"title": "The Voyage of the Dawn Treader",
+"author": "C. S. Lewis",
+"why": "A boy sails to the edge of the world with Narnia's heroes; famous for a memorable first line."
+},
+"tales from the gas station": {
+"keep": true,
+"genre": "humour",
+"mood": [
+"funny",
+"fast",
+"adventurous"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Tales from the Gas Station",
+"author": "Jack Townsend",
+"why": "Funny, weird stories from a gas station night shift; the audiobook narrated by the author is particularly recommended."
+},
+"black woods blue sky": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"atmospheric",
+"dark"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Black Woods, Blue Sky",
+"author": "Eowyn Ivey",
+"why": "A woman in Alaska becomes entangled with a stranger and the wild; beautiful prose and a bold story."
+},
+"if": {
+"keep": false,
+"genre": "poetry",
+"mood": [
+"thoughtful"
+],
+"length": "short",
+"diff": 1,
+"type": "poetry",
+"title": "If--",
+"author": "Rudyard Kipling",
+"why": "Comments use the word if, not Kipling's poem."
+},
+"thousand ships": {
+"keep": true,
+"genre": "historical",
+"mood": [
+"emotional",
+"thoughtful"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "A Thousand Ships",
+"author": "Natalie Haynes",
+"why": "The Trojan War retold through the women who lived it; recommended for fans of Greek myth."
+},
+"dogs of war": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"tense",
+"fast",
+"thoughtful"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Dogs of War",
+"author": "Adrian Tchaikovsky",
+"why": "A genetically engineered fighting dog questions his orders; a fun, thoughtful military sci-fi, though one reader warns against it."
+},
+"stalker": {
+"keep": false,
+"genre": "literary",
+"mood": [
+"dark"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Stalker",
+"author": "Paula Bomer",
+"why": "Comments are about different books named Stalker, not clearly this one."
+},
+"network effect": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"funny",
+"fast",
+"adventurous"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Network Effect",
+"author": "Martha Wells",
+"why": "The first full-length Murderbot novel; a Nebula-winning sarcastic robot adventure."
+},
+"hench": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"funny",
+"dark"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Hench",
+"author": "Natalie Zina Walschots",
+"why": "A temp worker for supervillains plots revenge against a hero; a fun superhero satire more than sci-fi."
+},
+"mrs frisby and the rats of nimh": {
+"keep": true,
+"genre": "ya",
+"mood": [
+"cozy",
+"adventurous",
+"hopeful"
+],
+"length": "short",
+"diff": 1,
+"type": "novel",
+"title": "Mrs. Frisby and the Rats of Nimh",
+"author": "Robert C. O'Brien",
+"why": "A field mouse seeks help from super-smart rats; a childhood classic that seems small but holds depth."
+},
+"walking practice": {
+"keep": true,
+"genre": "horror",
+"mood": [
+"dark",
+"funny",
+"mind-bending"
+],
+"length": "short",
+"diff": 2,
+"type": "novel",
+"title": "Walking Practice",
+"author": "Dolki Min",
+"why": "A shapeshifting alien learns to move in a human body; bodily horror and satire from Korea, an unhinged ride."
+},
+"great big beautiful life": {
+"keep": true,
+"genre": "romance",
+"mood": [
+"funny",
+"emotional",
+"hopeful"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Great Big Beautiful Life",
+"author": "Emily Henry",
+"why": "Two writers compete to tell a woman's life story; an Emily Henry romance, rated weak by some."
+},
+"futurological congress": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"funny",
+"satirical",
+"mind-bending"
+],
+"length": "short",
+"diff": 3,
+"type": "novel",
+"title": "The Futurological Congress",
+"author": "Stanisław Lem",
+"why": "A hallucinatory satire of a world dosed with drugs; rapid-fire ideas readers adore."
+},
+"message": {
+"keep": true,
+"genre": "memoir",
+"mood": [
+"thoughtful",
+"emotional"
+],
+"length": "short",
+"diff": 2,
+"type": "nonfiction",
+"title": "The Message",
+"author": "Ta-Nehisi Coates",
+"why": "Ta-Nehisi Coates's essays on storytelling, Senegal, Carolina and Palestine; readers call it a top nonfiction pick."
+},
+"austerlitz": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"melancholic",
+"thoughtful",
+"atmospheric"
+],
+"length": "medium",
+"diff": 3,
+"type": "novel",
+"title": "Austerlitz",
+"author": "W. G. Sebald",
+"why": "A man pieces together a lost childhood in a wandering, memory-driven narrative; loved for its amazing sentences."
+},
+"kingdoms": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"mind-bending",
+"atmospheric",
+"adventurous"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "The Kingdoms",
+"author": "Natasha Pulley",
+"why": "A time-slip alternate-history love story with sea battles and mysterious letters; a rarely mentioned gem."
+},
+"american marriage": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"emotional",
+"thoughtful"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "An American Marriage",
+"author": "Tayari Jones",
+"why": "A husband wrongfully imprisoned returns to a changed marriage; praised for its emotion and complexity."
+},
+"green rider": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"adventurous"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "Green Rider",
+"author": "Kristen Britain",
+"why": "A young messenger rides with a dying courier's secret in a magical kingdom; solid series start with a heroine."
+},
+"howards end": {
+"keep": true,
+"genre": "classic",
+"mood": [
+"thoughtful"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Howards End",
+"author": "E. M. Forster",
+"why": "Two families of different classes intertwine in Edwardian England; a beautiful classic about connection."
+},
+"doomsday scenario": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"funny",
+"fast",
+"adventurous"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Carl’s Doomsday Scenario",
+"author": "Matt Dinniman",
+"why": "The second Dungeon Crawler Carl novel, loved for its dark humour and addictive pace."
+},
+"half magic": {
+"keep": true,
+"genre": "ya",
+"mood": [
+"funny",
+"cozy",
+"adventurous"
+],
+"length": "short",
+"diff": 1,
+"type": "novel",
+"title": "Half Magic (Tales of Magic #1)",
+"author": "Edward Eager",
+"why": "Four kids find a coin that grants half of each wish; an inventive classic for reading aloud."
+},
+"in the kingdom of ice": {
+"keep": true,
+"genre": "history",
+"mood": [
+"tense",
+"adventurous"
+],
+"length": "long",
+"diff": 2,
+"type": "nonfiction",
+"title": "In the kingdom of ice",
+"author": "Hampton Sides",
+"why": "The doomed Arctic voyage of the USS Jeannette told like a thriller; so unbelievable it reads like fantasy."
+},
+"descent": {
+"keep": true,
+"genre": "horror",
+"mood": [
+"dark",
+"tense",
+"epic"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "The descent",
+"author": "Jeff Long",
+"why": "Explorers find a vast subterranean world beneath the earth; an all-time favourite for some, not for all tastes."
+},
+"red pony": {
+"keep": true,
+"genre": "classic",
+"mood": [
+"emotional",
+"melancholic"
+],
+"length": "short",
+"diff": 1,
+"type": "stories",
+"title": "The Red Pony",
+"author": "John Steinbeck",
+"why": "Steinbeck's linked stories of a boy and his horse on a California ranch; a quick read, but some find it slight."
+},
+"good morning midnight": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"melancholic",
+"atmospheric",
+"emotional"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Good Morning, Midnight",
+"author": "Lily Brooks-Dalton",
+"why": "An astronomer in the Arctic and an astronaut in space struggle with isolation after an apocalypse; a quiet, moving read."
+},
+"heart of the comet": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"adventurous"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "Heart of the Comet",
+"author": "Gregory Benford",
+"why": "An expedition to Halley's comet by two science fiction authors; a fondly remembered hard SF adventure."
+},
+"cay": {
+"keep": true,
+"genre": "ya",
+"mood": [
+"emotional",
+"hopeful",
+"adventurous"
+],
+"length": "short",
+"diff": 1,
+"type": "novel",
+"title": "The Cay",
+"author": "Theodore Taylor",
+"why": "A boy blinded in a shipwreck survives on an island with an old man; a school favourite that changed readers' lives."
+},
+"demolished man": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"tense",
+"mind-bending",
+"fast"
+],
+"length": "short",
+"diff": 2,
+"type": "novel",
+"title": "The Demolished Man",
+"author": "Alfred Bester",
+"why": "A murder is planned in a world of telepaths; a Hugo-winning sci-fi classic recommended often."
+},
+"with the old breed": {
+"keep": true,
+"genre": "memoir",
+"mood": [
+"dark",
+"emotional",
+"bleak"
+],
+"length": "medium",
+"diff": 2,
+"type": "nonfiction",
+"title": "With the Old Breed",
+"author": "Eugene Sledge",
+"why": "A Marine's raw memoir of fighting in the Pacific in World War II; widely respected."
+},
+"mornings in jenin": {
+"keep": true,
+"genre": "historical",
+"mood": [
+"emotional",
+"bleak"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Mornings in Jenin",
+"author": "Susan Abulhawa",
+"why": "Four generations of a Palestinian family; readers say it left them sobbing."
+},
+"labyrinths": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"mind-bending",
+"thoughtful"
+],
+"length": "medium",
+"diff": 3,
+"type": "stories",
+"title": "Labyrinths",
+"author": "Jorge Luis Borges",
+"why": "Borges's imaginative short stories about infinity, libraries and mirrors; readers reread them many times."
+},
+"once there were wolves": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"atmospheric",
+"melancholic",
+"emotional"
+],
+"length": "short",
+"diff": 2,
+"type": "novel",
+"title": "Once There Were Wolves",
+"author": "Charlotte McConaghy",
+"why": "A biologist reintroduces wolves to Scotland while hiding her own past; beautiful but depressing."
+},
+"radiance": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"mind-bending",
+"atmospheric"
+],
+"length": "medium",
+"diff": 3,
+"type": "novel",
+"title": "Radiance",
+"author": "Catherynne M. Valente",
+"why": "A film-noir mystery in an alternate solar system; weird, ornate, recommended to fans of Southern Reach."
+},
+"song of kali": {
+"keep": true,
+"genre": "horror",
+"mood": [
+"dark",
+"bleak",
+"tense"
+],
+"length": "short",
+"diff": 2,
+"type": "novel",
+"title": "Song of Kali",
+"author": "Dan Simmons",
+"why": "An American writer's trip to Calcutta turns to nightmare; unsettling, tragic and not forgettable."
+},
+"red notice": {
+"keep": true,
+"genre": "memoir",
+"mood": [
+"tense"
+],
+"length": "medium",
+"diff": 2,
+"type": "nonfiction",
+"title": "Red Notice",
+"author": "Bill Browder",
+"why": "An investor's account of uncovering Russian fraud and the death of his lawyer; a gripping page-turner."
+},
+"justine": {
+"keep": true,
+"genre": "classic",
+"mood": [
+"atmospheric",
+"melancholic"
+],
+"length": "medium",
+"diff": 3,
+"type": "novel",
+"title": "Justine",
+"author": "Lawrence Durrell",
+"why": "The first book of the Alexandria Quartet, a lush tale of love and intrigue in 1930s Egypt."
+},
+"practical magic": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"cozy",
+"emotional",
+"atmospheric"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Practical Magic",
+"author": "Alice Hoffman",
+"why": "Two witch sisters grow up with a family curse; a warm, magical tale of sisterhood."
+},
+"city of last chances": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"dark",
+"atmospheric"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "City of Last Chances",
+"author": "Adrian Tchaikovsky",
+"why": "An occupied city with factions and a rebellion; praised for its characters, especially Ilmar."
+},
+"electric kool aid acid test": {
+"keep": true,
+"genre": "history",
+"mood": [
+"funny",
+"adventurous"
+],
+"length": "medium",
+"diff": 2,
+"type": "nonfiction",
+"title": "The Electric Kool-Aid Acid Test",
+"author": "Tom Wolfe",
+"why": "Ken Kesey's Merry Pranksters travel across America in a bus; a fun, wild read for rock-history fans."
+},
+"gray house": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"mind-bending",
+"atmospheric",
+"dark"
+],
+"length": "long",
+"diff": 3,
+"type": "novel",
+"title": "The Gray House",
+"author": "Mariam Petrosyan",
+"why": "A strange boarding school for disabled teens with its own rules and myths; a wild and confusing ride that rewards patience."
+},
+"earth grocery store": {
+"keep": true,
+"genre": "historical",
+"mood": [
+"emotional",
+"hopeful",
+"cozy"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "The Heaven & Earth Grocery Store",
+"author": "James McBride",
+"why": "A Pennsylvania neighbourhood's secrets over decades; recommended for book clubs and James McBride fans."
+},
+"wandering inn": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"epic",
+"adventurous",
+"cozy"
+],
+"length": "long",
+"diff": 1,
+"type": "novel",
+"title": "The Wandering Inn",
+"author": "Pirateaba",
+"why": "A huge free web serial about an inn in a fantasy world; readers call it absolutely amazing."
+}
+}

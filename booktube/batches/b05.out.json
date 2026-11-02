@@ -1,0 +1,1038 @@
+{
+ "just kids": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "melancholic",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Just Kids",
+  "author": "Patti Smith",
+  "why": "The singer's tender memoir of her friendship with Robert Mapplethorpe in 1970s New York; moving and beautifully written."
+ },
+ "catcher in the rye": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "melancholic",
+   "funny",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Catcher in the Rye",
+  "author": "J. D. Salinger",
+  "why": "A teenage boy wanders New York after leaving school; a short coming-of-age classic readers still enjoy."
+ },
+ "sharp objects": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "dark",
+   "tense",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Sharp Objects",
+  "author": "Gillian Flynn",
+  "why": "A reporter returns to her hometown to cover murders and confronts her family; a gripping, disturbing thriller."
+ },
+ "things fall apart": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "bleak",
+   "thoughtful",
+   "emotional"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Things Fall Apart",
+  "author": "Chinua Achebe",
+  "why": "A proud Igbo man's world is upended by colonisers; short and powerful, often read as an answer to colonial fiction."
+ },
+ "good omens": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "satirical",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Good Omens",
+  "author": "Terry Pratchett",
+  "why": "An angel and a demon try to stop the apocalypse because they like Earth; hilarious and widely loved."
+ },
+ "stranger in a strange land": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "satirical",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Stranger in a Strange Land",
+  "author": "Robert A. Heinlein",
+  "why": "A human raised by Martians returns to Earth and shakes up its customs; a famous, provocative counterculture classic."
+ },
+ "child of god": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "bleak",
+   "atmospheric"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Child of God",
+  "author": "Cormac McCarthy",
+  "why": "A violent outcast lives in the Tennessee hills; short and harrowing, for readers who can handle disturbing McCarthy."
+ },
+ "meditations": {
+  "keep": true,
+  "genre": "philosophy",
+  "mood": [
+   "thoughtful",
+   "hopeful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Meditations",
+  "author": "Marcus Aurelius",
+  "why": "The Roman emperor's private notes on duty, calm and death; readers value its practical stoic advice."
+ },
+ "immortal life of henrietta lacks": {
+  "keep": true,
+  "genre": "science",
+  "mood": [
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "The Immortal Life of Henrietta Lacks",
+  "author": "Rebecca Skloot",
+  "why": "The story of the woman whose cells were taken without consent and used in science; moving and informative."
+ },
+ "candide": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "satirical",
+   "funny",
+   "adventurous"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Candide",
+  "author": "Voltaire",
+  "why": "A naive young man travels through disaster after disaster while told that all is for the best; short and biting."
+ },
+ "butter": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "dark",
+   "thoughtful",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Butter",
+  "author": "Asako Yuzuki",
+  "why": "A journalist becomes obsessed with a gourmet woman convicted of murder; food, gender and appetite make it hard to stop."
+ },
+ "shark heart": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "mind-bending",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Shark Heart",
+  "author": "Emily Habeck",
+  "why": "A man is slowly turning into a shark as his wife prepares to lose him; strange, tender and loved by readers."
+ },
+ "curse of chalion": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "thoughtful",
+   "emotional",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Curse of Chalion",
+  "author": "Lois McMaster Bujold",
+  "why": "A broken soldier becomes tutor to a princess in a kingdom cursed by gods; deeply human and well liked."
+ },
+ "blade itself": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "funny",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Blade Itself",
+  "author": "Joe Abercrombie",
+  "why": "A torturer, a barbarian and a vain swordsman are drawn into a war; grim and funny, the start of The First Law."
+ },
+ "you": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "dark",
+   "tense",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "You",
+  "author": "Caroline Kepnes",
+  "why": "A bookstore clerk stalks a woman and tells it as love; creepy, addictive thriller."
+ },
+ "assassins apprentice": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "emotional",
+   "atmospheric",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Assassin's Apprentice",
+  "author": "Robin Hobb",
+  "why": "A royal bastard is trained as a secret killer; slow-building and emotional, the first Farseer book."
+ },
+ "nothing to see here": {
+  "keep": true,
+  "genre": "humour",
+  "mood": [
+   "funny",
+   "emotional",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Nothing to See Here",
+  "author": "Kevin Wilson",
+  "why": "A woman becomes nanny to two children who burst into flames; absurd, warm and quick, making readers laugh out loud."
+ },
+ "mrs dalloway": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "thoughtful",
+   "melancholic"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "Mrs. Dalloway",
+  "author": "Virginia Woolf",
+  "why": "One day in the life of a London woman and a shell-shocked soldier; stream of consciousness that some love."
+ },
+ "scanner darkly": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "bleak",
+   "mind-bending",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "A Scanner Darkly",
+  "author": "Philip K. Dick",
+  "why": "An undercover agent addicted to a drug watches himself; paranoid and sad, someone's comfort book."
+ },
+ "finnegans wake": {
+  "keep": false,
+  "genre": "classic",
+  "mood": [
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Finnegans Wake",
+  "author": "James Joyce",
+  "why": "The comments describe it as unread or too hard, not recommended."
+ },
+ "corrections": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "emotional",
+   "melancholic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Corrections",
+  "author": "Jonathan Franzen",
+  "why": "A midwestern family comes together for a last Christmas; funny and moving, though compared to DeLillo."
+ },
+ "collector": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "tense",
+   "bleak"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Collector",
+  "author": "John Fowles",
+  "why": "A lonely man kidnaps a young woman and keeps her in his cellar; a short, chilling psychological novel."
+ },
+ "midnights children": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "satirical",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Midnight's Children",
+  "author": "Salman Rushdie",
+  "why": "A man born at India's independence is linked to other children with powers; colourful and demanding magical realism."
+ },
+ "ice": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "bleak",
+   "atmospheric"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "Ice",
+  "author": "Anna Kavan",
+  "why": "A narrator chases a girl through a world freezing under ice; short, dreamlike and experimental."
+ },
+ "player of games": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "tense",
+   "mind-bending",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The player of games",
+  "author": "Iain Banks",
+  "why": "A game master is sent to play an alien empire's brutal game; a smart and approachable Culture novel."
+ },
+ "hunger": {
+  "keep": false,
+  "genre": "literary",
+  "mood": [
+   "dark"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Hunger",
+  "author": "Knut Hamsun",
+  "why": "The comments mix up several books titled Hunger, so there is no clear recommendation for this one."
+ },
+ "howls moving castle": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "cozy",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Howl's Moving Castle",
+  "author": "Diana Wynne Jones",
+  "why": "A girl turned into an old woman moves into a wizard's castle; funny and charming, different from the film."
+ },
+ "dawn": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "dark",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Dawn",
+  "author": "Octavia E. Butler",
+  "why": "Aliens save the last humans but ask for a price; thoughtful, uneasy and often recommended."
+ },
+ "roots": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "epic",
+   "bleak"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Roots",
+  "author": "Alex Haley",
+  "why": "A family saga from an African village into American slavery; readers say it is one of the most powerful books they read."
+ },
+ "girl next door": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "bleak",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Girl Next Door",
+  "author": "Jack Ketchum",
+  "why": "A teenager is tortured by her guardian and neighbourhood kids in 1950s suburbia; the book that broke readers, with an extremely disturbing story."
+ },
+ "gilead": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "thoughtful",
+   "melancholic",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Gilead",
+  "author": "Marilynne Robinson",
+  "why": "An elderly minister writes a long letter to his young son; quiet, spiritual and beautifully written."
+ },
+ "princess bride": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "adventurous",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Princess Bride",
+  "author": "William Goldman",
+  "why": "A farm boy, a princess and a swordfight through fairy-tale perils; witty and loved even more than the movie."
+ },
+ "wool": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "tense",
+   "dark",
+   "fast"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Wool",
+  "author": "Hugh Howey",
+  "why": "People live in an underground silo and the sheriff wants the truth; gripping with twists, and the basis of Silo."
+ },
+ "jitterbug perfume": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "mind-bending",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Jitterbug Perfume",
+  "author": "Tom Robbins",
+  "why": "A quest for the secret of immortality involving beets, perfume and gods; a funny, quirky book readers re-read yearly."
+ },
+ "poppy war": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "epic",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Poppy War",
+  "author": "R. F. Kuang",
+  "why": "A war orphan wins a place at an elite military school and discovers shamanic power; brutal, exceptional start to a series."
+ },
+ "great believers": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "melancholic",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Great Believers",
+  "author": "Rebecca Makkai",
+  "why": "Friends in 1980s Chicago face the AIDS crisis, and one's daughter searches for her family in 2015; left readers shattered."
+ },
+ "pet sematary": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "tense",
+   "bleak"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Pet Sematary",
+  "author": "Stephen King",
+  "why": "A family finds a burial ground that brings the dead back; one of the bleakest King novels."
+ },
+ "our wives under the sea": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "atmospheric",
+   "melancholic",
+   "dark"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Our Wives Under the Sea",
+  "author": "Julia Armfield",
+  "why": "A wife returns from a deep-sea mission changed; short, strange and lyrical."
+ },
+ "consider phlebas": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "epic",
+   "adventurous",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Consider Phlebas",
+  "author": "Iain Banks",
+  "why": "A shape-shifter spy joins a war between the Culture and its enemies; big, action-driven space opera."
+ },
+ "prince of tides": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "dark",
+   "melancholic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Prince of Tides",
+  "author": "Pat Conroy",
+  "why": "A southern man confronts his family's secrets with his sister's psychiatrist; a long, emotional Southern novel."
+ },
+ "awakening": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "melancholic",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Awakening",
+  "author": "Kate Chopin",
+  "why": "A wife in 1890s Louisiana seeks independence; short and ahead of its time, and some readers say it changed their life."
+ },
+ "king sorrow": {
+  "keep": false,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "King Sorrow",
+  "author": "Joe Hill",
+  "why": "The comments only say people are starting it, so there is no recommendation yet."
+ },
+ "lies of locke lamora": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "adventurous",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Lies of Locke Lamora",
+  "author": "Scott Lynch",
+  "why": "A gang of thieves in a Venice-like city gets pulled into a deadly plot; fast, funny fantasy heist and five-star read."
+ },
+ "phantom tollbooth": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "funny",
+   "adventurous",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Phantom Tollbooth",
+  "author": "Norton Juster",
+  "why": "A bored boy drives into a land of puns and wordplay; clever, loved children's fantasy."
+ },
+ "crying in h mart": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Crying in H Mart",
+  "author": "Michelle Zauner",
+  "why": "The musician writes about losing her mother and her Korean heritage through food; moving and easy to read."
+ },
+ "great gatsby": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "melancholic",
+   "thoughtful",
+   "atmospheric"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Great Gatsby",
+  "author": "F. Scott Fitzgerald",
+  "why": "A mysterious millionaire throws parties to win back his love in Jazz Age New York; short and beautifully written."
+ },
+ "martian chronicles": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "melancholic",
+   "atmospheric",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "stories",
+  "title": "The Martian Chronicles",
+  "author": "Ray Bradbury",
+  "why": "Linked stories about humans colonising Mars; lyrical and wistful rather than technical."
+ },
+ "dutch house": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "melancholic",
+   "cozy"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Dutch House",
+  "author": "Ann Patchett",
+  "why": "A brother and sister are cast out of their family mansion and remain obsessed with it; warm and gently moving."
+ },
+ "priory of the orange tree": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Priory of the Orange Tree",
+  "author": "Samantha Shannon",
+  "why": "Dragons and queens in a standalone high fantasy with a sweeping plot; long but fast."
+ },
+ "angelas ashes": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "bleak",
+   "emotional",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Angela's Ashes",
+  "author": "Frank McCourt",
+  "why": "The author's poor Irish childhood in Limerick; sad and often darkly funny, and a bestselling memoir."
+ },
+ "great expectations": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "emotional",
+   "atmospheric",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Great Expectations",
+  "author": "Charles Dickens",
+  "why": "An orphan receives a mysterious fortune and learns what matters; one of the most readable Dickens novels."
+ },
+ "pretty girls": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "dark",
+   "tense",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Pretty Girls",
+  "author": "Karin Slaughter",
+  "why": "Two sisters uncover secrets about a serial killer; a gripping, graphic thriller that readers could not put down."
+ },
+ "uprooted": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "atmospheric",
+   "adventurous",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Uprooted",
+  "author": "Naomi Novik",
+  "why": "A village girl is taken by a wizard to fight a corrupted wood; a fairy-tale inspired novel that gets absorbing."
+ },
+ "sphere": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "tense",
+   "fast",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Sphere",
+  "author": "Michael Crichton",
+  "why": "Scientists investigate a mysterious spacecraft on the ocean floor; long and gripping, though some find it minor Crichton."
+ },
+ "emma": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "funny",
+   "cozy",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Emma",
+  "author": "Jane Austen",
+  "why": "A well-meaning matchmaker misreads everyone around her; light and witty, and free to read."
+ },
+ "little big": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "atmospheric",
+   "melancholic",
+   "mind-bending"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Little, Big",
+  "author": "John Crowley",
+  "why": "A family's connection with fairies unfolds over generations; poetic and strange with a following."
+ },
+ "hunger games": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "tense",
+   "fast",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Hunger Games",
+  "author": "Suzanne Collins",
+  "why": "A girl volunteers for a televised fight to the death; fast and gripping young-adult dystopia."
+ },
+ "sapiens": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "thoughtful",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Sapiens: A Brief History of Humankind",
+  "author": "Yuval Noah Harari",
+  "why": "A broad history of humankind from the cognitive revolution on; readers call it excellent, though some dispute its science."
+ },
+ "ministry for the future": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "hopeful",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Ministry for the Future",
+  "author": "Kim Stanley Robinson",
+  "why": "A near-future institution works to fight climate change; ideas-heavy and told in many fragments, often recommended."
+ },
+ "rejection": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "satirical",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "stories",
+  "title": "Rejection",
+  "author": "Tony Tulathimutte",
+  "why": "Linked stories about people rejected in love and in life; sharp, bold and laugh-out-loud."
+ },
+ "night watch": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "tense",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Night Watch",
+  "author": "Terry Pratchett",
+  "why": "Sam Vimes is thrown back to his younger days during a revolt; often named the best Discworld book."
+ },
+ "in the dream house": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "dark",
+   "emotional",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "In the Dream House",
+  "author": "Carmen Maria Machado",
+  "why": "The author's memoir of an abusive relationship, told in short, shifting genre chapters; inventive and powerful."
+ },
+ "guards guards": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "satirical",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Guards! Guards!",
+  "author": "Terry Pratchett",
+  "why": "The Ankh-Morpork night watch faces a dragon; a funny, approachable start to the Watch series."
+ },
+ "into the wild": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "adventurous",
+   "melancholic",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Into the Wild",
+  "author": "Jon Krakauer",
+  "why": "The true story of a young man who went alone into Alaska; gripping and often recommended."
+ },
+ "iliad": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "epic",
+   "dark",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "poetry",
+  "title": "The Iliad",
+  "author": "Homer",
+  "why": "The wrath of Achilles during the siege of Troy; ancient and brutal epic that readers take on in a good translation."
+ },
+ "eileen": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "bleak",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Eileen",
+  "author": "Ottessa Moshfegh",
+  "why": "A lonely young woman working at a prison in 1960s New England meets a stranger; dark and sharp."
+ },
+ "aurora": {
+  "keep": false,
+  "genre": "scifi",
+  "mood": [
+   "bleak",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Aurora",
+  "author": "Kim Stanley Robinson",
+  "why": "One commenter hated it and another is unsure, so there is little clear recommendation."
+ },
+ "dandelion wine": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "cozy",
+   "hopeful",
+   "melancholic"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Dandelion Wine",
+  "author": "Ray Bradbury",
+  "why": "A boy's summer in 1928 small-town Illinois, full of wonder; nostalgic and lyrical, from a legitimate genius."
+ },
+ "crying of lot 49": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "mind-bending",
+   "satirical",
+   "funny"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Crying of Lot 49",
+  "author": "Thomas Pynchon",
+  "why": "A woman uncovers what may be a secret postal conspiracy in California; short, strange and a good first Pynchon."
+ },
+ "power": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "tense",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Power",
+  "author": "Naomi Alderman",
+  "why": "Women suddenly gain the ability to shock, flipping the balance of power; compelling and brutal."
+ }
+}

@@ -1,0 +1,1022 @@
+{
+"dark age": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"epic",
+"fast",
+"dark"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "Dark Age",
+"author": "Pierce Brown",
+"why": "Fourth Red Rising book of relentless space war and politics; readers find it impossible to put down."
+},
+"charlottes web": {
+"keep": true,
+"genre": "ya",
+"mood": [
+"emotional",
+"cozy",
+"hopeful"
+],
+"length": "short",
+"diff": 1,
+"type": "novel",
+"title": "Charlotte's Web",
+"author": "E. B. White",
+"why": "A pig is saved by a spider's words; a children's classic readers remember for its famous opening line and gentle wisdom."
+},
+"trout fishing in america": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"funny",
+"mind-bending",
+"melancholic"
+],
+"length": "short",
+"diff": 2,
+"type": "novel",
+"title": "Trout Fishing in America",
+"author": "Richard Brautigan",
+"why": "Quirky, surreal sketches of America built around trout fishing; loved for its odd, memorable lines."
+},
+"crow road": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"funny",
+"dark",
+"thoughtful"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "The Crow Road",
+"author": "Iain Banks",
+"why": "A Scottish family saga and mystery that opens with a famously striking first line; readers cherish Banks's mix of humour and darkness."
+},
+"pines": {
+"keep": true,
+"genre": "crime",
+"mood": [
+"tense",
+"mind-bending",
+"fast"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Pines",
+"author": "Blake Crouch",
+"why": "A federal agent wakes in a strange idyllic town he cannot leave; a gripping mystery with a big reveal, though a few readers disliked it."
+},
+"candy house": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"mind-bending",
+"thoughtful"
+],
+"length": "medium",
+"diff": 3,
+"type": "novel",
+"title": "The Candy House",
+"author": "Jennifer Egan",
+"why": "Interlinked stories about a device that uploads memory; inventive and sharp, praised as stunningly good."
+},
+"homecoming": {
+"keep": false,
+"genre": "historical",
+"mood": [
+"atmospheric"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "Homecoming",
+"author": "Kate Morton",
+"why": "Comments mention several unrelated Homecoming books; no clear recommendation."
+},
+"talented mr ripley": {
+"keep": true,
+"genre": "classic",
+"mood": [
+"tense",
+"dark",
+"atmospheric"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "The Talented Mr. Ripley",
+"author": "Patricia Highsmith",
+"why": "A charming con man slides into murder and identity theft in Italy; a suspense classic recommended for its chilling protagonist."
+},
+"thud": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"funny",
+"tense",
+"satirical"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Thud!",
+"author": "Terry Pratchett",
+"why": "Commander Vimes confronts a dwarf-troll tension in Ankh-Morpork; a fan-favourite Discworld Watch story."
+},
+"horns": {
+"keep": true,
+"genre": "horror",
+"mood": [
+"dark",
+"tense",
+"funny"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Horns",
+"author": "Joe Hill",
+"why": "A man wakes with horns and the power to hear people's sins while hunting his girlfriend's killer; readers say it beats the film."
+},
+"border trilogy": {
+"keep": true,
+"genre": "historical",
+"mood": [
+"epic",
+"bleak",
+"atmospheric"
+],
+"length": "long",
+"diff": 3,
+"type": "novel",
+"title": "The Border Trilogy (All the Pretty Horses / The Crossing / Cities of the Plain)",
+"author": "Cormac McCarthy",
+"why": "Cormac McCarthy's three linked novels of cowboys in the borderlands; a recommended masterpiece for fans of Western epics."
+},
+"angels": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"dark",
+"bleak",
+"thoughtful"
+],
+"length": "short",
+"diff": 2,
+"type": "novel",
+"title": "Angels",
+"author": "Denis Johnson",
+"why": "Denis Johnson's raw debut about drifters on a doomed road trip; readers say it stuck with them."
+},
+"final empire": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"epic",
+"adventurous",
+"fast"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "The Final Empire",
+"author": "Brandon Sanderson",
+"why": "A thief crew plots to topple an immortal ruler in a world of ash; a gripping, hard-to-put-down start to Mistborn."
+},
+"time enough for love": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"thoughtful",
+"adventurous",
+"funny"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "Time Enough For Love",
+"author": "Robert A. Heinlein",
+"why": "The oldest man alive reflects on his many lives; readers say it changed their sense of what matters."
+},
+"oliver twist": {
+"keep": true,
+"genre": "classic",
+"mood": [
+"dark",
+"emotional",
+"satirical"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "Oliver Twist",
+"author": "Charles Dickens",
+"why": "An orphan falls among London thieves; Dickens's classic about poverty and kindness, liked by readers who enjoy his style."
+},
+"priestdaddy": {
+"keep": true,
+"genre": "memoir",
+"mood": [
+"funny",
+"emotional"
+],
+"length": "medium",
+"diff": 2,
+"type": "nonfiction",
+"title": "Priestdaddy",
+"author": "Patricia Lockwood",
+"why": "A poet's memoir about living with her eccentric Catholic priest father; praised as hilarious and beautifully written."
+},
+"plague dogs": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"bleak",
+"emotional",
+"dark"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "The Plague Dogs",
+"author": "Richard Adams",
+"why": "Two dogs escape a laboratory and struggle to survive; an uncomfortable but gripping story that readers say is well worth it."
+},
+"penance": {
+"keep": true,
+"genre": "crime",
+"mood": [
+"tense",
+"dark",
+"fast"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Penance",
+"author": "Eliza Clark",
+"why": "A true-crime writer reconstructs a teen murder through interviews; compelling and addictive, with sharp 2000s culture."
+},
+"ship who sang": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"emotional",
+"hopeful",
+"adventurous"
+],
+"length": "short",
+"diff": 1,
+"type": "novel",
+"title": "The Ship Who Sang",
+"author": "Anne McCaffrey",
+"why": "A woman housed in a starship's shell works as its brain; a classic about humanity and technology."
+},
+"steerswoman": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"thoughtful",
+"adventurous",
+"mind-bending"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "The Steerswoman",
+"author": "Rosemary Kirstein",
+"why": "A woman who gathers knowledge uncovers a mystery in a world that hides science; an underrated science-fantasy gem."
+},
+"summer": {
+"keep": true,
+"genre": "classic",
+"mood": [
+"emotional",
+"melancholic"
+],
+"length": "short",
+"diff": 2,
+"type": "novel",
+"title": "Summer",
+"author": "Edith Wharton",
+"why": "A young woman in a New England village falls into a doomed romance; praised as piercing and beautiful."
+},
+"nights dawn trilogy": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"epic",
+"adventurous",
+"dark"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "The Night's Dawn Trilogy",
+"author": "Peter F. Hamilton",
+"why": "A huge space opera in which the dead return; a sprawling beast of a story some call so bad it is good."
+},
+"firefly": {
+"keep": false,
+"genre": "horror",
+"mood": [
+"dark"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Firefly",
+"author": "Piers Anthony",
+"why": "Named only to warn readers away because of disturbing content."
+},
+"king rat": {
+"keep": true,
+"genre": "historical",
+"mood": [
+"tense",
+"bleak",
+"adventurous"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "King Rat",
+"author": "James Clavell",
+"why": "Prisoners of war struggle to survive in a Japanese camp; recommended as gripping."
+},
+"friday": {
+"keep": false,
+"genre": "scifi",
+"mood": [
+"adventurous"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Friday",
+"author": "Robert A. Heinlein",
+"why": "Comments refer to other books titled Friday; no clear recommendation."
+},
+"shards of earth": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"epic",
+"adventurous",
+"fast"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "Shards of Earth",
+"author": "Adrian Tchaikovsky",
+"why": "Humans and alien species fight cosmic threats in a Mass Effect-style space opera; good from start to finish."
+},
+"final girl support group": {
+"keep": true,
+"genre": "horror",
+"mood": [
+"funny",
+"tense",
+"fast"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "The Final Girl Support Group",
+"author": "Grady Hendrix",
+"why": "Slasher survivors in therapy are hunted again; a clever, fast horror-comedy readers enjoy."
+},
+"sandman": {
+"keep": true,
+"genre": "graphic",
+"mood": [
+"dark",
+"mind-bending",
+"atmospheric"
+],
+"length": "long",
+"diff": 2,
+"type": "graphic",
+"title": "Sandman",
+"author": "Neil Gaiman",
+"why": "Neil Gaiman's dark fantasy comic about the lord of dreams; readers call it a masterpiece."
+},
+"slow horses": {
+"keep": true,
+"genre": "crime",
+"mood": [
+"tense",
+"funny",
+"satirical"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Slow Horses",
+"author": "Mick Herron",
+"why": "Disgraced spies exiled to a dead-end department stumble on a plot; sharp, witty spy fiction."
+},
+"secret life of bees": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"emotional",
+"hopeful",
+"cozy"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "The secret life of bees",
+"author": "Sue Monk Kidd",
+"why": "A girl runs away to a house of beekeeping sisters in 1960s South Carolina; a warm, popular coming-of-age story."
+},
+"bear and the nightingale": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"atmospheric",
+"dark",
+"cozy"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "The Bear and the Nightingale",
+"author": "Katherine Arden",
+"why": "A girl guards her family against old spirits in medieval Russia; atmospheric folklore fantasy."
+},
+"legendborn": {
+"keep": true,
+"genre": "ya",
+"mood": [
+"adventurous",
+"emotional",
+"fast"
+],
+"length": "long",
+"diff": 1,
+"type": "novel",
+"title": "Legendborn",
+"author": "Tracy Deonn",
+"why": "A grieving student discovers a secret society descended from Arthurian knights; an absorbing YA fantasy."
+},
+"dead wake": {
+"keep": true,
+"genre": "history",
+"mood": [
+"tense",
+"thoughtful"
+],
+"length": "medium",
+"diff": 2,
+"type": "nonfiction",
+"title": "Dead Wake",
+"author": "Erik Larson",
+"why": "The sinking of the Lusitania told like a thriller; readers enjoy the fascinating detail."
+},
+"slow gods": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"thoughtful",
+"atmospheric"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Slow Gods",
+"author": "Claire North",
+"why": "A space opera of long journeys and slow time; liked for feeling fresh."
+},
+"grendel": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"dark",
+"thoughtful",
+"melancholic"
+],
+"length": "short",
+"diff": 3,
+"type": "novel",
+"title": "Grendel",
+"author": "John Gardner",
+"why": "Beowulf's monster narrates his own story; readers reread it for its sublime prose."
+},
+"winter of our discontent": {
+"keep": true,
+"genre": "classic",
+"mood": [
+"thoughtful",
+"melancholic"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "The Winter of Our Discontent",
+"author": "John Steinbeck",
+"why": "A decent man in a small town is tempted into compromising his morals; a late Steinbeck about ambition and integrity."
+},
+"jingo": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"funny",
+"satirical",
+"adventurous"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Jingo",
+"author": "Terry Pratchett",
+"why": "Ankh-Morpork nearly goes to war over a rising island; a sharp, funny Watch story suggested to new readers."
+},
+"witch elm": {
+"keep": true,
+"genre": "crime",
+"mood": [
+"tense",
+"atmospheric",
+"dark"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "The Witch Elm",
+"author": "Tana French",
+"why": "A man recovering from an attack finds a skull in his family garden; twisty, though a few readers found it slow."
+},
+"rose field": {
+"keep": false,
+"genre": "fantasy",
+"mood": [
+"epic"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "The Rose Field",
+"author": "Philip Pullman",
+"why": "Named only as a disappointing book."
+},
+"skagboys": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"dark",
+"funny",
+"bleak"
+],
+"length": "long",
+"diff": 3,
+"type": "novel",
+"title": "Skagboys",
+"author": "Irvine Welsh",
+"why": "The prequel to Trainspotting follows how its characters fall into heroin; raw, intense and beautifully written."
+},
+"dragonbone chair": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"epic",
+"adventurous"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "The Dragonbone Chair",
+"author": "Tad Williams",
+"why": "A kitchen boy is swept into a kingdom's collapse; a classic epic fantasy that inspired many later writers."
+},
+"raven": {
+"keep": true,
+"genre": "poetry",
+"mood": [
+"dark",
+"melancholic",
+"atmospheric"
+],
+"length": "short",
+"diff": 2,
+"type": "poetry",
+"title": "The Raven",
+"author": "Edgar Allan Poe",
+"why": "Poe's famous poem of a grieving man and a croaking bird; short, dark and carefully constructed."
+},
+"childrens bible": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"thoughtful",
+"dark",
+"satirical"
+],
+"length": "short",
+"diff": 2,
+"type": "novel",
+"title": "A Children's Bible",
+"author": "Lydia Millet",
+"why": "Children watch their adults squander a climate crisis and pandemic; a sharp, thoughtful novel, whatever the title suggests."
+},
+"empire falls": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"thoughtful",
+"funny",
+"melancholic"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "Empire Falls",
+"author": "Richard Russo",
+"why": "Life in a declining Maine town; Russo's Pulitzer winner mixes warmth and wry observation."
+},
+"shell seekers": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"cozy",
+"emotional",
+"melancholic"
+],
+"length": "long",
+"diff": 1,
+"type": "novel",
+"title": "The Shell Seekers",
+"author": "Rosamunde Pilcher",
+"why": "An elderly woman looks back on her life and family; comforting and richly descriptive."
+},
+"turtles all the way down": {
+"keep": true,
+"genre": "ya",
+"mood": [
+"emotional",
+"thoughtful"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Turtles All the Way Down",
+"author": "John Green",
+"why": "A teenage girl with anxiety follows a missing-billionaire mystery; a warm YA about mental illness."
+},
+"rabbits": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"mind-bending",
+"tense"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Rabbits",
+"author": "Terry Miles",
+"why": "A paranoid thriller about a secret alternate-reality game; ridiculous and confounding in ways its fans love."
+},
+"hungerstone": {
+"keep": true,
+"genre": "horror",
+"mood": [
+"dark",
+"atmospheric"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Hungerstone",
+"author": "Kat Dunn",
+"why": "A Carmilla retelling in which a vampire helps a woman escape an abusive marriage; sensual gothic horror."
+},
+"tom jones": {
+"keep": true,
+"genre": "classic",
+"mood": [
+"funny",
+"satirical",
+"adventurous"
+],
+"length": "long",
+"diff": 3,
+"type": "novel",
+"title": "Tom Jones",
+"author": "Henry Fielding",
+"why": "A foundling's bawdy adventures told by an ironic narrator; a delight for some, unreadable for others."
+},
+"home": {
+"keep": false,
+"genre": "literary",
+"mood": [
+"thoughtful"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Home",
+"author": "Marilynne Robinson",
+"why": "Comments do not discuss this book."
+},
+"arcadia": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"emotional",
+"atmospheric"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Arcadia",
+"author": "Lauren Groff",
+"why": "A boy grows up in a 1960s commune; called painfully beautiful, a contemporary Middlemarch."
+},
+"challenger": {
+"keep": true,
+"genre": "history",
+"mood": [
+"tense",
+"thoughtful"
+],
+"length": "long",
+"diff": 2,
+"type": "nonfiction",
+"title": "Challenger",
+"author": "Adam Higginbotham",
+"why": "The Challenger disaster told in gripping detail; readers recommend it alongside other strong narrative non-fiction."
+},
+"war and peace by leo tolstoy": {
+"keep": true,
+"genre": "classic",
+"mood": [
+"epic",
+"thoughtful",
+"emotional"
+],
+"length": "long",
+"diff": 3,
+"type": "novel",
+"title": "War and Peace",
+"author": "Leo Tolstoy",
+"why": "Napoleonic Russia seen through several families; a monumental novel that readers tackle slowly."
+},
+"cackle": {
+"keep": true,
+"genre": "horror",
+"mood": [
+"funny",
+"cozy",
+"atmospheric"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Cackle",
+"author": "Rachel Harrison",
+"why": "A woman moves to a small town where witchcraft is afoot; a cosy, funny horror readers reread."
+},
+"king leopolds ghost": {
+"keep": true,
+"genre": "history",
+"mood": [
+"dark",
+"thoughtful",
+"bleak"
+],
+"length": "medium",
+"diff": 2,
+"type": "nonfiction",
+"title": "King Leopold's ghost",
+"author": "Adam Hochschild",
+"why": "The Belgian king's brutal rule of the Congo; readers recommend it, though it is hard to take in."
+},
+"boyfriend": {
+"keep": false,
+"genre": "crime",
+"mood": [
+"tense"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "The Boyfriend",
+"author": "Freida McFadden",
+"why": "Named only as a disappointing book."
+},
+"swordheart": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"funny",
+"cozy",
+"adventurous"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Swordheart",
+"author": "T. Kingfisher",
+"why": "A widow and a cursed swordsman bound to her sword make a warm, funny fantasy romance."
+},
+"book of strange new things": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"thoughtful",
+"atmospheric",
+"emotional"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "The Book of Strange New Things",
+"author": "Michael Faber",
+"why": "A missionary travels to an alien planet while his marriage strains on Earth; weird, moving and praised for its ending."
+},
+"at home": {
+"keep": true,
+"genre": "history",
+"mood": [
+"funny",
+"thoughtful"
+],
+"length": "long",
+"diff": 1,
+"type": "nonfiction",
+"title": "At Home",
+"author": "Bill Bryson",
+"why": "Bryson tours the rooms of a house, revealing the history of everyday life; readers call it fun and fascinating."
+},
+"wandering stars": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"emotional",
+"epic"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Wandering Stars",
+"author": "Tommy Orange",
+"why": "Tommy Orange follows the descendants of a massacre survivor; readers find it amazing."
+},
+"venomous lumpsucker": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"satirical",
+"funny",
+"dark"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Venomous Lumpsucker",
+"author": "Ned Beauman",
+"why": "A darkly funny near-future satire about extinction credits; admired for its ideas."
+},
+"lightning": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"tense",
+"fast",
+"mind-bending"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Lightning",
+"author": "Dean Koontz",
+"why": "A woman is repeatedly saved by a mysterious stranger tied to time travel; readers rank it his best."
+},
+"herzog": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"thoughtful",
+"funny",
+"melancholic"
+],
+"length": "medium",
+"diff": 3,
+"type": "novel",
+"title": "Herzog",
+"author": "Saul Bellow",
+"why": "A professor in crisis writes unsent letters to everyone; a brilliant, demanding portrait of a failed genius."
+},
+"grace of kings": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"epic",
+"adventurous"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "The Grace of Kings (The Dandelion Dynasty)",
+"author": "Ken Liu",
+"why": "Two rebels topple an empire in a silkpunk world; well rated, though some find the pacing heavy."
+},
+"prozac nation": {
+"keep": true,
+"genre": "memoir",
+"mood": [
+"dark",
+"emotional",
+"bleak"
+],
+"length": "medium",
+"diff": 2,
+"type": "nonfiction",
+"title": "Prozac nation",
+"author": "Elizabeth Wurtzel",
+"why": "A frank memoir of young adult depression; not for everyone but helpful for readers who relate."
+},
+"hero of ages": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"epic",
+"adventurous"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "The Hero of Ages",
+"author": "Brandon Sanderson",
+"why": "The final Mistborn book, bringing the trilogy to a satisfying, epic close."
+},
+"stars in my pocket like grains of sand": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"thoughtful",
+"mind-bending"
+],
+"length": "medium",
+"diff": 3,
+"type": "novel",
+"title": "Stars in my pocket like grains of sand",
+"author": "Samuel R. Delany",
+"why": "Delany's galactic love story across cultures and unusual sexuality; difficult but rewarding."
+},
+"flow my tears the policeman said": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"mind-bending",
+"dark",
+"thoughtful"
+],
+"length": "short",
+"diff": 2,
+"type": "novel",
+"title": "Flow My Tears, the Policeman Said",
+"author": "Philip K. Dick",
+"why": "A TV star wakes in a world where he does not exist; a paranoid Dick classic."
+},
+"house of the scorpion": {
+"keep": true,
+"genre": "ya",
+"mood": [
+"tense",
+"dark",
+"emotional"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "The House of the Scorpion",
+"author": "Nancy Farmer",
+"why": "A clone raised in a drug lord's household fights to be treated as human; a school favourite people remember."
+},
+"homeseeking": {
+"keep": true,
+"genre": "historical",
+"mood": [
+"emotional",
+"epic"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "Homeseeking",
+"author": "Karissa Chen",
+"why": "A Chinese couple separated by war across decades; recommended to fans of Pachinko."
+}
+}

@@ -1,0 +1,1022 @@
+{
+ "neapolitan novels": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "thoughtful",
+   "melancholic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Neapolitan Novels",
+  "author": "Elena Ferrante",
+  "why": "Four-book saga of two friends from a poor Naples neighbourhood across a lifetime; readers reread it every few years."
+ },
+ "worst journey in the world": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "adventurous",
+   "bleak",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "The Worst Journey in the World",
+  "author": "Apsley Cherry-Garrard",
+  "why": "First-hand account of the Antarctic Terra Nova expedition and a brutal winter trek; a polar-exploration classic."
+ },
+ "london falling": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "tense",
+   "dark",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "London Falling",
+  "author": "Patrick Radden Keefe",
+  "why": "Journalist Keefe's reported narrative of a London story; readers called it outstanding."
+ },
+ "julia": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "thoughtful",
+   "bleak"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Julia",
+  "author": "Sandra Newman",
+  "why": "Retells 1984 from the viewpoint of Julia, giving the regime's ideology and her experience more depth."
+ },
+ "haar": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "atmospheric",
+   "dark",
+   "fast"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Haar",
+  "author": "David Sodergren",
+  "why": "Fog-bound Scottish seaside horror with a gloomy atmosphere and a wild ride."
+ },
+ "girl on the train": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "fast",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Girl on the Train",
+  "author": "Paula Hawkins",
+  "why": "A commuter becomes entangled in a missing-woman case she glimpses from the train; a popular psychological thriller."
+ },
+ "devil all the time": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "dark",
+   "bleak",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The devil all the time",
+  "author": "Donald Ray Pollock",
+  "why": "Grim rural Ohio and the violent people who live in it; brutal, gripping Southern gothic."
+ },
+ "otherland": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "epic",
+   "adventurous",
+   "mind-bending"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Otherland",
+  "author": "Tad Williams",
+  "why": "Sprawling cyberpunk saga of children trapped in a virtual world; fans say it ties together superbly."
+ },
+ "glasshouse": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Glasshouse",
+  "author": "Charles Stross",
+  "why": "Comments do not discuss this book clearly."
+ },
+ "sheep look up": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "bleak",
+   "dark",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Sheep Look Up",
+  "author": "John Brunner",
+  "why": "Brunner's 1972 vision of ecological collapse told in fragments; readers say it grows more relevant each year."
+ },
+ "to shape a dragons breath": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "adventurous",
+   "hopeful",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "To Shape a Dragon's Breath",
+  "author": "Moniquill Blackgoose",
+  "why": "An indigenous girl bonds with a dragon and goes to a colonial school; readers like its dragons and perspective."
+ },
+ "calamity club": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "fast"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Calamity Club",
+  "author": "Kathryn Stockett",
+  "why": "Character-driven historical novel by the author of The Help; readers call it a long, page-turning story."
+ },
+ "battle royale": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "tense",
+   "fast"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Battle royale",
+  "author": "Koushun Takami",
+  "why": "Schoolchildren are forced to fight to the death; a violent, gripping Japanese cult novel."
+ },
+ "barrayar": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "adventurous",
+   "emotional",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Barrayar",
+  "author": "Lois McMaster Bujold",
+  "why": "Second Vorkosigan novel following Cordelia after marriage into a military society; readers call the series awesome."
+ },
+ "september house": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "funny",
+   "dark",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The September House",
+  "author": "Carissa Orlando",
+  "why": "A woman lives happily in a haunted house, hiding the truth; beautifully written about marriage and survival."
+ },
+ "master and commander": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "adventurous",
+   "epic"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Master and Commander",
+  "author": "Patrick O'Brian",
+  "why": "First of the long Aubrey-Maturin series of Napoleonic naval adventures, rich in period detail."
+ },
+ "dirk gentlys holistic detective agency": {
+  "keep": true,
+  "genre": "humour",
+  "mood": [
+   "funny",
+   "mind-bending",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Dirk Gently's Holistic Detective Agency",
+  "author": "Douglas Adams",
+  "why": "A detective who believes everything is connected is drawn into a madcap mystery, as funny as Hitchhiker's Guide."
+ },
+ "perfect storm": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "tense",
+   "adventurous",
+   "bleak"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "The Perfect Storm",
+  "author": "Sebastian Junger",
+  "why": "Reconstructs the loss of a fishing boat in a catastrophic 1991 storm; vivid and engrossing non-fiction."
+ },
+ "titanium noir": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "dark",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Titanium Noir",
+  "author": "Nick Harkaway",
+  "why": "A detective investigates a death among the giants in a wild sci-fi noir; delightful and inventive."
+ },
+ "leaves of grass": {
+  "keep": true,
+  "genre": "poetry",
+  "mood": [
+   "thoughtful",
+   "hopeful",
+   "epic"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "poetry",
+  "title": "Leaves of Grass",
+  "author": "Walt Whitman",
+  "why": "Whitman's landmark poetry collection celebrating the self and America; demanding but central to American literature."
+ },
+ "importance of being earnest": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "funny",
+   "satirical"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "play",
+  "title": "The Importance of Being Earnest",
+  "author": "Oscar Wilde",
+  "why": "Wilde's brilliant comedy of mistaken identities and Victorian manners, a favourite since school and university."
+ },
+ "tenth of december": {
+  "keep": true,
+  "genre": "humour",
+  "mood": [
+   "funny",
+   "emotional",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "stories",
+  "title": "Tenth of December",
+  "author": "George Saunders",
+  "why": "Saunders' sharp, inventive stories that readers say left their jaws hanging open."
+ },
+ "rage": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Rage",
+  "author": "Stephen King",
+  "why": "Comments name it as a bad example; withdrawn by the author."
+ },
+ "cujo": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Cujo",
+  "author": "Stephen King",
+  "why": "Comments do not clearly recommend this book."
+ },
+ "longitude": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "thoughtful",
+   "adventurous"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Longitude",
+  "author": "Dava Sobel",
+  "why": "The story of the clockmaker who solved the problem of finding longitude at sea; fantastic and compact."
+ },
+ "artemis fowl": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "funny",
+   "fast",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Artemis Fowl",
+  "author": "Eoin Colfer",
+  "why": "A boy criminal mastermind kidnaps a fairy; loved even by reluctant readers."
+ },
+ "smoke gets in your eyes": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "funny",
+   "thoughtful",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Smoke gets in your eyes",
+  "author": "Caitlin Doughty",
+  "why": "A young mortician's memoir of working in a crematorium and facing death; funny and eye-opening."
+ },
+ "implied spaces": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "adventurous",
+   "mind-bending",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Implied Spaces",
+  "author": "Walter Jon Williams",
+  "why": "A post-singularity adventure with action, twists and believable worldbuilding; readers think Williams is overlooked."
+ },
+ "mythos": {
+  "keep": true,
+  "genre": "other",
+  "mood": [
+   "funny",
+   "epic",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Mythos",
+  "author": "Stephen Fry",
+  "why": "Stephen Fry retells the Greek myths with wit; especially enjoyed as an audiobook."
+ },
+ "chronicles": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Martian Chronicles",
+  "author": "Ray Bradbury",
+  "why": "Comments do not discuss this specific book."
+ },
+ "hiding place": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "hopeful",
+   "tense"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "The Hiding Place",
+  "author": "Corrie ten Boom",
+  "why": "Corrie ten Boom's story of hiding Jews from the Nazis; very powerful and faith-driven."
+ },
+ "kushiels legacy": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Kushiel's Legacy",
+  "author": "Jacqueline Carey",
+  "why": "Comments do not clearly recommend this series."
+ },
+ "dark is rising": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "atmospheric",
+   "adventurous",
+   "epic"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The dark is rising",
+  "author": "Susan Cooper",
+  "why": "A boy learns he is an agent of the Light in a classic children's fantasy about Light versus Dark."
+ },
+ "84 charing cross road": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "cozy",
+   "funny",
+   "hopeful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "84, Charing Cross Road",
+  "author": "Helene Hanff",
+  "why": "Letters between a New York writer and a London bookseller grow from business to friendship; short and charming."
+ },
+ "faust": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Faust",
+  "author": "Johann Wolfgang von Goethe",
+  "why": "Comments do not clearly recommend this book."
+ },
+ "winesburg ohio": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "melancholic",
+   "thoughtful",
+   "atmospheric"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "stories",
+  "title": "Winesburg, Ohio",
+  "author": "Sherwood Anderson",
+  "why": "Linked short stories of lonely people in a small Ohio town; a quiet American classic."
+ },
+ "memoirs of a geisha": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "atmospheric",
+   "hopeful"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Memoirs of a Geisha",
+  "author": "Arthur Golden",
+  "why": "A fictional geisha recounts her rise in pre-war Kyoto; a romantic, immersive read."
+ },
+ "eon": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "epic",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Eon",
+  "author": "Greg Bear",
+  "why": "A hollow asteroid appears over Earth with a mysterious tunnel; hard sci-fi readers reread it often."
+ },
+ "mezzanine": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "thoughtful",
+   "funny"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Mezzanine",
+  "author": "Nicholson Baker",
+  "why": "A whole novel of one man's lunch break, obsessing over small things; plotless but fascinating."
+ },
+ "girl woman other": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "hopeful",
+   "funny"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Girl, Woman, Other",
+  "author": "Bernardine Evaristo",
+  "why": "Interlinked lives of twelve mostly Black British women told in a fluid, punctuation-light style; readers reread it."
+ },
+ "rose code": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "tense",
+   "emotional",
+   "fast"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Rose Code",
+  "author": "Kate Quinn",
+  "why": "Three women break codes at Bletchley Park during World War II; a gripping, popular historical novel."
+ },
+ "nightfall": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "tense",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "stories",
+  "title": "Nightfall and Other Stories",
+  "author": "Isaac Asimov",
+  "why": "Asimov's classic title story, where a world of constant daylight faces darkness, plus other tales; relatable and gripping."
+ },
+ "guide to the bible": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Asimov's Guide to the Bible",
+  "author": "Isaac Asimov",
+  "why": "Only mentioned as a book someone is reading."
+ },
+ "dungeon anarchists cookbook": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "fast",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Dungeon Anarchist's Cookbook",
+  "author": "Matt Dinniman",
+  "why": "Dungeon Crawler Carl book 4; fans love its dark humour and relentless action."
+ },
+ "isaacs storm": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "tense",
+   "dark",
+   "epic"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Isaac's Storm",
+  "author": "Erik Larson",
+  "why": "Larson tells the 1900 Galveston hurricane through those who lived it; compelling and well researched."
+ },
+ "fluke": {
+  "keep": true,
+  "genre": "humour",
+  "mood": [
+   "funny",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Fluke",
+  "author": "Christopher Moore",
+  "why": "A whale biologist hunts the secret of whale songs in a goofy Christopher Moore comedy."
+ },
+ "sorrow and bliss": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "melancholic",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Sorrow and Bliss",
+  "author": "Meg Mason",
+  "why": "A woman with unnamed mental illness navigates life; darkly funny and moving."
+ },
+ "rouge": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Rouge",
+  "author": "Mona Awad",
+  "why": "Comments are split and mostly negative."
+ },
+ "devotion of suspect x": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "thoughtful",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Devotion of Suspect X",
+  "author": "Keigo Higashino",
+  "why": "A mathematician helps a neighbour cover up a murder in a clever Japanese puzzle mystery."
+ },
+ "lost world": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Lost World",
+  "author": "Michael Crichton",
+  "why": "Comments describe a good start that disappoints."
+ },
+ "harrow the ninth": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "dark",
+   "funny"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Harrow the Ninth",
+  "author": "Tamsyn Muir",
+  "why": "Sequel to Gideon the Ninth with a puzzling, memory-fractured structure and morbid humour; best read after book one."
+ },
+ "canterbury tales": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "funny",
+   "satirical",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "poetry",
+  "title": "The Canterbury Tales",
+  "author": "Geoffrey Chaucer",
+  "why": "Pilgrims tell bawdy, moving and comic stories on the road to Canterbury; poetry and prose from medieval England."
+ },
+ "last argument of kings": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "epic",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Last Argument of Kings",
+  "author": "Joe Abercrombie",
+  "why": "Finale of Abercrombie's First Law trilogy, a bleak, cynical and fast-moving grimdark conclusion."
+ },
+ "caves of steel": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "tense"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Caves of Steel",
+  "author": "Isaac Asimov",
+  "why": "A detective pairs with a robot to solve a murder in a crowded future city; a classic sci-fi mystery."
+ },
+ "rock paper scissors": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "fast",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Rock Paper Scissors",
+  "author": "Alice Feeney",
+  "why": "A couple's trip to a remote Scottish chapel turns dangerous; one reader stayed up all night finishing."
+ },
+ "two towers": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "adventurous",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Two Towers",
+  "author": "J.R.R. Tolkien",
+  "why": "Middle volume of The Lord of the Rings, with war and journeys; readers reread it again and again."
+ },
+ "under the skin": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "bleak",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Under the skin",
+  "author": "Michel Faber",
+  "why": "A woman drives the Scottish highlands picking up hitchhikers for a sinister purpose; strange, chilling and far deeper than the film."
+ },
+ "boy": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Boy",
+  "author": "Roald Dahl",
+  "why": "Comments do not discuss this book."
+ },
+ "silas marner": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "emotional",
+   "hopeful",
+   "cozy"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Silas Marner",
+  "author": "George Eliot",
+  "why": "A miser's life is changed by an abandoned child; moving, though some find the prose demanding."
+ },
+ "my absolute darling": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "bleak",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "My Absolute Darling",
+  "author": "Gabriel Tallent",
+  "why": "A girl endures abuse by her father in rural California; powerful but extremely disturbing."
+ },
+ "jamaica inn": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "tense",
+   "atmospheric",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Jamaica Inn",
+  "author": "Daphne du Maurier",
+  "why": "A young woman is drawn into smugglers' crimes at a Cornish inn; a gothic adventure."
+ },
+ "three stigmata of palmer eldritch": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "dark",
+   "bleak"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Three Stigmata of Palmer Eldritch",
+  "author": "Philip K. Dick",
+  "why": "A mystery drug and a sinister tycoon blur reality in Philip K. Dick's disturbing classic."
+ },
+ "everything i never told you": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "melancholic",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Everything I never told you",
+  "author": "Celeste Ng",
+  "why": "A family unravels after the death of a favourite daughter; devastating and beautifully told."
+ },
+ "bride": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Bride",
+  "author": "Ali Hazelwood",
+  "why": "Comments are mostly negative about the ending."
+ },
+ "american pastoral": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "thoughtful",
+   "bleak",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "American Pastoral",
+  "author": "Philip Roth",
+  "why": "A comfortable family is shattered by his daughter's act in the Vietnam era; harrowing American portrait."
+ },
+ "entangled life": {
+  "keep": true,
+  "genre": "science",
+  "mood": [
+   "thoughtful",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Entangled Life",
+  "author": "Merlin Sheldrake",
+  "why": "Explores the hidden world of fungi and how they shape life; almost overwhelming in its wonder."
+ },
+ "delta v": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "adventurous",
+   "tense",
+   "fast"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Delta-v",
+  "author": "Daniel Suarez",
+  "why": "Divers train to mine asteroids in a man-against-nature space thriller; similar in feel to Andy Weir."
+ },
+ "quiet american": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "thoughtful",
+   "bleak",
+   "tense"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Quiet American",
+  "author": "Graham Greene",
+  "why": "A British journalist, an American agent and a woman in 1950s Vietnam; a short, moving anti-war novel."
+ },
+ "perks of being a wallflower": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "emotional",
+   "hopeful",
+   "melancholic"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Perks of Being a Wallflower",
+  "author": "Stephen Chbosky",
+  "why": "A shy teenager's letters about friendship, love and trauma; a coming-of-age favourite."
+ },
+ "war of the worlds": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "tense",
+   "dark",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The War of the Worlds",
+  "author": "H. G. Wells",
+  "why": "Wells' classic Martian invasion of England, readers' first adult sci-fi and still timeless and fun."
+ }
+}

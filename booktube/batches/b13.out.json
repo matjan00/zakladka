@@ -1,0 +1,959 @@
+{
+ "libra": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "thoughtful",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Libra",
+  "author": "Don DeLillo",
+  "why": "DeLillo's fictional take on Lee Harvey Oswald and the Kennedy assassination; readers who liked White Noise seek it out."
+ },
+ "colour of magic": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "satirical"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Colour of Magic",
+  "author": "Terry Pratchett",
+  "why": "The first Discworld novel, a madcap parody of fantasy; fans enjoy it though many suggest starting elsewhere in the series."
+ },
+ "gardens of the moon": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Gardens of the Moon",
+  "author": "Steven Erikson",
+  "why": "The dense, unexplained start of the Malazan series; recommended as straight-up swords and magic for patient fantasy fans."
+ },
+ "spirit catches you and you fall down": {
+  "keep": true,
+  "genre": "science",
+  "mood": [
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "The Spirit Catches You and You Fall Down",
+  "author": "Anne Fadiman",
+  "why": "A Hmong child's epilepsy shows the clash between American medicine and her family's beliefs; readers remember it long after."
+ },
+ "dies the fire": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "adventurous",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Dies the fire",
+  "author": "S. M. Stirling",
+  "why": "All technology suddenly stops working and survivors in Oregon fight to rebuild; an engaging post-apocalyptic start to a series."
+ },
+ "matilda": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "funny",
+   "hopeful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Matilda",
+  "author": "Roald Dahl",
+  "why": "Dahl's story of a clever girl with telekinetic powers and awful grown-ups; a beloved childhood read."
+ },
+ "institute": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "tense",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Institute",
+  "author": "Stephen King",
+  "why": "Kids with special abilities are held in a secret facility; a gripping King thriller one reader finished in a weekend."
+ },
+ "nightbitch": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "satirical",
+   "dark"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Nightbitch",
+  "author": "Rachel Yoder",
+  "why": "A stay-at-home mother believes she is turning into a dog; readers see it as a sharp metaphor for motherhood."
+ },
+ "gates of fire": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "epic",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Gates of fire",
+  "author": "Steven Pressfield",
+  "why": "A fictional telling of the Battle of Thermopylae from a Spartan squire's view; readers say it moved them deeply."
+ },
+ "perfect marriage": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Perfect Marriage",
+  "author": "Jeneva Rose",
+  "why": "A lawyer defends her husband accused of murder in this twisty thriller; readers wish they could read it fresh again."
+ },
+ "looking for alaska": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Looking for Alaska",
+  "author": "John Green",
+  "why": "Comments are split and one reader felt nothing about it; not clearly recommended."
+ },
+ "warbreaker": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Warbreaker",
+  "author": "Brandon Sanderson",
+  "why": "Readers split and one calls it bad on many levels; not clearly recommended."
+ },
+ "whalefall": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "tense",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Whalefall",
+  "author": "Daniel Kraus",
+  "why": "A young man is swallowed by a sperm whale and must survive inside it; NPR-endorsed, gripping and surprisingly emotional."
+ },
+ "my cousin rachel": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "atmospheric",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "My Cousin Rachel",
+  "author": "Daphne du Maurier",
+  "why": "Du Maurier's novel about whether a widow is a murderer or an innocent; readers love its ambiguity."
+ },
+ "outer dark": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "bleak"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "Outer Dark",
+  "author": "Cormac McCarthy",
+  "why": "McCarthy's early grim, Gothic tale of a brother and sister in the rural South; bleak and powerful."
+ },
+ "broken country": {
+  "keep": true,
+  "genre": "romance",
+  "mood": [
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Broken Country",
+  "author": "Clare Leslie Hall",
+  "why": "A farmer's wife is torn between husband and an old love in post-war England; readers say it is moving and unputdownable."
+ },
+ "dark places": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Dark Places",
+  "author": "Gillian Flynn",
+  "why": "Readers disagree and one found the ending ridiculous; not clearly recommended."
+ },
+ "rook": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "fast"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Rook",
+  "author": "Daniel O'Malley",
+  "why": "An amnesiac woman discovers she runs a secret supernatural agency in Britain; a quirky, fun ride."
+ },
+ "heroes die": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Heroes die",
+  "author": "Matthew Woodring Stover",
+  "why": "Readers split, one calling its concept tired and overwritten; not clearly recommended."
+ },
+ "zombie": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Zombie",
+  "author": "Joyce Carol Oates",
+  "why": "Comments recommend other zombie-titled books, not Oates's novel; the entry does not match the discussion."
+ },
+ "eragon": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Eragon",
+  "author": "Christopher Paolini",
+  "why": "A farm boy finds a dragon egg in the first Inheritance Cycle book; an easy fantasy adventure for young readers."
+ },
+ "power of now": {
+  "keep": true,
+  "genre": "philosophy",
+  "mood": [
+   "hopeful",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "The Power of Now",
+  "author": "Eckhart Tolle",
+  "why": "Tolle's guide to living in the present; readers say it changed their lives and helped them stop overthinking."
+ },
+ "shadow of the gods": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Shadow of the Gods",
+  "author": "John Gwynne",
+  "why": "Readers split between a favourite and a book with dull characters; not clearly recommended."
+ },
+ "letters to a young poet": {
+  "keep": true,
+  "genre": "poetry",
+  "mood": [
+   "thoughtful",
+   "hopeful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "poetry",
+  "title": "Letters to a young poet",
+  "author": "Rainer Maria Rilke",
+  "why": "Rilke's ten letters of advice to a young writer on solitude and creating; readers find it timeless and inspiring."
+ },
+ "erasure": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "satirical",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Erasure",
+  "author": "Percival L. Everett",
+  "why": "A frustrated Black novelist writes a parody that becomes a hit; a sharp satire on publishing and race."
+ },
+ "testaments": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Testaments",
+  "author": "Margaret Atwood",
+  "why": "Atwood's sequel to The Handmaid's Tale told by three women inside Gilead; recommended as gripping dystopian fiction."
+ },
+ "bibliophobia": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Bibliophobia",
+  "author": "Sarah Chihaya",
+  "why": "A book of personal essays about how reading changes our lives, recommended for writers of memoir."
+ },
+ "salt": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Salt",
+  "author": "Adam Roberts",
+  "why": "Roberts's early science fiction about two colonies on a salt planet at war; a reader enjoyed it."
+ },
+ "nothing to envy": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "dark",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Nothing to envy",
+  "author": "Barbara Demick",
+  "why": "Stories of ordinary North Koreans; reads like gripping fiction and gives a rare look at daily life."
+ },
+ "peace like a river": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Peace like a river",
+  "author": "Leif Enger",
+  "why": "A boy narrates his family's flight across the Midwest after his brother is accused of murder; loved for its prose."
+ },
+ "tin drum": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Tin Drum",
+  "author": "Gunter Grass",
+  "why": "Readers split, and one lists it among books they gave up on; not clearly recommended."
+ },
+ "beautiful ugly": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Beautiful Ugly",
+  "author": "Alice Feeney",
+  "why": "One reader calls it terrible but readable; not a clear recommendation."
+ },
+ "elegance of the hedgehog": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "thoughtful",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Elegance of the Hedgehog",
+  "author": "Muriel Barbery",
+  "why": "A concierge and a precocious girl find beauty in a Paris building; a gentle book about hidden depths."
+ },
+ "glorious exploits": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "funny",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Glorious Exploits",
+  "author": "Ferdia Lennon",
+  "why": "Two potters in Syracuse stage Greek plays with Athenian prisoners; praised as funny, moving and unusual."
+ },
+ "centennial": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "epic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Centennial",
+  "author": "James A. Michener",
+  "why": "Michener's sprawling saga of a Colorado town across centuries, rooted in geology and history."
+ },
+ "space between worlds": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Space Between Worlds",
+  "author": "Micaiah Johnson",
+  "why": "A woman travels between parallel Earths where her other selves are dead; recommended along with its sequel."
+ },
+ "atomic habits": {
+  "keep": true,
+  "genre": "philosophy",
+  "mood": [
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Atomic Habits",
+  "author": "James Clear",
+  "why": "James Clear's practical book on forming good habits through small changes; recommended even by self-help sceptics."
+ },
+ "brooklyn": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "melancholic",
+   "emotional"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Brooklyn",
+  "author": "Colm Tóibín",
+  "why": "An Irish girl emigrates to 1950s Brooklyn and must choose between two homes; a quiet, moving novel."
+ },
+ "dirty job": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "A Dirty Job",
+  "author": "Christopher Moore",
+  "why": "A beta male becomes a death merchant in San Francisco; a comic fantasy readers say made them laugh hard."
+ },
+ "confessions of a prairie bitch": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "funny",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Confessions of a prairie bitch",
+  "author": "Alison Arngrim",
+  "why": "The actress who played Nellie Oleson tells of her childhood fame and abuse; recommended as frank and funny."
+ },
+ "snow": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "thoughtful",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Snow",
+  "author": "Orhan Pamuk",
+  "why": "Pamuk's novel about a poet in a snowbound Turkish border town; recommended as a political, thoughtful literary read."
+ },
+ "furiously happy": {
+  "keep": true,
+  "genre": "humour",
+  "mood": [
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Furiously Happy",
+  "author": "Jenny Lawson",
+  "why": "Jenny Lawson's memoir on mental illness told with wild humour; readers call her uproariously funny."
+ },
+ "guns germs and steel": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Guns, Germs, and Steel",
+  "author": "Jared Diamond",
+  "why": "Diamond's argument that geography explains the unequal spread of power; one reader calls it the best book they have read."
+ },
+ "saving noah": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Saving Noah",
+  "author": "Lucinda Berry",
+  "why": "Readers call it one of the most messed-up books and say it is not well written; not a real recommendation."
+ },
+ "kristin lavransdatter": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "epic",
+   "melancholic"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Kristin Lavransdatter",
+  "author": "Sigrid Undset",
+  "why": "Undset's trilogy of one woman's life in medieval Norway; readers recommend it as a vast, rewarding classic."
+ },
+ "egg": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "hopeful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "stories",
+  "title": "The Egg",
+  "author": "Andy Weir",
+  "why": "A very short story about death and the nature of life; readers find it brief but excellent."
+ },
+ "divine comedy": {
+  "keep": true,
+  "genre": "poetry",
+  "mood": [
+   "thoughtful",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "poetry",
+  "title": "The Divine Comedy",
+  "author": "Dante Alighieri",
+  "why": "Dante's journey through hell, purgatory and paradise; readers recommend translations such as Ciardi's."
+ },
+ "engine summer": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "melancholic",
+   "mind-bending"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "Engine Summer",
+  "author": "John Crowley",
+  "why": "A strange, dreamlike post-apocalyptic story told by a young man; fans of Gene Wolfe often list it among favourites."
+ },
+ "malazan book of the fallen": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Malazan Book of the Fallen",
+  "author": "Steven Erikson",
+  "why": "A ten-volume epic fantasy starting with Gardens of the Moon; demanding, but fans rank it among the best."
+ },
+ "ethan frome": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Ethan Frome",
+  "author": "Edith Wharton",
+  "why": "Readers recall it as a required school read that they hated; it is not recommended."
+ },
+ "andromeda strain": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "tense",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Andromeda Strain",
+  "author": "Michael Crichton",
+  "why": "Scientists race to contain a deadly microbe from space; a classic techno-thriller readers still enjoy."
+ },
+ "to sleep in a sea of stars": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "To Sleep in a Sea of Stars",
+  "author": "Christopher Paolini",
+  "why": "Readers call it bland and far too long; not recommended."
+ },
+ "dragonriders of pern": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Dragonriders of Pern",
+  "author": "Anne McCaffrey",
+  "why": "Dragonriders defend a planet from deadly Thread; readers call it a brilliant series, starting with Dragonflight."
+ },
+ "sentence": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "hopeful",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Sentence",
+  "author": "Louise Erdrich",
+  "why": "A bookshop is haunted during the 2020 pandemic and the Minneapolis protests; praised and loved by Erdrich fans."
+ },
+ "city we became": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The City We Became",
+  "author": "N. K. Jemisin",
+  "why": "Readers split, one calling it a disappointment; not clearly recommended."
+ },
+ "cage of souls": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "atmospheric"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Cage of Souls",
+  "author": "Adrian Tchaikovsky",
+  "why": "A convict struggles to survive in a far-future prison and a dying Earth; praised for its prose and worldbuilding."
+ },
+ "windup girl": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Windup Girl",
+  "author": "Paolo Bacigalupi",
+  "why": "Comments recommend other novels and do not discuss this one."
+ },
+ "king in yellow": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "atmospheric"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "stories",
+  "title": "The King in Yellow",
+  "author": "Robert W. Chambers",
+  "why": "A set of weird stories linked by a cursed play; a classic for Halloween reading."
+ },
+ "likeness": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "atmospheric",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Likeness",
+  "author": "Tana French",
+  "why": "A detective goes undercover as her double in Tana French's tense Dublin mystery; readers accept the silly premise."
+ },
+ "spy who came in from the cold": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Spy Who Came in from the Cold",
+  "author": "John le Carré",
+  "why": "Le Carré's classic Cold War spy novel; readers praise its stunning twist."
+ },
+ "down and out in paris and london": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "thoughtful",
+   "dark"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Down and Out in Paris and London",
+  "author": "George Orwell",
+  "why": "Orwell's account of living in poverty in two cities; excellent, essay-like nonfiction."
+ },
+ "wild swans": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Wild Swans",
+  "author": "Jung Chang",
+  "why": "The lives of three generations of Chinese women through the 20th century; recommended for its personal and historical sweep."
+ },
+ "walk two moons": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "emotional",
+   "hopeful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Walk Two Moons",
+  "author": "Sharon Creech",
+  "why": "A girl travels across the US telling the story of her friend while dealing with her mother's absence; made one reader a reader."
+ },
+ "birnam wood": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Birnam Wood",
+  "author": "Eleanor Catton",
+  "why": "Activist gardeners meet a billionaire in a thriller with unlikeable characters you cannot stop reading."
+ },
+ "chronicles of amber": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "mind-bending",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The chronicles of Amber",
+  "author": "Roger Zelazny",
+  "why": "A prince with amnesia discovers he is royalty in a parallel world; a classic fantasy series."
+ },
+ "abarat": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "adventurous",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Abarat",
+  "author": "Clive Barker",
+  "why": "A girl is swept into a magical archipelago in Barker's illustrated young-adult fantasy trilogy."
+ },
+ "sluts": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Sluts",
+  "author": "Dennis Cooper",
+  "why": "Readers describe it as traumatising and unsettling, not as a recommendation."
+ },
+ "travelling cat chronicles": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The travelling cat chronicles",
+  "author": "Hiro Arikawa",
+  "why": "A man and his cat travel Japan visiting old friends; a gentle, tearful story readers recommend."
+ },
+ "gods themselves": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Gods Themselves",
+  "author": "Isaac Asimov",
+  "why": "Asimov's novel about a parallel universe's energy source and truly alien aliens; readers like its originality."
+ },
+ "kin": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Kin",
+  "author": "Tayari Jones",
+  "why": "Tayari Jones's story of two women from Louisiana looking for belonging and each other; readers love her work."
+ }
+}

@@ -1,0 +1,198 @@
+{
+ "americanah-adichie": {
+  "year": 2013
+ },
+ "redwall-jacques": {
+  "drop_pl": true,
+  "drop_lc": true
+ },
+ "all-quiet-on-the-western-front-remarque": {
+  "year": 1929
+ },
+ "unconsoled-ishiguro": {
+  "year": 1995
+ },
+ "eyes-of-the-dragon-king": {
+  "year": 1987
+ },
+ "little-women-alcott": {
+  "year": 1868
+ },
+ "deep-solomon": {
+  "year": 2019,
+  "pages": 176,
+  "drop_pl": true
+ },
+ "christmas-carol-dickens": {
+  "drop_pl": true,
+  "drop_lc": true
+ },
+ "stormlight-archive-sanderson": {
+  "year": 2010,
+  "pages": 1007
+ },
+ "invisible-cities-calvino": {
+  "year": 1972
+ },
+ "dark-is-rising-cooper": {
+  "year": 1973
+ },
+ "rant-palahniuk": {
+  "year": 2007
+ },
+ "rivers-of-london-aaronovitch": {
+  "pages": 392
+ },
+ "three-men-in-a-boat-jerome": {
+  "author": "Jerome K. Jerome",
+  "drop_pl": true,
+  "drop_lc": true
+ },
+ "hiroshima-hersey": {
+  "year": 1946
+ },
+ "inkheart-funke": {
+  "year": 2003
+ },
+ "woman-in-white-collins": {
+  "year": 1859,
+  "drop_pl": true,
+  "drop_lc": true
+ },
+ "sarum-rutherford": {
+  "author": "Edward Rutherfurd",
+  "year": 1987
+ },
+ "momo-ende": {
+  "year": 1973,
+  "pages": 272
+ },
+ "inferno-pournelle": {
+  "year": 1976
+ },
+ "100-years-of-solitude-marquez": {
+  "year": 1967
+ },
+ "chronicles-of-narnia-lewis": {
+  "year": 1950,
+  "drop_pl": true,
+  "drop_lc": true
+ },
+ "jesus-son-johnson": {
+  "title": "Jesus' Son",
+  "year": 1992
+ },
+ "midnight-in-the-garden-of-good-and-evil-berendt": {
+  "year": 1994
+ },
+ "humans-haig": {
+  "year": 2013
+ },
+ "villette-bronte": {
+  "year": 1853
+ },
+ "aztec-jennings": {
+  "drop_pl": true
+ },
+ "tess-of-the-durbervilles-hardy": {
+  "year": 1891
+ },
+ "accelerando-stross": {
+  "year": 2005
+ },
+ "journey-to-the-end-of-the-night-celine": {
+  "year": 1932
+ },
+ "death-comes-for-the-archbishop-cather": {
+  "year": 1927
+ },
+ "vanity-fair-thackeray": {
+  "year": 1848
+ },
+ "time-machine-wells": {
+  "year": 1895
+ },
+ "jaunt-king": {
+  "year": 1981
+ },
+ "galapagos-vonnegut": {
+  "year": 1985
+ },
+ "interview-with-the-vampire-rice": {
+  "year": 1976,
+  "drop_pl": true,
+  "drop_lc": true
+ },
+ "number-the-stars-lowry": {
+  "year": 1989
+ },
+ "three-musketeers-dumas": {
+  "year": 1844
+ },
+ "white-nights-dostoevsky": {
+  "year": 1848
+ },
+ "monk-lewis": {
+  "year": 1796
+ },
+ "dead-souls-gogol": {
+  "author": "Nikolai Gogol",
+  "year": 1842
+ },
+ "talisman-straub": {
+  "year": 1984
+ },
+ "big-swiss-beagin": {
+  "pages": 336
+ },
+ "clan-of-the-cave-bear-auel": {
+  "year": 1980
+ },
+ "moonstone-collins": {
+  "year": 1868
+ },
+ "rise-and-fall-of-the-third-reich-shirer": {
+  "year": 1960
+ },
+ "my-cousin-rachel-maurier": {
+  "year": 1951
+ },
+ "letters-to-a-young-poet-rilke": {
+  "year": 1929
+ },
+ "testaments-atwood": {
+  "pl_title": "Testamenty"
+ },
+ "divine-comedy-alighieri": {
+  "year": 1320
+ },
+ "malazan-book-of-the-fallen-erikson": {
+  "year": 1999
+ },
+ "down-and-out-in-paris-and-london-orwell": {
+  "drop_pl": true,
+  "drop_lc": true
+ },
+ "nausea-sartre": {
+  "drop_legimi": true
+ },
+ "blackout-all-clear-willis": {
+  "drop_pl": true,
+  "drop_lc": true
+ },
+ "signature-of-all-things-gilbert": {
+  "year": 2013
+ },
+ "perfume-the-story-of-a-murderer-suskind": {
+  "year": 1985
+ },
+ "intensity-koontz": {
+  "year": 1995
+ },
+ "body-king": {
+  "year": 1982
+ },
+ "apt-pupil-king": {
+  "year": 1982
+ }
+}

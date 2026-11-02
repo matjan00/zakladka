@@ -1,0 +1,973 @@
+{
+ "fisherman": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Fisherman",
+  "author": "John Langan",
+  "why": "Two widowers go fishing at a haunted creek and hear a terrifying tale; readers say it stays with them."
+ },
+ "grass": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Grass",
+  "author": "Sheri S. Tepper",
+  "why": "A planet with a strange ecology and a diplomat-led investigation; fans re-read it periodically."
+ },
+ "we the drowned": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "epic",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "We, the Drowned",
+  "author": "Carsten Jensen",
+  "why": "Generations of Danish seafarers in a spanning saga of sea and home; an epic that readers love."
+ },
+ "storyteller": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "funny",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "The Storyteller",
+  "author": "Dave Grohl",
+  "why": "The rock musician's lively life stories, best in the audiobook he reads himself."
+ },
+ "finding me": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Finding Me",
+  "author": "Viola Davis",
+  "why": "The actor's moving account of poverty and rising to success, with a gripping audiobook she narrates."
+ },
+ "midnight in the garden of good and evil": {
+  "keep": true,
+  "genre": "other",
+  "mood": [
+   "atmospheric",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Midnight in the Garden of Good and Evil",
+  "author": "John Berendt",
+  "why": "A true-crime portrait of Savannah and its eccentric residents, read as a travel-style and murder tale."
+ },
+ "tenant of wildfell hall": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "dark",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Tenant of Wildfell Hall",
+  "author": "Anne Brontë",
+  "why": "A woman flees an abusive marriage in a bold early feminist novel; readers pair it with the Brontë classics."
+ },
+ "humans": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Humans",
+  "author": "Matt Haig",
+  "why": "An alien visits Earth to stop a mathematical breakthrough and learns to love humans; funny and touching."
+ },
+ "my sisters keeper": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "My Sister's Keeper",
+  "author": "Jodi Picoult",
+  "why": "A girl conceived to save her sister sues for control of her body; a gripping family drama."
+ },
+ "mote in gods eye": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "adventurous",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Mote in God's Eye",
+  "author": "Larry Niven and Jerry Pournelle",
+  "why": "Humans first meet aliens, and have to decide what to do about them; an old-school classic."
+ },
+ "morning star": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "fast",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Morning Star",
+  "author": "Pierce Brown",
+  "why": "The final instalment of the Red Rising trilogy, a fast, violent space opera for fans."
+ },
+ "tunnel": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Tunnel",
+  "author": "William H. Gass",
+  "why": "A history professor writes a book on Nazi Germany and gets lost in his own house; a huge postmodern work."
+ },
+ "last lecture": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "hopeful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "The Last Lecture",
+  "author": "Randy Pausch",
+  "why": "A dying professor's final talk on living, which made readers reflect on their own lives."
+ },
+ "out": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Out",
+  "author": "Natsuo Kirino",
+  "why": "Not a clear recommendation of this book."
+ },
+ "emperor of gladness": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Emperor of Gladness",
+  "author": "Ocean Vuong",
+  "why": "An unlikely friendship between a young man and an elderly woman in a small American town."
+ },
+ "for whom the bell tolls": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "tense",
+   "bleak"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "For Whom the Bell Tolls",
+  "author": "Ernest Hemingway",
+  "why": "An American fighter joins guerrillas in the Spanish Civil War; a classic of war fiction."
+ },
+ "in the woods": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "dark",
+   "atmospheric"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "In the Woods",
+  "author": "Tana French",
+  "why": "A detective revisits a childhood trauma in an Irish forest; hooks readers with atmosphere."
+ },
+ "mort": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Mort",
+  "author": "Terry Pratchett",
+  "why": "Death takes an apprentice in a funny, clever Discworld novel and an easy place to begin."
+ },
+ "moon of the crusted snow": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "tense",
+   "bleak"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Moon of the Crusted Snow",
+  "author": "Waubgeshig Rice",
+  "why": "An Anishinaabe community faces winter after the grid falls; short, tense and quietly powerful."
+ },
+ "perfume the story of a murderer": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Perfume: The Story of a Murderer",
+  "author": "Patrick Süskind",
+  "why": "A man with a perfect sense of smell kills to create the ultimate scent; strange and gripping."
+ },
+ "villette": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "melancholic",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Villette",
+  "author": "Charlotte Brontë",
+  "why": "A lonely English teacher abroad in a French town; slow, cold and psychologically sharp."
+ },
+ "bastard out of carolina": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Bastard Out of Carolina",
+  "author": "Dorothy Allison",
+  "why": "A girl in the South copes with abuse and poverty; raw, painful and powerful."
+ },
+ "silmarillion": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Silmarillion",
+  "author": "J.R.R. Tolkien",
+  "why": "The history of Middle-earth in a biblical style, dry for some readers but rich for devoted fans."
+ },
+ "red mars": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Red Mars",
+  "author": "Kim Stanley Robinson",
+  "why": "The first settlers build Mars and fight over its future; a detailed, imaginative work of colonisation."
+ },
+ "aztec": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "adventurous",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Aztec",
+  "author": "Gary Jennings",
+  "why": "A native man tells the fall of the Aztec empire in lively detail; a favourite for many readers."
+ },
+ "germinal": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "bleak",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Germinal",
+  "author": "Émile Zola",
+  "why": "French coal miners strike in the 1860s; far from boring, readers found it gripping and humane."
+ },
+ "wave": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Wave",
+  "author": "Sonali Deraniyagala",
+  "why": "A woman loses her whole family in the 2004 tsunami and writes about grief; hauntingly beautiful."
+ },
+ "illustrated man": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "stories",
+  "title": "The Illustrated Man",
+  "author": "Ray Bradbury",
+  "why": "Eighteen linked tales shown through a man's tattoos; a collection by a writer many call a genius."
+ },
+ "tess of the durbervilles": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "bleak",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Tess of the d'Urbervilles",
+  "author": "Thomas Hardy",
+  "why": "A poor girl's fall in rural Victorian England; tragic, with grim scenes readers still discuss."
+ },
+ "alas babylon": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "tense",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Alas Babylon",
+  "author": "Pat Frank",
+  "why": "The aftermath of nuclear war in a small Florida town; dated in places but gripping."
+ },
+ "pedro paramo": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "mind-bending",
+   "melancholic"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "Pedro Páramo",
+  "author": "Juan Rulfo",
+  "why": "A man goes to a ghost town to find his father; ghostly and short, with jumpy storytelling that readers value."
+ },
+ "toms crossing": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "adventurous",
+   "mind-bending"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Tom's Crossing",
+  "author": "Mark Z. Danielewski",
+  "why": "A huge, strange western with experimental typography; readers urge others to try it."
+ },
+ "light pirate": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "melancholic",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Light Pirate",
+  "author": "Lily Brooks-Dalton",
+  "why": "A near-future family at sea after a climate collapse; readers who liked other climate fiction recommend it."
+ },
+ "wizard of earthsea": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "adventurous",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "A Wizard of Earthsea",
+  "author": "Ursula K. Le Guin",
+  "why": "A young wizard learns the cost of power in a short, wise fantasy classic."
+ },
+ "ten thousand doors of january": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "adventurous",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Ten Thousand Doors of January",
+  "author": "Alix E. Harrow",
+  "why": "A girl finds a book that opens doors to other worlds; lyrical and magical."
+ },
+ "illuminatus trilogy": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "mind-bending"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Illuminatus! Trilogy",
+  "author": "Robert Shea and Robert Anton Wilson",
+  "why": "Conspiracy theories and secret societies, a chaotic and satirical cult favourite; recommended by those who want something weird."
+ },
+ "hild": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "epic",
+   "atmospheric"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Hild",
+  "author": "Nicola Griffith",
+  "why": "The childhood of the future abbess in early medieval Britain, vivid and richly detailed; its sequel is also praised."
+ },
+ "sunrise on the reaping": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "tense",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Sunrise on the Reaping",
+  "author": "Suzanne Collins",
+  "why": "A prequel to The Hunger Games about Haymitch, which readers are eagerly reading."
+ },
+ "warriors apprentice": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "adventurous",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Warrior's Apprentice",
+  "author": "Lois McMaster Bujold",
+  "why": "A teenage Barrayaran gets entangled in a spiralling mercenary scheme; fast, funny space opera."
+ },
+ "service model": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Service Model",
+  "author": "Adrian Tchaikovsky",
+  "why": "A robot butler continues its duties after a crisis; slow to begin but ends with clever pay-offs."
+ },
+ "one flew over the cuckoos nest": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "One Flew Over the Cuckoo's Nest",
+  "author": "Ken Kesey",
+  "why": "Not a clear recommendation of this book."
+ },
+ "termination shock": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Termination Shock",
+  "author": "Neal Stephenson",
+  "why": "Not a clear recommendation of this book."
+ },
+ "beach": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "adventurous",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Beach",
+  "author": "Alex Garland",
+  "why": "Backpackers seek a hidden island paradise that goes wrong; praised as one of the best by one reader."
+ },
+ "secret of secrets": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "fast",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Secret of Secrets",
+  "author": "Dan Brown",
+  "why": "Robert Langdon chases another puzzle, with a conspiracy theory; a guilty-pleasure thriller for fans."
+ },
+ "stand on zanzibar": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "satirical"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Stand on Zanzibar",
+  "author": "John Brunner",
+  "why": "An overpopulated near future told through fragmented media; a landmark of New Wave SF."
+ },
+ "surface detail": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "mind-bending"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Surface Detail",
+  "author": "Iain Banks",
+  "why": "A Culture novel about virtual hells and a war over them; the idea stuck in readers' minds for years."
+ },
+ "fault in our stars": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Fault in Our Stars",
+  "author": "John Green",
+  "why": "Two teenagers with cancer fall in love; an easy tear-jerker."
+ },
+ "flowers in the attic": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Flowers in the Attic",
+  "author": "V.C. Andrews",
+  "why": "Children hidden away in an attic in a dark gothic family drama that earned a cult following."
+ },
+ "graveyard book": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "atmospheric",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Graveyard Book",
+  "author": "Neil Gaiman",
+  "why": "A boy raised by ghosts in a graveyard; with a memorable opening line."
+ },
+ "sea": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The sea",
+  "author": "John Banville",
+  "why": "Not a clear recommendation of this book."
+ },
+ "zone one": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "tense",
+   "bleak"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Zone One",
+  "author": "Colson Whitehead",
+  "why": "A Pulitzer winner turns to the zombie apocalypse with a thoughtful, literary survivor."
+ },
+ "against the day": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "epic",
+   "mind-bending"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Against the Day",
+  "author": "Thomas Pynchon",
+  "why": "A sprawling Pynchon epic with anarchists, airships and genius moments; one of his hardest books."
+ },
+ "raven scholar": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Raven Scholar",
+  "author": "Antonia Hodgson",
+  "why": "A murder mystery in a fantasy empire with a political twist; some readers think about it daily."
+ },
+ "in ascension": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "In Ascension",
+  "author": "Martin MacInnes",
+  "why": "A diver goes down a mysterious ocean trench and then to the farthest reaches; an unusual literary sci-fi."
+ },
+ "excession": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "epic"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Excession",
+  "author": "Iain Banks",
+  "why": "A Culture novel about ancient artefact and ship Minds' games; re-read by many fans."
+ },
+ "accelerando": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Accelerando",
+  "author": "Charles Stross",
+  "why": "Three generations ride the technological singularity; dense with ideas and not for everyone."
+ },
+ "insomnia": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Insomnia",
+  "author": "Stephen King",
+  "why": "Not a clear recommendation of this book."
+ },
+ "journey to the end of the night": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "bleak",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Journey to the end of the night",
+  "author": "Louis-Ferdinand Céline",
+  "why": "A cynical young man's wandering through war, colonies and poverty; foul, funny and revolutionary."
+ },
+ "power of the dog": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Power of the Dog",
+  "author": "Don Winslow",
+  "why": "Not a clear recommendation of this book."
+ },
+ "ocean at the end of the lane": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "atmospheric",
+   "emotional"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Ocean at the End of the Lane",
+  "author": "Neil Gaiman",
+  "why": "A man returns to his childhood home and recalls a strange girl and her pond; short and spellbinding."
+ },
+ "carrion comfort": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Carrion comfort",
+  "author": "Dan Simmons",
+  "why": "Old people feed on others' violence in a long, grim horror; fans say it is a top vampire novel."
+ },
+ "in the heart of the sea": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "adventurous",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "In the Heart of the Sea",
+  "author": "Nathaniel Philbrick",
+  "why": "The true story of the whaleship Essex sunk by a whale; a quick, absorbing page-turner."
+ },
+ "death comes for the archbishop": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "thoughtful",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Death Comes for the Archbishop",
+  "author": "Willa Cather",
+  "why": "Two French priests in 19th-century New Mexico; gentle, quiet and beautiful."
+ },
+ "confederacy of dunces": {
+  "keep": true,
+  "genre": "humour",
+  "mood": [
+   "funny",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "A Confederacy of Dunces",
+  "author": "John Kennedy Toole",
+  "why": "Ignatius Reilly, a slothful medievalist, causes chaos in New Orleans; a laugh per page."
+ },
+ "vanity fair": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "satirical",
+   "funny"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Vanity Fair",
+  "author": "William Makepeace Thackeray",
+  "why": "Becky Sharp climbs the Regency social ladder in this long satire; some readers need two attempts."
+ },
+ "isola": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Isola",
+  "author": "Allegra Goodman",
+  "why": "A noblewoman is left on an island by her relatives in the 1500s; readers found it very good."
+ },
+ "power of one": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The power of one",
+  "author": "Bryce Courtenay",
+  "why": "A boy grows up in South Africa and learns boxing amid apartheid; a long coming-of-age classic."
+ },
+ "valis": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Valis",
+  "author": "Philip K. Dick",
+  "why": "Dick's strange religious experience turned into a novel; readers need caveats but love its oddness."
+ },
+ "hyperion cantos": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "epic",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Hyperion",
+  "author": "Dan Simmons",
+  "why": "Seven pilgrims tell their stories on the way to a shrine; a landmark with horror in its pages."
+ },
+ "inverted world": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The inverted world",
+  "author": "Christopher Priest",
+  "why": "A city on rails moves up a world that never stops, with a surprising twist; readers dreamed of it for weeks."
+ }
+}

@@ -1,0 +1,1024 @@
+{
+ "fledgling": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Fledgling",
+  "author": "Octavia E. Butler",
+  "why": "Comments are mostly negative about the book."
+ },
+ "wind in the willows": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "cozy",
+   "funny",
+   "hopeful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Wind in the Willows",
+  "author": "Kenneth Grahame",
+  "why": "Gentle riverbank adventures of Mole, Rat, Badger and Toad; a cosy children's classic with warm humour."
+ },
+ "titus groan": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "atmospheric",
+   "dark",
+   "funny"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Titus Groan",
+  "author": "Mervyn Peake",
+  "why": "First Gormenghast novel, set in a vast decaying castle with grotesque characters; rich, gothic and unlike other fantasy."
+ },
+ "choice": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "hopeful",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "The Choice",
+  "author": "Edith Eger",
+  "why": "A Holocaust survivor and psychologist tells her story of survival and healing; readers find it powerful and uplifting."
+ },
+ "marabou stork nightmares": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "bleak",
+   "satirical"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "Marabou Stork Nightmares",
+  "author": "Irvine Welsh",
+  "why": "A comatose Scottish man replays his violent past while imagining a hunt in Africa; harsh, dialect-heavy Welsh."
+ },
+ "girls": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Girls",
+  "author": "Emma Cline",
+  "why": "Comments are mostly unrelated or negative."
+ },
+ "post office": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "dark",
+   "satirical"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Post office",
+  "author": "Charles Bukowski",
+  "why": "Bukowski's semi-autobiographical tale of a drunken, wisecracking postal worker; darkly funny and fast."
+ },
+ "paladin of souls": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "emotional",
+   "hopeful",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Paladin of Souls",
+  "author": "Lois McMaster Bujold",
+  "why": "A grieving dowager sets out on a pilgrimage and finds a mystery; a Hugo-winning, warm and thoughtful fantasy."
+ },
+ "empire of silence": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "epic",
+   "adventurous",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Empire of silence",
+  "author": "Christopher Ruocchio",
+  "why": "A far-future space opera told by a fallen hero recalling his youth; readers praise its scale and prose."
+ },
+ "unworthy": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "bleak",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Unworthy",
+  "author": "agustina bazterrica",
+  "why": "Bazterrica's follow-up to Tender Is the Flesh, a bleak dystopia in a walled city; liked, though many prefer her first."
+ },
+ "homage to catalonia": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "thoughtful",
+   "tense",
+   "bleak"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Homage to Catalonia",
+  "author": "George Orwell",
+  "why": "Orwell's first-hand account of fighting in the Spanish Civil War; compelling and less famous than his novels."
+ },
+ "english patient": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "melancholic",
+   "atmospheric",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "The English Patient",
+  "author": "Michael Ondaatje",
+  "why": "Four damaged people shelter in an Italian villa at the end of World War II; lyrical and slow-burning."
+ },
+ "cathedral": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "melancholic",
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "stories",
+  "title": "Cathedral",
+  "author": "Raymond Carver",
+  "why": "Spare, powerful short stories of ordinary people; the title story is often named among the best ever."
+ },
+ "molokai": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Moloka'i",
+  "author": "Alan Brennert",
+  "why": "A girl sent to Hawaii's leper colony grows up there; immersive, well paced and moving."
+ },
+ "plainsong": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "cozy",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Plainsong",
+  "author": "Kent Haruf",
+  "why": "Quiet, touching stories of people in a small Colorado town; praised for plain, beautiful prose."
+ },
+ "between two kingdoms": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "hopeful",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Between Two Kingdoms",
+  "author": "Suleika Jaouad",
+  "why": "A young writer's account of cancer and recovery; readers say it is fantastic and read it fast."
+ },
+ "northanger abbey": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "funny",
+   "satirical",
+   "cozy"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Northanger Abbey",
+  "author": "Jane Austen",
+  "why": "Austen's playful satire of Gothic novels, following a girl who imagines horrors at an old abbey."
+ },
+ "dawn of everything": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "thoughtful",
+   "mind-bending"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "nonfiction",
+  "title": "The Dawn of Everything",
+  "author": "David Graeber and David Wengrow",
+  "why": "Challenges the standard story of early human society with new evidence; readers say it changed how they see history."
+ },
+ "needful things": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "tense",
+   "satirical"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Needful Things",
+  "author": "Stephen King",
+  "why": "A mysterious shop sets neighbours against each other in a Maine town; readers say it kept them engaged throughout."
+ },
+ "exodus": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "epic",
+   "emotional",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Exodus",
+  "author": "Leon Uris",
+  "why": "Sweeping novel of the founding of Israel after World War II; a school favourite that readers loved."
+ },
+ "antidote": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "atmospheric",
+   "melancholic",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Antidote",
+  "author": "Karen Russell",
+  "why": "Dust Bowl Nebraska and a woman who stores others' memories; slow, beautifully written and a book-club hit."
+ },
+ "wrong place wrong time": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "fast",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Wrong Place Wrong Time",
+  "author": "Gillian McAllister",
+  "why": "A mother keeps reliving the day her son commits a murder; an inventive time-twisting thriller."
+ },
+ "fablehaven": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "adventurous",
+   "fast",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Fablehaven",
+  "author": "Brandon Mull",
+  "why": "Two siblings discover a magical creature preserve; a popular children's fantasy series starter."
+ },
+ "ninefox gambit": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "dark",
+   "epic"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Ninefox Gambit",
+  "author": "Yoon Ha Lee",
+  "why": "A soldier teams with the ghost of a traitor general in a calendar-based space war; dense but inventive."
+ },
+ "ballad of songbirds and snakes": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "dark",
+   "tense",
+   "bleak"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Ballad of Songbirds and Snakes",
+  "author": "Suzanne Collins",
+  "why": "Prequel to The Hunger Games following the young future President Snow; fans of the series enjoy the backstory."
+ },
+ "mountains sing": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "bleak",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Mountains Sing",
+  "author": "Nguyen Phan Que Mai",
+  "why": "A Vietnamese grandmother and granddaughter live through war across generations; readers find it moving."
+ },
+ "alive": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "tense",
+   "bleak",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Alive: The Story of the Andes Survivors",
+  "author": "Piers Paul Read",
+  "why": "True account of the rugby team who survived a plane crash in the Andes; absolutely gripping."
+ },
+ "foreigner": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Foreigner",
+  "author": "C. J. Cherryh",
+  "why": "A human interpreter among aliens navigates politics and tea-drinking diplomacy; praised for superb alien worldbuilding."
+ },
+ "go tell it on the mountain": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "emotional",
+   "thoughtful",
+   "dark"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Go Tell It on the Mountain",
+  "author": "James Baldwin",
+  "why": "Baldwin's semi-autobiographical novel of a Harlem boy and his family's religious life; moving and rich in flashbacks."
+ },
+ "bloom": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Bloom",
+  "author": "Kevin Panetta",
+  "why": "Title matches different books; comments name another author."
+ },
+ "pisces": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The pisces",
+  "author": "Melissa Broder",
+  "why": "Comments are split and mostly negative."
+ },
+ "always coming home": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "mind-bending",
+   "atmospheric"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Always Coming Home",
+  "author": "Ursula K. Le Guin",
+  "why": "Le Guin's experimental anthropology of a future people, mixing stories, poems and maps; a favourite of devoted readers."
+ },
+ "here one moment": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Here One Moment",
+  "author": "Liane Moriarty",
+  "why": "Comments are mixed; some disappointed."
+ },
+ "hangsaman": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "atmospheric",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Hangsaman",
+  "author": "Shirley Jackson",
+  "why": "A shy college girl slips into unreality in a haunting, psychological Shirley Jackson novel loved by her fans."
+ },
+ "compound": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "tense",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Compound",
+  "author": "Aisling Rawle",
+  "why": "Young women compete on a reality-TV style compound; a sharp, unsettling debut that readers devoured."
+ },
+ "steel beach": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "thoughtful",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Steel beach",
+  "author": "John Varley",
+  "why": "A lunar reporter's life gets weird in Varley's witty future world; many readers call it a favourite of his."
+ },
+ "never lie": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Never Lie",
+  "author": "Freida McFadden",
+  "why": "Comments are strongly negative."
+ },
+ "shockwave rider": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "fast",
+   "mind-bending"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Shockwave Rider",
+  "author": "John Brunner",
+  "why": "Brunner's 1975 tale of a hacker on the run in a networked society, eerily close to the present."
+ },
+ "witch king": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "adventurous",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Witch King",
+  "author": "Martha Wells",
+  "why": "A demon king wakes after years and untangles a political plot; praised though the cast and names take effort."
+ },
+ "jonathan strange mr norrell": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "atmospheric",
+   "funny",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Jonathan Strange and Mr. Norrell",
+  "author": "Susanna Clarke",
+  "why": "Two magicians revive English magic during the Napoleonic wars in a witty, footnoted alternate history."
+ },
+ "doppelganger": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "thoughtful",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Doppelganger: A Trip into the Mirror World",
+  "author": "Naomi Klein",
+  "why": "Klein explores how a mistaken identity illuminates conspiracy culture and today's politics; readers say it makes sense of the moment."
+ },
+ "vigil": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Vigil",
+  "author": "George Saunders",
+  "why": "Comments are mixed, with disappointment."
+ },
+ "source": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "epic",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Source",
+  "author": "James A. Michener",
+  "why": "Michener's huge saga of one archaeological dig in Israel and the layers of history beneath it; a good thick read."
+ },
+ "prince": {
+  "keep": true,
+  "genre": "philosophy",
+  "mood": [
+   "thoughtful",
+   "satirical"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "nonfiction",
+  "title": "The Prince",
+  "author": "Niccolo Machiavelli",
+  "why": "Machiavelli's guide on holding political power, famed for its cold realism; some find it dry."
+ },
+ "ask the dust": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "melancholic",
+   "emotional",
+   "funny"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Ask the dust",
+  "author": "John Fante",
+  "why": "A young writer's poverty and doomed love in 1930s Los Angeles; a raw, confessional voice."
+ },
+ "ella minnow pea": {
+  "keep": true,
+  "genre": "humour",
+  "mood": [
+   "funny",
+   "thoughtful",
+   "satirical"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Ella Minnow Pea",
+  "author": "Mark Dunn",
+  "why": "Letters vanish from an island's alphabet in this epistolary novel; a quirky, witty and fast read."
+ },
+ "i am pilgrim": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "fast",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "I am Pilgrim",
+  "author": "Terry Hayes",
+  "why": "A retired spy hunts a bioterrorist in a sprawling thriller; a long, fast and enjoyable page-turner."
+ },
+ "daisy darker": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "dark",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Daisy Darker",
+  "author": "Alice Feeney",
+  "why": "A family gathers at an isolated house and begins dying; a twisty mystery readers call great."
+ },
+ "cats eye": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "melancholic",
+   "thoughtful",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Cat's Eye",
+  "author": "Margaret Atwood",
+  "why": "An ageing painter revisits her childhood and a friend who bullied her; many name it their favourite Atwood."
+ },
+ "skippy dies": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "emotional",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Skippy Dies",
+  "author": "Paul Murray",
+  "why": "Boys at an Irish boarding school, comic and tragic; readers call it genius and read it quickly despite its length."
+ },
+ "woman in the dunes": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "tense",
+   "bleak"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Woman in the Dunes",
+  "author": "Kōbō Abe",
+  "why": "A man is trapped in a sand pit with a woman; surreal, allegorical and unsettling."
+ },
+ "sourdough": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "cozy",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Sourdough",
+  "author": "Robin Sloan",
+  "why": "A programmer takes up baking after a magical starter arrives; a quirky, light read."
+ },
+ "best offer wins": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Best Offer Wins",
+  "author": "Marisa Kashino",
+  "why": "A woman becomes obsessed with winning her perfect house in a cutthroat housing market; a gripping, fast thriller."
+ },
+ "everyone in my family has killed someone": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "funny",
+   "tense",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Everyone in My Family Has Killed Someone",
+  "author": "Benjamin Stevenson",
+  "why": "A mystery at a family reunion, in the style of Agatha Christie; recommended especially on audio."
+ },
+ "speak": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "emotional",
+   "dark",
+   "hopeful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Speak",
+  "author": "Laurie Halse Anderson",
+  "why": "A teenager goes silent after a traumatic event; a powerful, widely read school book that hit readers hard."
+ },
+ "sailor who fell from grace with the sea": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "tense",
+   "melancholic"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Sailor Who Fell from Grace with the Sea",
+  "author": "Yukio Mishima",
+  "why": "A widow's lover and her son's cruel gang in postwar Japan; short, chilling and elegant."
+ },
+ "miracle in the andes": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "tense",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Miracle in the Andes",
+  "author": "Nando Parrado",
+  "why": "A survivor of the Andes plane crash tells it first-hand; readers find it fantastic and moving."
+ },
+ "undaunted courage": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "adventurous",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Undaunted Courage",
+  "author": "Stephen E. Ambrose",
+  "why": "Ambrose's account of the Lewis and Clark expedition; readers rate the storytelling, though some find it heavy going."
+ },
+ "annie bot": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "dark",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Annie Bot",
+  "author": "Sierra Greer",
+  "why": "A lifelike robot companion begins asserting herself in her owner's home; a thought-provoking, quick read."
+ },
+ "interpreter of maladies": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "melancholic",
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "stories",
+  "title": "Interpreter of Maladies",
+  "author": "Jhumpa Lahiri",
+  "why": "Quiet, perfectly written stories of Indian and Indian-American lives; a Pulitzer-winning collection readers love."
+ },
+ "quincunx": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "mind-bending",
+   "dark",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Quincunx",
+  "author": "Charles Palliser",
+  "why": "A young heir uncovers a tangled Victorian inheritance mystery; tightly plotted with twists readers did not see coming."
+ },
+ "red dragon": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "dark",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Red Dragon",
+  "author": "Thomas Harris",
+  "why": "An FBI profiler hunts a serial killer with help from Hannibal Lecter; a gripping thriller."
+ },
+ "gate of the feral gods": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "fast",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Gate of the Feral Gods",
+  "author": "Matt Dinniman",
+  "why": "Fourth book in the Dungeon Crawler Carl series, a violent, funny LitRPG that fans devour."
+ },
+ "stardust": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Stardust",
+  "author": "Neil Gaiman",
+  "why": "Comments are lukewarm; praise is mainly for the film."
+ },
+ "jazz": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Jazz",
+  "author": "Toni Morrison",
+  "why": "Comments are lukewarm and mention struggling with it."
+ },
+ "wizard of the crow": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "satirical",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Wizard of the Crow",
+  "author": "Ngugi wa Thiong'o",
+  "why": "A magical-realist satire of a post-colonial African dictatorship; readers call it brilliant and funny."
+ },
+ "startide rising": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "adventurous",
+   "epic",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Startide Rising",
+  "author": "David Brin",
+  "why": "A dolphin-crewed starship is stranded on a hostile planet in a space opera focused on adventure."
+ },
+ "mad mabel": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "funny",
+   "cozy",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Mad Mabel",
+  "author": "Sally Hepworth",
+  "why": "An elderly woman secretly kills people she thinks deserve it; funny, poignant and a bit disturbing."
+ },
+ "decameron": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "funny",
+   "satirical",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "stories",
+  "title": "The Decameron",
+  "author": "Giovanni Boccaccio",
+  "why": "A hundred tales told by young people sheltering from the plague, ranging from comic to tragic; a Renaissance classic."
+ },
+ "friends": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "My Friends",
+  "author": "Fredrik Backman",
+  "why": "Comments are mostly negative."
+ }
+}

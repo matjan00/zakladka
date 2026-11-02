@@ -1,0 +1,1044 @@
+{
+ "long walk": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "bleak",
+   "tense",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Long Walk",
+  "author": "Stephen King",
+  "why": "Teenage boys must keep walking in a deadly contest; short, relentless and bleak, and one reader said it hit them hard."
+ },
+ "hamnet": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "melancholic",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Hamnet",
+  "author": "Maggie O'Farrell",
+  "why": "Shakespeare's wife and the death of their son, told in lyrical prose; readers say it made them cry."
+ },
+ "suttree": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "atmospheric",
+   "melancholic"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Suttree",
+  "author": "Cormac McCarthy",
+  "why": "A man who abandoned his family lives among drifters on the Tennessee river; dense, bleak and darkly funny McCarthy."
+ },
+ "his dark materials": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "adventurous",
+   "epic",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "His Dark Materials",
+  "author": "Philip Pullman",
+  "why": "A girl travels between worlds in a fight against a powerful church; a children's trilogy that adults love."
+ },
+ "sound and the fury": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "mind-bending",
+   "melancholic",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Sound and the Fury",
+  "author": "William Faulkner",
+  "why": "The decline of a Southern family told through four voices, one of them mentally disabled; famously hard but admired."
+ },
+ "betty": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "dark",
+   "melancholic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Betty",
+  "author": "Tiffany McDaniel",
+  "why": "A girl grows up in Ohio in a troubled Cherokee family and learns through stories; readers say they sobbed through the ending."
+ },
+ "lord of light": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "epic",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Lord of Light",
+  "author": "Roger Zelazny",
+  "why": "Space colonists live as Hindu gods on a distant planet, and one rebels; mythic, stylish and often listed among the best."
+ },
+ "jane eyre": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "emotional",
+   "atmospheric",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Jane Eyre",
+  "author": "Charlotte Brontë",
+  "why": "An orphan becomes a governess and falls for her mysterious employer; romantic, gothic and recommended as an accessible classic."
+ },
+ "klara and the sun": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "melancholic",
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Klara and the Sun",
+  "author": "Kazuo Ishiguro",
+  "why": "A solar-powered robot companion watches over a sick girl; quietly moving and hard to put down."
+ },
+ "silent patient": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "fast",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Silent Patient",
+  "author": "Alex Michaelides",
+  "why": "A woman stops speaking after killing her husband and a therapist tries to understand why; a quick thriller with a twist."
+ },
+ "ancillary justice": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "epic",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Ancillary Justice",
+  "author": "Ann Leckie",
+  "why": "A former starship AI in a single human body seeks revenge; clever space opera that sticks to its sequels."
+ },
+ "god of the woods": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "atmospheric",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The God of the Woods",
+  "author": "Liz Moore",
+  "why": "A child disappears from a summer camp, decades after her brother vanished; a twisty mystery that readers are enjoying."
+ },
+ "passage": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "epic",
+   "tense",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Passage",
+  "author": "Justin Cronin",
+  "why": "A government experiment turns people into vampires and the survivors face an apocalyptic world; long and compelling."
+ },
+ "correspondent": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "cozy",
+   "emotional",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Correspondent",
+  "author": "Virginia Evans",
+  "why": "A retired woman keeps up her life through letters; readers say they loved it so much they re-read it."
+ },
+ "reformatory": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "tense",
+   "atmospheric"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Reformatory",
+  "author": "Tananarive Due",
+  "why": "A boy is sent to a brutal 1950s Florida reform school haunted by the dead; a powerful horror novel rooted in history."
+ },
+ "house in the cerulean sea": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "cozy",
+   "hopeful",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The House in the Cerulean Sea",
+  "author": "T. J. Klune",
+  "why": "A caseworker inspects an orphanage of magical children and finds a home; warm, gentle and uplifting."
+ },
+ "hot zone": {
+  "keep": true,
+  "genre": "science",
+  "mood": [
+   "tense",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "The Hot Zone",
+  "author": "Richard Preston",
+  "why": "A real account of an Ebola-like virus outbreak near Washington; terrifying and gripping."
+ },
+ "jonathan strange and mr norrell": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "atmospheric",
+   "mind-bending",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Jonathan Strange and Mr. Norrell",
+  "author": "Susanna Clarke",
+  "why": "Two magicians return English magic in the Napoleonic era; long, dry-witted alternate history that readers get absorbed in."
+ },
+ "room": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "tense",
+   "emotional",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Room",
+  "author": "Emma Donoghue",
+  "why": "A five-year-old narrator lives in one room with his mother; a disturbing but compelling and moving story."
+ },
+ "jungle": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "bleak",
+   "dark",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Jungle",
+  "author": "Upton Sinclair",
+  "why": "Immigrant workers in Chicago's meatpacking industry face hardship; relentlessly bleak and an important muckraking novel."
+ },
+ "hatchet": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "adventurous",
+   "tense",
+   "fast"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Hatchet",
+  "author": "Gary Paulsen",
+  "why": "A boy survives alone in the Canadian wilderness after a plane crash; a quick, easy adventure that kids and adults remember."
+ },
+ "invisible man": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "thoughtful",
+   "dark",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Invisible Man",
+  "author": "Ralph Ellison",
+  "why": "A Black man moves through America feeling unseen; powerful, demanding and often described as a missed classic."
+ },
+ "cloud atlas": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "epic",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Cloud Atlas",
+  "author": "David Mitchell",
+  "why": "Six nested stories in different eras and styles echo each other; ambitious and frequently named a favourite."
+ },
+ "use of weapons": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "dark",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Use of Weapons",
+  "author": "Iain Banks",
+  "why": "A mercenary's two timelines run in opposite directions toward a revelation; many Banks fans name it his best."
+ },
+ "wasp factory": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "bleak",
+   "mind-bending"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Wasp Factory",
+  "author": "Iain Banks",
+  "why": "A teenage boy's cruel rituals on a remote Scottish island hide a shocking secret; short and truly horrifying."
+ },
+ "lincoln in the bardo": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "emotional",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Lincoln in the Bardo",
+  "author": "George Saunders",
+  "why": "Ghosts crowd a graveyard after Lincoln's son dies; experimental, voiced chorus that moves many readers."
+ },
+ "trust": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "thoughtful",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Trust",
+  "author": "Hernán Díaz",
+  "why": "Four versions of a 1920s financier's story reveal different truths; readers find it amazing and easy to enjoy."
+ },
+ "hearts invisible furies": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "funny",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Heart's Invisible Furies",
+  "author": "John Boyne",
+  "why": "A gay man's life in Ireland from birth across seven decades; a sweeping book that readers love."
+ },
+ "middlesex": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "emotional",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Middlesex",
+  "author": "Jeffrey Eugenides",
+  "why": "A Greek-American family saga narrated by an intersex person; multigenerational and warmly told."
+ },
+ "invisible life of addie larue": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "melancholic",
+   "atmospheric",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Invisible Life of Addie LaRue",
+  "author": "V. E. Schwab",
+  "why": "A woman makes a deal to live forever but be forgotten; romantic and lyrical, liked by many readers."
+ },
+ "sirens of titan": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "satirical",
+   "mind-bending",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Sirens of Titan",
+  "author": "Kurt Vonnegut",
+  "why": "The richest man on Earth is pulled into a cosmic joke of a plan; a darkly funny early Vonnegut."
+ },
+ "kite runner": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "dark",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Kite Runner",
+  "author": "Khaled Hosseini",
+  "why": "A man in America tries to atone for a childhood betrayal in Afghanistan; readers say it lives up to the hype."
+ },
+ "between two fires": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "tense",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Between two fires",
+  "author": "Christopher Buehlman",
+  "why": "A knight and a girl cross plague-ridden France in the 1300s as angels and demons clash; readers are engrossed."
+ },
+ "prophet song": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "bleak",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Prophet Song",
+  "author": "Paul Lynch",
+  "why": "A Dublin mother copes as Ireland slides into authoritarianism; relentless unpunctuated prose that readers call gripping."
+ },
+ "normal people": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Normal People",
+  "author": "Sally Rooney",
+  "why": "Two Irish teens drift together and apart for years; spare, intense, and one reader admitted to re-reading at once."
+ },
+ "les miserables": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "epic",
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Les Misérables",
+  "author": "Victor Hugo",
+  "why": "An ex-convict tries to live a good life in 19th-century France; a huge, powerful and humane classic."
+ },
+ "wild dark shore": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "atmospheric",
+   "tense",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Wild Dark Shore",
+  "author": "Charlotte McConaghy",
+  "why": "A family lives on a remote island that is near the Antarctic, with a mystery washed ashore; readers love it."
+ },
+ "enders game": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "tense",
+   "adventurous",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Ender's Game",
+  "author": "Orson Scott Card",
+  "why": "A gifted boy is trained at a space military school; a classic page-turner that readers recommend for military sci-fi."
+ },
+ "magic mountain": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "thoughtful",
+   "melancholic"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Magic Mountain",
+  "author": "Thomas Mann",
+  "why": "A young man visits a sanatorium and stays for seven years; slow, philosophical and rewarding."
+ },
+ "boys life": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "atmospheric",
+   "emotional",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Boy's life",
+  "author": "Robert R. McCammon",
+  "why": "A boy in 1960s Alabama sees a murder and grows up with mystery and magic; a nostalgic coming-of-age favourite."
+ },
+ "all the light we cannot see": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "atmospheric",
+   "hopeful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "All the Light We Cannot See",
+  "author": "Anthony Doerr",
+  "why": "A blind French girl and a German boy meet in the war; short chapters and lyrical prose make it a popular pick."
+ },
+ "sabriel": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "atmospheric",
+   "adventurous",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Sabriel",
+  "author": "Garth Nix",
+  "why": "A young necromancer enters the Old Kingdom to save her father; an excellent dark fantasy aimed at teens and adults."
+ },
+ "know my name": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "bleak",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Know My Name",
+  "author": "Chanel Miller",
+  "why": "The woman once known as Emily Doe tells her own story after a sexual assault trial; powerful and painful."
+ },
+ "solaris": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "thoughtful",
+   "atmospheric"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "Solaris",
+  "author": "Stanisław Lem",
+  "why": "Scientists orbit a planet that seems to read their minds; Lem's cerebral first-contact classic."
+ },
+ "historian": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "atmospheric",
+   "tense",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Historian",
+  "author": "Elizabeth Kostova",
+  "why": "A young woman follows her father's trail across Europe in search of Dracula; slow-burning gothic mystery."
+ },
+ "old man and the sea": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "thoughtful",
+   "emotional",
+   "adventurous"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Old Man and the Sea",
+  "author": "Ernest Hemingway",
+  "why": "An aged fisherman battles a huge marlin for days; short and simple, readers say it is deep."
+ },
+ "cloud cuckoo land": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "hopeful",
+   "epic",
+   "mind-bending"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Cloud Cuckoo Land",
+  "author": "Anthony Doerr",
+  "why": "Linked stories across centuries and a lost ancient book; warm and ambitious like his earlier hit."
+ },
+ "their eyes were watching god": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "emotional",
+   "hopeful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Their Eyes Were Watching God",
+  "author": "Zora Neale Hurston",
+  "why": "A Black woman in Florida seeks love and her own voice; lyrical and pretty widely recommended."
+ },
+ "war and peace": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "epic",
+   "thoughtful",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "War and Peace",
+  "author": "Leo Tolstoy",
+  "why": "Five families live through the Napoleonic wars in Russia; a huge book readers say becomes absorbing."
+ },
+ "cryptonomicon": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "adventurous",
+   "mind-bending"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Cryptonomicon",
+  "author": "Neal Stephenson",
+  "why": "Codebreakers in World War II and hackers today pursue a hidden treasure; long, geeky and funny, with a beloved character."
+ },
+ "tampa": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "satirical",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Tampa",
+  "author": "Alissa Nutting",
+  "why": "A teacher abuses her students and narrates her own predation; very disturbing yet a page turner according to readers."
+ },
+ "animal farm": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "satirical",
+   "dark",
+   "fast"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Animal Farm",
+  "author": "George Orwell",
+  "why": "Farm animals overthrow their master and a new tyranny arises; a short allegory still read widely."
+ },
+ "long way to a small angry planet": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "cozy",
+   "hopeful",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Long Way to a Small, Angry Planet",
+  "author": "Becky Chambers",
+  "why": "A mixed-species crew travels on a tunnelling ship; warm, character-driven space adventure."
+ },
+ "catch 22": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "satirical",
+   "funny",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Catch-22",
+  "author": "Joseph Heller",
+  "why": "A bomber pilot tries to escape the army's absurd rules; a funny, memorable war satire."
+ },
+ "tainted cup": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "tense",
+   "mind-bending",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Tainted Cup",
+  "author": "Robert Jackson Bennett",
+  "why": "A detective and her assistant investigate a murder in a world with giant monsters; blends mystery and fantasy well."
+ },
+ "naked lunch": {
+  "keep": false,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Naked Lunch",
+  "author": "William S. Burroughs",
+  "why": "The comments describe it as unpleasant or the worst book they read, so it is not a recommendation."
+ },
+ "starter villain": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Starter Villain",
+  "author": "John Scalzi",
+  "why": "A substitute teacher inherits his uncle's supervillain empire; a short and breezy comic romp."
+ },
+ "dhalgren": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "dark",
+   "atmospheric"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Dhalgren",
+  "author": "Samuel R. Delany",
+  "why": "An amnesiac wanders a ruined American city; long and strange, loved by experimental sci-fi fans."
+ },
+ "to say nothing of the dog": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "adventurous",
+   "cozy"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "To Say Nothing of the Dog",
+  "author": "Connie Willis",
+  "why": "Time-travelling historians are sent to Victorian England to find a missing object; comic and charming."
+ },
+ "gideon the ninth": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "dark",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Gideon the Ninth",
+  "author": "Tamsyn Muir",
+  "why": "A swordswoman and a necromancer enter a haunted space house; gothic and joking, and readers keep going to the sequels."
+ },
+ "on the road": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "adventurous",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "On The Road",
+  "author": "Jack Kerouac",
+  "why": "Friends hit the road across 1950s America; changed some readers' lives and bored others."
+ },
+ "memory police": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "melancholic",
+   "mind-bending",
+   "bleak"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Memory Police",
+  "author": "Yōko Ogawa",
+  "why": "On an island things disappear and people forget them; quiet dystopia that people recommend."
+ },
+ "last unicorn": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "melancholic",
+   "hopeful",
+   "emotional"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Last Unicorn",
+  "author": "Peter S. Beagle",
+  "why": "A unicorn leaves her forest to find others like her; a lyrical, bittersweet fairy tale."
+ },
+ "starless sea": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "atmospheric",
+   "mind-bending",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Starless Sea",
+  "author": "Erin Morgenstern",
+  "why": "A graduate student finds a book that leads to an underground library; pretty, dreamy and loved."
+ },
+ "foundation": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "epic"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Foundation",
+  "author": "Isaac Asimov",
+  "why": "A mathematician predicts the fall of a galactic empire and plans to save knowledge; a classic of ideas."
+ },
+ "heart of darkness": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "dark",
+   "bleak",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "Heart of Darkness",
+  "author": "Joseph Conrad",
+  "why": "A steamboat captain travels upriver in the Congo toward the sinister Kurtz; short and dense, widely read."
+ },
+ "gone world": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "tense",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Gone World",
+  "author": "Tom Sweterlitsch",
+  "why": "A time-travelling investigator hunts a killer in a future that is ending; a gripping hybrid of thriller and sci-fi."
+ },
+ "small things like these": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "melancholic",
+   "hopeful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Small Things Like These",
+  "author": "Claire Keegan",
+  "why": "A coal merchant in 1985 Ireland finds a secret at a convent; a very short, quietly powerful novel."
+ },
+ "sea of tranquility": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "melancholic",
+   "mind-bending",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Sea of Tranquility",
+  "author": "Emily St. John Mandel",
+  "why": "Linked lives across centuries are connected by a strange glitch in time; a short and elegant favourite."
+ },
+ "haunted": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "satirical",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "stories",
+  "title": "Haunted",
+  "author": "Chuck Palahniuk",
+  "why": "Writers at a retreat tell grotesque stories while isolated; shocking, fun and awful in readers' words."
+ }
+}

@@ -1,0 +1,1040 @@
+{
+ "road": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "bleak",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Road",
+  "author": "Cormac McCarthy",
+  "why": "A father and son walk through a burned-out America in spare, haunting prose; readers call it devastating and unforgettable."
+ },
+ "piranesi": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "mind-bending",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Piranesi",
+  "author": "Susanna Clarke",
+  "why": "A man lives alone in an endless house of statues and tides, and slowly uncovers its secret; short, strange and beautifully written."
+ },
+ "project hail mary": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "fast",
+   "hopeful",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Project Hail Mary",
+  "author": "Andy Weir",
+  "why": "A lone astronaut wakes up with amnesia on a mission to save Earth; science-driven, funny and impossible to put down."
+ },
+ "stand": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "epic",
+   "dark",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Stand",
+  "author": "Stephen King",
+  "why": "A plague wipes out most of humanity and survivors gather around good or evil figures; a huge, gripping apocalyptic saga."
+ },
+ "east of eden": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "emotional",
+   "epic",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "East of Eden",
+  "author": "John Steinbeck",
+  "why": "Two California families echo the Cain and Abel story across generations; readers praise its big themes about good, evil and choice."
+ },
+ "secret history": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "atmospheric",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Secret History",
+  "author": "Donna Tartt",
+  "why": "A group of classics students at an elite college drift into murder; immersive, twisty and addictive for fans of dark academia."
+ },
+ "little life": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "bleak",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "A Little Life",
+  "author": "Hanya Yanagihara",
+  "why": "Four friends in New York, one carrying terrible trauma; a devastating, long read readers say they cried through, with heavy content warnings."
+ },
+ "stoner": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "melancholic",
+   "thoughtful",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Stoner",
+  "author": "John Williams",
+  "why": "The quiet life of an ordinary university professor, told with simple, precise prose that moves readers more than they expect."
+ },
+ "rebecca": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "atmospheric",
+   "tense",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Rebecca",
+  "author": "Daphne du Maurier",
+  "why": "A young bride is haunted by her husband's dead first wife at his grand estate; gothic, gripping and famous for its opening lines."
+ },
+ "demon copperhead": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "dark",
+   "satirical"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Demon Copperhead",
+  "author": "Barbara Kingsolver",
+  "why": "David Copperfield retold in Appalachia, following a poor orphan through foster care and addiction; readers call it powerful and heartbreaking."
+ },
+ "never let me go": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "melancholic",
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Never Let Me Go",
+  "author": "Kazuo Ishiguro",
+  "why": "Students at a strange boarding school slowly learn what their lives are for; quiet, sad and impossible to forget."
+ },
+ "blood meridian": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "bleak",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Blood Meridian",
+  "author": "Cormac McCarthy",
+  "why": "A teenage runaway joins a band of scalp hunters in the 1850s borderlands; brutal, poetic and widely called a masterpiece."
+ },
+ "educated": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "thoughtful",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Educated",
+  "author": "Tara Westover",
+  "why": "The author grows up in a survivalist family with no schooling and ends up at Cambridge; readers find it gripping and devastating."
+ },
+ "night": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "dark",
+   "bleak",
+   "emotional"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Night",
+  "author": "Elie Wiesel",
+  "why": "A short first-hand account of a teenager's time in Nazi concentration camps; readers call it essential and crushing."
+ },
+ "parable of the sower": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "tense",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Parable of the Sower",
+  "author": "Octavia E. Butler",
+  "why": "A young woman survives a collapsing California and founds a new belief system; chillingly relevant dystopia that readers rate highly."
+ },
+ "lonesome dove": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "epic",
+   "adventurous",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Lonesome Dove",
+  "author": "Larry McMurtry",
+  "why": "Two retired Texas Rangers drive cattle to Montana; a sprawling, character-rich western often named among the best American novels."
+ },
+ "sparrow": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "emotional",
+   "thoughtful",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Sparrow",
+  "author": "Mary Doria Russell",
+  "why": "Jesuit missionaries make first contact with aliens and one man returns broken; readers say it is moving and haunting."
+ },
+ "james": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "tense",
+   "satirical",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "James",
+  "author": "Percival L. Everett",
+  "why": "Huckleberry Finn retold from the point of view of Jim, the enslaved man; readers praise its wit, voice and power."
+ },
+ "beloved": {
+  "keep": false,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Beloved",
+  "author": "Toni Morrison",
+  "why": "Readers mostly say it was too hard to get through, and few recommend it in these comments."
+ },
+ "goldfinch": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "atmospheric",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Goldfinch",
+  "author": "Donna Tartt",
+  "why": "A boy survives a bombing and keeps a stolen painting that shapes his life; long, absorbing and well liked by many readers."
+ },
+ "lolita": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "dark",
+   "satirical",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Lolita",
+  "author": "Vladimir Nabokov",
+  "why": "An unreliable narrator tells his own disturbing story in dazzling prose; admired for the writing, though some find it hard going."
+ },
+ "women": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "epic"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Women",
+  "author": "Kristin Hannah",
+  "why": "A young nurse goes to Vietnam and struggles to come home; readers find it moving and easy to read."
+ },
+ "book of the new sun": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "dark",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Book of the New Sun",
+  "author": "Gene Wolfe",
+  "why": "A torturer exiled from his guild travels a far-future Earth in a puzzling, richly written tale; hard, but readers call it a masterpiece."
+ },
+ "frankenstein": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "dark",
+   "thoughtful",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Frankenstein",
+  "author": "Mary Shelley",
+  "why": "A scientist creates life and then rejects it; the founding science fiction novel, still praised for its moral questions."
+ },
+ "count of monte cristo": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "adventurous",
+   "epic",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Count of Monte Cristo",
+  "author": "Alexandre Dumas",
+  "why": "A wrongly imprisoned sailor escapes and plots elaborate revenge; a long but thrilling classic that readers say flies by."
+ },
+ "dark matter": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "fast",
+   "tense",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Dark Matter",
+  "author": "Blake Crouch",
+  "why": "A physicist is kidnapped into a world where his life went differently; a quick, fun sci-fi thriller."
+ },
+ "blindsight": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "dark",
+   "bleak"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Blindsight",
+  "author": "Peter Watts",
+  "why": "A crew meets an alien that may be smarter than they are without being conscious; hard sci-fi that readers find brilliant and chilling."
+ },
+ "left hand of darkness": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Left Hand of Darkness",
+  "author": "Ursula K. Le Guin",
+  "why": "An envoy visits a planet whose people have no fixed gender; readers value its ideas and humane storytelling."
+ },
+ "house of leaves": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "mind-bending",
+   "atmospheric",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "House of Leaves",
+  "author": "Mark Z. Danielewski",
+  "why": "A house is bigger inside than out, told through footnotes and odd layouts; hard to put down and hard to forget."
+ },
+ "ulysses": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "mind-bending",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Ulysses",
+  "author": "James Joyce",
+  "why": "One day in Dublin told in shifting experimental styles; very demanding, but readers enjoy it as funny and rewarding."
+ },
+ "circe": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "emotional",
+   "atmospheric",
+   "epic"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Circe",
+  "author": "Madeline Miller",
+  "why": "The witch from the Odyssey tells her own story; lyrical and absorbing myth retelling that readers love."
+ },
+ "bunny": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "satirical",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Bunny",
+  "author": "Mona Awad",
+  "why": "A lonely writing student is drawn into a clique of women with a bizarre ritual; weird, funny and unsettling."
+ },
+ "dune": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "epic",
+   "thoughtful",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Dune",
+  "author": "Frank Herbert",
+  "why": "A noble family fights for control of a desert planet and its spice; the benchmark for epic science fiction."
+ },
+ "poisonwood bible": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "thoughtful",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Poisonwood Bible",
+  "author": "Barbara Kingsolver",
+  "why": "An American missionary family goes to the Congo and falls apart, told by wife and daughters; readers find it well written and powerful."
+ },
+ "hyperion": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "epic",
+   "mind-bending",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Hyperion",
+  "author": "Dan Simmons",
+  "why": "Seven pilgrims tell their stories on the way to a deadly shrine; a Canterbury Tales in space that readers rank among the best."
+ },
+ "fine balance": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "bleak",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "A Fine Balance",
+  "author": "Rohinton Mistry",
+  "why": "Four strangers share a flat in 1970s India as politics crush their hopes; readers say it hurts and stays with them for weeks."
+ },
+ "pillars of the earth": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "epic",
+   "tense",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Pillars of the Earth",
+  "author": "Ken Follett",
+  "why": "Rival builders, nobles and monks struggle over a cathedral in medieval England; a long, gripping page-turner."
+ },
+ "annihilation": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "atmospheric",
+   "mind-bending",
+   "tense"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Annihilation",
+  "author": "Jeff VanderMeer",
+  "why": "An expedition enters a strange, shifting zone where nature behaves wrongly; short, eerie and often recommended for fans of weird fiction."
+ },
+ "flowers for algernon": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "emotional",
+   "melancholic",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Flowers for Algernon",
+  "author": "Daniel Keyes",
+  "why": "A man with a learning disability becomes a genius through an experiment; told in diary form, it stays with readers for years."
+ },
+ "nightingale": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Nightingale",
+  "author": "Kristin Hannah",
+  "why": "Two sisters take different paths in occupied France in World War II; readers say it left them sobbing."
+ },
+ "children of time": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "epic",
+   "mind-bending",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Children of Time",
+  "author": "Adrian Tchaikovsky",
+  "why": "Humanity's last ship meets a world where spiders evolve intelligence; readers rave about its big ideas and inventive aliens."
+ },
+ "dungeon crawler carl": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "fast",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Dungeon Crawler Carl",
+  "author": "Matt Dinniman",
+  "why": "Aliens turn Earth into a deadly game show and a man and his cat fight for survival; darkly funny and addictive."
+ },
+ "born a crime": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "funny",
+   "emotional",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Born a Crime",
+  "author": "Trevor Noah",
+  "why": "The comedian's childhood in apartheid South Africa as a mixed-race child; readers laugh and cry in equal measure."
+ },
+ "kindred": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "tense",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Kindred",
+  "author": "Octavia E. Butler",
+  "why": "A modern Black woman is pulled back in time to a slave plantation; gripping, painful and often called her best book."
+ },
+ "geek love": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "satirical",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Geek Love",
+  "author": "Katherine Dunn",
+  "why": "A carnival family breeds its own freak-show children; grotesque, inventive and wildly strange for readers who like shocking fiction."
+ },
+ "station eleven": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "melancholic",
+   "hopeful",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Station Eleven",
+  "author": "Emily St. John Mandel",
+  "why": "After a flu ends civilization, a travelling theatre troupe keeps art alive; beautifully written and a favourite for quiet apocalypse stories."
+ },
+ "endurance": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "adventurous",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Endurance",
+  "author": "Alfred Lansing",
+  "why": "The true story of Shackleton's ship trapped in Antarctic ice and his crew's survival; readers find it gripping and inspiring."
+ },
+ "anathem": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "mind-bending",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Anathem",
+  "author": "Neal Stephenson",
+  "why": "Monks living apart from the world are drawn into a crisis that changes it; dense and slow to start but loved for its ideas."
+ },
+ "midnight library": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "hopeful",
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Midnight Library",
+  "author": "Matt Haig",
+  "why": "A woman gets to try lives she might have lived; comforting and quick to read, though a few readers found it shallow."
+ },
+ "pachinko": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Pachinko",
+  "author": "Min Jin Lee",
+  "why": "Four generations of a Korean family in Japan face prejudice and hardship; readers call it raw, real and moving."
+ },
+ "into thin air": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "tense",
+   "adventurous",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Into Thin Air",
+  "author": "Jon Krakauer",
+  "why": "The author's first-hand account of the deadly 1996 Everest disaster; readers say they could not stop reading."
+ },
+ "bell jar": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "melancholic",
+   "dark",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Bell Jar",
+  "author": "Sylvia Plath",
+  "why": "A young woman slides into depression in 1950s New York; readers relate strongly and say it stays with them."
+ },
+ "homegoing": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "epic"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Homegoing",
+  "author": "Yaa Gyasi",
+  "why": "Two Ghanaian half-sisters and their descendants across 300 years; each chapter follows one generation, and readers find it powerful."
+ },
+ "remains of the day": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "melancholic",
+   "thoughtful",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Remains of the Day",
+  "author": "Kazuo Ishiguro",
+  "why": "An English butler looks back on a life of duty and missed chances; subtle and quietly devastating."
+ },
+ "shogun": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "epic",
+   "adventurous",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Shōgun",
+  "author": "James Clavell",
+  "why": "An English pilot is stranded in feudal Japan and caught in a power struggle; a long, immersive adventure."
+ },
+ "lord of the rings": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Lord of the Rings",
+  "author": "J.R.R. Tolkien",
+  "why": "A hobbit sets out to destroy a ring of power; the founding epic of modern fantasy that readers return to again and again."
+ },
+ "blindness": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "bleak",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Blindness",
+  "author": "José Saramago",
+  "why": "A sudden epidemic of blindness breaks down society; unusual punctuation-free prose and a harrowing story readers praise."
+ },
+ "martian": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "fast",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Martian",
+  "author": "Andy Weir",
+  "why": "An astronaut stranded on Mars science his way to survival; funny, clever and a quick read."
+ },
+ "grapes of wrath": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "emotional",
+   "bleak",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Grapes of Wrath",
+  "author": "John Steinbeck",
+  "why": "A farming family flees the Dust Bowl for California; a powerful picture of poverty and resilience."
+ },
+ "devils": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "fast",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Devils",
+  "author": "Joe Abercrombie",
+  "why": "Abercrombie's demon-summoning fantasy comedy with bloody action; readers enjoy it so far and plan to read more of his work."
+ },
+ "infinite jest": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "satirical",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Infinite Jest",
+  "author": "David Foster Wallace",
+  "why": "A huge, footnoted novel about addiction, tennis and entertainment; very demanding but readers say it rewards the effort."
+ },
+ "overstory": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "thoughtful",
+   "epic",
+   "hopeful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Overstory",
+  "author": "Richard Powers",
+  "why": "Nine people are drawn together by trees and the fight to save forests; ambitious, moving and eye-opening."
+ },
+ "slaughterhouse five": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "satirical",
+   "melancholic",
+   "mind-bending"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Slaughterhouse-Five",
+  "author": "Kurt Vonnegut",
+  "why": "A soldier becomes unstuck in time after surviving the Dresden bombing; short, funny and sad antiwar classic."
+ },
+ "middlemarch": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "thoughtful",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Middlemarch",
+  "author": "George Eliot",
+  "why": "A study of marriages, ambition and reform in a provincial English town; long and rich, often called the greatest English novel."
+ },
+ "in cold blood": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "dark",
+   "tense",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "In Cold Blood",
+  "author": "Truman Capote",
+  "why": "A reconstruction of the 1959 murder of a Kansas family and the killers' fate; gripping true crime that reads like a novel."
+ },
+ "lamb": {
+  "keep": true,
+  "genre": "humour",
+  "mood": [
+   "funny",
+   "satirical",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Lamb",
+  "author": "Christopher Moore",
+  "why": "The missing years of Jesus told by his best friend Biff; irreverent, hilarious and re-read yearly by fans."
+ },
+ "all fours": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "thoughtful",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "All Fours",
+  "author": "Miranda July",
+  "why": "A middle-aged artist upends her life on a trip that stops in a motel; funny, odd and hard to predict."
+ },
+ "book thief": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "hopeful",
+   "melancholic"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Book Thief",
+  "author": "Markus Zusak",
+  "why": "A girl steals books in Nazi Germany while Death narrates; readers love its voice and find it moving."
+ },
+ "watership down": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "adventurous",
+   "tense",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Watership Down",
+  "author": "Richard Adams",
+  "why": "Rabbits flee their doomed warren and search for a new home; much more gripping and moving than it sounds."
+ },
+ "seveneves": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "epic",
+   "tense",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Seveneves",
+  "author": "Neal Stephenson",
+  "why": "The moon explodes and humanity races to survive in space; technical and long, but readers like its big ideas."
+ }
+}

@@ -1,0 +1,973 @@
+{
+ "nausea": {
+  "keep": true,
+  "genre": "philosophy",
+  "mood": [
+   "dark",
+   "mind-bending"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "Nausea",
+  "author": "Jean-Paul Sartre",
+  "why": "Sartre's novel of a man losing his grip on reality; readers say it unsettled them, a first existentialist read."
+ },
+ "berry pickers": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Berry Pickers",
+  "author": "Amanda Peters",
+  "why": "A girl is taken from a Mi'kmaq berry-picking family and raised elsewhere; readers say it is very good."
+ },
+ "shards of honor": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "adventurous",
+   "emotional"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Shards of Honor",
+  "author": "Lois McMaster Bujold",
+  "why": "Bujold's first Vorkosigan novel, a romance between two officers from enemy worlds; the start of a loved series."
+ },
+ "these violent delights": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "These Violent Delights",
+  "author": "Micah Nemerever",
+  "why": "An obsessive friendship between two teenage boys turns dangerous; a Hitchcock-style LGBTQ+ thriller readers devour."
+ },
+ "witchcraft for wayward girls": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Witchcraft for Wayward Girls",
+  "author": "Grady Hendrix",
+  "why": "Pregnant teen girls in a 1970s home discover real witchcraft; a gripping, feminist horror read."
+ },
+ "day of the triffids": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Day of the Triffids",
+  "author": "John Wyndham",
+  "why": "Comments do not discuss this novel and seem to mention other books."
+ },
+ "strangers": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Strangers",
+  "author": "Belle Burden",
+  "why": "The comments discuss Koontz and Yamada novels with the same title; the entry does not match."
+ },
+ "mercy of gods": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "epic",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Mercy of Gods",
+  "author": "James S. A. Corey",
+  "why": "Humans are enslaved by an alien empire in the start of a new James S. A. Corey series; deserves more attention."
+ },
+ "chaos": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "dark",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Chaos",
+  "author": "Tom O'Neill",
+  "why": "O'Neill's long investigation into the Manson murders and the official story; readers became obsessed with it."
+ },
+ "once and future witches": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "hopeful",
+   "epic"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Once and Future Witches",
+  "author": "Alix E. Harrow",
+  "why": "Three sisters revive witchcraft in an alternate 1890s America; readers love the prose and feminist spirit."
+ },
+ "fall on your knees": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Fall on Your Knees",
+  "author": "Ann-Marie MacDonald",
+  "why": "A multigenerational Canadian family saga of secrets and tragedy; readers say its opening line stays with you."
+ },
+ "water moon": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "atmospheric",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Water Moon",
+  "author": "Samantha Sotto Yambao",
+  "why": "A whimsical, magical story with inventive worldbuilding; one reader's only five-star book in nearly two years."
+ },
+ "satantango": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "bleak",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Sátántangó",
+  "author": "László Krasznahorkai",
+  "why": "Krasznahorkai's long-sentence novel about a decaying Hungarian village and a charismatic con man; strange and demanding."
+ },
+ "gregor the overlander": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Gregor the Overlander",
+  "author": "Suzanne Collins",
+  "why": "A boy falls into an underground world full of giant creatures; a good, underrated read for kids and parents."
+ },
+ "monk": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Monk",
+  "author": "Matthew Gregory Lewis",
+  "why": "A scandalous Gothic novel of a pious monk's downfall; readers found it lived up to expectations."
+ },
+ "myth of sisyphus": {
+  "keep": true,
+  "genre": "philosophy",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "nonfiction",
+  "title": "The myth of Sisyphus",
+  "author": "Albert Camus",
+  "why": "Camus's essay on absurdity and how to live well anyway; a reader says it helped them through hard times."
+ },
+ "butchers masquerade": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "adventurous",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Butcher’s Masquerade",
+  "author": "Matt Dinniman",
+  "why": "The fourth Dungeon Crawler Carl novel, a gruesomely funny survival-game adventure that fans of the series eagerly read."
+ },
+ "machine stops": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "dark"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "stories",
+  "title": "The Machine Stops",
+  "author": "E. M. Forster",
+  "why": "Forster's short story of people living underground, entirely dependent on a machine; a prescient classic."
+ },
+ "foucaults pendulum": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Foucault's Pendulum",
+  "author": "Umberto Eco",
+  "why": "Eco's novel about editors who invent a conspiracy that comes true; spans two millennia of secret societies."
+ },
+ "new york": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "epic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "New York",
+  "author": "Edward Rutherfurd",
+  "why": "Rutherfurd takes you through three centuries of New York's history by following families; very long but enjoyable."
+ },
+ "physician": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "adventurous",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Physician",
+  "author": "Noah Gordon",
+  "why": "A boy in medieval England travels to Persia to learn medicine; readers say it is as good as The Pillars of the Earth."
+ },
+ "book of doors": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Book of Doors",
+  "author": "Gareth Brown",
+  "why": "A bookseller finds a book that can open doors anywhere; a fun fantasy suggested as a light read."
+ },
+ "seven moons of maali almeida": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "satirical",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Seven Moons of Maali Almeida",
+  "author": "Shehan Karunatilaka",
+  "why": "A dead photographer in the afterlife solves his own murder amid Sri Lanka's civil war; a Booker winner."
+ },
+ "penpal": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Penpal",
+  "author": "Dathan Auerbach",
+  "why": "Linked creepypasta-style tales of childhood stalking; readers say it gave them chills."
+ },
+ "another country": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "emotional",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Another Country",
+  "author": "James Baldwin",
+  "why": "Baldwin's novel of race, sexuality and friendship in 1950s New York; readers find it powerful and beautiful."
+ },
+ "recognitions": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "satirical"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Recognitions",
+  "author": "William Gaddis",
+  "why": "Gaddis's huge, difficult novel about art forgery and authenticity; admirers call it a masterpiece."
+ },
+ "pandoras star": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "epic",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Pandora's Star",
+  "author": "Peter F. Hamilton",
+  "why": "A wide-ranging space opera of wormhole travel and alien threat; readers like its scale though not all of its detail."
+ },
+ "vicious": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Vicious",
+  "author": "V. E. Schwab",
+  "why": "Two former friends become enemies with superpowers; recommended as a dark, fast take on the superhero story."
+ },
+ "words of radiance": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Words of Radiance",
+  "author": "Brandon Sanderson",
+  "why": "One reader calls it a slog; no clear recommendation here."
+ },
+ "knight and the moth": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "atmospheric",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Knight and the Moth",
+  "author": "Rachel Gillig",
+  "why": "A knight seeks to restore a wizard-ruled realm in a book readers find unique and well-executed."
+ },
+ "daughter of the forest": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "emotional",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Daughter of the Forest",
+  "author": "Juliet Marillier",
+  "why": "A girl must spin shirts of nettles to free her brothers in this Irish retelling of The Wild Swans; deeply loved."
+ },
+ "all the ugly and wonderful things": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "All the ugly and wonderful things",
+  "author": "Bryn Greenwood",
+  "why": "A young girl and a much older man form a troubling bond; a difficult, uncomfortable book that stays with readers."
+ },
+ "hyperbole and a half": {
+  "keep": true,
+  "genre": "humour",
+  "mood": [
+   "funny",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Hyperbole and a Half",
+  "author": "Allie Brosh",
+  "why": "Allie Brosh's illustrated essays on depression and daily chaos, funny enough to cheer up a dying relative."
+ },
+ "deed of paksenarrion": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Deed of Paksenarrion",
+  "author": "Elizabeth Moon",
+  "why": "A farm girl becomes a soldier and paladin in a realistic fantasy series; a reader's most re-read book."
+ },
+ "black leopard red wolf": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Black Leopard, Red Wolf",
+  "author": "Marlon James",
+  "why": "Comments split sharply, with one reader unable to stand it; not clearly recommended."
+ },
+ "ghost map": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "thoughtful",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "The Ghost Map",
+  "author": "Steven Johnson",
+  "why": "The 1854 London cholera outbreak and how a doctor and a priest traced it; a gripping blend of history and science."
+ },
+ "bewilderment": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Bewilderment",
+  "author": "Richard Powers",
+  "why": "The only mention is of a half-finished read with doubts; no clear recommendation."
+ },
+ "sense and sensibility": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Sense and Sensibility",
+  "author": "Jane Austen",
+  "why": "Austen's novel of two sisters who find love and sense in Regency England; a recommended classic."
+ },
+ "cyberiad": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "stories",
+  "title": "The Cyberiad",
+  "author": "Stanisław Lem",
+  "why": "Lem's witty fables about two robot inventors; one reader says it is the hardest they have ever laughed."
+ },
+ "all clear": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "adventurous",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Blackout / All Clear",
+  "author": "Connie Willis",
+  "why": "Historians in WWII-era England cannot get home in this time-travel pair; readers say it is a favourite."
+ },
+ "little stranger": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "atmospheric",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Little Stranger",
+  "author": "Sarah Waters",
+  "why": "A doctor is drawn into a decaying country house haunted by something; a slow Gothic read for spooky season."
+ },
+ "good soldier": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "dark",
+   "melancholic"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Good Soldier",
+  "author": "Ford Madox Ford",
+  "why": "Ford's tale of two couples and an unreliable narrator; praised as a masterpiece of deception."
+ },
+ "certain hunger": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "dark",
+   "satirical"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "A Certain Hunger",
+  "author": "Chelsea G. Summers",
+  "why": "A food critic narrates how she kills her lovers and cooks them; graphic enough to warn people with weak stomachs."
+ },
+ "money": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "satirical",
+   "dark",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Money",
+  "author": "Martin Amis",
+  "why": "Amis's brash, satirical novel of a debauched ad man in 1980s London; praised for its stylish prose."
+ },
+ "time travelers wife": {
+  "keep": true,
+  "genre": "romance",
+  "mood": [
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Time Traveler's Wife",
+  "author": "Audrey Niffenegger",
+  "why": "A man involuntarily time travels and loves a woman across his jumps; a romantic favourite."
+ },
+ "ducks newburyport": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Ducks, Newburyport",
+  "author": "Lucy Ellmann",
+  "why": "A thousand-page stream of thoughts of an Ohio housewife; readers find it hard going but admirably ambitious."
+ },
+ "beauty": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "hopeful",
+   "emotional"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Beauty",
+  "author": "Robin McKinley",
+  "why": "McKinley's gentle retelling of Beauty and the Beast; recommended as a cosy fairytale."
+ },
+ "white fang": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "adventurous"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "White Fang",
+  "author": "Jack London",
+  "why": "A wild wolf-dog's life in the Yukon and beyond; Jack London's classic of survival."
+ },
+ "algebraist": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "adventurous",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Algebraist",
+  "author": "Iain Banks",
+  "why": "Banks's space opera of a slow-living alien species and a coming war; readers praise his writing."
+ },
+ "shutter island": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Shutter Island",
+  "author": "Dennis Lehane",
+  "why": "A US marshal investigates a patient's disappearance from an island asylum; a one-sitting thriller."
+ },
+ "trinity": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "epic",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Trinity",
+  "author": "Leon Uris",
+  "why": "Uris's saga of Ireland's struggle through the lives of Catholic and Protestant families; a favourite of historical epics."
+ },
+ "thousand acres": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "A Thousand Acres",
+  "author": "Jane Smiley",
+  "why": "King Lear on a farm in Iowa, showing a family tearing itself apart; praised and widely cited as a favourite."
+ },
+ "revolutionary road": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "bleak",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Revolutionary road",
+  "author": "Richard Yates",
+  "why": "A suburban couple's marriage crumbles in 1950s Connecticut; a bleak, powerful classic."
+ },
+ "gargoyle": {
+  "keep": true,
+  "genre": "romance",
+  "mood": [
+   "dark",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The gargoyle",
+  "author": "Andrew Davidson",
+  "why": "A burned man falls for a sculptor who claims to have known him in past lives; one reader's favourite."
+ },
+ "briar club": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "tense",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Briar Club",
+  "author": "Kate Quinn",
+  "why": "Women in a Washington boarding house in the 1950s keep secrets; readers love Quinn's work."
+ },
+ "raven tower": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "mind-bending",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Raven Tower",
+  "author": "Ann Leckie",
+  "why": "A god narrates a story of a kingdom and its ruler; praised for its unusual narrator."
+ },
+ "american war": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "bleak",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "American War",
+  "author": "Omar El Akkad",
+  "why": "A near-future second American civil war seen through one girl's life; grim, gripping and widely recommended."
+ },
+ "starling house": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "atmospheric",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Starling House",
+  "author": "Alix E. Harrow",
+  "why": "A young woman in Kentucky is drawn to a haunted house; enrapturing for readers who finished it in two days."
+ },
+ "last exit to brooklyn": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "bleak"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "stories",
+  "title": "Last Exit to Brooklyn",
+  "author": "Hubert Selby, Jr.",
+  "why": "Selby's raw, shocking stories of Brooklyn's underworld; recommended as completely extreme."
+ },
+ "hamlet": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "thoughtful",
+   "dark"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "play",
+  "title": "Hamlet",
+  "author": "William Shakespeare",
+  "why": "Shakespeare's tragedy of the Danish prince and his revenge; the quintessential play."
+ },
+ "life impossible": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Life Impossible",
+  "author": "Matt Haig",
+  "why": "Reader calls it boring and predictable; not recommended."
+ },
+ "survivor": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "satirical",
+   "dark",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Survivor",
+  "author": "Chuck Palahniuk",
+  "why": "Palahniuk's satirical novel narrated by the last member of a suicide cult; a reader found it gripping."
+ },
+ "night watchman": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "hopeful",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Night Watchman",
+  "author": "Louise Erdrich",
+  "why": "Erdrich's novel based on her grandfather fighting a 1950s bill to end Native tribes; vivid characters and a Pulitzer winner."
+ },
+ "cruddy": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Cruddy",
+  "author": "Lynda Barry",
+  "why": "Lynda Barry's illustrated novel is a dark, shocking story of a girl on the run; readers call it utterly wild."
+ },
+ "brain on fire": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Brain on fire",
+  "author": "Susannah Cahalan",
+  "why": "A young journalist's rare autoimmune disease nearly destroys her mind; a gripping medical memoir."
+ },
+ "golden son": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "epic",
+   "tense",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Golden Son",
+  "author": "Pierce Brown",
+  "why": "The second Red Rising book escalates the war between castes; a favourite of action-lovers."
+ },
+ "christine": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "tense",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Christine",
+  "author": "Stephen King",
+  "why": "A boy becomes obsessed with a possessed 1958 Plymouth; one reader's favourite King."
+ },
+ "calculating stars": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "hopeful",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Calculating Stars",
+  "author": "Mary Robinette Kowal",
+  "why": "An alternate-history space race in the 1950s after a meteor strike, with a female mathematician at the centre."
+ },
+ "man who mistook his wife for a hat": {
+  "keep": true,
+  "genre": "science",
+  "mood": [
+   "thoughtful",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "The Man Who Mistook His Wife for a Hat",
+  "author": "Oliver Sacks",
+  "why": "Sacks's case histories of patients with strange neurological conditions; readers call it fascinating."
+ },
+ "number the stars": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "emotional",
+   "tense"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Number the Stars",
+  "author": "Lois Lowry",
+  "why": "A Danish girl helps her Jewish friend escape the Nazis in 1943; a school favourite readers think about for years."
+ }
+}

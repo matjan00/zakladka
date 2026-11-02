@@ -1,0 +1,990 @@
+{
+"fans notes": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"funny",
+"melancholic"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "A Fan's Notes",
+"author": "Frederick Exley",
+"why": "A man obsessed with football and the New York Giants unravels; readers call it hilarious and sad."
+},
+"eight": {
+"keep": true,
+"genre": "crime",
+"mood": [
+"fast",
+"tense",
+"adventurous"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "The Eight",
+"author": "Katherine Neville",
+"why": "Two women centuries apart chase a chess set with secret powers; a real page-turner."
+},
+"light fantastic": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"funny",
+"adventurous"
+],
+"length": "short",
+"diff": 1,
+"type": "novel",
+"title": "The Light Fantastic",
+"author": "Terry Pratchett",
+"why": "The second Discworld book continues the wizard Rincewind's misadventures; adored even though it is rarely praised."
+},
+"footfall": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"tense",
+"adventurous",
+"fast"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "Footfall",
+"author": "Larry Niven and Jerry Pournelle",
+"why": "Elephant-like aliens invade Earth in an engaging hard-SF clash; great alien-invasion fun."
+},
+"none of this is true": {
+"keep": true,
+"genre": "crime",
+"mood": [
+"tense",
+"fast"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "None of This Is True",
+"author": "Lisa Jewell",
+"why": "Two women with shared birthdays and a podcast, with a plot twist readers loved."
+},
+"factotum": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"bleak",
+"funny",
+"dark"
+],
+"length": "short",
+"diff": 1,
+"type": "novel",
+"title": "Factotum",
+"author": "Charles Bukowski",
+"why": "Bukowski's alter ego drifts through dead-end jobs and bars; raw, coarse and short."
+},
+"alice": {
+"keep": true,
+"genre": "horror",
+"mood": [
+"dark",
+"tense"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Alice",
+"author": "Christina Henry",
+"why": "A very dark retelling of Alice in Wonderland with trafficking and violence; flagged for content warnings."
+},
+"chronicles of thomas covenant": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"dark",
+"epic"
+],
+"length": "long",
+"diff": 3,
+"type": "novel",
+"title": "The Chronicles of Thomas Covenant",
+"author": "Stephen R. Donaldson",
+"why": "A leper is thrown into a fantasy world he refuses to believe in; an influential but heavy series."
+},
+"jakarta method": {
+"keep": true,
+"genre": "history",
+"mood": [
+"dark",
+"thoughtful"
+],
+"length": "medium",
+"diff": 2,
+"type": "nonfiction",
+"title": "The Jakarta Method",
+"author": "Vincent Bevins",
+"why": "How US-backed anti-communist killings in Indonesia shaped the Cold War; readers could not put it down."
+},
+"clytemnestra": {
+"keep": true,
+"genre": "historical",
+"mood": [
+"dark",
+"epic"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Clytemnestra",
+"author": "Costanza Casati",
+"why": "The Greek queen's story from princess to vengeful ruler; a favourite mythic retelling."
+},
+"known world": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"emotional",
+"thoughtful"
+],
+"length": "medium",
+"diff": 3,
+"type": "novel",
+"title": "The Known World",
+"author": "Edward P. Jones",
+"why": "A Black slaveowner in antebellum Virginia; a Pulitzer winner some call the best novel they have read."
+},
+"commonwealth": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"emotional",
+"thoughtful"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Commonwealth",
+"author": "Ann Patchett",
+"why": "Two families are blended and reshaped over decades; a warm, perceptive novel."
+},
+"tinkers": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"melancholic",
+"atmospheric"
+],
+"length": "short",
+"diff": 3,
+"type": "novel",
+"title": "Tinkers",
+"author": "Paul Harding",
+"why": "A dying clockmaker's last days and his father's memories; poetic Pulitzer winner."
+},
+"empire trilogy": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"epic",
+"adventurous"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "The Empire Trilogy",
+"author": "Raymond E. Feist",
+"why": "Feist and Wurts's tale of political intrigue in a Tsurani-inspired empire; a standout in the Riftwar saga."
+},
+"ilium": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"epic",
+"mind-bending"
+],
+"length": "long",
+"diff": 3,
+"type": "novel",
+"title": "Ilium",
+"author": "Dan Simmons",
+"why": "The Trojan War is replayed by gods on Mars, with robots and scholars; a perfect sci-fi and fantasy blend."
+},
+"garden spells": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"cozy",
+"hopeful"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Garden Spells",
+"author": "Sarah Addison Allen",
+"why": "A woman with a magical garden and her sister in a small North Carolina town; sweet, easy and light."
+},
+"inmate": {
+"keep": true,
+"genre": "crime",
+"mood": [
+"tense",
+"fast"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "The Inmate",
+"author": "Freida McFadden",
+"why": "A psychological thriller about a nurse at a prison; twisty page-turner fans."
+},
+"demon cycle": {
+"keep": false,
+"genre": "fantasy",
+"mood": [
+"dark"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "Demon Cycle",
+"author": "Peter V. Brett",
+"why": "Mentioned mainly as a series that went off the rails."
+},
+"firm": {
+"keep": true,
+"genre": "crime",
+"mood": [
+"tense",
+"fast"
+],
+"length": "long",
+"diff": 1,
+"type": "novel",
+"title": "The Firm",
+"author": "John Grisham",
+"why": "A young lawyer discovers his firm's dark secrets; a classic legal thriller devoured on a single flight."
+},
+"ghost": {
+"keep": false,
+"genre": "ya",
+"mood": [
+"thoughtful"
+],
+"length": "short",
+"diff": 1,
+"type": "novel",
+"title": "Ghost",
+"author": "Jason Reynolds",
+"why": "Comments are about different books named Ghost."
+},
+"things": {
+"keep": false,
+"genre": "horror",
+"mood": [
+"thoughtful"
+],
+"length": "short",
+"diff": 1,
+"type": "novel",
+"title": "Things",
+"author": "Todd Thyberg",
+"why": "Comments refer to other works, not one clear book."
+},
+"glamorama": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"satirical",
+"dark",
+"funny"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "Glamorama",
+"author": "Bret Easton Ellis",
+"why": "A model gets caught in a surreal terror plot in Ellis's satire of celebrity; wild and not for the faint of heart."
+},
+"rats": {
+"keep": true,
+"genre": "science",
+"mood": [
+"funny",
+"thoughtful"
+],
+"length": "medium",
+"diff": 1,
+"type": "nonfiction",
+"title": "Rats",
+"author": "Robert Sullivan",
+"why": "A year spent observing New York's rats; fascinating nature writing."
+},
+"far from the madding crowd": {
+"keep": true,
+"genre": "classic",
+"mood": [
+"emotional",
+"atmospheric"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Far from the Madding Crowd",
+"author": "Thomas Hardy",
+"why": "A spirited woman farmer attracts three suitors in rural England; turned one reader into a Hardy fan."
+},
+"hooked": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"tense",
+"dark"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Hooked",
+"author": "Asako Yuzuki",
+"why": "A woman befriends a blogger she admires and things turn unsettling; a good Japanese novel, though not as good as Butter."
+},
+"story of edgar sawtelle": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"emotional",
+"melancholic",
+"atmospheric"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "The story of Edgar Sawtelle",
+"author": "David Wroblewski",
+"why": "A mute boy and his family's dogs, retold from Hamlet; readers say it made them bawl."
+},
+"all my puny sorrows": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"emotional",
+"melancholic"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "All My Puny Sorrows",
+"author": "Miriam Toews",
+"why": "Two sisters, one suicidal; heartbreaking yet funny."
+},
+"white tiger": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"dark",
+"satirical",
+"funny"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "The White Tiger",
+"author": "Aravind Adiga",
+"why": "A servant narrates his rise from poverty in India through crime; a savage, funny class satire."
+},
+"inversions": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"atmospheric",
+"thoughtful"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Inversions",
+"author": "Iain Banks",
+"why": "A Culture novel set in a medieval-style world; beautiful for some, a slog for others."
+},
+"northern lights": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"adventurous",
+"emotional"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Northern Lights",
+"author": "Philip Pullman",
+"why": "A girl travels north with an alethiometer and a daemon; the novel that turned a non-reader into a reader."
+},
+"four agreements": {
+"keep": true,
+"genre": "philosophy",
+"mood": [
+"hopeful",
+"thoughtful"
+],
+"length": "short",
+"diff": 1,
+"type": "nonfiction",
+"title": "The Four Agreements",
+"author": "Don Miguel Ruiz",
+"why": "Four simple rules for personal freedom; short, clear and helpful for many readers."
+},
+"demon of unrest": {
+"keep": true,
+"genre": "history",
+"mood": [
+"tense"
+],
+"length": "long",
+"diff": 2,
+"type": "nonfiction",
+"title": "The Demon of Unrest",
+"author": "Erik Larson",
+"why": "The months between Lincoln's election and the Fort Sumter attack; compelling but long and slow for some."
+},
+"grant": {
+"keep": true,
+"genre": "memoir",
+"mood": [
+"thoughtful",
+"epic"
+],
+"length": "long",
+"diff": 2,
+"type": "nonfiction",
+"title": "Grant",
+"author": "Ron Chernow",
+"why": "A big biography of Ulysses S. Grant; absorbing despite the 1000-plus pages."
+},
+"christy": {
+"keep": true,
+"genre": "historical",
+"mood": [
+"emotional",
+"hopeful",
+"cozy"
+],
+"length": "long",
+"diff": 1,
+"type": "novel",
+"title": "Christy",
+"author": "Catherine Marshall",
+"why": "A young teacher goes to an Appalachian mission school in 1912; a beloved, inspiring read."
+},
+"foe": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"mind-bending",
+"tense"
+],
+"length": "short",
+"diff": 1,
+"type": "novel",
+"title": "Foe",
+"author": "Iain Reid",
+"why": "A farm couple faces a stranger offering to replace the husband; short, eerie and engaging."
+},
+"iron flame": {
+"keep": false,
+"genre": "fantasy",
+"mood": [
+"dark"
+],
+"length": "long",
+"diff": 1,
+"type": "novel",
+"title": "Iron Flame",
+"author": "Rebecca Yarros",
+"why": "Mostly criticised for its romance-heavy plot."
+},
+"babel 17": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"mind-bending",
+"thoughtful"
+],
+"length": "short",
+"diff": 2,
+"type": "novel",
+"title": "Babel-17",
+"author": "Samuel R. Delany",
+"why": "A poet-linguist decodes an enemy language that shapes thought; a gem of classic sci-fi."
+},
+"skeleton crew": {
+"keep": true,
+"genre": "horror",
+"mood": [
+"dark",
+"tense"
+],
+"length": "long",
+"diff": 2,
+"type": "stories",
+"title": "Skeleton crew",
+"author": "Stephen King",
+"why": "King's collection of short stories and novellas, including The Jaunt; varied and scary."
+},
+"traitor": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"dark",
+"epic"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "Traitor",
+"author": "Matthew Woodring Stover",
+"why": "A New Jedi Order novel regarded as the series' peak and one of the best Star Wars books."
+},
+"red winter": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"dark",
+"atmospheric"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "The Red Winter",
+"author": "Cameron Sullivan",
+"why": "A fantasy-horror novel readers began and enjoyed; a new release with early positive buzz."
+},
+"britt marie was here": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"funny",
+"emotional",
+"cozy"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Britt-Marie Was Here",
+"author": "Fredrik Backman",
+"why": "A cranky woman reinvents herself in a small town; warm and funny Backman."
+},
+"paradais": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"dark",
+"bleak",
+"fast"
+],
+"length": "short",
+"diff": 3,
+"type": "novel",
+"title": "Paradais",
+"author": "Fernanda Melchor",
+"why": "Two teens in a gated Mexican community plan something terrible; short, wild and disturbing."
+},
+"star trek": {
+"keep": false,
+"genre": "scifi",
+"mood": [
+"thoughtful"
+],
+"length": "short",
+"diff": 1,
+"type": "novel",
+"title": "Star Trek",
+"author": "Gene Roddenberry",
+"why": "Comments are about the TV franchise, not a book."
+},
+"barneys version": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"funny",
+"thoughtful",
+"melancholic"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Barney's Version",
+"author": "Mordecai Richler",
+"why": "A cranky Montrealer's memoirs with a murder mystery; funny without trying to be."
+},
+"black boy": {
+"keep": true,
+"genre": "memoir",
+"mood": [
+"emotional",
+"bleak",
+"thoughtful"
+],
+"length": "medium",
+"diff": 2,
+"type": "nonfiction",
+"title": "Black Boy",
+"author": "Richard Wright",
+"why": "Richard Wright's story of growing up Black in the Jim Crow South; a memoir that readers recall for its power."
+},
+"keeper of the lost cities": {
+"keep": true,
+"genre": "ya",
+"mood": [
+"adventurous",
+"cozy",
+"fast"
+],
+"length": "long",
+"diff": 1,
+"type": "novel",
+"title": "Keeper of the Lost Cities",
+"author": "Shannon Messenger",
+"why": "A girl finds she is an elf with telepathic powers; a series fans love and read together."
+},
+"in other lands": {
+"keep": true,
+"genre": "ya",
+"mood": [
+"funny",
+"hopeful",
+"emotional"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "In Other Lands",
+"author": "Sarah Rees Brennan",
+"why": "A boy enters a school at the edge of a magical world; underrated and an all-time favourite for its fans."
+},
+"harpo speaks": {
+"keep": true,
+"genre": "memoir",
+"mood": [
+"funny",
+"emotional"
+],
+"length": "long",
+"diff": 1,
+"type": "nonfiction",
+"title": "Harpo Speaks!",
+"author": "Harpo Marx",
+"why": "Harpo Marx's life from vaudeville to Hollywood; a warm tale of a genius and a mensch."
+},
+"dovekeepers": {
+"keep": true,
+"genre": "historical",
+"mood": [
+"emotional",
+"epic",
+"atmospheric"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "The Dovekeepers",
+"author": "Alice Hoffman",
+"why": "Four women endure the siege of Masada; hauntingly beautiful."
+},
+"year of the flood": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"dark",
+"thoughtful"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "The Year of the Flood",
+"author": "Margaret Atwood",
+"why": "The second MaddAddam book follows survivors of a plague and a religious sect; some like it better than the first."
+},
+"lady susan": {
+"keep": true,
+"genre": "classic",
+"mood": [
+"funny",
+"satirical"
+],
+"length": "short",
+"diff": 2,
+"type": "novel",
+"title": "Lady Susan",
+"author": "Jane Austen",
+"why": "Austen's epistolary novella about a manipulative widow; wicked and unlike her other books, though one reader disliked it."
+},
+"lolita by vladimir nabokov": {
+"keep": true,
+"genre": "classic",
+"mood": [
+"dark",
+"thoughtful"
+],
+"length": "medium",
+"diff": 3,
+"type": "novel",
+"title": "Lolita",
+"author": "Vladimir Nabokov",
+"why": "A scholarly predator narrates his obsession; a beautifully written but disturbing classic."
+},
+"theft of fire": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"adventurous",
+"fast"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Theft of Fire",
+"author": "Devon Eriksen",
+"why": "A hard-SF adventure in the asteroid belt with a competent hero; devoted fans call it an addictive read."
+},
+"not my fathers son": {
+"keep": true,
+"genre": "memoir",
+"mood": [
+"emotional",
+"dark"
+],
+"length": "medium",
+"diff": 1,
+"type": "nonfiction",
+"title": "Not My Father's Son",
+"author": "Alan Cumming",
+"why": "An actor uncovers his abusive father's past and family secrets; stays with readers years later."
+},
+"miss peregrines home for peculiar children": {
+"keep": true,
+"genre": "ya",
+"mood": [
+"atmospheric",
+"adventurous"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Miss Peregrine's Home for Peculiar Children",
+"author": "Ransom Riggs",
+"why": "A boy discovers a hidden home for peculiar kids, told with vintage photographs; more horror than fantasy."
+},
+"shoe dog": {
+"keep": true,
+"genre": "memoir",
+"mood": [
+"fast",
+"adventurous",
+"hopeful"
+],
+"length": "medium",
+"diff": 1,
+"type": "nonfiction",
+"title": "Shoe Dog",
+"author": "Phil Knight",
+"why": "Phil Knight tells how he built Nike; so readable that non-readers finished it in a week."
+},
+"damned": {
+"keep": false,
+"genre": "humour",
+"mood": [
+"dark"
+],
+"length": "short",
+"diff": 1,
+"type": "novel",
+"title": "Damned",
+"author": "Chuck Palahniuk",
+"why": "Mentioned mostly for its disliked narrator."
+},
+"this immortal": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"adventurous",
+"funny"
+],
+"length": "short",
+"diff": 2,
+"type": "novel",
+"title": "This Immortal",
+"author": "Roger Zelazny",
+"why": "An immortal official guides an alien tourist through a ruined Earth; a Zelazny classic with a mythic feel."
+},
+"female man": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"thoughtful",
+"satirical"
+],
+"length": "short",
+"diff": 3,
+"type": "novel",
+"title": "The Female Man",
+"author": "Joanna Russ",
+"why": "Four women from different worlds confront sexism; a challenging classic of feminist sci-fi."
+},
+"happy place": {
+"keep": false,
+"genre": "romance",
+"mood": [
+"funny"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Happy Place",
+"author": "Emily Henry",
+"why": "Mostly criticised by readers who did not enjoy the hype."
+},
+"fever house": {
+"keep": true,
+"genre": "horror",
+"mood": [
+"mind-bending",
+"tense",
+"dark"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Fever House",
+"author": "Keith Rosson",
+"why": "A strange, disorienting horror about a secret lab and an unleashed disaster; absolute madness, according to fans."
+},
+"library book": {
+"keep": true,
+"genre": "history",
+"mood": [
+"thoughtful"
+],
+"length": "medium",
+"diff": 1,
+"type": "nonfiction",
+"title": "The Library Book",
+"author": "Susan Orlean",
+"why": "Susan Orlean investigates the 1986 Los Angeles Library fire and celebrates libraries; fascinating and well written."
+},
+"time shelter": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"thoughtful",
+"melancholic",
+"mind-bending"
+],
+"length": "medium",
+"diff": 3,
+"type": "novel",
+"title": "Time Shelter",
+"author": "Georgi Gospodinov",
+"why": "A man opens clinics that recreate the past for dementia patients; a brilliant, sad allegory about memory."
+},
+"lone women": {
+"keep": true,
+"genre": "horror",
+"mood": [
+"atmospheric",
+"dark"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Lone Women",
+"author": "Victor D. LaValle",
+"why": "A woman homesteads in 1915 Montana with a terrible secret in her trunk; a feminist western horror."
+},
+"wetlands": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"dark",
+"funny"
+],
+"length": "short",
+"diff": 2,
+"type": "novel",
+"title": "Wetlands",
+"author": "Charlotte Roche",
+"why": "A young woman in hospital recounts her bodily obsessions with unflinching candour; you need a strong stomach."
+},
+"silent spring": {
+"keep": true,
+"genre": "science",
+"mood": [
+"thoughtful",
+"dark"
+],
+"length": "medium",
+"diff": 2,
+"type": "nonfiction",
+"title": "Silent Spring",
+"author": "Rachel Carson",
+"why": "Rachel Carson's exposé of pesticides that sparked the environmental movement; a book that made readers lifelong advocates."
+},
+"lucky day": {
+"keep": false,
+"genre": "horror",
+"mood": [
+"dark"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Lucky Day",
+"author": "Chuck Tingle",
+"why": "Mentioned mostly as a disappointment."
+},
+"stone diaries": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"thoughtful",
+"melancholic"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "The Stone Diaries",
+"author": "Carol Shields",
+"why": "An ordinary woman's life told through shifting narrators; quiet and subtle, not to everyone's taste."
+},
+"many lives of mama love": {
+"keep": true,
+"genre": "memoir",
+"mood": [
+"emotional",
+"hopeful"
+],
+"length": "medium",
+"diff": 1,
+"type": "nonfiction",
+"title": "The Many Lives of Mama Love",
+"author": "Lara Love Hardin",
+"why": "A mother's journey from addiction and prison to writing; a moving, redemptive memoir."
+},
+"heart of a dog": {
+"keep": true,
+"genre": "classic",
+"mood": [
+"satirical",
+"dark",
+"funny"
+],
+"length": "short",
+"diff": 2,
+"type": "novel",
+"title": "Heart of a Dog",
+"author": "Mikhail Bulgakov",
+"why": "A scientist turns a stray dog into a man in this Soviet satire; a slept-on masterpiece."
+}
+}

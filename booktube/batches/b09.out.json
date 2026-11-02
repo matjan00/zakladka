@@ -1,0 +1,976 @@
+{
+ "too like the lightning": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Too Like the Lightning",
+  "author": "Ada Palmer",
+  "why": "A future of utopian cities and philosophical argument narrated in an 18th-century voice; hard going but rewarding for ambitious readers."
+ },
+ "invisible cities": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "thoughtful",
+   "mind-bending"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "Invisible Cities",
+  "author": "Italo Calvino",
+  "why": "Marco Polo describes imaginary cities to Kublai Khan in short poetic chapters; readers call it mind-blowing."
+ },
+ "rising": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "adventurous",
+   "atmospheric"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Dark Is Rising",
+  "author": "Susan Cooper",
+  "why": "A boy discovers he is one of the Old Ones who fight the Dark in a wintry English setting; readers return to it."
+ },
+ "migrations": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "melancholic",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Migrations",
+  "author": "Charlotte McConaghy",
+  "why": "A woman follows the last Arctic terns across the sea amid extinction; hopeful and sad."
+ },
+ "quantum thief": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Quantum Thief",
+  "author": "Hannu Rajaniemi",
+  "why": "A trickster thief in a far-future Mars city; dense, clever and said to be the best of its kind."
+ },
+ "rant": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Rant",
+  "author": "Chuck Palahniuk",
+  "why": "An oral biography of a strange man who spreads a disease; rougher than other Palahniuk but rewarding."
+ },
+ "being mortal": {
+  "keep": true,
+  "genre": "science",
+  "mood": [
+   "thoughtful",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Being Mortal",
+  "author": "Atul Gawande",
+  "why": "A surgeon looks at ageing and dying and how to give people a better ending; recommended for everyone."
+ },
+ "xx": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "XX",
+  "author": "Rian Hughes",
+  "why": "A designer's novel about a signal from space, built as a physical artefact with many documents; fans say it is perfect."
+ },
+ "black company": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Black Company",
+  "author": "Glen Cook",
+  "why": "A grim mercenary company's chronicle in a ruthless war; the military fantasy readers recommend if you are bored of Sanderson."
+ },
+ "dragons egg": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Dragon's egg",
+  "author": "Robert L. Forward",
+  "why": "Tiny life forms on a neutron star evolve rapidly, a hard SF classic; readers like the alien idea."
+ },
+ "half of a yellow sun": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "bleak"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Half of a Yellow Sun",
+  "author": "Chimamanda Ngozi Adichie",
+  "why": "Three lives caught up in the Biafran war in Nigeria; moving and well praised."
+ },
+ "milkman": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Milkman",
+  "author": "Anna Burns",
+  "why": "A teen in a divided Northern Irish town is stalked by a paramilitary; stream-of-consciousness, tough but excellent."
+ },
+ "light in august": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "dark",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Light in August",
+  "author": "William Faulkner",
+  "why": "People in the Mississippi town and a man's outsiderness; one of Faulkner's heavy novels with beauty."
+ },
+ "empire of pain": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Empire of Pain",
+  "author": "Patrick Radden Keefe",
+  "why": "How the Sackler family fuelled the opioid crisis, reported like a drama; depressing but gripping."
+ },
+ "sellout": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Sellout",
+  "author": "Paul Beatty",
+  "why": "A man tries to bring back segregation in his town in a ferociously funny satire."
+ },
+ "nation": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "emotional",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Nation",
+  "author": "Terry Pratchett",
+  "why": "Two teens survive on an island after a tsunami and rethink faith; funny, brutal and moving."
+ },
+ "where the crawdads sing": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Where the Crawdads Sing",
+  "author": "Delia Owens",
+  "why": "Not a clear recommendation of this book."
+ },
+ "butchers crossing": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "bleak",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Butcher's Crossing",
+  "author": "John Williams",
+  "why": "A hunt for buffalo in 1870s Kansas that grinds the men down; a brutal literary western."
+ },
+ "blood music": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Blood Music",
+  "author": "Greg Bear",
+  "why": "A scientist's microscopic intelligences take over; weird and ahead of its time, more hard SF than horror."
+ },
+ "rivers of london": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Rivers of London",
+  "author": "Ben Aaronovitch",
+  "why": "A London policeman discovers magic and a dark ghostly murder; funny paranormal mystery."
+ },
+ "beach music": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "melancholic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Beach Music",
+  "author": "Pat Conroy",
+  "why": "A family secret and grief in South Carolina and France; emotionally devastating Southern saga."
+ },
+ "da vinci code": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "fast",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Da Vinci Code",
+  "author": "Dan Brown",
+  "why": "A symbologist chases secrets across Europe in a breathless conspiracy thriller; some readers found it mind-blowing."
+ },
+ "westing game": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "funny",
+   "tense"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Westing Game",
+  "author": "Ellen Raskin",
+  "why": "Sixteen heirs to a rich man are paired to solve his murder; a children's puzzle mystery loved by adults."
+ },
+ "sympathizer": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Sympathizer",
+  "author": "Viet Thanh Nguyen",
+  "why": "A communist double agent after the Vietnam War, told in confession; a Pulitzer winner, darkly funny."
+ },
+ "lord of the flies": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "dark",
+   "bleak"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Lord of the Flies",
+  "author": "William Golding",
+  "why": "Boys stranded on an island descend into savagery; short classic often read in school."
+ },
+ "alchemised": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Alchemised",
+  "author": "SenLinYu",
+  "why": "A dark necromancy and war romance that readers devoured and rated highly."
+ },
+ "jerusalem": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Jerusalem",
+  "author": "Alan Moore",
+  "why": "A vast, experimental novel of a working-class English town across time, with its own languages; rewarding but exhausting."
+ },
+ "i claudius": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "funny",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "I, Claudius",
+  "author": "Robert Graves",
+  "why": "The Roman emperor's story told with wit and intrigue; easy to read and fun."
+ },
+ "brother": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "tense",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Brother",
+  "author": "Ania Ahlborn",
+  "why": "A southern horror about two brothers and a nightmare family, with twists and a final chapter that surprises."
+ },
+ "three men in a boat": {
+  "keep": true,
+  "genre": "humour",
+  "mood": [
+   "funny",
+   "cozy"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Three Men in a Boat (to say nothing of the dog)",
+  "author": "Jerome Klapka Jérôme",
+  "why": "Three friends and a dog row up the Thames in a comic Victorian classic; still funny."
+ },
+ "art thief": {
+  "keep": true,
+  "genre": "other",
+  "mood": [
+   "tense"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "The Art Thief",
+  "author": "Michael Finkel",
+  "why": "The true story of a prolific art thief, told like a thriller; short and engaging."
+ },
+ "hiroshima": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "bleak",
+   "emotional"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Hiroshima",
+  "author": "John Hersey",
+  "why": "Six survivors tell what happened when the atomic bomb fell on Hiroshima; a short reportage classic."
+ },
+ "sociopath": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "dark",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Sociopath",
+  "author": "Patric Gagne",
+  "why": "A woman who is diagnosed as a sociopath explains her inner life and how she lives with it."
+ },
+ "inkheart": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "adventurous",
+   "cozy"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Inkheart",
+  "author": "Cornelia Funke",
+  "why": "A girl who reads characters out of books; the first of a trilogy for fantasy-loving children."
+ },
+ "raw shark texts": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Raw Shark Texts",
+  "author": "Steven Hall",
+  "why": "A man loses his memory to a creature that eats thoughts; a puzzle-like thriller like Memento."
+ },
+ "world according to garp": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The world according to Garp",
+  "author": "John Irving",
+  "why": "The life of a writer and his mother, a feminist icon, full of black comedy and tragedy."
+ },
+ "mists of avalon": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Mists of Avalon",
+  "author": "Marion Zimmer Bradley",
+  "why": "The Arthurian legend told from the women's view; a favourite, though readers note problems with its author."
+ },
+ "red tent": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Red Tent",
+  "author": "Anita Diamant",
+  "why": "The story of Dinah, a girl from the Bible, told by her; a women's life in the ancient world."
+ },
+ "stories of your life and others": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "stories",
+  "title": "Stories of Your Life and Others",
+  "author": "Ted Chiang",
+  "why": "Chiang's thoughtful short stories including the basis for Arrival; clever and moving."
+ },
+ "semiosis": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Semiosis",
+  "author": "Sue Burke",
+  "why": "Generations of colonists on a distant planet, interacting with intelligent bamboo; praised as a late discovery."
+ },
+ "heaven": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Heaven",
+  "author": "Mieko Kawakami",
+  "why": "Not a clear recommendation of this book."
+ },
+ "neverwhere": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "atmospheric",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Neverwhere",
+  "author": "Neil Gaiman",
+  "why": "A man discovers a hidden London beneath the city; readers loved it from age 14 on."
+ },
+ "people in the trees": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "The People in the Trees",
+  "author": "Hanya Yanagihara",
+  "why": "A doctor's memoir of a tropical island and what his research caused; unsettling, incredible prose."
+ },
+ "filth": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Filth",
+  "author": "Irvine Welsh",
+  "why": "A corrupt Edinburgh policeman narrated partly by his tapeworm; filthy, grim and unusual."
+ },
+ "woman in white": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "tense",
+   "atmospheric"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Woman in White",
+  "author": "Wilkie Collins",
+  "why": "A mysterious woman in white, a sinister count and a puzzle; an early Victorian sensation novel."
+ },
+ "eye of the world": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Eye of the World",
+  "author": "Robert Jordan",
+  "why": "The first volume of a vast fantasy epic; a favourite among teenage readers who loved the world."
+ },
+ "white teeth": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "White Teeth",
+  "author": "Zadie Smith",
+  "why": "Two families in London over generations; funny, warm and well noted."
+ },
+ "on writing": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "On Writing",
+  "author": "Stephen King",
+  "why": "King's memoir and writing advice; readers value it as both a life story and a practical guide."
+ },
+ "lesser dead": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Lesser Dead",
+  "author": "Christopher Buehlman",
+  "why": "A hard-to-describe vampire story set in New York in the 1970s; fans insist you go in blind."
+ },
+ "sarum": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "epic",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Sarum",
+  "author": "Edward Rutherford",
+  "why": "The history of Salisbury and its area from the Ice Age to modern times, told through families."
+ },
+ "momo": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "thoughtful",
+   "hopeful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Momo",
+  "author": "Michael Ende",
+  "why": "A girl in an amphitheatre fights time thieves who steal people's hours; a short fable about valuing time."
+ },
+ "shipping news": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "atmospheric",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Shipping News",
+  "author": "Annie Proulx",
+  "why": "A failing man takes his family to a harsh Newfoundland and finds a new life; rich, quirky prose."
+ },
+ "inferno": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Inferno",
+  "author": "Larry Niven and Jerry Pournelle",
+  "why": "A modern writer is guided through a Dante-style hell; a fan favourite among Niven works."
+ },
+ "100 years of solitude": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "epic",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "100 Years of Solitude",
+  "author": "Gabriel García Márquez",
+  "why": "The Buendía family across a century in a town called Macondo; magical realism's best known book."
+ },
+ "starfish": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "bleak"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Starfish",
+  "author": "Peter Watts",
+  "why": "Engineers live at the bottom of the sea, and the dark gets to them; dark, atmospheric hard SF."
+ },
+ "chronicles of narnia": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "adventurous",
+   "cozy"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Chronicles of Narnia",
+  "author": "C. S. Lewis",
+  "why": "Children enter a world of talking animals and a lion; a lifelong favourite for many readers."
+ },
+ "winters tale": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "atmospheric",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Winter's Tale",
+  "author": "Mark Helprin",
+  "why": "A magical New York across centuries; ornate and moving, though the film failed the book."
+ },
+ "turn of the screw": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "tense",
+   "dark"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Turn of the Screw",
+  "author": "Henry James",
+  "why": "A governess and the ghostly children in her care; ambiguous and short, the great ghost story."
+ },
+ "boy parts": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Boy Parts",
+  "author": "Eliza Clark",
+  "why": "A photographer lures men into her flat in a dark, unreliable satire; recommended."
+ },
+ "life of pi": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "adventurous",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Life of Pi",
+  "author": "Yann Martel",
+  "why": "A boy shares a lifeboat with a tiger; a story that makes readers consider belief."
+ },
+ "musashi": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "epic",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Musashi",
+  "author": "Eiji Yoshikawa",
+  "why": "A real samurai's life from violent youth to wise master; recommended to Shogun fans."
+ },
+ "septology": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "melancholic"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Septology",
+  "author": "Jon Fosse",
+  "why": "One long sentence through a painter's life, faith and death; hard and unforgettable."
+ },
+ "shadow of the torturer": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Shadow of the Torturer",
+  "author": "Gene Wolfe",
+  "why": "A torturer's apprentice in a dying far-future world, written in an elaborate style; first volume of a classic series."
+ },
+ "memory": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "adventurous",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Memory",
+  "author": "Lois McMaster Bujold",
+  "why": "A mercenary-hero's story in a long, beloved space series; readers re-read Bujold often."
+ },
+ "fall": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Fall",
+  "author": "Albert Camus",
+  "why": "Not a clear recommendation of this book."
+ },
+ "ella enchanted": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "funny",
+   "hopeful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Ella Enchanted",
+  "author": "Gail Carson Levine",
+  "why": "A girl is cursed to obey every command in this fairy-tale retelling; a favourite from childhood."
+ },
+ "shroud": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "tense",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Shroud",
+  "author": "Adrian Tchaikovsky",
+  "why": "Humans and a mysterious alien world meet in this recent Tchaikovsky novel; the author is a modern favourite."
+ },
+ "jesus son": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "bleak"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "stories",
+  "title": "Jesus' Son.",
+  "author": "Denis Johnson",
+  "why": "Linked stories of drug-ridden misfits with rare grace; strange but moving."
+ },
+ "sunshine": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "cozy",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Sunshine",
+  "author": "Robin McKinley",
+  "why": "A baker in a world of vampires gets involved in a mess; makes you hungry for baked goods."
+ },
+ "paradise lost": {
+  "keep": true,
+  "genre": "poetry",
+  "mood": [
+   "epic",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "poetry",
+  "title": "Paradise Lost",
+  "author": "John Milton",
+  "why": "Milton's epic poem of Satan's fall and the Fall of man; amazing and tough."
+ }
+}

@@ -1,0 +1,350 @@
+{
+ "ship of magic": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "atmospheric",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Ship of Magic",
+  "author": "Robin Hobb",
+  "why": "First of the Liveship Traders, about living ships and a merchant family; readers are caught by the concept though the start is slow."
+ },
+ "book of dave": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "satirical",
+   "funny",
+   "mind-bending"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Book of Dave",
+  "author": "Will Self",
+  "why": "A bitter London cabbie's writings become the holy book of a far-future society; a bold, dialect-heavy satire."
+ },
+ "blood and guts in high school": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "mind-bending"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "Blood and Guts in High School",
+  "author": "Kathy Acker",
+  "why": "A transgressive, experimental novel of a girl's life in New York and beyond; a cult feminist avant-garde book."
+ },
+ "sweetness at the bottom of the pie": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "cozy",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Sweetness at the Bottom of the Pie",
+  "author": "Alan Bradley",
+  "why": "An eleven-year-old chemist in 1950s England solves a murder; charming cozy mystery."
+ },
+ "debt to pleasure": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "dark",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Debt to Pleasure",
+  "author": "John Lanchester",
+  "why": "A witty, unreliable narrator tells his life through food and recipes; a darkly comic gem."
+ },
+ "wizards first rule": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Wizard's First Rule",
+  "author": "Terry Goodkind",
+  "why": "A woodsman and a mysterious woman are hunted in the first book of the Sword of Truth; a long, fast-paced fantasy."
+ },
+ "uglies": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "adventurous",
+   "fast",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Uglies",
+  "author": "Scott Westerfeld",
+  "why": "In a world where everyone gets pretty surgery at sixteen, a girl discovers what is hidden; an easy YA dystopia that readers found meaningful."
+ },
+ "outline": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "Outline",
+  "author": "Rachel Cusk",
+  "why": "A writer in Athens listens to the stories others tell her; a spare, unusual novel that fans of literary fiction recommend."
+ },
+ "nos4a2": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "tense",
+   "atmospheric"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "NOS4A2",
+  "author": "Joe Hill",
+  "why": "A woman fights a vampiric man who takes children to Christmasland; a perfect holiday-season horror read."
+ },
+ "lost apothecary": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "atmospheric",
+   "dark",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Lost Apothecary",
+  "author": "Sarah Penner",
+  "why": "A London apothecary who sells poisons to women and a modern woman who uncovers her story; an atmospheric, easy read."
+ },
+ "kind worth killing": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "dark",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Kind Worth Killing",
+  "author": "Peter Swanson",
+  "why": "A chance meeting on a plane leads to a plot to kill; a twisty thriller with a big surprise."
+ },
+ "orchard keeper": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "atmospheric",
+   "dark",
+   "melancholic"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Orchard Keeper",
+  "author": "Cormac McCarthy",
+  "why": "McCarthy's debut about a boy, an old man and an outlaw in the Tennessee mountains; lyrical and bleak."
+ },
+ "rabbit hutch": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "dark",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Rabbit Hutch",
+  "author": "Tess Gunty",
+  "why": "The residents of a decaying apartment block in Indiana in a dazzling, strange novel."
+ },
+ "far from the tree": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "thoughtful",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Far From the Tree",
+  "author": "Andrew Solomon",
+  "why": "A study of families raising children very different from them, through interviews; thought-provoking and moving."
+ },
+ "billy summers": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "emotional",
+   "fast"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Billy Summers",
+  "author": "Stephen King",
+  "why": "A hitman with a conscience takes one last job and writes his story; a surprising, gripping King thriller."
+ },
+ "sea wolf": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "tense",
+   "adventurous",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Sea-Wolf",
+  "author": "Jack London",
+  "why": "A literary man is rescued by the brutal captain of a sealing ship; a stirring sea adventure."
+ },
+ "black sun": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "dark",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Black Sun",
+  "author": "Rebecca Roanhorse",
+  "why": "A Mesoamerican-inspired fantasy of a ship, a prophecy and a sun-priest; readers enjoyed it greatly."
+ },
+ "necklace": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "bleak",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "stories",
+  "title": "The Necklace",
+  "author": "Guy de Maupassant",
+  "why": "A woman loses a borrowed necklace and ruins her life paying for it; a short story with a famous twist."
+ },
+ "nestlings": {
+  "keep": false,
+  "genre": "horror",
+  "mood": [
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Nestlings",
+  "author": "Nat Cassidy",
+  "why": "A horror about a family in a haunted apartment, but opinions are split and one reader calls it a waste of time."
+ },
+ "two years before the mast": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "adventurous",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Two Years Before the Mast",
+  "author": "Richard Henry Dana Jr.",
+  "why": "A Harvard student's memoir of life as a common sailor in 1830s California; a seafaring classic."
+ },
+ "egyptian": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "epic",
+   "adventurous",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Egyptian",
+  "author": "Mika Waltari",
+  "why": "A physician's life in the Egypt of Akhenaten, told with detail and cynicism; a historical epic."
+ },
+ "silence of the girls": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "dark",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Silence of the Girls",
+  "author": "Pat Barker",
+  "why": "The Trojan War told from the perspective of Briseis, a captive woman; a powerful retelling."
+ },
+ "king of elflands daughter": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "atmospheric",
+   "melancholic"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The King of Elfland's Daughter",
+  "author": "Lord Dunsany",
+  "why": "A lyrical, early fantasy about a prince who marries an elf princess; a clear inspiration for Tolkien."
+ },
+ "vampire chronicles": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "atmospheric",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Vampire Chronicles",
+  "author": "Anne Rice",
+  "why": "Lestat and other vampires through centuries, starting with Interview with the Vampire; a queer, gothic series that shaped modern vampire fiction."
+ }
+}

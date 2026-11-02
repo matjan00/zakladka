@@ -1,0 +1,1017 @@
+{
+ "hex": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Hex",
+  "author": "Thomas Olde Heuvelt",
+  "why": "Comments name it as a one-star read."
+ },
+ "fathers and sons": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Fathers and Sons",
+  "author": "Ivan Sergeevich Turgenev",
+  "why": "Comments call it boring."
+ },
+ "children of ruin": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "adventurous",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Children of Ruin",
+  "author": "Adrian Tchaikovsky",
+  "why": "Second Children of Time book, following strange non-human life forms; readers enjoy its alien biology."
+ },
+ "one second after": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "bleak",
+   "tense",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "One second after",
+  "author": "William R. Forstchen",
+  "why": "An EMP attack shuts down America and a man protects his family; a top pick for readers of apocalypse fiction."
+ },
+ "deacon king kong": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "emotional",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Deacon King Kong",
+  "author": "James McBride",
+  "why": "An old church deacon shoots a drug dealer in 1969 Brooklyn and the neighbourhood reacts; funny and warm."
+ },
+ "let the right one in": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "atmospheric",
+   "bleak"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Let the right one in",
+  "author": "John Ajvide Lindqvist",
+  "why": "A bullied boy befriends a strange girl in a Swedish suburb; a chilling vampire novel."
+ },
+ "east of eden by john steinbeck": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "epic",
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "East of Eden",
+  "author": "John Steinbeck",
+  "why": "Two California families reenact Cain and Abel across generations; many readers call it phenomenal."
+ },
+ "screwtape letters": {
+  "keep": true,
+  "genre": "philosophy",
+  "mood": [
+   "funny",
+   "satirical",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Screwtape Letters",
+  "author": "C. S. Lewis",
+  "why": "A senior demon coaches his nephew on tempting a man; witty Christian reflections on morality."
+ },
+ "paradise": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Paradise",
+  "author": "Toni Morrison",
+  "why": "Comments do not discuss this specific book."
+ },
+ "on tyranny": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "thoughtful",
+   "tense"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "On Tyranny",
+  "author": "Timothy Snyder",
+  "why": "Twenty short lessons from history on resisting authoritarianism; a quick read."
+ },
+ "leech": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "mind-bending",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Leech",
+  "author": "Hiron Ennes",
+  "why": "A doctor arrives in a frozen medieval-style land with a strange parasite; brilliant body horror with mind games."
+ },
+ "killers of a certain age": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Killers of a Certain Age",
+  "author": "Deanna Raybourn",
+  "why": "Comments do not clearly recommend it."
+ },
+ "incandescent": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "atmospheric",
+   "thoughtful",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Incandescent",
+  "author": "Emily Tesh",
+  "why": "A teacher at a magical school faces a dark threat; readers call it absolutely brilliant."
+ },
+ "pattern recognition": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "mind-bending",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Pattern Recognition",
+  "author": "William Gibson",
+  "why": "A brand consultant tracks the maker of mysterious online footage; readers say it deserves the hype of Neuromancer."
+ },
+ "word for world is forest": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "bleak",
+   "dark"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Word for World Is Forest",
+  "author": "Ursula K. Le Guin",
+  "why": "Humans colonise a forest world and its people resist; Le Guin's explicit commentary on the Vietnam war."
+ },
+ "wide wide sea": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "adventurous",
+   "epic",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "The Wide Wide Sea",
+  "author": "Hampton Sides",
+  "why": "The final voyage of Captain Cook, beautifully told by Sides."
+ },
+ "flatland": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "satirical",
+   "mind-bending"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Flatland",
+  "author": "Edwin Abbott Abbott",
+  "why": "A square explores dimensions in a Victorian satire; loved for its formatting and ideas."
+ },
+ "onyx storm": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Onyx Storm",
+  "author": "Rebecca Yarros",
+  "why": "Comments are mixed, one reader could not get into it."
+ },
+ "evicted": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "bleak",
+   "thoughtful",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Evicted",
+  "author": "Matthew Desmond",
+  "why": "Follows eight families facing eviction and housing insecurity; eye-opening social research."
+ },
+ "dragon rider": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "adventurous",
+   "hopeful",
+   "cozy"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Dragon Rider",
+  "author": "Cornelia Funke",
+  "why": "A young dragon and his friends search for a hidden valley; a children's favourite."
+ },
+ "absolution": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Absolution",
+  "author": "Jeff VanderMeer",
+  "why": "Comments are mixed and partly about other books."
+ },
+ "vorrh": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "mind-bending",
+   "atmospheric",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Vorrh",
+  "author": "Brian Catling",
+  "why": "A haunted forest in a surreal alternate world; beautifully written and opaque, making readers ask what they are reading."
+ },
+ "nothing": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "bleak",
+   "dark",
+   "mind-bending"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Nothing",
+  "author": "Janne Teller",
+  "why": "Teenagers try to prove meaning exists by sacrificing things; unsettling and philosophical."
+ },
+ "sea of rust": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "bleak",
+   "adventurous",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Sea of Rust",
+  "author": "C. Robert Cargill",
+  "why": "Robots in a post-human world struggle to survive; readers like it for its AI characters."
+ },
+ "people of the book": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "thoughtful",
+   "adventurous",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "People of the Book",
+  "author": "Geraldine Brooks",
+  "why": "A conservator traces the history of a rare Hebrew manuscript across centuries; readers enjoyed it."
+ },
+ "ill be gone in the dark": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "dark",
+   "tense",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "I'll Be Gone in the Dark",
+  "author": "Michelle McNamara",
+  "why": "A writer's obsessive hunt for the Golden State Killer, completed after her death; chilling and absorbing."
+ },
+ "leviathan": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "adventurous",
+   "fast",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Leviathan",
+  "author": "Scott Westerfeld",
+  "why": "Alternate-WWI steampunk adventure with fabricated beasts and walkers; a series readers reread."
+ },
+ "collected schizophrenias": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "thoughtful",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "The Collected Schizophrenias",
+  "author": "Esmé Weijun Wang",
+  "why": "Personal essays about living with schizoaffective disorder, sharp and honest."
+ },
+ "tortilla flat": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "funny",
+   "cozy",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Tortilla Flat",
+  "author": "John Steinbeck",
+  "why": "A group of friends in Monterey enjoy a ramshackle life; a funny, warm Steinbeck favourite."
+ },
+ "binti": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Binti",
+  "author": "Nnedi Okorafor",
+  "why": "Comments call it among the worst books they've read."
+ },
+ "half his age": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Half His Age",
+  "author": "Jennette McCurdy",
+  "why": "Comments only mention reading it without recommendation."
+ },
+ "prestige": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "tense",
+   "mind-bending",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Prestige",
+  "author": "Christopher Priest",
+  "why": "Two rival Victorian magicians feud and sabotage each other; twisty, better than the film according to readers."
+ },
+ "last chance to see": {
+  "keep": true,
+  "genre": "science",
+  "mood": [
+   "funny",
+   "hopeful",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Last Chance to See",
+  "author": "Douglas Adams and Mark Carwardine",
+  "why": "Adams and a zoologist travel the world to find endangered animals; a fun, witty book."
+ },
+ "riyria revelations": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "adventurous",
+   "funny",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Riyria Revelations",
+  "author": "Michael J. Sullivan",
+  "why": "Two thieves become entangled in a kingdom's secrets in this fun, fast fantasy series."
+ },
+ "invention of morel": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "melancholic",
+   "tense"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Invention of Morel",
+  "author": "Adolfo Bioy Casares",
+  "why": "A fugitive on an island sees mysterious people who may not be real; praised by Borges as nearly perfect."
+ },
+ "frankenstein by mary shelley": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "dark",
+   "thoughtful",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Frankenstein",
+  "author": "Mary Shelley",
+  "why": "A scientist makes a creature and rejects it; the Gothic classic about ambition and responsibility."
+ },
+ "swamplandia": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "atmospheric",
+   "mind-bending",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Swamplandia!",
+  "author": "Karen Russell",
+  "why": "A girl in a failing alligator park in the Everglades goes on a surreal journey; haunting and unsettling."
+ },
+ "cold comfort farm": {
+  "keep": true,
+  "genre": "humour",
+  "mood": [
+   "funny",
+   "satirical",
+   "cozy"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Cold Comfort Farm",
+  "author": "Stella Gibbons",
+  "why": "A sensible young woman tidies a gloomy farm of relatives; riotously funny and reread annually by fans."
+ },
+ "deliverance": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "tense",
+   "dark",
+   "bleak"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Deliverance",
+  "author": "James Dickey",
+  "why": "Four men on a canoe trip in Georgia face violence; short, intense and different from the film."
+ },
+ "winds of war": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "epic",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Winds of War",
+  "author": "Herman Wouk",
+  "why": "A naval officer's family faces the road to World War II; a long saga that readers call a favourite."
+ },
+ "little fires everywhere": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Little Fires Everywhere",
+  "author": "Celeste Ng",
+  "why": "Comments are mixed and non-committal."
+ },
+ "number of the beast": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Number of the Beast",
+  "author": "Robert A. Heinlein",
+  "why": "Comments do not discuss the book itself."
+ },
+ "alice network": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "tense",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Alice Network",
+  "author": "Kate Quinn",
+  "why": "Women spies in World War I and a search in 1947; a popular historical page-turner."
+ },
+ "shock doctrine": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "thoughtful",
+   "dark",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "nonfiction",
+  "title": "The Shock Doctrine",
+  "author": "Naomi Klein",
+  "why": "Argues that crises are exploited to push free-market policy; a book some say they could not put down."
+ },
+ "demon": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The demon",
+  "author": "Hubert Selby, Jr.",
+  "why": "Comments discuss a different book, Varley's Demon, so the match is wrong."
+ },
+ "emergence": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "adventurous",
+   "hopeful",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Emergence",
+  "author": "David R. Palmer",
+  "why": "A young girl emerges from a fallout shelter after nuclear war; a childhood favourite."
+ },
+ "foundryside": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "adventurous",
+   "fast",
+   "mind-bending"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Foundryside",
+  "author": "Robert Jackson Bennett",
+  "why": "A thief in a city where objects can be programmed with magic; inventive and fast-paced."
+ },
+ "destiny of the republic": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "tense",
+   "thoughtful",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "The destiny of the republic",
+  "author": "Candice Millard",
+  "why": "The assassination of President Garfield told as a compelling narrative; a one-sitting read."
+ },
+ "slapstick": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "melancholic",
+   "satirical"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Slapstick",
+  "author": "Kurt Vonnegut",
+  "why": "Vonnegut's weird tale of a giant-sized future; hilarious and sad together."
+ },
+ "girl with all the gifts": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "tense",
+   "dark",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Girl with All the Gifts",
+  "author": "M. R. Carey",
+  "why": "A strange girl in a post-apocalyptic military base; tense, with a clever twist on the zombie story."
+ },
+ "east": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "adventurous",
+   "hopeful",
+   "cozy"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "East",
+  "author": "Edith Pattou",
+  "why": "A girl travels with a white bear in a retelling of East of the Sun, West of the Moon; many reread yearly."
+ },
+ "amber spyglass": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "epic",
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Amber Spyglass",
+  "author": "Philip Pullman",
+  "why": "Final book of His Dark Materials, resolving the multiverse story; a genuinely satisfying conclusion."
+ },
+ "sea the sea": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "dark",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Sea, the Sea",
+  "author": "Iris Murdoch",
+  "why": "A retired theatre director retires to the sea and becomes obsessed with a past love; readers rate it highly."
+ },
+ "hollywood park": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "bleak",
+   "emotional",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Hollywood Park",
+  "author": "Mikel Jollett",
+  "why": "A musician's childhood in a cult and in poverty; dark and painful but powerful."
+ },
+ "before we were yours": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "bleak"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Before We Were Yours",
+  "author": "Lisa Wingate",
+  "why": "Based on the real Tennessee Children's Home Society scandal; readers cried and were broken-hearted."
+ },
+ "against a dark background": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "adventurous",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Against a Dark Background",
+  "author": "Iain M. Banks",
+  "why": "A noblewoman hunts relics in a dying star system; a dark, sprawling space adventure with fantasy flavour."
+ },
+ "nineteen eighty four": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "bleak",
+   "dark",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Nineteen Eighty-Four",
+  "author": "George Orwell",
+  "why": "Orwell's chilling vision of a totalitarian state and surveillance; its opening draws readers in."
+ },
+ "trainspotting": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "funny",
+   "bleak"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Trainspotting",
+  "author": "Irvine Welsh",
+  "why": "Scottish heroin users in Edinburgh narrated in dialect; readers say it felt like a drug."
+ },
+ "mysterious island": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "adventurous",
+   "hopeful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Mysterious Island",
+  "author": "Jules Verne",
+  "why": "Castaways rebuild civilisation on a remote island in Verne's classic; loved since childhood."
+ },
+ "friday afternoon club": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "funny",
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "The Friday Afternoon Club",
+  "author": "Griffin Dunne",
+  "why": "Actor and producer Dunne recalls growing up among Hollywood stars and family tragedy; readers call it extremely cool."
+ },
+ "lullaby": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "satirical",
+   "mind-bending"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Lullaby",
+  "author": "Chuck Palahniuk",
+  "why": "A reporter discovers a lullaby that kills; a strange, darkly funny Palahniuk novel."
+ },
+ "red rabbit": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "tense",
+   "dark",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Red Rabbit",
+  "author": "Alex Grecian",
+  "why": "An immersive Old West tale of pursuit; readers call it so good they cannot recommend it enough."
+ },
+ "elsewhere": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "hopeful",
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Elsewhere",
+  "author": "Gabrielle Zevin",
+  "why": "A teen girl wakes in the afterlife and learns to live backward in age; a gentle, lasting story about death."
+ },
+ "blue sisters": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Blue Sisters",
+  "author": "Coco Mellors",
+  "why": "Comments are mixed and focus on a bad audio narrator."
+ },
+ "well of ascension": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Well of Ascension",
+  "author": "Brandon Sanderson",
+  "why": "Comments only mention reading it, no recommendation."
+ },
+ "glass hotel": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "atmospheric",
+   "melancholic",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Glass Hotel",
+  "author": "Emily St. John Mandel",
+  "why": "A Ponzi scheme and a remote hotel connect lives in Mandel's quietly eerie novel."
+ },
+ "deadhouse gates": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "dark",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Deadhouse Gates (The Malazan Book of the Fallen, Book 2)",
+  "author": "Steven Erikson",
+  "why": "Second Malazan novel with a heartbreaking ending; readers want to walk the Chain of Dogs again."
+ },
+ "london": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "epic",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "London",
+  "author": "Edward Rutherfurd",
+  "why": "Follows several families through two thousand years of London's history."
+ },
+ "new jim crow": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "thoughtful",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "The New Jim Crow",
+  "author": "Michelle Alexander",
+  "why": "Argues that mass incarceration works as a racial caste system; eye-opening and widely recommended."
+ },
+ "katherine": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Katherine",
+  "author": "Anya Seton",
+  "why": "Medieval romance about Katherine Swynford and John of Gaunt; top-tier historical fiction some reread yearly."
+ }
+}

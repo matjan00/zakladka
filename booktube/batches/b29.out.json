@@ -1,0 +1,1005 @@
+{
+ "tristram shandy": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "funny",
+   "mind-bending",
+   "satirical"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Life and Opinions of Tristram Shandy, Gentleman",
+  "author": "Laurence Sterne",
+  "why": "A rambling, digressive 18th-century narrator who can barely tell his own life story; a famously playful and experimental novel."
+ },
+ "impossible creatures": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "adventurous",
+   "hopeful",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Impossible Creatures",
+  "author": "Katherine Rundell",
+  "why": "A boy and a girl discover an archipelago of mythical creatures that is under threat; a lyrical fantasy pitched as a new Harry Potter."
+ },
+ "changing planes": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "thoughtful",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "stories",
+  "title": "Changing Planes",
+  "author": "Ursula K. Le Guin",
+  "why": "Le Guin's playful stories of airport layovers that lead to other worlds; a lesser-known, witty collection."
+ },
+ "crucible": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "tense",
+   "dark"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "play",
+  "title": "The Crucible",
+  "author": "Arthur Miller",
+  "why": "Miller's play about the Salem witch trials as an allegory for McCarthyism; a school staple that readers still talk about."
+ },
+ "untethered soul": {
+  "keep": true,
+  "genre": "philosophy",
+  "mood": [
+   "thoughtful",
+   "hopeful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "The Untethered Soul",
+  "author": "Michael A. Singer",
+  "why": "A guide to quieting the inner voice and finding freedom from habitual thoughts; recommended for mindfulness readers."
+ },
+ "princess academy": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "cozy",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Princess Academy",
+  "author": "Shannon Hale",
+  "why": "Village girls are sent to a school to prepare for being chosen as the prince's bride; a gentle children's fantasy."
+ },
+ "chain": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Chain",
+  "author": "Adrian McKinty",
+  "why": "Parents must kidnap a child to free their own in a chain of ransoms; a very fast, gripping thriller."
+ },
+ "almanac of the dead": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "epic",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Almanac of the Dead",
+  "author": "Leslie Silko",
+  "why": "A sprawling, angry novel of Native American resistance, crime and history across the Americas."
+ },
+ "seabiscuit": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "emotional",
+   "hopeful",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Seabiscuit: An American Legend",
+  "author": "Laura Hillenbrand",
+  "why": "The true story of an underdog racehorse and his team during the Depression; better than the movie, readers say."
+ },
+ "at the mountains of madness": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "atmospheric",
+   "tense"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "At the Mountains of Madness",
+  "author": "H.P. Lovecraft",
+  "why": "An Antarctic expedition finds a vast, ancient city and something worse; a classic of cosmic horror."
+ },
+ "code of the woosters": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "funny",
+   "fast"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Code of the Woosters",
+  "author": "P. G. Wodehouse",
+  "why": "Bertie Wooster and Jeeves in a tangle of stolen silver and newts; Wodehouse at his funniest."
+ },
+ "tinker tailor soldier spy": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "atmospheric",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Tinker Tailor Soldier Spy",
+  "author": "John le Carré",
+  "why": "George Smiley hunts a Soviet mole inside British intelligence; a slow, intricate Cold War masterpiece."
+ },
+ "quarantine": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "tense",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Quarantine",
+  "author": "Greg Egan",
+  "why": "A detective in a future where a mysterious bubble has sealed off the solar system; hard, quantum-based sci-fi noir."
+ },
+ "rainbows end": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Rainbows End",
+  "author": "Vernor Vinge",
+  "why": "A man recovering from Alzheimer's enters a world of augmented reality and surveillance; a near-future prediction that feels true."
+ },
+ "bad cree": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "atmospheric"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Bad Cree",
+  "author": "Jessica Johns",
+  "why": "A young Cree woman's dreams carry things into waking life; a lyrical horror debut that readers rated highly."
+ },
+ "skin": {
+  "keep": false,
+  "genre": "horror",
+  "mood": [
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Skin",
+  "author": "Kathe Koja",
+  "why": "The comments about this title name other books with 'skin', so there is no clear recommendation for it."
+ },
+ "stone blind": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Stone Blind",
+  "author": "Natalie Haynes",
+  "why": "The Medusa story retold from her point of view; praised retelling of Greek myth."
+ },
+ "love hypothesis": {
+  "keep": false,
+  "genre": "romance",
+  "mood": [
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Love Hypothesis",
+  "author": "Ali Hazelwood",
+  "why": "A popular romance, but the comments mostly dismiss its writing as poor."
+ },
+ "traveling cat chronicles": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "cozy",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Travelling Cat Chronicles",
+  "author": "Hiro Arikawa",
+  "why": "A man and his cat go on a road trip to find a new home for the cat; warm and quietly moving."
+ },
+ "radix": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "adventurous",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Radix",
+  "author": "A. A. Attanasio",
+  "why": "A boy wanders a strange transformed Earth in a trippy, far-future epic; cult favourite."
+ },
+ "downward to the earth": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "atmospheric",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Downward to the Earth",
+  "author": "Robert Silverberg",
+  "why": "A former colonial officer returns to an alien planet and finds a hidden spiritual transformation; a haunting Silverberg classic."
+ },
+ "brokeback mountain": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "emotional",
+   "melancholic"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "stories",
+  "title": "Brokeback Mountain",
+  "author": "Annie Proulx",
+  "why": "A short story of two cowboys and a lifelong secret love; devastating, and described as the best western story."
+ },
+ "fever": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "bleak",
+   "tense",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Fever",
+  "author": "Deon Meyer",
+  "why": "A father and son try to build a community after the world's collapse; praised as a powerful, overlooked post-apocalyptic novel."
+ },
+ "gullivers travels": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "satirical",
+   "funny",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Gulliver's Travels",
+  "author": "Jonathan Swift",
+  "why": "A ship's surgeon visits strange lands, from tiny Lilliput to the horse-ruled Houyhnhnms; a classic satire."
+ },
+ "changes": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "tense",
+   "dark",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Changes",
+  "author": "Jim Butcher",
+  "why": "The twelfth Dresden Files novel, with a shocking ending that fans remember well."
+ },
+ "prince of thorns": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "bleak",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Prince of Thorns",
+  "author": "Mark Lawrence",
+  "why": "A young, ruthless prince leads a band of brigands in a grimdark fantasy; excellent start to a trilogy."
+ },
+ "last continent": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Last Continent",
+  "author": "Terry Pratchett",
+  "why": "Rincewind ends up in an Australia-like land on the Discworld; a funny stand-alone-ish entry."
+ },
+ "snow falling on cedars": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "atmospheric",
+   "melancholic",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Snow Falling on Cedars",
+  "author": "David Guterson",
+  "why": "A murder trial of a Japanese-American fisherman on a Pacific island in the 1950s; atmospheric and moving."
+ },
+ "xenocide": {
+  "keep": false,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Xenocide",
+  "author": "Orson Scott Card",
+  "why": "Third book in the Ender series; readers say it is not as good as the first two."
+ },
+ "emperor of all maladies": {
+  "keep": true,
+  "genre": "science",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "The Emperor of All Maladies",
+  "author": "Siddhartha Mukherjee",
+  "why": "A big, readable history of cancer; many readers name it as a top science book."
+ },
+ "lost souls": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Lost Souls",
+  "author": "Poppy Z. Brite",
+  "why": "Vampires and teenage runaways in a gothic, sensual horror novel; a cult favourite."
+ },
+ "small changes": {
+  "keep": false,
+  "genre": "literary",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Small changes",
+  "author": "Marge Piercy",
+  "why": "The comments do not discuss this novel, so the match is unclear."
+ },
+ "meridian": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "dark",
+   "bleak",
+   "epic"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Blood Meridian",
+  "author": "Cormac McCarthy",
+  "why": "A teenage runaway joins scalp hunters in the 1850s borderlands; brutal, majestic prose."
+ },
+ "in five years": {
+  "keep": true,
+  "genre": "romance",
+  "mood": [
+   "emotional",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "In five years",
+  "author": "Rebecca Serle",
+  "why": "A woman dreams of her future five years ahead and then lives to see it unfold; a quick, emotional read."
+ },
+ "cinder": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "adventurous",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Cinder",
+  "author": "Marissa Meyer",
+  "why": "A cyborg mechanic in New Beijing takes on a twist on Cinderella; fun and lasting for fans."
+ },
+ "sot weed factor": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "funny",
+   "satirical",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Sot-Weed Factor",
+  "author": "John Barth",
+  "why": "A bawdy, huge parody of 18th-century adventure novels; a postmodern comic masterpiece."
+ },
+ "denial of death": {
+  "keep": true,
+  "genre": "philosophy",
+  "mood": [
+   "thoughtful",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "nonfiction",
+  "title": "The Denial of Death",
+  "author": "Ernest Becker",
+  "why": "A Pulitzer-winning study of how fear of death shapes human behaviour; deep and unsettling."
+ },
+ "gods of jade and shadow": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "atmospheric",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Gods of Jade and Shadow",
+  "author": "Silvia Moreno-Garcia",
+  "why": "A Mexican girl teams up with a Mayan death god for a quest through 1920s Mexico; mythical and vivid."
+ },
+ "tilt": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "tense",
+   "emotional"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Tilt",
+  "author": "Emma Pattee",
+  "why": "A pregnant woman walks across Portland during a massive earthquake; a tense, powerful novel of a day."
+ },
+ "black dahlia": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "dark",
+   "atmospheric",
+   "bleak"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Black Dahlia",
+  "author": "James Ellroy",
+  "why": "Two cops become obsessed with a real 1947 Hollywood murder; a dark noir by Ellroy."
+ },
+ "yellow wife": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "dark",
+   "bleak"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Yellow Wife",
+  "author": "Sadeqa Johnson",
+  "why": "An enslaved woman's story of survival in a Virginia slave jail; hard but very good."
+ },
+ "fountains of paradise": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Fountains of Paradise",
+  "author": "Arthur C. Clarke",
+  "why": "An engineer's project to build a space elevator; a thoughtful, hard-sci-fi favourite."
+ },
+ "tipping the velvet": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "adventurous",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Tipping the Velvet",
+  "author": "Sarah Waters",
+  "why": "A music-hall girl in Victorian London finds love and herself; a richly written, sensual debut."
+ },
+ "crown of stars": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Crown of Stars",
+  "author": "Kate Elliott",
+  "why": "A long, low-magic epic fantasy in an early medieval-style world with a diverse cast; praised for getting history right."
+ },
+ "my uncle oswald": {
+  "keep": true,
+  "genre": "humour",
+  "mood": [
+   "funny",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "My Uncle Oswald",
+  "author": "Roald Dahl",
+  "why": "Dahl's hilarious and spicy adult novel about a rogue's scheme to collect the sperm of famous men."
+ },
+ "ritual": {
+  "keep": false,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Ritual",
+  "author": "Adam Nevill",
+  "why": "A hiking horror that readers say starts scary and then loses the thread; split opinions."
+ },
+ "un lun dun": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "adventurous",
+   "funny",
+   "atmospheric"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Un Lun Dun",
+  "author": "China Miéville",
+  "why": "Two girls enter a strange, mirrored London; a go-to young adult fantasy recommended for kids who've been through hard times."
+ },
+ "death in venice": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "melancholic",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "stories",
+  "title": "Death in Venice",
+  "author": "Thomas Mann",
+  "why": "An ageing writer becomes obsessed with a boy in Venice; a famous, elegant novella."
+ },
+ "pickwick papers": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "funny",
+   "cozy"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Pickwick Papers",
+  "author": "Charles Dickens",
+  "why": "A comic series of adventures of an English club leader and his friends; Dickens' warm, funny debut."
+ },
+ "good material": {
+  "keep": true,
+  "genre": "romance",
+  "mood": [
+   "funny",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Good Material",
+  "author": "Dolly Alderton",
+  "why": "A comedian tries to understand why his girlfriend left him; easy, funny, Hornby-like reading."
+ },
+ "doors of eden": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "adventurous",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Doors of Eden",
+  "author": "Adrian Tchaikovsky",
+  "why": "Parallel Earths with different evolved species, and a threat spreading between them; a strong Tchaikovsky novel."
+ },
+ "robinson crusoe": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Robinson Crusoe",
+  "author": "Daniel Defoe",
+  "why": "A man shipwrecked on a tropical island survives for years; the original castaway story."
+ },
+ "dreamcatcher": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "tense",
+   "dark",
+   "fast"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Dreamcatcher",
+  "author": "Stephen King",
+  "why": "Four friends face an alien invasion in snowy Maine; hooked readers, even if the movie is terrible."
+ },
+ "made for love": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "satirical",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Made for Love",
+  "author": "Alissa Nutting",
+  "why": "A woman escapes her tech-billionaire husband who has linked her mind to his; a crazy, believably dystopian satire."
+ },
+ "american dirt": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "emotional",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "American Dirt",
+  "author": "Jeanine Cummins",
+  "why": "A Mexican mother and son flee a cartel; controversial, but readers call it disturbing and hard to put down."
+ },
+ "barbarian days": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "adventurous",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Barbarian days",
+  "author": "William Finnegan",
+  "why": "A surfer's memoir of a life chasing waves around the world; much deeper than it sounds."
+ },
+ "wake": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "dark",
+   "atmospheric",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Wake",
+  "author": "Paul Kingsnorth",
+  "why": "A Saxon man resists the Norman Conquest, told in a shadow-tongue of Old English; demanding but striking."
+ },
+ "metamorphoses": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "epic",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "poetry",
+  "title": "Metamorphoses",
+  "author": "Ovid",
+  "why": "Ovid's long narrative poem retelling Greek and Roman myths of change."
+ },
+ "charlie and the chocolate factory": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "funny",
+   "cozy",
+   "satirical"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Charlie and the Chocolate Factory",
+  "author": "Roald Dahl",
+  "why": "Children win a tour of a strange candy factory; cute and funny, with sharp touches of satire."
+ },
+ "dead astronauts": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "atmospheric",
+   "dark"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "Dead Astronauts",
+  "author": "Jeff VanderMeer",
+  "why": "Experimental, poetic story of rebels fighting a company that manipulates life, with a blue fox and a giant salamander."
+ },
+ "river god": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "adventurous",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "River god",
+  "author": "Wilbur Smith",
+  "why": "A slave's story in ancient Egypt of love, war and power; a rousing adventure."
+ },
+ "mars": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "dark",
+   "bleak",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Mars",
+  "author": "Fritz Zorn",
+  "why": "A young man's angry book about his cancer and bourgeois upbringing; a bleak, famous German-language work."
+ },
+ "free": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "thoughtful",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Free: Coming of Age at the End of History",
+  "author": "Lea Ypi",
+  "why": "Growing up in communist Albania and its fall, by a philosopher; praised for combining history and humour."
+ },
+ "antarctica": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "adventurous",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Antarctica",
+  "author": "Kim Stanley Robinson",
+  "why": "A near-future novel about settlement and exploitation of Antarctica, with scientists and activists; praised by science-fiction readers."
+ },
+ "digital fortress": {
+  "keep": false,
+  "genre": "crime",
+  "mood": [
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Digital Fortress",
+  "author": "Dan Brown",
+  "why": "A techno-thriller that readers name as hilariously badly written."
+ },
+ "killer inside me": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "dark",
+   "bleak",
+   "tense"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Killer Inside Me",
+  "author": "Jim Thompson",
+  "why": "A deputy sheriff narrates his own double life as a killer; a classic of noir with an unreliable narrator."
+ },
+ "lacuna": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "thoughtful",
+   "atmospheric"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Lacuna",
+  "author": "Barbara Kingsolver",
+  "why": "A man moves between Mexico and the US in the era of Frida Kahlo and McCarthyism; a reader favourite of Kingsolver."
+ },
+ "colony": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "tense",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Colony",
+  "author": "Audrey Magee",
+  "why": "An English painter and Irish linguist meet on a remote island during the Troubles; a sharp, quiet story."
+ },
+ "bartimaeus sequence": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "funny",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Bartimaeus Sequence",
+  "author": "Jonathan Stroud",
+  "why": "A sarcastic djinni serves a young magician in an alternate London; a witty, imaginative YA fantasy series."
+ },
+ "anima rising": {
+  "keep": true,
+  "genre": "humour",
+  "mood": [
+   "funny",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Anima Rising",
+  "author": "Christopher Moore",
+  "why": "Christopher Moore's latest comic fantasy; funny and surprisingly informative."
+ }
+}

@@ -1,0 +1,1034 @@
+{
+ "helter skelter": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "dark",
+   "tense",
+   "bleak"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Helter skelter",
+  "author": "Vincent Bugliosi and Curt Gentry",
+  "why": "The prosecutor's account of the Manson murders and trial; a gripping true-crime classic."
+ },
+ "brief wondrous life of oscar wao": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "emotional",
+   "epic"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Brief Wondrous Life of Oscar Wao",
+  "author": "Junot Diaz",
+  "why": "A nerdy Dominican-American boy and his family under a curse and a dictator; brilliant, voice-driven and slang-rich."
+ },
+ "godkiller": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "adventurous",
+   "dark",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Godkiller",
+  "author": "Hannah Kaner",
+  "why": "A hunter of dangerous gods teams up with a girl and a child in a high fantasy world; readers had a book hangover."
+ },
+ "running with scissors": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "funny",
+   "dark",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Running with Scissors",
+  "author": "Augusten Burroughs",
+  "why": "Burroughs' darkly comic memoir of a bizarre childhood with his mother's psychiatrist's family."
+ },
+ "wise mans fear": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "adventurous",
+   "atmospheric"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Wise Man's Fear",
+  "author": "Patrick Rothfuss",
+  "why": "Second book of the Kingkiller Chronicle; Kvothe's tale continues, though fans wait years for the finale."
+ },
+ "plot against america": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Plot Against America",
+  "author": "Philip Roth",
+  "why": "Comments are mixed and mostly describe it as boring."
+ },
+ "scar tissue": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "dark",
+   "emotional",
+   "funny"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Scar Tissue",
+  "author": "Anthony Kiedis and Larry Sloman",
+  "why": "The Red Hot Chili Peppers singer's brutally honest memoir of addiction and survival; strong on audio."
+ },
+ "tai pan": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "epic",
+   "adventurous",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Tai-Pan",
+  "author": "James Clavell",
+  "why": "Clavell's sweeping tale of rival traders founding Hong Kong; a long, gripping adventure."
+ },
+ "exorcist": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "tense",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Exorcist",
+  "author": "William Peter Blatty",
+  "why": "A girl's possession and the priests who fight it; readers call it superbly written and genuinely scary."
+ },
+ "behind the beautiful forevers": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "bleak",
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Behind the Beautiful Forevers",
+  "author": "Katherine Boo",
+  "why": "Reported story of families in a Mumbai slum; gorgeous writing that left readers traumatized."
+ },
+ "still life with woodpecker": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "mind-bending",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Still Life with Woodpecker",
+  "author": "Tom Robbins",
+  "why": "Tom Robbins' wacky love story of an outlaw princess and a bomber; readers burst out laughing."
+ },
+ "summer sisters": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "melancholic",
+   "cozy"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Summer sisters",
+  "author": "Judy Blume",
+  "why": "Two women's friendship from childhood to middle age in Judy Blume's adult novel."
+ },
+ "dont let the forest in": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "dark",
+   "atmospheric",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Don't Let the Forest In",
+  "author": "C. G. Drews",
+  "why": "Two teens face a dark fairy-tale forest; a gothic, atmospheric YA horror favourite."
+ },
+ "mansfield park": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "thoughtful",
+   "satirical",
+   "cozy"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Mansfield Park",
+  "author": "Jane Austen",
+  "why": "Austen's quieter novel of a poor cousin raised in a rich house; divisive heroine but rewarding."
+ },
+ "pilgrim at tinker creek": {
+  "keep": true,
+  "genre": "philosophy",
+  "mood": [
+   "thoughtful",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "nonfiction",
+  "title": "Pilgrim at Tinker Creek",
+  "author": "Annie Dillard",
+  "why": "Dillard's observations of nature near her Virginia home; gorgeous, meditative writing that earned a Pulitzer."
+ },
+ "book of the unnamed midwife": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "bleak",
+   "dark",
+   "hopeful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Book of the Unnamed Midwife",
+  "author": "Meg Elison",
+  "why": "A midwife survives a plague that kills most women in a bleak post-apocalypse; readers reread it often."
+ },
+ "maybe you should talk to someone": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "funny",
+   "emotional",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Maybe You Should Talk to Someone",
+  "author": "Lori Gottlieb",
+  "why": "A therapist goes to therapy herself; readers find it funny, warm and keeps making them laugh."
+ },
+ "something happened": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "bleak",
+   "dark",
+   "satirical"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Something Happened",
+  "author": "Joseph Heller",
+  "why": "An anxious executive's inner monologue from the author of Catch-22; divisive, sad and eye-opening."
+ },
+ "edible woman": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Edible Woman",
+  "author": "Margaret Atwood",
+  "why": "Comments do not clearly recommend this book."
+ },
+ "glass bead game": {
+  "keep": true,
+  "genre": "philosophy",
+  "mood": [
+   "thoughtful",
+   "mind-bending",
+   "melancholic"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Glass Bead Game",
+  "author": "Hermann Hesse",
+  "why": "A scholar rises in an intellectual order devoted to a game of ideas; demanding, richly philosophical."
+ },
+ "stormlight archives": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "adventurous",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Stormlight Archive",
+  "author": "Brandon Sanderson",
+  "why": "Sanderson's ongoing epic series of huge books, praised for original worldbuilding and magic."
+ },
+ "warlock": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "tense",
+   "thoughtful",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Warlock",
+  "author": "Oakley Hall",
+  "why": "A Western about a town and its gunman showing how perspectives change over time."
+ },
+ "born to run": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "thoughtful",
+   "hopeful"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Born to Run",
+  "author": "Bruce Springsteen",
+  "why": "Springsteen's memoir in literary prose; especially good as an audiobook he narrates himself."
+ },
+ "on the calculation of volume": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "melancholic",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "On the Calculation of Volume",
+  "author": "Solvej Balle",
+  "why": "A woman is stuck repeating the same day in this quiet, much-praised Danish series."
+ },
+ "heart shaped box": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "tense",
+   "dark",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Heart-Shaped Box",
+  "author": "Joe Hill",
+  "why": "An aging rock star buys a ghost online; readers say it scared them badly."
+ },
+ "thorn birds": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Thorn Birds",
+  "author": "Colleen McCullough",
+  "why": "Epic Australian family saga of love and a forbidden priest; readers call it a piece of art."
+ },
+ "hero and the crown": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "adventurous",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Hero and the Crown",
+  "author": "Robin McKinley",
+  "why": "A girl becomes a dragon-slaying hero in a classic fantasy that turned many young readers into book lovers."
+ },
+ "mother mary comes to me": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Mother Mary Comes to Me",
+  "author": "Arundhati Roy",
+  "why": "Roy's memoir about her mother and her own path; readers who liked The God of Small Things find it incredible."
+ },
+ "boys in the boat": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "hopeful",
+   "adventurous",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "The Boys in the Boat",
+  "author": "Daniel James Brown",
+  "why": "Story of the 1936 US Olympic rowing team told with narrative drive; a popular inspirational read."
+ },
+ "end of eternity": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "mind-bending",
+   "tense"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The End of Eternity",
+  "author": "Isaac Asimov",
+  "why": "A time-travel novel with paradoxes galore; some readers call it Asimov's best."
+ },
+ "interior chinatown": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "satirical",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Interior Chinatown",
+  "author": "Charles Yu",
+  "why": "A background actor dreams of being the lead in the script of a cop show; formatted as a screenplay and sharply funny."
+ },
+ "weaveworld": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "mind-bending",
+   "atmospheric",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Weaveworld",
+  "author": "Clive Barker",
+  "why": "A hidden magical world woven into a carpet is hunted; readers find it mind-bending dark fantasy."
+ },
+ "bill the galactic hero": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "satirical",
+   "fast"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Bill the Galactic Hero",
+  "author": "Harry Harrison",
+  "why": "A farm boy is drafted into an absurd space war in this antiwar parody of military sf."
+ },
+ "straight man": {
+  "keep": true,
+  "genre": "humour",
+  "mood": [
+   "funny",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Straight Man",
+  "author": "Richard Russo",
+  "why": "A reluctant college English department head faces a crisis in this campus comedy; readers say it is the funniest book they've read."
+ },
+ "peripheral": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "tense",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Peripheral",
+  "author": "William Gibson",
+  "why": "Gibson's story of a woman who finds a link to a future London; fantastic but telegraphic and demanding."
+ },
+ "other valley": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "melancholic",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The other Valley",
+  "author": "Scott Alexander Howard",
+  "why": "A town sealed between a valley of the past and the future; readers call it the best they've read."
+ },
+ "favorites": {
+  "keep": true,
+  "genre": "romance",
+  "mood": [
+   "tense",
+   "emotional",
+   "fast"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Favorites",
+  "author": "Layne Fargo",
+  "why": "Olympic figure skating partners fall into love and scandal, told like a documentary; compelling and dramatic."
+ },
+ "pale king": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "thoughtful",
+   "bleak",
+   "mind-bending"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Pale King",
+  "author": "David Foster Wallace",
+  "why": "Unfinished novel about boredom at an IRS center; hard and frustrating, but admired by DFW fans."
+ },
+ "ring": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "epic",
+   "mind-bending",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Ring",
+  "author": "Stephen Baxter",
+  "why": "Hard sci-fi in the Xeelee universe with huge ideas and immense time spans."
+ },
+ "heart is a lonely hunter": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "melancholic",
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Heart is a Lonely Hunter",
+  "author": "Carson McCullers",
+  "why": "Lonely misfits in a Southern town gather around a deaf man; a moving American classic."
+ },
+ "right stuff": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "adventurous",
+   "funny",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "The Right Stuff",
+  "author": "Tom Wolfe",
+  "why": "Wolfe's vivid account of the Mercury astronauts and test pilots; an all-time great of narrative non-fiction."
+ },
+ "blackwater": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "atmospheric",
+   "dark",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Blackwater",
+  "author": "Michael McDowell",
+  "why": "A six-part Southern gothic saga of a river family and its mysterious matriarch; fantastic and bingeable."
+ },
+ "future": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "tense",
+   "thoughtful",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Future",
+  "author": "Naomi Alderman",
+  "why": "Alderman imagines tech billionaires and the end of the world; readers are sucked in and want to reread it."
+ },
+ "book of form and emptiness": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "thoughtful",
+   "emotional",
+   "hopeful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Book of Form and Emptiness",
+  "author": "Ruth L. Ozeki",
+  "why": "A boy hears objects speak after his father dies, and finds help in a library; tender and imaginative."
+ },
+ "girl interrupted": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "thoughtful",
+   "melancholic"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Girl, Interrupted",
+  "author": "Susanna Kaysen",
+  "why": "Kaysen's short memoir of her time in a psychiatric hospital in the 1960s."
+ },
+ "elena knows": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "bleak",
+   "emotional",
+   "tense"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Elena Knows",
+  "author": "Claudia Piñeiro",
+  "why": "A sick mother searches for who killed her daughter; the ending reveals how good it is."
+ },
+ "cosmicomics": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "mind-bending",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "stories",
+  "title": "Cosmicomics",
+  "author": "Italo Calvino",
+  "why": "Playful surreal stories narrated by a shape-shifting being across cosmic history; lovely and inventive."
+ },
+ "cry the beloved country": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "emotional",
+   "melancholic",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Cry, the Beloved Country",
+  "author": "Alan Paton",
+  "why": "A Zulu pastor searches for his son in Johannesburg during apartheid; moving and lyrical."
+ },
+ "only forward": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "mind-bending",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Only forward",
+  "author": "Michael Marshall Smith",
+  "why": "A noir detective romp in a strange future city that turns deeper; readers beg others to find it."
+ },
+ "book of longings": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Book of Longings",
+  "author": "Sue Monk Kidd",
+  "why": "Imagined life of Jesus' wife, an independent woman in ancient Galilee; readers like its feminist take."
+ },
+ "transcendent kingdom": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "melancholic",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Transcendent Kingdom",
+  "author": "Yaa Gyasi",
+  "why": "A neuroscientist reckons with family addiction and faith; readers were in shambles afterwards."
+ },
+ "last one": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "dark",
+   "mind-bending"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Last One",
+  "author": "Will Dean",
+  "why": "A fast, twist-filled thriller; readers call it bonkers and addictive, though some found it too long."
+ },
+ "witch": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Witch",
+  "author": "Marie NDiaye",
+  "why": "Comments do not discuss this book."
+ },
+ "death in her hands": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "mind-bending",
+   "atmospheric"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Death in Her Hands",
+  "author": "Ottessa Moshfegh",
+  "why": "An old woman finds a note about a murdered girl and her imagination takes over; unsettling Moshfegh."
+ },
+ "american tragedy": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "bleak",
+   "dark",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "An American Tragedy",
+  "author": "Theodore Dreiser",
+  "why": "A poor young man's ambition leads to murder and trial; long but easy to follow."
+ },
+ "sword of shannara": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Sword of Shannara",
+  "author": "Terry Brooks",
+  "why": "Classic quest fantasy that got many readers started on the genre."
+ },
+ "cipher": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "bleak",
+   "mind-bending"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Cipher",
+  "author": "Kathe Koja",
+  "why": "A video store clerk is drawn to a strange hole in the floor in this bleak cult horror."
+ },
+ "midnight in chernobyl": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "tense",
+   "dark",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Midnight in Chernobyl",
+  "author": "Adam Higginbotham",
+  "why": "The extraordinarily well-told story of the Chernobyl disaster and its causes."
+ },
+ "watchers": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Watchers",
+  "author": "Dean Koontz",
+  "why": "Comments are mixed, with one calling it cheesy."
+ },
+ "stella maris": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "thoughtful",
+   "melancholic",
+   "mind-bending"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "Stella Maris",
+  "author": "Cormac McCarthy",
+  "why": "A mathematician speaks with her psychiatrist in dialogue form; brilliant, smart and dense."
+ },
+ "mandy": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "cozy",
+   "hopeful",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Mandy",
+  "author": "Julie Edwards",
+  "why": "An orphan finds a hidden cottage to make her own; whimsical and wonderful."
+ },
+ "sundial": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "satirical",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Sundial",
+  "author": "Shirley Jackson",
+  "why": "A family prepares for the end of the world in a big house; an extremely mean Shirley Jackson novel."
+ },
+ "true confessions of charlotte doyle": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "adventurous",
+   "tense",
+   "fast"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "The True Confessions of Charlotte Doyle",
+  "author": "Avi",
+  "why": "A girl sails on a ship with a mutinous crew; a children's favourite."
+ },
+ "yumi and the nightmare painter": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "emotional",
+   "hopeful",
+   "cozy"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Yumi and the Nightmare Painter",
+  "author": "Brandon Sanderson",
+  "why": "A standalone Cosmere romance between a girl and an artist who paint in dreams; easy and captivating."
+ },
+ "one dark window": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "One Dark Window",
+  "author": "Rachel Gillig",
+  "why": "Comments are split, including a clearly uninvested reader."
+ },
+ "her smoke rose up forever": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "bleak",
+   "mind-bending"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "stories",
+  "title": "Her Smoke Rose Up Forever",
+  "author": "James Tiptree, Jr.",
+  "why": "Tiptree's collected stories, intense and moving; best taken in small doses."
+ },
+ "scarlet letter": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "melancholic",
+   "thoughtful",
+   "dark"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Scarlet Letter",
+  "author": "Nathaniel Hawthorne",
+  "why": "A woman in Puritan Boston bears a mark of shame; a tough but rewarding school classic."
+ },
+ "jack dawkins": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "adventurous",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Jack Dawkins",
+  "author": "Charlton Daines",
+  "why": "The Artful Dodger as an adult in a Dickens-flavoured adventure; familiar and fun."
+ },
+ "liliths brood": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "dark",
+   "mind-bending"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Lilith's Brood",
+  "author": "Octavia E. Butler",
+  "why": "Aliens save humanity after nuclear war at a cost; a master class in human motivation."
+ },
+ "big sleep": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "dark",
+   "atmospheric"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Big Sleep",
+  "author": "Raymond Chandler",
+  "why": "Philip Marlowe takes a case among gangsters and corrupt cops; the classic hard-boiled mystery."
+ }
+}

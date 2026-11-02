@@ -1,0 +1,1018 @@
+{
+"chasm city": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"dark",
+"tense",
+"epic"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "Chasm City",
+"author": "Alastair Reynolds",
+"why": "A man hunts a killer across a ruined future city and through a strange past; dark, rich space opera readers praise."
+},
+"upgrade": {
+"keep": false,
+"genre": "scifi",
+"mood": [
+"tense"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Upgrade",
+"author": "Blake Crouch",
+"why": "Comments are lukewarm, one calling it boring."
+},
+"hate u give": {
+"keep": true,
+"genre": "ya",
+"mood": [
+"emotional",
+"tense",
+"thoughtful"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "The Hate U Give",
+"author": "Angie Thomas",
+"why": "A teenage girl speaks up after a police shooting of her friend; a moving YA that changed readers' views."
+},
+"negative space": {
+"keep": true,
+"genre": "horror",
+"mood": [
+"bleak",
+"dark",
+"mind-bending"
+],
+"length": "medium",
+"diff": 3,
+"type": "novel",
+"title": "Negative Space",
+"author": "B.R. Yeager",
+"why": "A cosmic-horror novel about despair and obsession; readers call it the bleakest book they know, yet brilliant."
+},
+"rainbow": {
+"keep": false,
+"genre": "classic",
+"mood": [
+"thoughtful"
+],
+"length": "medium",
+"diff": 3,
+"type": "novel",
+"title": "The Rainbow",
+"author": "D. H. Lawrence",
+"why": "Readers mention disliking it or confuse it with another book."
+},
+"nuclear war": {
+"keep": true,
+"genre": "history",
+"mood": [
+"tense",
+"dark",
+"thoughtful"
+],
+"length": "medium",
+"diff": 1,
+"type": "nonfiction",
+"title": "Nuclear War",
+"author": "Annie Jacobsen",
+"why": "A minute-by-minute account of how a nuclear war would unfold; fascinating and terrifying."
+},
+"falling free": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"thoughtful",
+"hopeful"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Falling Free",
+"author": "Lois McMaster Bujold",
+"why": "A engineer defends genetically engineered workers fighting for freedom; a standalone Vorkosigan-universe novel, though not the best starting point."
+},
+"long way down": {
+"keep": true,
+"genre": "ya",
+"mood": [
+"tense",
+"emotional",
+"fast"
+],
+"length": "short",
+"diff": 1,
+"type": "novel",
+"title": "Long Way Down",
+"author": "Jason Reynolds",
+"why": "A teen rides an elevator down while deciding whether to avenge his brother; a quick novel in verse praised for its form."
+},
+"eighth life": {
+"keep": true,
+"genre": "historical",
+"mood": [
+"epic",
+"emotional"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "The Eighth Life",
+"author": "Nino Haratischwili",
+"why": "Eight generations of one Georgian family across the twentieth century; a huge book readers could not stop reading."
+},
+"chosen": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"thoughtful",
+"emotional",
+"hopeful"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "The Chosen",
+"author": "Chaim Potok",
+"why": "Two Jewish boys in 1940s Brooklyn form an unlikely friendship; an all-time favourite for many."
+},
+"echopraxia": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"mind-bending",
+"dark",
+"thoughtful"
+],
+"length": "medium",
+"diff": 3,
+"type": "novel",
+"title": "Echopraxia",
+"author": "Peter Watts",
+"why": "A hard-science sequel to Blindsight about post-human minds; hugely ambitious, though some readers cannot engage."
+},
+"new york trilogy": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"mind-bending",
+"atmospheric"
+],
+"length": "medium",
+"diff": 3,
+"type": "novel",
+"title": "The New York Trilogy",
+"author": "Paul Auster",
+"why": "Three metaphysical detective stories in New York; readers find it weird and unforgettable."
+},
+"poisoners handbook": {
+"keep": true,
+"genre": "science",
+"mood": [
+"thoughtful",
+"tense"
+],
+"length": "medium",
+"diff": 1,
+"type": "nonfiction",
+"title": "The Poisoner's Handbook",
+"author": "Deborah Blum",
+"why": "The rise of forensic science through Jazz Age poison cases; engrossing history and chemistry."
+},
+"sheltering sky": {
+"keep": true,
+"genre": "classic",
+"mood": [
+"dark",
+"bleak",
+"atmospheric"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "The Sheltering Sky",
+"author": "Paul Bowles",
+"why": "An American couple unravels in the Sahara; a dark, haunting classic."
+},
+"lilith": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"mind-bending",
+"atmospheric"
+],
+"length": "medium",
+"diff": 3,
+"type": "novel",
+"title": "Lilith",
+"author": "George MacDonald",
+"why": "A Victorian visionary fantasy about a library and a dreamlike other world; admired by C. S. Lewis."
+},
+"bfg": {
+"keep": true,
+"genre": "ya",
+"mood": [
+"funny",
+"cozy",
+"adventurous"
+],
+"length": "short",
+"diff": 1,
+"type": "novel",
+"title": "The BFG",
+"author": "Roald Dahl",
+"why": "A girl befriends a gentle giant who blows dreams; a beloved Roald Dahl favourite."
+},
+"deerskin": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"dark",
+"emotional"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Deerskin",
+"author": "Robin McKinley",
+"why": "A dark retelling of the Donkeyskin fairy tale about surviving abuse; strong but with serious content warnings."
+},
+"bury my heart at wounded knee": {
+"keep": true,
+"genre": "history",
+"mood": [
+"bleak",
+"thoughtful"
+],
+"length": "medium",
+"diff": 2,
+"type": "nonfiction",
+"title": "Bury My Heart at Wounded Knee",
+"author": "Dee Alexander Brown",
+"why": "The destruction of Native American nations told from their side; recommended as history that brings the past to life."
+},
+"fool": {
+"keep": true,
+"genre": "humour",
+"mood": [
+"funny",
+"satirical"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Fool",
+"author": "Christopher Moore",
+"why": "King Lear retold through the court jester with plenty of bawdy jokes; readers rank it near Lamb."
+},
+"running man": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"tense",
+"fast",
+"dark"
+],
+"length": "short",
+"diff": 1,
+"type": "novel",
+"title": "The Running Man",
+"author": "Stephen King",
+"why": "A desperate man joins a lethal TV game show in a dystopian future; a quick, punchy Bachman novel."
+},
+"restaurant at the end of the universe": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"funny",
+"satirical",
+"adventurous"
+],
+"length": "short",
+"diff": 1,
+"type": "novel",
+"title": "The Restaurant at the End of the Universe",
+"author": "Douglas Adams",
+"why": "The second Hitchhiker's Guide book sends its heroes further across a ridiculous galaxy."
+},
+"nightwood": {
+"keep": true,
+"genre": "classic",
+"mood": [
+"dark",
+"mind-bending",
+"atmospheric"
+],
+"length": "short",
+"diff": 3,
+"type": "novel",
+"title": "Nightwood",
+"author": "Djuna Barnes",
+"why": "A strange modernist novel about love and ruin among Paris expatriates; confounding but rewarding."
+},
+"zeitoun": {
+"keep": true,
+"genre": "memoir",
+"mood": [
+"tense",
+"emotional",
+"thoughtful"
+],
+"length": "medium",
+"diff": 1,
+"type": "nonfiction",
+"title": "Zeitoun",
+"author": "Dave Eggers",
+"why": "A Syrian-American man trapped in New Orleans after Katrina; a gripping true story readers recommend."
+},
+"game": {
+"keep": false,
+"genre": "memoir",
+"mood": [
+"thoughtful"
+],
+"length": "medium",
+"diff": 1,
+"type": "nonfiction",
+"title": "The Game",
+"author": "Neil Strauss",
+"why": "Comments refer to other books with the same title."
+},
+"siddartha": {
+"keep": true,
+"genre": "classic",
+"mood": [
+"thoughtful",
+"hopeful"
+],
+"length": "short",
+"diff": 2,
+"type": "novel",
+"title": "Siddhartha",
+"author": "Hermann Hesse",
+"why": "A man's search for spiritual enlightenment in ancient India; a short book readers return to."
+},
+"absolutely true diary of a part time indian": {
+"keep": true,
+"genre": "ya",
+"mood": [
+"funny",
+"emotional",
+"hopeful"
+],
+"length": "short",
+"diff": 1,
+"type": "novel",
+"title": "The Absolutely True Diary of a Part-Time Indian",
+"author": "Sherman Alexie",
+"why": "A boy leaves his reservation school for a white high school; funny and honest."
+},
+"simple plan": {
+"keep": true,
+"genre": "crime",
+"mood": [
+"tense",
+"dark",
+"bleak"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "A Simple Plan",
+"author": "Scott Smith",
+"why": "Three men keep a stash of cash and spiral into paranoia; so intense readers need breaks."
+},
+"chlorine": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"dark",
+"mind-bending",
+"emotional"
+],
+"length": "short",
+"diff": 2,
+"type": "novel",
+"title": "Chlorine",
+"author": "Jade Song",
+"why": "A competitive swimmer's obsession turns into body horror; best read as literary fiction."
+},
+"books of the raksura": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"adventurous",
+"epic"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "The Cloud Roads (Books of the Raksura)",
+"author": "Martha Wells",
+"why": "Shapeshifting winged people and a lost outcast in a rich fantasy world; recommended for fresh worldbuilding."
+},
+"summer of night": {
+"keep": true,
+"genre": "horror",
+"mood": [
+"atmospheric",
+"tense",
+"epic"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "Summer of night",
+"author": "Dan Simmons",
+"why": "Kids in 1960 small-town Illinois confront an ancient evil; nostalgic coming-of-age horror."
+},
+"alls well": {
+"keep": true,
+"genre": "horror",
+"mood": [
+"mind-bending",
+"dark",
+"funny"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "All's Well",
+"author": "Mona Awad",
+"why": "A theatre director in pain gets a strange bargain in a surreal, disorienting novel readers love for its weirdness."
+},
+"snuff": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"dark",
+"funny",
+"satirical"
+],
+"length": "short",
+"diff": 1,
+"type": "novel",
+"title": "Snuff",
+"author": "Chuck Palahniuk",
+"why": "A porn-star record attempt narrated by several voices; a wild ride for Palahniuk fans."
+},
+"phantom of the opera": {
+"keep": true,
+"genre": "classic",
+"mood": [
+"dark",
+"atmospheric",
+"emotional"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "The Phantom of the Opera",
+"author": "Gaston Leroux",
+"why": "A disfigured genius haunts the Paris Opera; a gothic romance about unrequited love."
+},
+"dream count": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"emotional",
+"thoughtful"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "Dream Count",
+"author": "Chimamanda Ngozi Adichie",
+"why": "Four women's lives in a time of pandemic; chosen by a book club."
+},
+"iron dream": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"satirical",
+"dark",
+"mind-bending"
+],
+"length": "short",
+"diff": 2,
+"type": "novel",
+"title": "The Iron Dream",
+"author": "Norman Spinrad",
+"why": "A novel supposedly written by an exiled Hitler; a clever and funny satire of fascist fantasy."
+},
+"bluebeard": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"funny",
+"melancholic",
+"thoughtful"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Bluebeard",
+"author": "Kurt Vonnegut",
+"why": "An aging painter recalls his life and art; one of Vonnegut's favourite late novels."
+},
+"last days": {
+"keep": true,
+"genre": "horror",
+"mood": [
+"dark",
+"funny",
+"mind-bending"
+],
+"length": "short",
+"diff": 2,
+"type": "novel",
+"title": "Last Days",
+"author": "Brian Evenson",
+"why": "A detective investigates a cult leader's murder in a bizarre, brutal tale; weird and brilliant."
+},
+"last murder at the end of the world": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"mind-bending",
+"tense"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "The Last Murder at the End of the World",
+"author": "Stuart Turton",
+"why": "A murder mystery in the last human village; clever but divisive."
+},
+"big rock candy mountain": {
+"keep": true,
+"genre": "classic",
+"mood": [
+"emotional",
+"epic"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "The Big Rock Candy Mountain",
+"author": "Wallace Stegner",
+"why": "A family chases dreams across the American West; praised as a semi-autobiographical saga."
+},
+"notes on an execution": {
+"keep": true,
+"genre": "crime",
+"mood": [
+"dark",
+"tense",
+"emotional"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Notes on an Execution",
+"author": "Danya Kukafka",
+"why": "A serial killer's final hours told through the women around him; a top read for many."
+},
+"red and the black": {
+"keep": true,
+"genre": "classic",
+"mood": [
+"dark",
+"satirical",
+"thoughtful"
+],
+"length": "long",
+"diff": 3,
+"type": "novel",
+"title": "The Red and the Black",
+"author": "Stendhal",
+"why": "A young man's ambitions rise and fall in post-Napoleonic France; a classic of ambition."
+},
+"dealing with dragons": {
+"keep": true,
+"genre": "ya",
+"mood": [
+"funny",
+"adventurous",
+"cozy"
+],
+"length": "short",
+"diff": 1,
+"type": "novel",
+"title": "Dealing with Dragons",
+"author": "Patricia C. Wrede",
+"why": "A princess runs off to be a dragon's helper; a witty fairy tale spoof."
+},
+"different seasons": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"dark",
+"thoughtful",
+"hopeful"
+],
+"length": "long",
+"diff": 2,
+"type": "stories",
+"title": "Different Seasons",
+"author": "Stephen King",
+"why": "Four King novellas including the basis for The Shawshank Redemption; readers love all of them."
+},
+"night film": {
+"keep": true,
+"genre": "crime",
+"mood": [
+"atmospheric",
+"tense",
+"dark"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "Night Film",
+"author": "Marisha Pessl",
+"why": "A journalist digs into the death of a reclusive horror director's daughter; creepy and absorbing."
+},
+"days at the morisaki bookshop": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"cozy",
+"hopeful",
+"emotional"
+],
+"length": "short",
+"diff": 1,
+"type": "novel",
+"title": "Days at the Morisaki Bookshop",
+"author": "Satoshi Yagisawa",
+"why": "A heartbroken young woman finds comfort in her uncle's Tokyo secondhand bookshop; a short, gentle read."
+},
+"robot": {
+"keep": false,
+"genre": "scifi",
+"mood": [
+"thoughtful"
+],
+"length": "short",
+"diff": 2,
+"type": "stories",
+"title": "I, Robot",
+"author": "Isaac Asimov",
+"why": "Comments are about Monk and Robot, not this book."
+},
+"palimpsest": {
+"keep": true,
+"genre": "fantasy",
+"mood": [
+"mind-bending",
+"dark",
+"atmospheric"
+],
+"length": "medium",
+"diff": 3,
+"type": "novel",
+"title": "Palimpsest",
+"author": "Catherynne M. Valente",
+"why": "A sexually transmitted dream city draws lost people; delightfully unhinged, Mieville-like."
+},
+"strange houses": {
+"keep": true,
+"genre": "crime",
+"mood": [
+"tense",
+"mind-bending",
+"fast"
+],
+"length": "short",
+"diff": 1,
+"type": "novel",
+"title": "Strange Houses",
+"author": "Uketsu",
+"why": "A mystery and horror story solved through floor plans; so quick that readers finish it in one sitting."
+},
+"let them theory": {
+"keep": true,
+"genre": "philosophy",
+"mood": [
+"hopeful",
+"thoughtful"
+],
+"length": "medium",
+"diff": 1,
+"type": "nonfiction",
+"title": "The Let Them Theory",
+"author": "Mel Robbins",
+"why": "A self-help book about letting others be themselves and focusing on yourself; readers say it shifted their perspective."
+},
+"children of men": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"bleak",
+"thoughtful",
+"tense"
+],
+"length": "short",
+"diff": 2,
+"type": "novel",
+"title": "The Children of Men",
+"author": "P. D. James",
+"why": "A world with no births awaits its final generation; a literary dystopia."
+},
+"run": {
+"keep": true,
+"genre": "crime",
+"mood": [
+"tense",
+"fast"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "Run",
+"author": "Blake Crouch",
+"why": "A society falls apart in a terrifying chase thriller; split opinions, but some read it in one sitting."
+},
+"no exit": {
+"keep": true,
+"genre": "crime",
+"mood": [
+"tense",
+"fast"
+],
+"length": "medium",
+"diff": 1,
+"type": "novel",
+"title": "No Exit",
+"author": "Taylor Adams",
+"why": "A stranded student finds a kidnapped child in a snowed-in rest stop; a fast thriller."
+},
+"street": {
+"keep": true,
+"genre": "classic",
+"mood": [
+"dark",
+"emotional",
+"bleak"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "The Street",
+"author": "Ann Petry",
+"why": "A Black single mother struggles against poverty in 1940s Harlem; recommended for its power."
+},
+"sun does shine": {
+"keep": true,
+"genre": "memoir",
+"mood": [
+"emotional",
+"hopeful"
+],
+"length": "medium",
+"diff": 1,
+"type": "nonfiction",
+"title": "The sun does shine",
+"author": "Anthony Ray Hinton",
+"why": "A man wrongfully condemned spends 30 years on death row; a moving story of survival."
+},
+"bloodchild": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"dark",
+"mind-bending",
+"emotional"
+],
+"length": "short",
+"diff": 2,
+"type": "stories",
+"title": "Bloodchild",
+"author": "Octavia E. Butler",
+"why": "A short story about a human boy and an alien host; widely recommended for its unsettling beauty."
+},
+"ivanhoe": {
+"keep": true,
+"genre": "classic",
+"mood": [
+"adventurous",
+"epic"
+],
+"length": "long",
+"diff": 3,
+"type": "novel",
+"title": "Ivanhoe",
+"author": "Walter Scott",
+"why": "Knights, outlaws and rivalry in medieval England; an adventure classic with archaic language."
+},
+"fall or dodge in hell": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"mind-bending",
+"epic"
+],
+"length": "long",
+"diff": 3,
+"type": "novel",
+"title": "Fall; or, Dodge in Hell",
+"author": "Neal Stephenson",
+"why": "Digital afterlife and mind uploading played out over generations; ambitious but weaker than his best."
+},
+"hard rain falling": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"bleak",
+"dark",
+"emotional"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Hard rain falling",
+"author": "Don Carpenter",
+"why": "A grim, compelling story of a young man's life in jails and on the margins; one of the best ones for some readers."
+},
+"immaculate conception": {
+"keep": false,
+"genre": "literary",
+"mood": [
+"thoughtful"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "Immaculate Conception",
+"author": "Ling Ling Huang",
+"why": "Only listed as currently reading."
+},
+"dharma bums": {
+"keep": true,
+"genre": "classic",
+"mood": [
+"adventurous",
+"hopeful"
+],
+"length": "short",
+"diff": 2,
+"type": "novel",
+"title": "The Dharma Bums",
+"author": "Jack Kerouac",
+"why": "Kerouac's story of mountains and Buddhism with Beat friends; good for self-discovery."
+},
+"drivers seat": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"dark",
+"mind-bending"
+],
+"length": "short",
+"diff": 2,
+"type": "novel",
+"title": "The Driver's Seat",
+"author": "Muriel Spark",
+"why": "A woman on a strange trip heading towards a shocking end; short, odd and easy to read."
+},
+"gales of november": {
+"keep": true,
+"genre": "history",
+"mood": [
+"tense",
+"atmospheric"
+],
+"length": "medium",
+"diff": 1,
+"type": "nonfiction",
+"title": "The Gales of November",
+"author": "John U. Bacon",
+"why": "The sinking of the Edmund Fitzgerald on Lake Superior; recommended for its gripping detail."
+},
+"casual vacancy": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"bleak",
+"dark",
+"satirical"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "The Casual Vacancy",
+"author": "J. K. Rowling",
+"why": "A small English village erupts after a councillor dies; depressing but overlooked."
+},
+"copenhagen trilogy": {
+"keep": true,
+"genre": "memoir",
+"mood": [
+"dark",
+"melancholic",
+"thoughtful"
+],
+"length": "medium",
+"diff": 2,
+"type": "nonfiction",
+"title": "The Copenhagen Trilogy",
+"author": "Tove Ditlevsen",
+"why": "Tove Ditlevsen's three memoirs from childhood to addiction; stunning if not joyful."
+},
+"stars are legion": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"dark",
+"mind-bending",
+"adventurous"
+],
+"length": "medium",
+"diff": 2,
+"type": "novel",
+"title": "The Stars Are Legion",
+"author": "Kameron Hurley",
+"why": "Women fight for control of a living world-ship; imaginative and gnarly."
+},
+"art of fielding": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"thoughtful",
+"emotional"
+],
+"length": "long",
+"diff": 2,
+"type": "novel",
+"title": "The Art of Fielding",
+"author": "Chad Harbach",
+"why": "A talented baseball shortstop loses his confidence at a college; liked by many, though a few found it only so-so."
+},
+"space merchants": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"satirical",
+"dark",
+"funny"
+],
+"length": "short",
+"diff": 1,
+"type": "novel",
+"title": "The Space Merchants",
+"author": "Frederik Pohl",
+"why": "A copywriter in a corporate-ruled world is plunged into intrigue; a prescient dystopia."
+},
+"tiger": {
+"keep": true,
+"genre": "science",
+"mood": [
+"tense",
+"adventurous"
+],
+"length": "medium",
+"diff": 2,
+"type": "nonfiction",
+"title": "The Tiger",
+"author": "John Vaillant",
+"why": "A hunt for a man-eating tiger in the Russian Far East; far more than an animal story."
+},
+"wasp": {
+"keep": true,
+"genre": "scifi",
+"mood": [
+"funny",
+"adventurous",
+"satirical"
+],
+"length": "short",
+"diff": 1,
+"type": "novel",
+"title": "Wasp",
+"author": "Eric Frank Russell",
+"why": "One man waging a guerrilla war on an enemy planet; darkly funny and clever."
+},
+"her body and other parties": {
+"keep": true,
+"genre": "literary",
+"mood": [
+"dark",
+"mind-bending",
+"emotional"
+],
+"length": "short",
+"diff": 2,
+"type": "stories",
+"title": "Her Body and Other Parties",
+"author": "Carmen Maria Machado",
+"why": "Surreal, queer stories about women's bodies; recommended collection."
+}
+}

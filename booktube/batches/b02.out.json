@@ -1,0 +1,1044 @@
+{
+ "mans search for meaning": {
+  "keep": true,
+  "genre": "philosophy",
+  "mood": [
+   "thoughtful",
+   "hopeful",
+   "emotional"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Man's Search for Meaning",
+  "author": "Viktor E. Frankl",
+  "why": "A psychiatrist describes surviving Nazi camps and what kept people going; short, humane and widely recommended for finding meaning in suffering."
+ },
+ "red rising": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "fast",
+   "epic",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Red Rising",
+  "author": "Pierce Brown",
+  "why": "A miner on Mars infiltrates the ruling caste to overthrow it; fast and violent, popular with fans of The Hunger Games and epic fantasy."
+ },
+ "my friends": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "hopeful",
+   "cozy"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "My Friends",
+  "author": "Fredrik Backman",
+  "why": "Backman's novel about friendship and a painting that connects four teenagers; fans who read it praise its warmth and quotable lines."
+ },
+ "hitchhikers guide to the galaxy": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "satirical",
+   "fast"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Hitchhiker's Guide to the Galaxy",
+  "author": "Douglas Adams",
+  "why": "An ordinary man is whisked off Earth moments before it is demolished; absurd, quotable comic science fiction readers love from childhood."
+ },
+ "night circus": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "atmospheric",
+   "cozy",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Night Circus",
+  "author": "Erin Morgenstern",
+  "why": "Two young magicians are bound in a competition inside a mysterious travelling circus; dreamy and romantic, loved for its imagery."
+ },
+ "moby dick": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "thoughtful",
+   "epic",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Moby-Dick",
+  "author": "Herman Melville",
+  "why": "Captain Ahab hunts the white whale; long and digressive but readers find it funny and sublime."
+ },
+ "name of the wind": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "adventurous",
+   "atmospheric",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Name of the Wind",
+  "author": "Patrick Rothfuss",
+  "why": "A gifted orphan grows into a legendary wizard, telling his own story; lyrical and absorbing, a fan favourite."
+ },
+ "name of the rose": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "tense",
+   "mind-bending",
+   "atmospheric"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Name of the Rose",
+  "author": "Umberto Eco",
+  "why": "A monk investigates murders in a medieval abbey; a learned detective story that readers find rewarding."
+ },
+ "one hundred years of solitude": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "epic",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "One Hundred Years of Solitude",
+  "author": "Gabriel García Márquez",
+  "why": "Seven generations of a family in a Colombian village, full of magic and fate; the classic of magical realism."
+ },
+ "shadow of the wind": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "atmospheric",
+   "tense",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Shadow of the Wind",
+  "author": "Carlos Ruiz Zafón",
+  "why": "A boy finds a forgotten book in a Barcelona library of lost books and uncovers its author's mystery; gothic and bookish."
+ },
+ "north woods": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "atmospheric",
+   "thoughtful",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "North Woods",
+  "author": "Daniel Mason",
+  "why": "Centuries of people who live in one New England house and the woods around it; beautifully written and varied."
+ },
+ "crime and punishment": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "dark",
+   "tense",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Crime and Punishment",
+  "author": "Fyodor Dostoevsky",
+  "why": "A poor student commits murder and is consumed by guilt; psychological and intense, it leaves readers in a deep state."
+ },
+ "god of small things": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "melancholic",
+   "emotional",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "The God of Small Things",
+  "author": "Arundhati Roy",
+  "why": "Twins in Kerala grow up under the weight of a family tragedy; fascinating and poetic, though not an easy read."
+ },
+ "pale fire": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "mind-bending",
+   "satirical",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Pale Fire",
+  "author": "Vladimir Nabokov",
+  "why": "A poem and a madly unreliable commentary on it; a tricky, brilliant puzzle for readers who like playing with form."
+ },
+ "glass castle": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "dark",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "The Glass Castle",
+  "author": "Jeannette Walls",
+  "why": "The author grows up with brilliant but irresponsible parents who drag the family through poverty; compelling and easy to read."
+ },
+ "swan song": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "epic",
+   "dark",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Swan Song",
+  "author": "Robert R. McCammon",
+  "why": "Survivors of nuclear war fight over what remains of America and its soul; a huge post-apocalyptic story recommended after The Stand."
+ },
+ "way of kings": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Way of Kings",
+  "author": "Brandon Sanderson",
+  "why": "Warriors, scholars and slaves are drawn into an ancient war on a storm-swept world; Sanderson's huge opening to a vast series."
+ },
+ "perfume": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "dark",
+   "atmospheric",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Perfume",
+  "author": "Patrick Süskind",
+  "why": "A man with a perfect sense of smell turns to murder to create the ultimate scent; strange, vivid and haunting."
+ },
+ "fifth season": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "epic",
+   "mind-bending"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Fifth Season",
+  "author": "N. K. Jemisin",
+  "why": "People who can control the earth live in an apocalypse-prone world; inventive and gripping, a Hugo winner."
+ },
+ "neuromancer": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "fast",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Neuromancer",
+  "author": "William Gibson",
+  "why": "A washed-up hacker is hired for one last job in cyberspace; the novel that invented cyberpunk, dense but influential."
+ },
+ "doomsday book": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "emotional",
+   "tense",
+   "melancholic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Doomsday book",
+  "author": "Connie Willis",
+  "why": "A historian time-travels to medieval England just as the plague hits; readers say it will break your heart."
+ },
+ "haunting of hill house": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "atmospheric",
+   "tense",
+   "dark"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Haunting of Hill House",
+  "author": "Shirley Jackson",
+  "why": "Four people spend a summer in a haunted mansion with a fragile guest; a masterclass in subtle, creeping dread."
+ },
+ "metamorphosis": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "dark",
+   "satirical",
+   "mind-bending"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "stories",
+  "title": "Metamorphosis",
+  "author": "Franz Kafka",
+  "why": "A man wakes up as a giant insect and his family turns away; very short, strange and widely read."
+ },
+ "brave new world": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "satirical",
+   "thoughtful",
+   "dark"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Brave New World",
+  "author": "Aldous Huxley",
+  "why": "A future society engineered for happiness and control; a classic dystopia readers still find relevant."
+ },
+ "im glad my mom died": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "funny",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "I'm Glad My Mom Died",
+  "author": "Jennette McCurdy",
+  "why": "The former child actress writes frankly about her controlling mother and her own illness; readers find it raw and darkly funny."
+ },
+ "gravitys rainbow": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "satirical",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Gravity's Rainbow",
+  "author": "Thomas Pynchon",
+  "why": "A sprawling, bizarre novel set around V-2 rockets in World War II; famous as one of the hardest books to read."
+ },
+ "dracula": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "tense",
+   "atmospheric",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Dracula",
+  "author": "Bram Stoker",
+  "why": "Told through letters and diaries, a band of friends hunts the vampire count; surprisingly a page turner."
+ },
+ "siddhartha": {
+  "keep": true,
+  "genre": "philosophy",
+  "mood": [
+   "thoughtful",
+   "hopeful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Siddhartha",
+  "author": "Hermann Hesse",
+  "why": "A young man in ancient India searches for spiritual understanding; short and lyrical, loved by many and a little preachy to some."
+ },
+ "library at mount char": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "mind-bending",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Library at Mount Char",
+  "author": "Scott Hawkins",
+  "why": "A group of people raised by a godlike figure are drawn into a struggle for his library; violent, strange and darkly funny."
+ },
+ "to kill a mockingbird": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "emotional",
+   "thoughtful",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "To Kill a Mockingbird",
+  "author": "Harper Lee",
+  "why": "A girl in Alabama watches her lawyer father defend a Black man; a warm, moving classic about justice."
+ },
+ "will of the many": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "tense",
+   "epic",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Will of the Many",
+  "author": "James Islington",
+  "why": "An orphan enters an elite Roman-style academy where the powerful drain others' will; readers call it a gripping start to a series."
+ },
+ "shes come undone": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "funny",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "She's Come Undone",
+  "author": "Wally Lamb",
+  "why": "A troubled young woman recounts her difficult life with humour and pain; a popular emotional read."
+ },
+ "terror": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "tense",
+   "atmospheric"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Terror",
+  "author": "Dan Simmons",
+  "why": "Two ships are trapped in Arctic ice in 1845 and something hunts the crew; fiction based on a true expedition that readers cannot put down."
+ },
+ "wuthering heights": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "dark",
+   "atmospheric",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Wuthering Heights",
+  "author": "Emily Brontë",
+  "why": "An obsessive love between Heathcliff and Cathy destroys two families on the Yorkshire moors; stormy and passionate."
+ },
+ "braiding sweetgrass": {
+  "keep": true,
+  "genre": "science",
+  "mood": [
+   "thoughtful",
+   "hopeful",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Braiding Sweetgrass",
+  "author": "Robin Wall Kimmerer",
+  "why": "A botanist and Potawatomi writer joins plant science with indigenous wisdom; readers love it, especially as an audiobook."
+ },
+ "hobbit": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "adventurous",
+   "cozy",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Hobbit",
+  "author": "J.R.R. Tolkien",
+  "why": "A comfort-loving hobbit is swept into a quest with dwarves to win back treasure from a dragon; a warm, easy adventure."
+ },
+ "replay": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "melancholic",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Replay",
+  "author": "Ken Grimwood",
+  "why": "A man dies at 43 and wakes up as his 18-year-old self, again and again; an emotional time-loop story."
+ },
+ "devil in the white city": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "tense",
+   "dark",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "The Devil in the White City",
+  "author": "Erik Larson",
+  "why": "The 1893 Chicago World's Fair is told alongside a serial killer working nearby; narrative history that reads like a thriller."
+ },
+ "great alone": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "tense",
+   "atmospheric"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Great Alone",
+  "author": "Kristin Hannah",
+  "why": "A family seeks a new start in the Alaskan wilderness, but the father unravels; readers find it gripping and emotional."
+ },
+ "handmaids tale": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "bleak",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Handmaid's Tale",
+  "author": "Margaret Atwood",
+  "why": "In a theocratic America women are reduced to childbearing; chilling, widely recommended dystopia."
+ },
+ "magus": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "tense",
+   "atmospheric"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Magus",
+  "author": "John Fowles",
+  "why": "A young teacher on a Greek island is drawn into an elaborate psychological game; readers call it a crazy, gripping mystery."
+ },
+ "hike": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "funny",
+   "mind-bending",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Hike",
+  "author": "Drew Magary",
+  "why": "A man on a walk in the woods enters a surreal world of monsters and puzzles; quick and wildly inventive."
+ },
+ "idiot": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "thoughtful",
+   "satirical",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Idiot",
+  "author": "Fyodor Dostoevsky",
+  "why": "A kind prince returns to Russian society and everything around him turns tragic; some readers find it funny; long and demanding."
+ },
+ "atmosphere": {
+  "keep": true,
+  "genre": "romance",
+  "mood": [
+   "emotional",
+   "hopeful",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Atmosphere",
+  "author": "Taylor Jenkins Reid",
+  "why": "A love story set among women astronauts in the early shuttle era; popular and easy to read."
+ },
+ "buffalo hunter hunter": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "atmospheric",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Buffalo Hunter Hunter",
+  "author": "Stephen Graham Jones",
+  "why": "A priest's journals from the 1910s describe a vampire in Montana and the Blackfeet nation; an excellent, unsettling horror novel."
+ },
+ "atonement": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "melancholic",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Atonement",
+  "author": "Ian McEwan",
+  "why": "A child's false accusation wrecks lives, and she spends her life atoning; admired for its ending, though a few readers find it slow."
+ },
+ "oryx and crake": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "satirical",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Oryx and Crake",
+  "author": "Margaret Atwood",
+  "why": "A lone survivor recalls the genetic engineering world that ended humanity; sharp dystopia that starts the MaddAddam trilogy."
+ },
+ "remarkably bright creatures": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "cozy",
+   "hopeful",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Remarkably Bright Creatures",
+  "author": "Shelby Van Pelt",
+  "why": "A widow befriends a clever aquarium octopus who knows a secret; a heartwarming, easy read."
+ },
+ "cats cradle": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "satirical",
+   "funny",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Cat's Cradle",
+  "author": "Kurt Vonnegut",
+  "why": "A writer searches for the inventor of the atom bomb and finds a made-up religion; short, dark and funny."
+ },
+ "ishmael": {
+  "keep": false,
+  "genre": "philosophy",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Ishmael",
+  "author": "Daniel Quinn",
+  "why": "The comments mostly mix it up with another book of the same name, so there is no clear recommendation."
+ },
+ "bluest eye": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "emotional",
+   "bleak"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Bluest Eye",
+  "author": "Toni Morrison",
+  "why": "A Black girl in 1940s Ohio longs for blue eyes; short and painful, often recommended for its beautiful prose."
+ },
+ "say nothing": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "tense",
+   "dark",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Say Nothing",
+  "author": "Patrick Radden Keefe",
+  "why": "The story of a woman taken during the Northern Ireland Troubles and the people behind her murder; gripping and surprising narrative history."
+ },
+ "recursion": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "fast",
+   "tense",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Recursion",
+  "author": "Blake Crouch",
+  "why": "A memory-altering disease and a time device unravel reality; a fast thriller that suckers readers in."
+ },
+ "verity": {
+  "keep": true,
+  "genre": "romance",
+  "mood": [
+   "tense",
+   "dark",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Verity",
+  "author": "Colleen Hoover",
+  "why": "A writer finishing another author's series finds a disturbing manuscript; an addictive, trashy thriller that kept readers up."
+ },
+ "mistborn": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "adventurous",
+   "fast"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Mistborn: The Final Empire",
+  "author": "Brandon Sanderson",
+  "why": "A street thief joins a crew to overthrow an immortal ruler using metal-based magic; inventive and fast, with a great twist."
+ },
+ "picture of dorian gray": {
+  "keep": false,
+  "genre": "classic",
+  "mood": [
+   "dark",
+   "satirical"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Picture of Dorian Gray",
+  "author": "Oscar Wilde",
+  "why": "The comments are mostly negative, with readers annoyed or giving up early."
+ },
+ "tomorrow and tomorrow and tomorrow": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "thoughtful",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Tomorrow, and Tomorrow, and Tomorrow",
+  "author": "Gabrielle Zevin",
+  "why": "Two friends build video games across decades; warm and moving story about creativity and friendship."
+ },
+ "anxious people": {
+  "keep": true,
+  "genre": "humour",
+  "mood": [
+   "funny",
+   "emotional",
+   "cozy"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Anxious People",
+  "author": "Fredrik Backman",
+  "why": "A failed bank robbery turns into a hostage situation at an apartment viewing; comic and warm."
+ },
+ "covenant of water": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "epic",
+   "emotional",
+   "atmospheric"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Covenant of Water",
+  "author": "Abraham Verghese",
+  "why": "Three generations of a Kerala family linked by a curse and by medicine; long, rich and beautifully written."
+ },
+ "all systems red": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "fast",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "All Systems Red",
+  "author": "Martha Wells",
+  "why": "A security robot hacks its own controls and just wants to watch shows; short, charming and quick to read."
+ },
+ "song of achilles": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "emotional",
+   "epic",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Song of Achilles",
+  "author": "Madeline Miller",
+  "why": "The love story of Achilles and Patroclus at Troy, told by Patroclus; readers find it beautiful and heartbreaking."
+ },
+ "misery": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "tense",
+   "dark",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Misery",
+  "author": "Stephen King",
+  "why": "A writer is held captive by his number one fan; a tight, scary thriller recommended to anyone starting with King."
+ },
+ "shining": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "atmospheric",
+   "tense",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Shining",
+  "author": "Stephen King",
+  "why": "A struggling writer takes a winter caretaker job at an isolated hotel; the novel is scarier than the film."
+ },
+ "martyr": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Martyr!",
+  "author": "Kaveh Akbar",
+  "why": "A recovering addict and poet searches for meaning in death; readers rate it highly as a recent standout."
+ },
+ "snow crash": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "fast",
+   "satirical",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Snow Crash",
+  "author": "Neal Stephenson",
+  "why": "A pizza-delivering hacker fights a virus in the metaverse; funny, fast-moving cyberpunk."
+ },
+ "giver": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "thoughtful",
+   "dark"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Giver",
+  "author": "Lois Lowry",
+  "why": "A boy discovers the secret behind his perfectly controlled community; a short school favourite that adults say they would re-read."
+ },
+ "wild": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "adventurous",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Wild",
+  "author": "Cheryl Strayed",
+  "why": "After her mother's death and her marriage collapse, the author hikes the Pacific Crest Trail; moving and beautifully written."
+ },
+ "giovannis room": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "melancholic"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Giovanni's Room",
+  "author": "James Baldwin",
+  "why": "An American in Paris struggles with desire and shame; short and intense, readers say it blew them away."
+ },
+ "lathe of heaven": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Lathe of Heaven",
+  "author": "Ursula K. Le Guin",
+  "why": "A man whose dreams change reality has a therapist who wants to use them; a short, odd, thoughtful book."
+ },
+ "perdido street station": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "mind-bending",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Perdido Street Station",
+  "author": "China Miéville",
+  "why": "A scientist unleashes a monster in the strange city of New Crobuzon; dense, inventive new weird fantasy."
+ }
+}

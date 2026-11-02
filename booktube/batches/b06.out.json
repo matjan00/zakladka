@@ -1,0 +1,974 @@
+{
+ "mexican gothic": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Mexican Gothic",
+  "author": "Silvia Moreno-Garcia",
+  "why": "A creeping gothic haunted-house story in 1950s Mexico that readers find genuinely disturbing and hard to forget."
+ },
+ "intermezzo": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "thoughtful",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Intermezzo",
+  "author": "Sally Rooney",
+  "why": "Two grieving brothers and the women in their lives, told in Rooney's spare style; fans of her earlier books enjoy it."
+ },
+ "thief of always": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "dark",
+   "adventurous"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Thief of Always",
+  "author": "Clive Barker",
+  "why": "A dark fairy tale about a boy who is offered a perfect house of endless holidays and the price attached."
+ },
+ "tom lake": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "cozy",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Tom Lake",
+  "author": "Ann Patchett",
+  "why": "A mother tells her daughters about her youthful acting summer and an old romance; warm and easy, though not for everyone."
+ },
+ "bear": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The bear",
+  "author": "Andrew Krivak",
+  "why": "Not a clear recommendation of this book."
+ },
+ "there there": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "There There",
+  "author": "Tommy Orange",
+  "why": "Interwoven stories of urban Native Americans in Oakland building toward a powerful finale that left readers in tears."
+ },
+ "all the pretty horses": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "melancholic",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "All the Pretty Horses",
+  "author": "Cormac McCarthy",
+  "why": "A teenage cowboy rides into Mexico in a lyrical coming-of-age western praised for its beautiful prose."
+ },
+ "first fifteen lives of harry august": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The First Fifteen Lives of Harry August",
+  "author": "Claire North",
+  "why": "A man who relives his life again and again investigates a threat to the world in a clever take on immortality."
+ },
+ "playground": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Playground",
+  "author": "Richard Powers",
+  "why": "A reader-praised novel by Powers set around the ocean and its people, enjoyed more as a story than as typical literary fiction."
+ },
+ "cutting for stone": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Cutting for Stone",
+  "author": "Abraham Verghese",
+  "why": "A multigenerational saga of twin brothers raised in an Ethiopian hospital, with medicine, family and a gripping story."
+ },
+ "painted bird": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "bleak"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Painted Bird",
+  "author": "Jerzy N. Kosinski",
+  "why": "A harrowing wartime tale of a boy wandering rural Eastern Europe, remembered as nightmarish and unforgettable."
+ },
+ "white noise": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "satirical",
+   "funny",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "White Noise",
+  "author": "Don DeLillo",
+  "why": "A professor's family life and fear of death in consumer America, both absurdly funny and deeply unsettling."
+ },
+ "bel canto": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Bel Canto",
+  "author": "Ann Patchett",
+  "why": "A hostage drama set among opera lovers in a South American mansion; beautiful but slow-paced according to some readers."
+ },
+ "less": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Less",
+  "author": "Andrew Sean Greer",
+  "why": "A failing novelist travels the world to dodge his ex's wedding in a delightful comic novel that lifts reading slumps."
+ },
+ "persuasion": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "hopeful",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Persuasion",
+  "author": "Jane Austen",
+  "why": "Austen's quiet second-chance love story, often named her best for its mature heroine and gentle feeling."
+ },
+ "lonely hunter": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "melancholic",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Heart is a Lonely Hunter",
+  "author": "Carson McCullers",
+  "why": "Lonely people in a small Southern town in the 1930s, bound by a deaf-mute man; a classic of Southern gothic."
+ },
+ "little prince": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "thoughtful",
+   "hopeful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "the little prince",
+  "author": "Antoine de Saint-Exupéry",
+  "why": "A short philosophical fable for adults and children about love, loneliness and what matters."
+ },
+ "radium girls": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "emotional",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "The radium girls",
+  "author": "Kate Moore",
+  "why": "The true story of young women poisoned by radium paint in factories and their fight for justice."
+ },
+ "earth abides": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Earth abides",
+  "author": "George Rippey Stewart",
+  "why": "A survivor watches civilisation fall and slowly rebuild after a plague, a quiet pioneering post-apocalyptic novel."
+ },
+ "light from uncommon stars": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "hopeful",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Light From Uncommon Stars",
+  "author": "Ryka Aoki",
+  "why": "A queer, genre-blending story of a violin teacher, a donut-shop owner and a space-faring secret, praised as unexpected."
+ },
+ "sula": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Sula",
+  "author": "Toni Morrison",
+  "why": "Two Black women's friendship and its breaking in a small Ohio town, short and heartbreaking."
+ },
+ "absalom absalom": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "dark",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Absalom, Absalom!",
+  "author": "William Faulkner",
+  "why": "A broken Southern family saga told in dense, tangled prose; admired as Faulkner's masterwork but demanding."
+ },
+ "blind assassin": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "tense",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Blind Assassin",
+  "author": "Margaret Atwood",
+  "why": "A nested story of sisters, a scandal and a pulp novel within the novel, with a long slow-burning twist."
+ },
+ "spin": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Spin",
+  "author": "Robert Charles Wilson",
+  "why": "The stars vanish from the sky and time on Earth speeds up; big ideas wrapped around human characters."
+ },
+ "mother night": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "thoughtful",
+   "satirical"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Mother Night",
+  "author": "Kurt Vonnegut",
+  "why": "An American double agent in World War II and the moral cost of pretending; short and powerful Vonnegut."
+ },
+ "wee free men": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Wee Free Men",
+  "author": "Terry Pratchett",
+  "why": "A young witch fights a fairy queen with the help of tiny blue men; a funny, warm Discworld entry for young readers."
+ },
+ "under the banner of heaven": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "dark",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Under the Banner of Heaven",
+  "author": "Jon Krakauer",
+  "why": "An investigation of fundamentalist Mormon violence that also examines faith, favoured by readers who like gripping true crime."
+ },
+ "dark tower": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Dark Tower",
+  "author": "Stephen King",
+  "why": "The final book of King's gunslinger epic, recommended by fans of the whole series as his big life's work."
+ },
+ "gone with the wind": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "epic",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Gone With the Wind",
+  "author": "Margaret Mitchell",
+  "why": "A sweeping Civil War romance centred on Scarlett O'Hara, long and compelling though its views are controversial."
+ },
+ "yellow wallpaper": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "stories",
+  "title": "The Yellow Wallpaper",
+  "author": "Charlotte Perkins Gilman",
+  "why": "A short story of a woman losing her mind under confinement, widely read for its portrait of how women were treated."
+ },
+ "bad blood": {
+  "keep": true,
+  "genre": "other",
+  "mood": [
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Bad Blood",
+  "author": "John Carreyrou",
+  "why": "The astonishing story of the Theranos fraud, told as a gripping page-turner that works well as an audiobook."
+ },
+ "song of solomon": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Song of Solomon",
+  "author": "Toni Morrison",
+  "why": "A Black man's search for his family's past and himself, favoured by readers as their top Morrison."
+ },
+ "color purple": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Color Purple",
+  "author": "Alice Walker",
+  "why": "Letters and life of a Black woman in the American South; moving and widely read, with strong praise."
+ },
+ "legend": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "I Am Legend",
+  "author": "Richard Matheson",
+  "why": "Not a clear recommendation of this book."
+ },
+ "small gods": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Small Gods",
+  "author": "Terry Pratchett",
+  "why": "A god stuck as a tortoise and a novice questioning the Church; one of the funniest and sharpest Discworld books."
+ },
+ "thursday murder club": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "funny",
+   "cozy"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Thursday Murder Club",
+  "author": "Richard Osman",
+  "why": "Four retirees solve cold cases in a care home; cosy, character-driven and easy, though not to every taste."
+ },
+ "island": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Island",
+  "author": "Aldous Huxley",
+  "why": "Not a clear recommendation of this book."
+ },
+ "revelation space": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "epic",
+   "mind-bending"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Revelation Space",
+  "author": "Alastair Reynolds",
+  "why": "Space opera with deep time, ancient horrors and grim crews; hard sci-fi fans re-read the whole series."
+ },
+ "last house on needless street": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "tense",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Last House on Needless Street",
+  "author": "Catriona Ward",
+  "why": "A strange, twisty horror-thriller about a reclusive man and the haunted house he lives in."
+ },
+ "warmth of other suns": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "The Warmth of Other Suns",
+  "author": "Isabel Wilkerson",
+  "why": "The story of the Great Migration of Black Americans from the South, told through three people's lives."
+ },
+ "housemaid": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "fast",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Housemaid",
+  "author": "Freida McFadden",
+  "why": "A domestic thriller about a maid in a wealthy home, a fast hook even for readers who dislike its style."
+ },
+ "life after life": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Life After Life",
+  "author": "Kate Atkinson",
+  "why": "A woman lives the same life again and again across the first half of the 20th century; some wept at the end."
+ },
+ "lessons in chemistry": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "funny",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Lessons in Chemistry",
+  "author": "Bonnie Garmus",
+  "why": "A woman scientist in the 1960s is pushed into a cooking show; light, funny and warm."
+ },
+ "starship troopers": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "adventurous",
+   "fast"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Starship Troopers",
+  "author": "Robert A. Heinlein",
+  "why": "A soldier's training and war against alien bugs; a classic of military sci-fi and a source of many arguments."
+ },
+ "roadside picnic": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "bleak"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Roadside Picnic",
+  "author": "Arkady and Boris Strugatsky",
+  "why": "Stalkers sneak into a zone left by alien visitors to find artefacts; moving, strange and short."
+ },
+ "once and future king": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "adventurous",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Once and Future King",
+  "author": "T. H. White",
+  "why": "The King Arthur legend retold with humour and sadness, with a whimsical first part and darker later parts."
+ },
+ "antkind": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "mind-bending"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Antkind",
+  "author": "Charlie Kaufman",
+  "why": "A giant, absurd comic novel by the filmmaker about a failing critic and a vast memory-based conspiracy."
+ },
+ "demons": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "dark",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Demons",
+  "author": "Fyodor Dostoevsky",
+  "why": "A tale of revolutionaries and moral collapse in provincial Russia; some readers name it Dostoevsky's best."
+ },
+ "pearl": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "bleak",
+   "emotional"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Pearl",
+  "author": "John Steinbeck",
+  "why": "A poor pearl diver finds a great pearl and loses everything; brief and unforgettable, widely read at school."
+ },
+ "my dark vanessa": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "My dark Vanessa",
+  "author": "Kate Elizabeth Russell",
+  "why": "A woman reckons with an abusive relationship with a teacher; hard to read but sticks with readers."
+ },
+ "only good indians": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Only Good Indians",
+  "author": "Stephen Graham Jones",
+  "why": "Four Native American men are hunted by a vengeful spirit after an old hunting crime; vivid horror."
+ },
+ "bleak house": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "thoughtful",
+   "bleak"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Bleak House",
+  "author": "Charles Dickens",
+  "why": "Dickens's long satire of the legal system, whose huge cast and plots reward patient readers."
+ },
+ "breakfast of champions": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "satirical",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Breakfast of Champions",
+  "author": "Kurt Vonnegut",
+  "why": "A strange, comic Vonnegut novel about a car dealer and a sci-fi writer; one of his stranger books."
+ },
+ "fountainhead": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "thoughtful",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Fountainhead",
+  "author": "Ayn Rand",
+  "why": "An uncompromising architect hero and a philosophy of selfishness; loved by some young readers, loathed by others."
+ },
+ "me talk pretty one day": {
+  "keep": true,
+  "genre": "humour",
+  "mood": [
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "stories",
+  "title": "Me Talk Pretty One Day",
+  "author": "David Sedaris",
+  "why": "Essays about learning French and growing up, praised as laugh-out-loud funny."
+ },
+ "magician": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Magician",
+  "author": "William Somerset Maugham",
+  "why": "Not a clear recommendation of this book."
+ },
+ "ready player one": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "fast",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Ready Player One",
+  "author": "Ernest Cline",
+  "why": "A virtual-reality treasure hunt packed with 1980s pop culture; fun, easy and a nostalgic page-turner."
+ },
+ "blue castle": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "cozy",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The blue castle",
+  "author": "Lucy Maud Montgomery",
+  "why": "A shy woman defies her family in a century-old romance that readers call lighthearted and still moving."
+ },
+ "its": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "It",
+  "author": "Stephen King",
+  "why": "Not a clear recommendation of this book."
+ },
+ "no country for old men": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "bleak",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "No Country for Old Men",
+  "author": "Cormac McCarthy",
+  "why": "A hunter finds drug money and is chased by a killer in a sparse, violent modern western."
+ },
+ "third policeman": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "mind-bending"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Third Policeman",
+  "author": "Flann O'Brien",
+  "why": "A surreal comic tale of a man, a murder and a strange police station; weird and rewarding for patient readers."
+ },
+ "wanderers": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "fast",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Wanderers",
+  "author": "Chuck Wendig",
+  "why": "A mysterious sleepwalking plague and a trek across America; readers praise its plot, if not the prose."
+ },
+ "my antonia": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "emotional",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "My Ántonia",
+  "author": "Willa Cather",
+  "why": "A Nebraska immigrant girl's growing up on the prairie, with beautiful, quiet prose that readers return to."
+ },
+ "in memoriam": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "In Memoriam",
+  "author": "Alice Winn",
+  "why": "Two boys in a boarding school in the First World War fall in love; harrowing, beautiful and tense."
+ },
+ "anthropocene reviewed": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "thoughtful",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "stories",
+  "title": "The Anthropocene Reviewed",
+  "author": "John Green",
+  "why": "Short essays rating different parts of the human world on a five-star scale; the chapter on sunsets is a favourite."
+ },
+ "green mile": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "emotional",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Green Mile",
+  "author": "Stephen King",
+  "why": "A prison guard on death row and a miraculous inmate; King's story that made readers cry."
+ },
+ "vurt": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Vurt",
+  "author": "Jeff Noon",
+  "why": "A wild cyberpunk story of a man seeking his sister in a drug-like virtual world, strange and heart-wrenching."
+ },
+ "moon is a harsh mistress": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "adventurous",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The moon is a harsh mistress",
+  "author": "Robert A. Heinlein",
+  "why": "A rebel moon colony fights Earth with the help of a self-aware computer; an enduring Heinlein classic."
+ },
+ "im thinking of ending things": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "mind-bending",
+   "tense"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "I'm Thinking of Ending Things",
+  "author": "Iain Reid",
+  "why": "A couple's drive to meet his parents spirals into dread; a quick, twisty read with a strange finale."
+ },
+ "imajica": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Imajica",
+  "author": "Clive Barker",
+  "why": "A vast dark fantasy of hidden worlds, desire and magic; long and strange, and gripping from the first pages."
+ }
+}

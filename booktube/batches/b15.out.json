@@ -1,0 +1,964 @@
+{
+ "city and the stars": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The City and the Stars",
+  "author": "Arthur C. Clarke",
+  "why": "Clarke's far-future tale of a perfect city and a young man who wants to leave it; a classic of old science fiction."
+ },
+ "hunter": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Hunter",
+  "author": "Tana French",
+  "why": "Comments are lukewarm about it or about a neighbouring book; not a clear recommendation."
+ },
+ "sense of an ending": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "thoughtful",
+   "melancholic"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Sense of an Ending",
+  "author": "Julian Barnes",
+  "why": "A retired man's memory of his youth is overturned by a late discovery; a short novel readers call mind-blowing."
+ },
+ "beggars in spain": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Beggars in Spain",
+  "author": "Nancy Kress",
+  "why": "Genetically engineered people who never sleep split society in this thoughtful near-future novel, with sequels."
+ },
+ "wise blood": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "dark",
+   "bleak"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "Wise blood",
+  "author": "Flannery O'Connor",
+  "why": "O'Connor's Southern Gothic about a man founding a church without Christ; strange, dark and sharply comic."
+ },
+ "dead souls": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "satirical",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Dead Souls",
+  "author": "Nikolaĭ Vasilʹevich  Gogolʹ",
+  "why": "Gogol's satire of a con man buying dead serfs; readers say it intrigues and entertains them."
+ },
+ "bright young women": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Bright Young Women",
+  "author": "Jessica Knoll",
+  "why": "A fictional take on the Ted Bundy crimes told from the women's side; a recommended true-crime-style thriller."
+ },
+ "snow flower and the secret fan": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Snow Flower and the Secret Fan",
+  "author": "Lisa See",
+  "why": "Two girls in 19th-century China are bound as lifelong friends through a secret women's script; widely loved."
+ },
+ "civil campaign": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "A Civil Campaign",
+  "author": "Lois McMaster Bujold",
+  "why": "A comedy of manners in the Vorkosigan saga, mixing romance, politics and disaster dinners; a high point for fans."
+ },
+ "liars club": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "funny",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "The Liars' Club",
+  "author": "Mary Karr",
+  "why": "Mary Karr's memoir of a chaotic Texas childhood with sharp humour; readers call it wonderful."
+ },
+ "early riser": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Early Riser",
+  "author": "Jasper Fforde",
+  "why": "A winter-sleeping world is full of dreams and danger; very British humour that readers found damn funny."
+ },
+ "choke": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Choke",
+  "author": "Chuck Palahniuk",
+  "why": "One reader is neutral and the other only describes the plot; not clearly recommended."
+ },
+ "instructions": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "satirical"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Instructions",
+  "author": "Adam Levin",
+  "why": "A huge, wild novel about a ten-year-old self-proclaimed messiah at a Chicago school; ambitious and divisive."
+ },
+ "fifteen dogs": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "thoughtful",
+   "melancholic"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Fifteen Dogs",
+  "author": "André Alexis",
+  "why": "Two gods give dogs human intelligence and watch what happens; readers call it a unique, moving fable."
+ },
+ "incidents around the house": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Incidents Around the House",
+  "author": "Josh Malerman",
+  "why": "One reader calls it a bad, mediocre book; it is not recommended."
+ },
+ "wonder": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Wonder",
+  "author": "R. J. Palacio",
+  "why": "Mentions are tied to lists about other books, and the Palacio novel is not clearly recommended."
+ },
+ "witching hour": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "atmospheric"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Witching Hour",
+  "author": "Anne Rice",
+  "why": "A doctor learns of the Mayfair family of witches in a vast Gothic saga; a good pick for Anne Rice fans."
+ },
+ "vineland": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "satirical",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Vineland",
+  "author": "Thomas Pynchon",
+  "why": "Pynchon's loosely plotted tale of a hippie-era family in California under Reagan; suggested as an easier way into him."
+ },
+ "in the garden of beasts": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "tense",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "In the garden of beasts",
+  "author": "Erik Larson",
+  "why": "The US ambassador and his family in 1930s Berlin as Hitler rises; Larson's story reads like a thriller."
+ },
+ "conspiracy against the human race": {
+  "keep": true,
+  "genre": "philosophy",
+  "mood": [
+   "bleak",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "nonfiction",
+  "title": "The Conspiracy Against the Human Race",
+  "author": "Thomas Ligotti",
+  "why": "Ligotti's bleak philosophical case that consciousness is a curse; for readers who like their pessimism uncompromising."
+ },
+ "namesake": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Namesake",
+  "author": "Jhumpa Lahiri",
+  "why": "An Indian-American family across generations deals with names, tradition and loss; a quietly affecting novel."
+ },
+ "girl who drank the moon": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "hopeful",
+   "cozy"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Girl Who Drank the Moon",
+  "author": "Kelly Regan Barnhill",
+  "why": "A good witch accidentally gives a baby magic; a fairytale a child asked a parent to read."
+ },
+ "nix": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "satirical"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Nix",
+  "author": "Nathan Hill",
+  "why": "A professor and his estranged mother's past connect in a funny, sprawling novel that readers couldn't put down."
+ },
+ "duma key": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "atmospheric",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Duma Key",
+  "author": "Stephen King",
+  "why": "An injured man paints terrifying things in a Florida island house; a King favourite, also great on audiobook."
+ },
+ "pnin": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "funny",
+   "melancholic"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Pnin",
+  "author": "Vladimir Nabokov",
+  "why": "Nabokov's gentle, comic story of a Russian professor at an American college; readers return to it."
+ },
+ "vera wongs unsolicited advice for murderers": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "cozy",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Vera Wong's Unsolicited Advice for Murderers",
+  "author": "Jesse Q. Sutanto",
+  "why": "A busybody tea shop owner turns detective when a body appears in her shop; a lighthearted cosy mystery."
+ },
+ "red sister": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Red Sister",
+  "author": "Mark Lawrence",
+  "why": "A young killer is trained at a convent of fighting nuns in a gritty world; a memorable opening line."
+ },
+ "girl who loved tom gordon": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "tense"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Girl Who Loved Tom Gordon",
+  "author": "Stephen King",
+  "why": "A nine-year-old lost in the woods clings to baseball; a short King that readers say hooked them on his work."
+ },
+ "great circle": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "epic",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Great Circle",
+  "author": "Maggie Shipstead",
+  "why": "A female pilot's life and the actress who plays her decades later are intertwined; the story stayed with readers."
+ },
+ "southern book clubs guide to slaying vampires": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "funny",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Southern Book Club's Guide to Slaying Vampires",
+  "author": "Grady Hendrix",
+  "why": "Women in a book club in South Carolina discover a vampire next door; a fun, gory horror comedy."
+ },
+ "psalm for the wild built": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "cozy",
+   "hopeful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "A Psalm for the Wild-Built",
+  "author": "Becky Chambers",
+  "why": "A tea monk and a robot talk about what people need; a short, comforting book called one of the best."
+ },
+ "illusions": {
+  "keep": true,
+  "genre": "philosophy",
+  "mood": [
+   "hopeful",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Illusions: The Adventures of a Reluctant Messiah",
+  "author": "Richard Bach",
+  "why": "A pilot meets a messiah who teaches simple, hopeful lessons; readers re-read it as a comforting guide."
+ },
+ "mockingbird": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Mockingbird",
+  "author": "Walter S. Tevis",
+  "why": "The comments refer to Harper Lee's To Kill a Mockingbird rather than this Tevis novel."
+ },
+ "hidden pictures": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "tense",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Hidden Pictures",
+  "author": "Jason Rekulak",
+  "why": "A babysitter finds disturbing drawings by her charge; a quick ghost story and thriller."
+ },
+ "bridge to terabithia": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "emotional"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Bridge to Terabithia",
+  "author": "Katherine Paterson",
+  "why": "Two friends invent a magical kingdom in the woods and then face loss; a favourite childhood tearjerker."
+ },
+ "adventures of amina al sirafi": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "adventurous",
+   "funny"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Adventures of Amina Al-Sirafi",
+  "author": "Shannon A. Chakraborty",
+  "why": "A retired pirate captain takes one last job in the medieval Indian Ocean; praised as a lively pirate adventure."
+ },
+ "worst hard time": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "dark",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "The worst hard time",
+  "author": "Timothy Egan",
+  "why": "The Dust Bowl told through the people who stayed on the Plains; recommended for fans of narrative history."
+ },
+ "best served cold": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Best served cold",
+  "author": "Joe Abercrombie",
+  "why": "A mercenary seeks bloody revenge in Abercrombie's grim fantasy; a fast standalone that readers love."
+ },
+ "monstrous regiment": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Monstrous Regiment",
+  "author": "Terry Pratchett",
+  "why": "A girl disguises herself as a boy to join the army in a Discworld satire of war and gender."
+ },
+ "river of doubt": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "adventurous",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "The River of Doubt",
+  "author": "Candice Millard",
+  "why": "Theodore Roosevelt's near-fatal expedition down an unmapped Amazon river; an epic, harrowing true story."
+ },
+ "shadow divers": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "tense",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Shadow Divers",
+  "author": "Robert Kurson",
+  "why": "Two divers find a sunken U-boat off New Jersey and try to identify it; great for wreck-diving fans."
+ },
+ "tehanu": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Tehanu (The Earthsea Cycle, Book 4)",
+  "author": "Ursula K. Le Guin",
+  "why": "The comments discuss other Earthsea books and the other works; this title is not clearly recommended."
+ },
+ "eat pray love": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Eat, Pray, Love",
+  "author": "Elizabeth Gilbert",
+  "why": "Readers call it overrated or say they hated it; not recommended."
+ },
+ "dolores claiborne": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Dolores Claiborne",
+  "author": "Stephen King",
+  "why": "A woman recounts her life and a murder to police in a monologue; a short, tough King novel."
+ },
+ "bobiverse": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "We Are Legion (We Are Bob)",
+  "author": "Dennis E. Taylor",
+  "why": "A software engineer's mind becomes a self-replicating space probe; a funny, popular first book in the Bobiverse series."
+ },
+ "book lovers": {
+  "keep": true,
+  "genre": "romance",
+  "mood": [
+   "funny",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Book Lovers",
+  "author": "Emily Henry",
+  "why": "A literary agent and an editor keep meeting in a small town; an easy, enjoyable romance even for non-fans."
+ },
+ "circle": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Circle",
+  "author": "Dave Eggers",
+  "why": "A young woman joins a tech giant that demands complete transparency; a gripping near-future cautionary tale."
+ },
+ "eifelheim": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Eifelheim",
+  "author": "Michael Flynn",
+  "why": "A physicist and a medieval priest link across centuries around visiting aliens; a rarely mentioned, well-loved book."
+ },
+ "mist": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Mist",
+  "author": "Ragnar Jónasson",
+  "why": "A lonely farm couple in Iceland face a mystery with a twist that left readers stunned; hard to put down."
+ },
+ "audition": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Audition",
+  "author": "Katie M. Kitamura",
+  "why": "The comments refer to books by Ryu Murakami and Pip Adam, not this entry; the match is wrong."
+ },
+ "return of the king": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Return of the King",
+  "author": "J.R.R. Tolkien",
+  "why": "Only mentioned as something someone is listening to; no recommendation in the comments."
+ },
+ "harrison bergeron": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "satirical",
+   "dark"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "stories",
+  "title": "Harrison Bergeron",
+  "author": "Kurt Vonnegut",
+  "why": "Vonnegut's short story of forced equality and handicaps; readers say it stays with them for decades."
+ },
+ "paladins grace": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "emotional",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Paladin's Grace",
+  "author": "T. Kingfisher",
+  "why": "A paladin and a perfume maker end up on the run in a funny, warm fantasy romance with a cult following."
+ },
+ "we were liars": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "We Were Liars",
+  "author": "E. Lockhart",
+  "why": "Readers split and one found it irritating; not clearly recommended."
+ },
+ "fox": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Fox",
+  "author": "Joyce Carol Oates",
+  "why": "Oates's multi-voiced novel with a menacing teacher; readers warn it contains difficult content."
+ },
+ "aeneid": {
+  "keep": true,
+  "genre": "poetry",
+  "mood": [
+   "epic",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "poetry",
+  "title": "Aeneid",
+  "author": "Virgil",
+  "why": "Virgil's epic of Aeneas and the founding of Rome; readers suggest Fagles's translation."
+ },
+ "vanished birds": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "emotional",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The vanished birds",
+  "author": "Simon Jimenez",
+  "why": "A pilot, a boy and a pull of time across space; lyrical enough to win over readers who dislike science fiction."
+ },
+ "powerless": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Powerless",
+  "author": "Lauren Roberts",
+  "why": "Readers call it terrible or say they could not get through it; it is not recommended."
+ },
+ "matter": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "epic",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Matter",
+  "author": "Iain Banks",
+  "why": "Banks's Culture novel about a huge ancient artifact and a royal family's war; has a lot of what the poster wanted."
+ },
+ "kindly ones": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "dark",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The kindly ones",
+  "author": "Jonathan Littell",
+  "why": "A French-German SS officer narrates his war in this huge, disturbing novel; recommended for non-horror readers who want shocks."
+ },
+ "creation lake": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Creation Lake",
+  "author": "Rachel Kushner",
+  "why": "Readers split between liking it and calling it pointless; not clearly recommended."
+ },
+ "river has roots": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "atmospheric",
+   "hopeful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "The River Has Roots",
+  "author": "Amal El-Mohtar",
+  "why": "A short fairytale-like fantasy about two sisters and a willow tree; a read for one afternoon."
+ },
+ "feather thief": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "The Feather Thief",
+  "author": "Kirk Wallace Johnson",
+  "why": "A true story of a museum feather heist and its fly-tying obsessive; reads like a caper."
+ },
+ "skyward": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "adventurous",
+   "fast",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Skyward",
+  "author": "Brandon Sanderson",
+  "why": "A girl dreams of becoming a starfighter pilot; an energetic YA novel that readers say fits the brief."
+ },
+ "lights out": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Lights Out",
+  "author": "Navessa Allen",
+  "why": "Readers describe it as horrendous or unfinishable; not recommended."
+ },
+ "look to windward": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Look to windward",
+  "author": "Iain Banks",
+  "why": "Mentioned only in passing as a lesser example; no clear recommendation."
+ },
+ "measure": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Measure",
+  "author": "Nikki Erlick",
+  "why": "Everyone receives a box showing the length of their life; a popular, moving what-if story."
+ },
+ "dead zone": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Dead Zone",
+  "author": "Stephen King",
+  "why": "A man wakes from a coma with psychic powers; readers say it hooked them without knowing anything about it."
+ },
+ "door": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Door",
+  "author": "Magda Szabó",
+  "why": "A writer and her formidable housekeeper form a complex bond in Hungary; praised as a deep, moving translated novel."
+ },
+ "round house": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "tense",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Round House",
+  "author": "Louise Erdrich",
+  "why": "A teenage boy investigates the assault on his mother on a North Dakota reservation; a gripping, powerful Erdrich novel."
+ }
+}

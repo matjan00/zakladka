@@ -1,0 +1,980 @@
+{
+ "timeline": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "tense",
+   "fast",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Timeline",
+  "author": "Michael Crichton",
+  "why": "A fast techno-thriller where historians are sent back to 14th-century France; readers enjoy its pacing and blend of research and adventure."
+ },
+ "code name verity": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Code Name Verity",
+  "author": "Elizabeth Wein",
+  "why": "A WWII tale of a captured spy and her pilot friend, praised for its friendship and a story that rewards close attention."
+ },
+ "guest": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "tense",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Guest",
+  "author": "Emma Cline",
+  "why": "A drifting young woman cons her way through a Long Island summer; readers find it unsettling and impossible to put down."
+ },
+ "monstrilio": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Monstrilio",
+  "author": "Gerardo Sámano Córdova",
+  "why": "A grieving mother raises a creature grown from her dead son, mixing light horror with a moving story about loss."
+ },
+ "bossypants": {
+  "keep": true,
+  "genre": "humour",
+  "mood": [
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Bossypants",
+  "author": "Tina Fey",
+  "why": "Tina Fey's comic memoir of comedy writing and career; readers recall the laugh-out-loud cruise ship anecdote in particular."
+ },
+ "very secret society of irregular witches": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "cozy",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Very Secret Society of Irregular Witches",
+  "author": "Sangu Mandanna",
+  "why": "A gentle, romantic witch story with a found-family feel, recommended as comforting bedtime reading."
+ },
+ "native son": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "dark",
+   "bleak",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Native Son",
+  "author": "Richard Wright",
+  "why": "A harrowing novel of a young Black man in 1930s Chicago; widely read in school and remembered for its force."
+ },
+ "lets pretend this never happened": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Let's Pretend This Never Happened",
+  "author": "Jenny Lawson",
+  "why": "Jenny Lawson's memoir of an odd childhood and anxiety, recommended for being relentlessly funny."
+ },
+ "scar": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "adventurous",
+   "atmospheric",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Scar",
+  "author": "China Miéville",
+  "why": "A weird, inventive fantasy set on a floating city of ships, loved for its world-building within the Bas-Lag series."
+ },
+ "white nights": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "melancholic",
+   "emotional"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "White Nights",
+  "author": "Fyodor Dostoevsky",
+  "why": "A short story of a lonely dreamer in St Petersburg who falls for a girl over four nights; readers feel its sad hopelessness."
+ },
+ "demon haunted world": {
+  "keep": true,
+  "genre": "science",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "The Demon-Haunted World",
+  "author": "Carl Sagan",
+  "why": "Sagan's case for scientific thinking against superstition and pseudoscience, recommended as a clear, humane guide to skepticism."
+ },
+ "lovely bones": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Lovely Bones",
+  "author": "Alice Sebold",
+  "why": "A murdered girl watches her family cope from heaven; readers recall it as heartbreaking and unforgettable."
+ },
+ "jr": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "satirical",
+   "mind-bending"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "JR",
+  "author": "William Gaddis",
+  "why": "A huge, almost entirely dialogue-driven satire of American money about a schoolboy running a business empire; praised as brilliant but demanding."
+ },
+ "body": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "melancholic",
+   "emotional"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "stories",
+  "title": "The Body",
+  "author": "Stephen King",
+  "why": "A novella of four boys hiking to find a dead body, recommended for its nostalgia and coming-of-age feel."
+ },
+ "hollow kingdom": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Hollow Kingdom",
+  "author": "Kira Jane Buxton",
+  "why": "An apocalypse seen through a cantankerous crow and his dog companion; readers like the humour mixed with heart."
+ },
+ "time machine": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "adventurous"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Time Machine",
+  "author": "H. G. Wells",
+  "why": "Wells's short classic about a traveller journeying to a far future; recommended for its ideas and brevity."
+ },
+ "jaunt": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "stories",
+  "title": "The Jaunt",
+  "author": "Stephen King",
+  "why": "A short King story about teleportation and its terrible catch; readers call it dark and effective."
+ },
+ "speaker for the dead": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Speaker for the Dead",
+  "author": "Orson Scott Card",
+  "why": "Ender's sequel is a thoughtful story about empathy and first contact; many prefer it to the original."
+ },
+ "lincoln highway": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "adventurous",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Lincoln Highway",
+  "author": "Amor Towles",
+  "why": "A 1950s road novel following young men across America; readers find it warm, vivid and gripping."
+ },
+ "nobodys girl": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "dark",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Nobody's Girl",
+  "author": "Virginia Roberts Giuffre",
+  "why": "Virginia Giuffre's memoir about abuse and her fight for justice; readers describe it as powerful and hard to forget."
+ },
+ "black beauty": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Black Beauty",
+  "author": "Anna Sewell",
+  "why": "A horse narrates his life under kind and cruel owners; a gentle children's classic many remember from childhood."
+ },
+ "only one left": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Only One Left",
+  "author": "Riley Sager",
+  "why": "A nurse cares for a woman accused of murdering her family in a creepy mansion; a page-turning thriller favourite."
+ },
+ "alien clay": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "tense",
+   "mind-bending",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Alien Clay",
+  "author": "Adrian Tchaikovsky",
+  "why": "A scientist exiled to an alien world studies its bizarre life; recommended as strong hard science fiction."
+ },
+ "chrysalids": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "dark"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Chrysalids",
+  "author": "John Wyndham",
+  "why": "Wyndham's tale of telepathic children hiding in a post-nuclear community that persecutes mutations; short and gripping."
+ },
+ "weyward": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "dark",
+   "emotional",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Weyward",
+  "author": "Emilia Hart",
+  "why": "Three women in different centuries share a bond with nature and face persecution; recommended for its multi-generational story."
+ },
+ "golem and the jinni": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "atmospheric",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Golem and the Jinni",
+  "author": "Helene Wecker",
+  "why": "A golem and a jinni meet in 1900s New York; readers love its characters and gentle, immigrant-centred magic."
+ },
+ "rape of nanking": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "dark",
+   "bleak"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "The Rape of Nanking",
+  "author": "Iris Chang",
+  "why": "A detailed account of the 1937 massacre in Nanking; readers call it among the most disturbing books they have read."
+ },
+ "river": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The River",
+  "author": "Peter Heller",
+  "why": "Comments recommend other books such as Go as a River; no real recommendation of this title."
+ },
+ "solito": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Solito",
+  "author": "Javier Zamora",
+  "why": "A poet recounts crossing from El Salvador to the US at age nine; readers find it powerful and moving."
+ },
+ "tombs of atuan": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "atmospheric",
+   "dark"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Tombs of Atuan",
+  "author": "Ursula K. Le Guin",
+  "why": "The second Earthsea book follows a young priestess in a desert temple; praised as a haunting, tight fantasy."
+ },
+ "dry": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Dry",
+  "author": "Jane Harper",
+  "why": "An Australian federal agent returns to a drought-stricken town to investigate a killing; recommended as a gripping mystery."
+ },
+ "scythe": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Scythe",
+  "author": "Neal Shusterman",
+  "why": "In a world without death, scythes must kill to control population; a fast YA series starter teens and adults enjoy."
+ },
+ "curious incident of the dog in the night time": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Curious Incident of the Dog in the Night-Time",
+  "author": "Mark Haddon",
+  "why": "A teenager with autism investigates a neighbour's dead dog; readers like its distinctive narrator and quick pace."
+ },
+ "hello beautiful": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Hello Beautiful",
+  "author": "Ann Napolitano",
+  "why": "A family saga about four sisters and the man who joins them; readers recommend it as a touching, warm read."
+ },
+ "three musketeers": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "adventurous",
+   "fast"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Three Musketeers",
+  "author": "Alexandre Dumas",
+  "why": "Swashbuckling classic of d'Artagnan and his friends in 17th-century France; recommended as fun adventure."
+ },
+ "god bless you mr rosewater": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "satirical",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "God bless you, Mr. Rosewater",
+  "author": "Kurt Vonnegut",
+  "why": "Vonnegut's satire of a rich man giving away his fortune out of kindness; praised as funny and humane."
+ },
+ "behind her eyes": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Behind her eyes",
+  "author": "Sarah Pinborough",
+  "why": "Comments split and the strongest one calls it bad, so it is not clearly recommended."
+ },
+ "permutation city": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Permutation City",
+  "author": "Greg Egan",
+  "why": "A dense novel about uploaded minds and simulated worlds; hard-SF fans call it the definitive take on the concept."
+ },
+ "spellshop": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "cozy",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Spellshop",
+  "author": "Sarah Beth Durst",
+  "why": "A librarian runs a magical shop on a quiet island; readers call it sweet, cosy and perfect for bedtime."
+ },
+ "crossroads": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "thoughtful",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Crossroads",
+  "author": "Jonathan Franzen",
+  "why": "Franzen's novel of a 1970s Midwestern family in crisis; readers found it surprisingly good and engrossing."
+ },
+ "star maker": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "thoughtful",
+   "epic"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "Star Maker",
+  "author": "Olaf Stapledon",
+  "why": "A narrator's mind travels through the cosmos and the history of the universe; recommended for its sheer scale."
+ },
+ "year of wonders": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "dark",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Year of Wonders",
+  "author": "Geraldine Brooks",
+  "why": "A village cuts itself off during the 1666 plague; readers praise its human drama and vivid detail."
+ },
+ "becoming": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "hopeful",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Becoming",
+  "author": "Michelle Obama",
+  "why": "Michelle Obama's memoir from her Chicago childhood to the White House; recommended as honest and inspiring."
+ },
+ "spy and the traitor": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "The Spy and the Traitor",
+  "author": "Ben Macintyre",
+  "why": "The true story of a KGB officer who spied for Britain; reads like a thriller and is highly recommended."
+ },
+ "man in the high castle": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Man in the High Castle",
+  "author": "Philip K. Dick",
+  "why": "A world where the Axis won WWII; Dick's classic alternate history is recommended for its unsettling mood."
+ },
+ "cider house rules": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Cider House Rules",
+  "author": "John Irving",
+  "why": "An orphan raised in a Maine orphanage grapples with the doctor's moral code; readers call it a favourite."
+ },
+ "outsider": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "tense",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Outsider",
+  "author": "Stephen King",
+  "why": "A child murder case with impossible evidence blends police procedure and the supernatural; best for King fans."
+ },
+ "bone people": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "atmospheric",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Bone People",
+  "author": "Keri Hulme",
+  "why": "A Booker-winning New Zealand novel about three damaged people forming a family; intense, poetic and unforgettable."
+ },
+ "apt pupil": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "stories",
+  "title": "Apt Pupil",
+  "author": "Stephen King",
+  "why": "A teenager blackmails a hidden Nazi war criminal in a novella readers remember as truly horrifying."
+ },
+ "blue sword": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Blue Sword",
+  "author": "Robin McKinley",
+  "why": "A girl in a colonial outpost is swept into a desert kingdom's war; a beloved comfort fantasy."
+ },
+ "vanishing half": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Vanishing Half",
+  "author": "Brit Bennett",
+  "why": "Twin sisters take diverging paths, one passing as white, and their daughters' lives echo it; praised and widely read."
+ },
+ "altered carbon": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "tense",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Altered Carbon",
+  "author": "Richard K. Morgan",
+  "why": "A noir detective story in a future where minds are swapped between bodies; recommended as gritty cyberpunk."
+ },
+ "carmilla": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "atmospheric",
+   "dark"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Carmilla",
+  "author": "Sheridan Le Fanu",
+  "why": "A short Gothic vampire novella that predates Dracula; recommended as a classic of atmospheric horror."
+ },
+ "galapagos": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "satirical",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Galápagos",
+  "author": "Kurt Vonnegut",
+  "why": "Vonnegut's satire narrated a million years in the future about how humanity ends up evolving; quirky and funny."
+ },
+ "love in the time of cholera": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Love in the Time of Cholera",
+  "author": "Gabriel García Márquez",
+  "why": "Commenters mostly say they were disappointed or gave up on it."
+ },
+ "barkskins": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "epic",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Barkskins",
+  "author": "Annie Proulx",
+  "why": "A 300-year saga of loggers and forests across generations; readers describe it as an epic, educational novel about trees."
+ },
+ "one day everyone will have always been against this": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "One Day, Everyone Will Have Always Been Against This",
+  "author": "Omar El Akkad",
+  "why": "Omar El Akkad's essay-memoir on the West's response to Gaza, called one of the year's most powerful books."
+ },
+ "lion the witch and the wardrobe": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "adventurous",
+   "cozy"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Lion, the Witch and the Wardrobe",
+  "author": "C. S. Lewis",
+  "why": "Four children enter a snowbound magical land in Lewis's classic fantasy; a childhood favourite recommended for comfort reading."
+ },
+ "wicked": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "satirical"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Wicked",
+  "author": "Gregory Maguire",
+  "why": "A darker, political retelling of the Wicked Witch of the West's life; quite different from the musical."
+ },
+ "postman": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "hopeful",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Postman",
+  "author": "David Brin",
+  "why": "A drifter revives the postal service in a post-apocalyptic America; nothing like the film and recommended for its hopeful tone."
+ },
+ "guns of august": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "thoughtful",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "The Guns of August",
+  "author": "Barbara Tuchman",
+  "why": "Tuchman's account of the opening month of WWI is called suspenseful and the definitive study of how war broke out."
+ },
+ "interview with the vampire": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Interview With the Vampire",
+  "author": "Anne Rice",
+  "why": "A vampire tells his life story to a reporter; recommended as a lush, influential Gothic horror novel."
+ },
+ "going postal": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Going Postal",
+  "author": "Terry Pratchett",
+  "why": "A conman is forced to run the failing Ankh-Morpork post office; one of the funnier, accessible Discworld books."
+ },
+ "ceremony": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "thoughtful",
+   "atmospheric"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "Ceremony",
+  "author": "Leslie Silko",
+  "why": "A Laguna Pueblo war veteran seeks healing through tradition; praised as a deeply moving Native American novel."
+ },
+ "angel down": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "dark",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Angel Down",
+  "author": "Daniel Kraus",
+  "why": "A WWI soldier hears an angel in no man's land, told in a breathless run-on style readers found striking."
+ },
+ "silence": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "thoughtful",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Silence",
+  "author": "Shūsaku Endō",
+  "why": "Two Jesuit priests face persecution in 17th-century Japan; a profound novel about faith and doubt."
+ },
+ "lucifers hammer": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "tense",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Lucifer's Hammer",
+  "author": "Larry Niven",
+  "why": "A comet strikes Earth and survivors rebuild; recommended as a classic disaster novel with a large cast."
+ },
+ "cosmos": {
+  "keep": true,
+  "genre": "science",
+  "mood": [
+   "thoughtful",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Cosmos",
+  "author": "Carl Sagan",
+  "why": "Sagan's tour of the universe and our place in it; readers say it changes how they see life."
+ },
+ "executioners song": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "dark",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "nonfiction",
+  "title": "The executioner's song",
+  "author": "Norman Mailer",
+  "why": "Mailer's massive true-crime account of killer Gary Gilmore's final months; recommended as a landmark of nonfiction."
+ },
+ "theo of golden": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "hopeful",
+   "cozy",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Theo of Golden",
+  "author": "Allen Levi",
+  "why": "An elderly man in a small town befriends strangers by buying their art; readers call it a heartwarming read."
+ }
+}

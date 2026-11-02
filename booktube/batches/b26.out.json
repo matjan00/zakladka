@@ -1,0 +1,999 @@
+{
+ "kairos": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Kairos",
+  "author": "Jenny Erpenbeck",
+  "why": "A love affair in 1980s East Berlin mirrors the collapse of East Germany; readers find it devastating and beautifully written."
+ },
+ "on beauty": {
+  "keep": false,
+  "genre": "literary",
+  "mood": [
+   "funny"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "On Beauty",
+  "author": "Zadie Smith",
+  "why": "Campus novel about two feuding families; named mostly as a disliked, abandoned read."
+ },
+ "come closer": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "tense",
+   "fast"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Come Closer",
+  "author": "Sara Gran",
+  "why": "A short, pulpy tale of a woman who suspects she is being possessed; readers call it a great creepy quick read."
+ },
+ "last and first men": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "thoughtful",
+   "epic"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Last and First Men",
+  "author": "Olaf Stapledon",
+  "why": "A future history of humanity across two billion years, written like a chronicle; admired for its sweeping imagination."
+ },
+ "independent people": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "bleak",
+   "atmospheric",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Independent People",
+  "author": "Halldór Laxness",
+  "why": "An Icelandic sheep farmer fights for independence in a harsh landscape; readers praise its bleak, magnificent prose."
+ },
+ "memoirs of hadrian": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "thoughtful",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Memoirs of Hadrian",
+  "author": "Marguerite Yourcenar",
+  "why": "The Roman emperor reflects on his life in a letter; a celebrated, elegant historical novel."
+ },
+ "protector of the small": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "adventurous",
+   "hopeful"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Protector of the Small (First Test, Page, Squire, Lady Knight)",
+  "author": "Tamora Pierce",
+  "why": "A girl becomes the first female knight trainee in her realm; a loved fantasy quartet with a strong heroine."
+ },
+ "no one is talking about this": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "thoughtful",
+   "emotional"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "No One Is Talking About This",
+  "author": "Patricia Lockwood",
+  "why": "A woman lost in the internet is pulled back to real life by a family crisis; strange, funny and moving."
+ },
+ "oathbringer": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Oathbringer",
+  "author": "Brandon Sanderson",
+  "why": "Third Stormlight Archive book, with big revelations and battles; fans love it for its scale and character arcs."
+ },
+ "big trouble": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "funny",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Big Trouble",
+  "author": "Dave Barry",
+  "why": "A farcical Miami caper where unrelated schemes collide; readers say this humour columnist's novel made them laugh out loud."
+ },
+ "times arrow": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "mind-bending",
+   "bleak"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Time's Arrow",
+  "author": "Martin Amis",
+  "why": "A man's life is narrated backwards, slowly revealing a terrible past; short and unsettling, readers say it haunts them."
+ },
+ "rabbit": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "funny",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Rabbit: The Autobiography of Ms. Pat",
+  "author": "Patricia Williams",
+  "why": "A comedian's frank, funny memoir of a hard upbringing; readers found it gripping and finished it in days."
+ },
+ "junky": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "dark",
+   "bleak"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Junky",
+  "author": "William S. Burroughs",
+  "why": "A raw semi-autobiographical account of heroin addiction in 1940s America, written in blunt, flat prose."
+ },
+ "menewood": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "epic",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Menewood",
+  "author": "Nicola Griffith",
+  "why": "Sequel to Hild, following a seventh-century Anglo-Saxon woman through war and politics; fans love the immersive detail."
+ },
+ "timequake": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "satirical",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Timequake",
+  "author": "Kurt Vonnegut",
+  "why": "A time hiccup forces everyone to relive a decade; late Vonnegut, a mix of fiction and reflections."
+ },
+ "thinking fast and slow": {
+  "keep": true,
+  "genre": "science",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Thinking, Fast and Slow",
+  "author": "Daniel Kahneman",
+  "why": "A tour of how the mind makes quick and slow decisions and where it goes wrong; a modern psychology classic."
+ },
+ "swimming in the dark": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "melancholic"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Swimming in the Dark",
+  "author": "Tomasz Jedrowski",
+  "why": "A secret love affair between two young men in communist Poland; readers find it tender and moving."
+ },
+ "elements": {
+  "keep": false,
+  "genre": "literary",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Elements",
+  "author": "John Boyne",
+  "why": "Comments do not clearly discuss this book, so there is no real recommendation."
+ },
+ "salt to the sea": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "emotional",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Salt to the Sea",
+  "author": "Ruta Sepetys",
+  "why": "Four young refugees in 1945 flee toward a doomed ship; a quick, gripping and moving WWII story."
+ },
+ "thistlefoot": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "atmospheric",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Thistlefoot",
+  "author": "GennaRose Nethercott",
+  "why": "Two siblings inherit a living house on chicken legs that is hunted by a sinister figure; a folklore-rich Baba Yaga tale."
+ },
+ "dracula by bram stoker": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "dark",
+   "atmospheric",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Dracula",
+  "author": "Bram Stoker",
+  "why": "The original vampire novel told through letters and diaries; readers keep returning to it for its dread."
+ },
+ "where are you going where have you been": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "stories",
+  "title": "Where are you going, where have you been?",
+  "author": "Joyce Carol Oates",
+  "why": "A famous, chilling short story about a teenage girl and a menacing stranger; often cited as a favourite."
+ },
+ "end of october": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The End of October",
+  "author": "Lawrence Wright",
+  "why": "A pandemic thriller written before COVID that readers found uncannily realistic."
+ },
+ "poor things": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "satirical",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Poor things",
+  "author": "Alasdair Gray",
+  "why": "A Victorian tale with several unreliable narrators about a woman brought back to life; playful and inventive."
+ },
+ "empress of salt and fortune": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "atmospheric",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The empress of salt and fortune",
+  "author": "Nghi Vo",
+  "why": "A short, lyrical story of an empress's rise told through the objects her servant catalogues; a five-star pick for many."
+ },
+ "eve": {
+  "keep": true,
+  "genre": "science",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Eve",
+  "author": "Cat Bohannon",
+  "why": "A chapter-by-chapter history of the evolution of the female body; readers found it informative and fresh."
+ },
+ "salt grows heavy": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "atmospheric"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Salt Grows Heavy",
+  "author": "Cassandra Khaw",
+  "why": "A dark fairy tale about a mermaid on the run with a surgeon; short, gory and richly written."
+ },
+ "several people are typing": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Several People Are Typing",
+  "author": "Calvin Kasulke",
+  "why": "An office worker gets trapped inside the company Slack; an absurd, laugh-out-loud workplace satire told in chat messages."
+ },
+ "record of a spaceborn few": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "hopeful",
+   "cozy",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Record of a Spaceborn Few",
+  "author": "Becky Chambers",
+  "why": "Quiet, character-driven stories of ordinary lives on a generation fleet; readers love its warmth and humanity."
+ },
+ "aristoi": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Aristoi",
+  "author": "Walter Jon Williams",
+  "why": "A far-future society ruled by godlike minds meets a threat; admired as an underrated, idea-rich novel."
+ },
+ "small great things": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Small Great Things",
+  "author": "Jodi Picoult",
+  "why": "A Black nurse is accused after a newborn dies, in a story about racism and prejudice; an easy, popular read."
+ },
+ "wars of light and shadow": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Wars of Light and Shadow",
+  "author": "Janny Wurts",
+  "why": "A sprawling, dense epic fantasy series with intricate politics; fans praise its depth despite its heavy prose."
+ },
+ "rose madder": {
+  "keep": false,
+  "genre": "horror",
+  "mood": [
+   "dark"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Rose Madder",
+  "author": "Stephen King",
+  "why": "A King novel of an abused wife and a magical painting, but readers here find it slow and dull."
+ },
+ "assistant to the villain": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "cozy"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Assistant to the Villain",
+  "author": "Hannah Nicole Maehrer",
+  "why": "A cosy, funny romance-fantasy about an assistant working for a dark lord; a light, popular comfort read."
+ },
+ "conclave": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Conclave",
+  "author": "Robert Harris",
+  "why": "Cardinals gather to elect a new pope amid intrigue and secrets; a fast, clever page-turner."
+ },
+ "fayne": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "epic",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Fayne",
+  "author": "Ann-Marie MacDonald",
+  "why": "A long Victorian-era gothic adventure with a heroine and secrets; readers are eagerly reading it."
+ },
+ "long bright river": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "emotional",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Long Bright River",
+  "author": "Liz Moore",
+  "why": "A Philadelphia cop searches for her missing sister amid the opioid crisis; part mystery, part family drama."
+ },
+ "wishing game": {
+  "keep": false,
+  "genre": "romance",
+  "mood": [
+   "cozy"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Wishing Game",
+  "author": "Meg Shaffer",
+  "why": "A sweet whimsical romance, but the comments mostly mention it as a did-not-finish."
+ },
+ "wild seed": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "epic",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Wild seed",
+  "author": "Octavia E. Butler",
+  "why": "Two immortals with opposing powers clash across centuries; readers can't stop thinking about it."
+ },
+ "tartar steppe": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "melancholic",
+   "atmospheric",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Tartar Steppe",
+  "author": "Dino Buzzati",
+  "why": "A young officer waits for an enemy at a remote fortress while life passes him by; a haunting classic about waiting."
+ },
+ "keep": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "atmospheric",
+   "tense",
+   "mind-bending"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Keep",
+  "author": "Jennifer Egan",
+  "why": "Two cousins renovate a castle in Europe in a gothic story with a twist; readers devour it in one sitting."
+ },
+ "listen for the lie": {
+  "keep": false,
+  "genre": "crime",
+  "mood": [
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Listen for the Lie",
+  "author": "Amy Tintera",
+  "why": "A true-crime-podcast mystery, but the comments mostly criticise the plot."
+ },
+ "you cant win": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "adventurous",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "You Can't Win",
+  "author": "Jack Black",
+  "why": "A burglar's 1926 memoir of crime, prison and addiction in America; a cult favourite among writers."
+ },
+ "mirror and the light": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "epic",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Mirror and the Light",
+  "author": "Hilary Mantel",
+  "why": "The finale of the Cromwell trilogy, covering Thomas Cromwell's final years at Henry VIII's court; praised as exquisite."
+ },
+ "in the distance": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "atmospheric",
+   "melancholic",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "In the Distance",
+  "author": "Hernán Díaz",
+  "why": "A Swedish boy crosses the American frontier alone in the 1800s; a quiet, spare reimagining of the Western."
+ },
+ "chronoliths": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Chronoliths",
+  "author": "Robert Charles Wilson",
+  "why": "Giant monuments from the future start appearing and reshaping the world; a favourite for its central idea."
+ },
+ "shardik": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "epic",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Shardik",
+  "author": "Richard Adams",
+  "why": "A hunter believes a great bear is a god and follows it into war; an unusual, harsh fantasy from the Watership Down author."
+ },
+ "memories of ice": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "dark",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Memories of Ice",
+  "author": "Steven Erikson",
+  "why": "The second Malazan novel, with vast battles, magic and shifting alliances; fans consider it incredible."
+ },
+ "family tree": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Family Tree",
+  "author": "Sheri S. Tepper",
+  "why": "Ecological fable in which a woman and a tree begin to merge; readers remember its shocking mid-book turn."
+ },
+ "purple hibiscus": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "bleak"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Purple Hibiscus",
+  "author": "Chimamanda Ngozi Adichie",
+  "why": "A Nigerian girl grows up under her violently religious father; a moving coming-of-age story."
+ },
+ "carpe jugulum": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Carpe Jugulum",
+  "author": "Terry Pratchett",
+  "why": "Discworld witches take on a family of modern, sun-tolerant vampires; a sharp, funny send-up of vampire stories."
+ },
+ "before they are hanged": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "funny",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Before They Are Hanged",
+  "author": "Joe Abercrombie",
+  "why": "Middle book of The First Law, with a gritty quest and war; known for dark humour and flawed characters."
+ },
+ "moonbound": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Moonbound",
+  "author": "Robin Sloan",
+  "why": "In a far future, a boy meets a talking dragon in a world shaped by AI; readers like its ideas."
+ },
+ "emperors soul": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "thoughtful",
+   "hopeful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Emperor's Soul",
+  "author": "Brandon Sanderson",
+  "why": "A forger must recreate an emperor's soul in 100 days; a short, clever fantasy novella."
+ },
+ "loneliness of sonia and sunny": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "melancholic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Loneliness of Sonia and Sunny",
+  "author": "Kiran Desai",
+  "why": "A long, sweeping novel about two Indians in love across continents; readers have mixed feelings but many praise it."
+ },
+ "amazing maurice and his educated rodents": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "satirical",
+   "cozy"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Amazing Maurice and His Educated Rodents",
+  "author": "Terry Pratchett",
+  "why": "A cat and clever rats run a Pied Piper scam; a sharp, darkly funny Discworld story for younger readers."
+ },
+ "shift": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "tense",
+   "dark",
+   "bleak"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Shift",
+  "author": "Hugh Howey",
+  "why": "Prequel in the Silo series, showing how the underground silos came to be; a gripping dystopian page-turner."
+ },
+ "fiasco": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "bleak",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Fiasco",
+  "author": "Stanisław Lem",
+  "why": "Humans try and fail to communicate with an alien civilisation; a pessimistic, philosophical contact novel."
+ },
+ "long earth": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "adventurous",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Long Earth",
+  "author": "Terry Pratchett",
+  "why": "People discover they can step into endless parallel Earths; readers love the premise and exploration."
+ },
+ "chronology of water": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "dark",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "nonfiction",
+  "title": "The Chronology of Water",
+  "author": "Lidia Yuknavitch",
+  "why": "A swimmer's raw memoir of abuse, addiction and finding herself through writing; fragmented, poetic and powerful."
+ },
+ "to build a fire": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "tense",
+   "bleak",
+   "adventurous"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "stories",
+  "title": "To Build a Fire",
+  "author": "Jack London",
+  "why": "A man tries to survive a deadly cold Yukon trek; a classic survival short story."
+ },
+ "funny story": {
+  "keep": false,
+  "genre": "romance",
+  "mood": [
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Funny Story",
+  "author": "Emily Henry",
+  "why": "A popular romcom, but the comments find the characters unlikeable."
+ },
+ "immortalists": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Immortalists",
+  "author": "Chloe Benjamin",
+  "why": "Four siblings visit a fortune teller who tells them their death dates; the novel follows how that shapes their lives."
+ },
+ "merchanters luck": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "adventurous",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Merchanter's Luck",
+  "author": "C. J. Cherryh",
+  "why": "A lone trader and a starship captain meet in a space-station economy; an acclaimed entry in Alliance-Union."
+ },
+ "sandwich": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "emotional",
+   "cozy"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Sandwich",
+  "author": "Catherine Newman",
+  "why": "A family holiday on Cape Cod with a woman in menopause; warm, funny and moving."
+ },
+ "winners": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "melancholic"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Winners",
+  "author": "Fredrik Backman",
+  "why": "Backman's concluding Beartown novel about a town facing old wounds and tragedy; readers say it left them destroyed."
+ },
+ "west with the night": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "adventurous",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "West with the Night",
+  "author": "Beryl Markham",
+  "why": "A pioneering pilot's memoir of life in Kenya and flying; praised as brilliantly written."
+ },
+ "people of paper": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "funny",
+   "emotional"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "The People of Paper",
+  "author": "Salvador Plascencia",
+  "why": "An inventive postmodern novel with narrators fighting their author; readers call it fun and strange."
+ },
+ "forgotten beasts of eld": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "atmospheric",
+   "emotional"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Forgotten Beasts of Eld",
+  "author": "Patricia A. McKillip",
+  "why": "A sorceress living with magical beasts must care for an unexpected child; a lyrical, beloved fantasy."
+ },
+ "speak memory": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "thoughtful",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "nonfiction",
+  "title": "Speak, Memory",
+  "author": "Vladimir Nabokov",
+  "why": "Nabokov's lyrical memoir of his privileged Russian childhood and exile."
+ }
+}

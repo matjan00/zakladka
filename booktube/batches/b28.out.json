@@ -1,0 +1,1000 @@
+{
+ "cell": {
+  "keep": false,
+  "genre": "horror",
+  "mood": [
+   "dark"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Cell",
+  "author": "Stephen King",
+  "why": "A zombie-phone apocalypse novel that readers name as one of King's weakest."
+ },
+ "dreamsnake": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "hopeful",
+   "emotional",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Dreamsnake",
+  "author": "Vonda N. McIntyre",
+  "why": "A healer travels a post-apocalyptic world with her snakes; an older, unique and well-made science fiction novel."
+ },
+ "lord fouls bane": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "epic"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Lord Foul's Bane",
+  "author": "Stephen R. Donaldson",
+  "why": "First book of the Thomas Covenant chronicles, about a leper pulled into a fantasy land; a famously difficult antihero fantasy."
+ },
+ "lud in the mist": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "atmospheric",
+   "funny",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Lud-in-the-Mist",
+  "author": "Hope Mirrlees",
+  "why": "A staid merchant town borders Fairyland and a smuggling mystery; an early, whimsical fantasy classic."
+ },
+ "non stop": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "adventurous",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Non-Stop",
+  "author": "Brian W. Aldiss",
+  "why": "A generation starship's descendants have forgotten they are on a ship; a classic of the genre."
+ },
+ "unmaking of june farrow": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "emotional",
+   "atmospheric",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Unmaking of June Farrow",
+  "author": "Adrienne Young",
+  "why": "A woman investigates her mother's disappearance and a family curse; a romantic fantasy mystery that readers read quickly."
+ },
+ "cat who saved books": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "cozy",
+   "hopeful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Cat Who Saved Books",
+  "author": "Sosuke Natsukawa",
+  "why": "A talking cat guides a boy through fantastical labyrinths to save books; short, warm and Ghibli-like."
+ },
+ "ones company": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "One's Company",
+  "author": "Ashley Hutson",
+  "why": "A lonely woman lives inside her favourite TV show; lovely absurdist fiction."
+ },
+ "wings of fire": {
+  "keep": false,
+  "genre": "ya",
+  "mood": [
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Wings of Fire",
+  "author": "A. P. J. Abdul Kalam",
+  "why": "The comments recommend a different Wings of Fire (the dragon series), so the entry does not match the Kalam book."
+ },
+ "city and its uncertain walls": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "melancholic",
+   "atmospheric"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The City and Its Uncertain Walls",
+  "author": "Haruki Murakami",
+  "why": "A man is drawn into a mysterious walled city; late Murakami with his usual dreamlike strangeness."
+ },
+ "stranger beside me": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "The Stranger Beside Me",
+  "author": "Ann Rule",
+  "why": "A true-crime author tells of her friendship with the serial killer Ted Bundy; a classic of the genre."
+ },
+ "fun home": {
+  "keep": true,
+  "genre": "graphic",
+  "mood": [
+   "emotional",
+   "thoughtful",
+   "melancholic"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "graphic",
+  "title": "Fun Home",
+  "author": "Alison Bechdel",
+  "why": "A graphic memoir about the author's father, family and coming out; critically loved."
+ },
+ "hardwired": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "fast",
+   "dark",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Hardwired",
+  "author": "Walter Jon Williams",
+  "why": "A cyberpunk adventure of a smuggler and a pilot in a corporate future; a solid genre favourite."
+ },
+ "tales of the city": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "cozy"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Tales of the City",
+  "author": "Armistead Maupin",
+  "why": "Quirky characters share a San Francisco apartment building in the 1970s; funny, light and loved."
+ },
+ "dead inside": {
+  "keep": false,
+  "genre": "horror",
+  "mood": [
+   "dark"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Dead Inside",
+  "author": "Chandler Morrison",
+  "why": "An extreme transgressive horror novel mentioned mostly as shocking, not as a praised read."
+ },
+ "dark eden": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "atmospheric",
+   "thoughtful",
+   "bleak"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Dark Eden",
+  "author": "Chris Beckett",
+  "why": "Descendants of stranded colonists survive on a dark, cold planet; winner of the Arthur C. Clarke Award."
+ },
+ "jesus and john wayne": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Jesus and John Wayne",
+  "author": "Kristin Kobes du Mez",
+  "why": "A history of how white evangelical America embraced militant masculinity; readers recommend it for insight into politics and religion."
+ },
+ "bartleby the scrivener": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "thoughtful",
+   "bleak",
+   "satirical"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "stories",
+  "title": "Bartleby, the Scrivener",
+  "author": "Herman Melville",
+  "why": "A clerk who answers every request with 'I would prefer not to'; a short, famous story."
+ },
+ "stay true": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Stay True",
+  "author": "Hua Hsu",
+  "why": "A Pulitzer-winning memoir about friendship, grief and growing up in the 1990s."
+ },
+ "state of wonder": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "adventurous",
+   "tense",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "State of Wonder",
+  "author": "Ann Patchett",
+  "why": "A scientist travels into the Amazon to find a mentor and her secret drug research; an easy read with deeper themes."
+ },
+ "hunchback of notre dame": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "emotional",
+   "dark",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Hunchback of Notre-Dame",
+  "author": "Victor Hugo",
+  "why": "A deformed bell-ringer, a gypsy girl and a priest in medieval Paris; a long classic that readers recall from youth."
+ },
+ "our missing hearts": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Our Missing Hearts",
+  "author": "Celeste Ng",
+  "why": "A boy searches for his mother in a near-future America that bans dissent; striking and unsettling."
+ },
+ "have always lived in the castle": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "atmospheric",
+   "dark"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "We Have Always Lived in the Castle",
+  "author": "Shirley Jackson",
+  "why": "Two sisters live in isolation after a family poisoning; a classic of eerie psychological gothic."
+ },
+ "patriot": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Patriot",
+  "author": "Alexei Navalny",
+  "why": "The Russian opposition leader's memoir, with his life, politics and fight against Putin."
+ },
+ "wayward": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "tense",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Wayward",
+  "author": "Chuck Wendig",
+  "why": "Sequel to Wanderers, in which survivors rebuild after a pandemic; readers like the series."
+ },
+ "bartimaeus trilogy": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "funny",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Bartimaeus Trilogy",
+  "author": "Jonathan Stroud",
+  "why": "A snarky djinni serves a young magician in an alternative London; a funny, clever YA fantasy trilogy."
+ },
+ "before and after": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "satirical",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Before and After",
+  "author": "Andrew Shanahan",
+  "why": "A story of life in a world where overweight people are hunted; readers found it very different and well developed."
+ },
+ "unruly": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "funny",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Unruly",
+  "author": "David Mitchell",
+  "why": "A funny, informative romp through English monarchs by the comedian; readers find it informative and hilarious."
+ },
+ "romantic comedy": {
+  "keep": false,
+  "genre": "romance",
+  "mood": [
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Romantic Comedy",
+  "author": "Curtis Sittenfeld",
+  "why": "Comments split between those who couldn't put it down and a reader who finished it just to criticise it."
+ },
+ "requiem for a dream": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "bleak"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Requiem for a dream",
+  "author": "Hubert Selby, Jr.",
+  "why": "Four people spiral through addiction in Brooklyn; a harrowing, unforgettable novel."
+ },
+ "iron dragons daughter": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "bleak",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Iron Dragon's Daughter",
+  "author": "Michael Swanwick",
+  "why": "A girl enslaved in a dragon factory in a grim fantasy-industrial world; a harsh, subversive fantasy classic."
+ },
+ "behave": {
+  "keep": true,
+  "genre": "science",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "nonfiction",
+  "title": "Behave",
+  "author": "Robert M. Sapolsky",
+  "why": "A neuroscientist traces human behaviour from a split second to evolutionary time; heavy but widely praised, even on audio."
+ },
+ "gate to womens country": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Gate to Women's Country",
+  "author": "Sheri S. Tepper",
+  "why": "In a post-apocalyptic world women run walled cities while men live apart; a provocative, discussed feminist novel."
+ },
+ "tiny beautiful things": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "hopeful",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Tiny Beautiful Things",
+  "author": "Cheryl Strayed",
+  "why": "A collection of advice-column letters answered with warmth and honesty by 'Sugar'; readers find it healing."
+ },
+ "supermarket": {
+  "keep": false,
+  "genre": "crime",
+  "mood": [
+   "tense"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Supermarket",
+  "author": "Bobby Hall",
+  "why": "Comments are split, with one reader abandoning it quickly and another praising it as a short read."
+ },
+ "yearbook": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Yearbook",
+  "author": "Seth Rogen",
+  "why": "A comedian's collection of funny stories from his life and career rather than a straight autobiography."
+ },
+ "rangers apprentice": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "adventurous",
+   "fast"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Ranger's Apprentice",
+  "author": "John Flanagan",
+  "why": "A boy apprenticed to a ranger learns spycraft and archery in a medieval-style world; a series that got many readers hooked."
+ },
+ "joyland": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "emotional",
+   "atmospheric",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Joyland",
+  "author": "Stephen King",
+  "why": "A student working at a summer amusement park investigates an old murder; readers say it made them cry."
+ },
+ "war and remembrance": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "epic",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "War and remembrance",
+  "author": "Herman Wouk",
+  "why": "Follows a family through the second half of World War II; a sprawling saga that teaches readers a great deal."
+ },
+ "authority": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "tense",
+   "atmospheric",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Authority",
+  "author": "Jeff VanderMeer",
+  "why": "Second book in the Southern Reach trilogy, following a new director of the agency studying Area X."
+ },
+ "motherless brooklyn": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "funny",
+   "tense",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Motherless Brooklyn",
+  "author": "Jonathan Lethem",
+  "why": "A detective with Tourette's syndrome tries to solve his boss's murder in Brooklyn; stylish noir."
+ },
+ "orphan masters son": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "tense",
+   "satirical"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Orphan Master's Son",
+  "author": "Adam Johnson",
+  "why": "A man rises through North Korea's brutal system; read quickly and widely praised."
+ },
+ "paris": {
+  "keep": false,
+  "genre": "memoir",
+  "mood": [
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Paris",
+  "author": "Paris Hilton",
+  "why": "Mentioned among 'rough' audiobook picks rather than as a praised book."
+ },
+ "hard times": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "thoughtful",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Hard Times",
+  "author": "Charles Dickens",
+  "why": "Dickens' short novel attacking a cold, fact-obsessed industrial town."
+ },
+ "heart goes last": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "satirical",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Heart Goes Last",
+  "author": "Margaret Atwood",
+  "why": "A couple joins a prison-sharing community in a collapsing economy; Atwood with a Black Mirror feel."
+ },
+ "city of saints and madmen": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "mind-bending",
+   "dark",
+   "atmospheric"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "City of Saints and Madmen",
+  "author": "Jeff VanderMeer",
+  "why": "Linked tales, documents and appendices from the strange city of Ambergris; weird fiction at its best."
+ },
+ "joseph and his brothers": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "epic",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Joseph and his brothers",
+  "author": "Thomas Mann",
+  "why": "Mann's retelling of the biblical story of Joseph; dense, philosophical and rich."
+ },
+ "split tooth": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "atmospheric",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Split Tooth",
+  "author": "Tanya Tagaq",
+  "why": "An Inuk throat singer's mix of memoir, myth and poetry, set in the Arctic; unusual and powerful."
+ },
+ "nevermoor": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "adventurous",
+   "cozy",
+   "funny"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Nevermoor",
+  "author": "Jessica Townsend",
+  "why": "A cursed girl finds a hidden magical city and a place in a special society; loved by younger readers."
+ },
+ "orchid thief": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "funny",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "The Orchid Thief",
+  "author": "Susan Orlean",
+  "why": "A reporter follows a flamboyant orchid hunter in Florida; a quirky and observant nonfiction classic."
+ },
+ "darkness outside us": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "tense",
+   "emotional"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Darkness Outside Us",
+  "author": "Eliot Schrefer",
+  "why": "Two rivals on a spaceship race to save the Earth and find a secret; a fast, emotional YA sci-fi."
+ },
+ "drawing of the three": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "adventurous",
+   "dark",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Drawing of the Three",
+  "author": "Stephen King",
+  "why": "Roland of the Dark Tower pulls three people from our world; the book that fans call one of the best fantasies."
+ },
+ "seven year slip": {
+  "keep": true,
+  "genre": "romance",
+  "mood": [
+   "cozy",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Seven Year Slip",
+  "author": "Ashley Poston",
+  "why": "A woman's apartment lets her meet a man across seven years; a cute and easy time-slip romance."
+ },
+ "natural beauty": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Natural Beauty",
+  "author": "Ling Ling Huang",
+  "why": "A woman working in an elite beauty-clinic discovers something unnatural; a modern horror-satire."
+ },
+ "vladimir": {
+  "keep": false,
+  "genre": "literary",
+  "mood": [
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Vladimir",
+  "author": "Julia May Jonas",
+  "why": "A campus novel of a professor's obsession; readers are split, with one calling it awful."
+ },
+ "everything i know about love": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "funny",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Everything I Know About Love",
+  "author": "Dolly Alderton",
+  "why": "A memoir on friendship, dating and growing up in your twenties; funny and relatable."
+ },
+ "nobodys fool": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "melancholic",
+   "cozy"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Nobody's Fool",
+  "author": "Richard Russo",
+  "why": "A stubborn small-town man in upstate New York; a warm, sardonic character study."
+ },
+ "teacher": {
+  "keep": false,
+  "genre": "crime",
+  "mood": [
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Teacher",
+  "author": "Freida McFadden",
+  "why": "A popular thriller, but the comments mostly criticise the writing style."
+ },
+ "hours": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "thoughtful",
+   "melancholic"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Hours",
+  "author": "Michael Cunningham",
+  "why": "Three women in different eras linked by Mrs Dalloway; a short, moving novel readers stay obsessed with."
+ },
+ "ohio": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "melancholic",
+   "atmospheric"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Ohio",
+  "author": "Stephen Markley",
+  "why": "Four former classmates return to their declining Ohio town in one night; a slow-unfolding novel about America."
+ },
+ "spillover": {
+  "keep": true,
+  "genre": "science",
+  "mood": [
+   "tense",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Spillover",
+  "author": "David Quammen",
+  "why": "Quammen tracks how animal viruses jump to humans; an informative and gripping epidemic read."
+ },
+ "ascension": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Ascension",
+  "author": "Nicholas Binge",
+  "why": "A mysterious mountain appears in the ocean, drawing a woman into its mysteries; praised even by Stephen King."
+ },
+ "seven deaths of evelyn hardcastle": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "mind-bending",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Seven Deaths of Evelyn Hardcastle",
+  "author": "Stuart Turton",
+  "why": "A man relives one day in many bodies to solve a murder; a clever, puzzle-like mystery."
+ },
+ "witchs heart": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "emotional",
+   "epic"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Witch's Heart",
+  "author": "Genevieve Gornichec",
+  "why": "A witch from Norse myth lives on in a story of love and loss; recommended retelling."
+ },
+ "house next door": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "atmospheric",
+   "dark",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The House Next Door",
+  "author": "Anne Rivers Siddons",
+  "why": "A house on a quiet street slowly ruins its occupants; a quiet haunted-house classic."
+ },
+ "science": {
+  "keep": false,
+  "genre": "science",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Bad Science",
+  "author": "Ben Goldacre",
+  "why": "The comments do not discuss this book, so the match is wrong."
+ },
+ "vampires of el norte": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "atmospheric",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Vampires of El Norte",
+  "author": "Isabel Cañas",
+  "why": "A vampire story set in 1840s Mexico, mixing romance and horror; readers praise its romance."
+ },
+ "friends lovers and the big terrible thing": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Friends, Lovers, and the Big Terrible Thing",
+  "author": "Matthew Perry",
+  "why": "The actor's honest memoir of fame and addiction; frank and moving."
+ },
+ "creep": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "funny",
+   "dark",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Creep: Accusations and Confessions",
+  "author": "Myriam Gurba",
+  "why": "Essays on the author's life, abuse and rage, with sharp humour."
+ },
+ "shake hands with the devil": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "dark",
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Shake hands with the devil",
+  "author": "Roméo Dallaire",
+  "why": "The UN commander's firsthand account of the Rwandan genocide; excellent and sobering."
+ }
+}

@@ -1,0 +1,959 @@
+{
+ "automatic noodle": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "hopeful",
+   "cozy"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Automatic Noodle",
+  "author": "Annalee Newitz",
+  "why": "A short, warm tale of robots running a noodle restaurant after an upheaval; recommended as a quick, gentle science fiction read."
+ },
+ "bean trees": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "hopeful",
+   "emotional",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Bean Trees",
+  "author": "Barbara Kingsolver",
+  "why": "A Kentucky woman drives west and ends up raising an abandoned child in Arizona; readers remember it fondly."
+ },
+ "thirteenth tale": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "atmospheric",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Thirteenth Tale",
+  "author": "Diane Setterfield",
+  "why": "A reclusive author tells a biographer her gothic family story; recommended as a compelling book-lover's mystery."
+ },
+ "still life": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "hopeful",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Still Life",
+  "author": "Sarah Winman",
+  "why": "A sprawling story of friendship and found family spanning Florence and London across decades; warm and humane."
+ },
+ "between the world and me": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Between the World and Me",
+  "author": "Ta-Nehisi Coates",
+  "why": "A letter from Coates to his teenage son about growing up Black in America; readers call it both loving and devastating."
+ },
+ "familiar": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Familiar",
+  "author": "Leigh Bardugo",
+  "why": "Comments split, and one reader says it was thin; it is not clearly recommended."
+ },
+ "havoc": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Havoc",
+  "author": "Christopher Bollen",
+  "why": "Readers mostly describe it as bewildering and unpleasant rather than recommending it."
+ },
+ "starving saints": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Starving Saints",
+  "author": "Caitlin Starling",
+  "why": "A medieval siege story mixing historical fiction, fantasy and horror; readers pick it as a dark, claustrophobic read."
+ },
+ "book": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Book",
+  "author": "Alan Watts",
+  "why": "Comments are about other books and series; this title and author do not match what readers discuss."
+ },
+ "game of thrones": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "A Game of Thrones",
+  "author": "George R. R. Martin",
+  "why": "Mentions are comparisons to an alien-civilisation SF story, not recommendations of the Martin novel."
+ },
+ "i robot": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "stories",
+  "title": "I, Robot",
+  "author": "Isaac Asimov",
+  "why": "Asimov's linked stories on robots and the Three Laws; recommended as a foundational, idea-rich classic of science fiction."
+ },
+ "whistler": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Whistler",
+  "author": "Ann Patchett",
+  "why": "Ann Patchett's new novel is praised by early readers as engrossing and easy to love, even on a long flight."
+ },
+ "strange sally diamond": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Strange Sally Diamond",
+  "author": "Liz Nugent",
+  "why": "A sheltered woman uncovers her strange past after her father's death; read in one sitting by many fans."
+ },
+ "demian": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "thoughtful",
+   "melancholic"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "Demian",
+  "author": "Hermann Hesse",
+  "why": "Hesse's coming-of-age story of self-discovery; one reader says it changed their life at seventeen."
+ },
+ "to be taught if fortunate": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "hopeful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "To Be Taught, If Fortunate",
+  "author": "Becky Chambers",
+  "why": "A short novella about astronauts studying distant worlds; a favourite for its warmth and wonder."
+ },
+ "anthem": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Anthem",
+  "author": "Ayn Rand",
+  "why": "Only mentioned as a quick read and in a call to drop it; not clearly recommended."
+ },
+ "intensity": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "tense",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Intensity",
+  "author": "Dean Koontz",
+  "why": "A woman escapes a kidnapper in a relentless chase; readers remember it as terrifying."
+ },
+ "under the dome": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "tense",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Under the Dome",
+  "author": "Stephen King",
+  "why": "A town is trapped under an invisible barrier and turns on itself; a gripping, gruesome King epic."
+ },
+ "devolution": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Devolution",
+  "author": "Max Brooks",
+  "why": "Survivors face Bigfoot after a volcano isolates their eco-community; readers found it spooky and unputdownable."
+ },
+ "some desperate glory": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Some Desperate Glory",
+  "author": "Emily Tesh",
+  "why": "A young woman raised on a militarist space station faces the truth; a Hugo-winning novel readers enjoyed."
+ },
+ "ficciones": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "stories",
+  "title": "Ficciones",
+  "author": "Jorge Luis Borges",
+  "why": "Borges's brainy short stories on labyrinths, libraries and invented worlds; recommended for mind-bending ideas."
+ },
+ "swanns way": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Swann's Way",
+  "author": "Marcel Proust",
+  "why": "Comments only mention reading it alongside other books; no clear recommendation."
+ },
+ "time and again": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Time and Again",
+  "author": "Jack Finney",
+  "why": "A man steps into 1880s New York through a secret government project; a time-travel classic readers enjoy."
+ },
+ "signature of all things": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "adventurous",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The signature of all things",
+  "author": "Elizabeth Gilbert",
+  "why": "A botanist's life across the nineteenth century, from Cook's voyages to science and love; praised and sweeping."
+ },
+ "traitor baru cormorant": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Traitor Baru Cormorant (Baru Cormorant #1)",
+  "author": "Seth Dickinson",
+  "why": "A gifted accountant infiltrates an empire to bring it down; recommended as political fantasy with painful choices."
+ },
+ "fall of hyperion": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "epic",
+   "mind-bending"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Fall of Hyperion",
+  "author": "Dan Simmons",
+  "why": "The conclusion of Simmons's Hyperion story, about AI and the fate of humanity; recommended alongside the first book."
+ },
+ "thousand autumns of jacob de zoet": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "epic",
+   "atmospheric"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Thousand Autumns of Jacob de Zoet",
+  "author": "David Mitchell",
+  "why": "A Dutch clerk at Dejima in 1799 Japan; an epic readers value for its richness."
+ },
+ "franny and zooey": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "thoughtful",
+   "emotional"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Franny and Zooey",
+  "author": "J. D. Salinger",
+  "why": "Salinger's pair of stories about a troubled family and spiritual crisis; one reader calls it a favourite."
+ },
+ "clan of the cave bear": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Clan of the Cave Bear",
+  "author": "Jean M. Auel",
+  "why": "A Cro-Magnon girl raised by Neanderthals in prehistoric Europe; the first of a six-book series, recommended for immersive reading."
+ },
+ "fight club": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Fight Club",
+  "author": "Chuck Palahniuk",
+  "why": "Comments split, with readers calling it a mistake to start with; not clearly recommended."
+ },
+ "throne of glass": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Throne of Glass",
+  "author": "Sarah J. Maas",
+  "why": "Reader says they did not hate it but did not like it much; not clearly recommended."
+ },
+ "if you tell": {
+  "keep": true,
+  "genre": "other",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "If You Tell",
+  "author": "Gregg Olsen",
+  "why": "A true-crime account of three sisters abused by their mother; readers say it is horrifying and hard to put down."
+ },
+ "passing": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "thoughtful",
+   "dark"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Passing",
+  "author": "Nella Larsen",
+  "why": "Two light-skinned Black women meet again in 1920s Harlem and one passes as white; a short, tense classic."
+ },
+ "godfather": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Godfather",
+  "author": "Mario Puzo",
+  "why": "The title only appears in a list, with no real recommendation in the comments."
+ },
+ "brothers k": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "funny"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The brothers K",
+  "author": "David James Duncan",
+  "why": "A family saga mixing religion, baseball and the Vietnam War in the Pacific Northwest; loved by those who read it."
+ },
+ "culture": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Culture",
+  "author": "Iain Banks",
+  "why": "This is a whole series, not a single book, and the author and title entry does not match a real work."
+ },
+ "unwind": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "tense",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Unwind",
+  "author": "Neal Shusterman",
+  "why": "In a world where teens can be harvested, three runaways try to survive; a quick, unsettling YA read."
+ },
+ "all the kings men": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "dark",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "All the King's Men",
+  "author": "Robert Penn Warren",
+  "why": "A journalist works for a populist Southern governor; a Pulitzer-winning novel about power and corruption."
+ },
+ "hogfather": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Hogfather",
+  "author": "Terry Pratchett",
+  "why": "Death takes over the Hogfather's job in a Discworld story about belief and what makes us human."
+ },
+ "leviathan wakes": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "tense",
+   "fast"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Leviathan Wakes",
+  "author": "James S. A. Corey",
+  "why": "A detective and a ship's officer chase a conspiracy across the solar system; a fast start to the Expanse series."
+ },
+ "persepolis": {
+  "keep": true,
+  "genre": "graphic",
+  "mood": [
+   "emotional",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "graphic",
+  "title": "Persepolis",
+  "author": "Marjane Satrapi",
+  "why": "A graphic memoir of growing up in Iran during revolution and war; readers praise its honesty and humour."
+ },
+ "maus": {
+  "keep": true,
+  "genre": "graphic",
+  "mood": [
+   "dark",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "graphic",
+  "title": "Maus",
+  "author": "Art Spiegelman",
+  "why": "Spiegelman's graphic memoir of his father's Holocaust survival with mice as characters; widely recommended as essential."
+ },
+ "ruins": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Ruins",
+  "author": "Scott Smith",
+  "why": "Tourists trapped on a jungle hill face a malign plant; readers found it so intense they had to skip pages."
+ },
+ "art of racing in the rain": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Art of Racing in the Rain",
+  "author": "Garth Stein",
+  "why": "A dog narrates his racing driver owner's life and family troubles; a tearjerker readers love."
+ },
+ "buddenbrooks": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "melancholic",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Buddenbrooks",
+  "author": "Thomas Mann",
+  "why": "Mann's family saga of a German merchant dynasty in decline; recommended for readers wanting a long classic."
+ },
+ "fevre dream": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "atmospheric",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Fevre Dream",
+  "author": "George R. R. Martin",
+  "why": "Vampires on a Mississippi steamboat in the 1850s; recommended as a rich, Twain-flavoured Gothic horror."
+ },
+ "touching the void": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "tense",
+   "emotional"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Touching the void",
+  "author": "Joe Simpson",
+  "why": "Joe Simpson's true story of surviving a fall in the Andes; readers call it suspenseful, tragic and almost unbelievable."
+ },
+ "everyone in this room will someday be dead": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "melancholic"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Everyone in This Room Will Someday Be Dead",
+  "author": "Emily Austin",
+  "why": "An anxious, atheist woman takes a job at a church; readers love its dark humour and heart."
+ },
+ "till we have faces": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "thoughtful",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Till We Have Faces",
+  "author": "C. S. Lewis",
+  "why": "Lewis's retelling of Cupid and Psyche through a jealous sister, very different from Narnia."
+ },
+ "moonstone": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Moonstone",
+  "author": "Wilkie Collins",
+  "why": "A Victorian novel about a stolen diamond, often called the first detective story; readers find it engrossing."
+ },
+ "holly": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Holly",
+  "author": "Stephen King",
+  "why": "One reader says they lost interest halfway through; not clearly recommended."
+ },
+ "joy luck club": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Joy Luck Club",
+  "author": "Amy Tan",
+  "why": "Four Chinese-American mothers and daughters share their stories; readers recommend it for multi-generational family drama."
+ },
+ "elder race": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "fast"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Elder Race",
+  "author": "Adrian Tchaikovsky",
+  "why": "A short mix of fantasy and science fiction about a lonely sorceress and an outsider; quick and strong."
+ },
+ "light brigade": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Light Brigade",
+  "author": "Kameron Hurley",
+  "why": "A soldier relives the same war in broken time; fans praise its anti-militarist edge, though some found it hard to follow."
+ },
+ "satanic verses": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "satirical"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Satanic Verses",
+  "author": "Salman Rushdie",
+  "why": "Rushdie's magical-realist novel about two Indian actors, famous for the fatwa; dense but highly regarded."
+ },
+ "rise and fall of the third reich": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "thoughtful",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "nonfiction",
+  "title": "The Rise and Fall of the Third Reich",
+  "author": "William L. Shirer",
+  "why": "Shirer's massive account of Nazi Germany; readers treat it as a classic and parallel for modern times."
+ },
+ "player piano": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "satirical",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Player Piano",
+  "author": "Kurt Vonnegut",
+  "why": "Vonnegut's debut imagines a society run by machines and engineers; praised as a satirical, humane dystopia."
+ },
+ "2 deaths of evelyn hardcastle": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "mind-bending",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The 7 1/2 Deaths of Evelyn Hardcastle",
+  "author": "Stuart Turton",
+  "why": "A man relives one day in different bodies to solve a murder at a country house; a puzzle readers enjoy."
+ },
+ "eyes and the impossible": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "hopeful",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Eyes and the Impossible",
+  "author": "Dave Eggers",
+  "why": "A free-roaming dog narrates his days in a park; a great new, warm, adventurous read for both kids and adults."
+ },
+ "heart the lover": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Heart the Lover",
+  "author": "Lily King",
+  "why": "A love-triangle story spanning college days and later life; called really great, moving and an easy read."
+ },
+ "walden": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Walden",
+  "author": "Henry David Thoreau",
+  "why": "One reader calls it obnoxious and pretentious, and the other only mentions reading it."
+ },
+ "horrorstor": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "funny",
+   "tense"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Horrorstör",
+  "author": "Grady Hendrix",
+  "why": "A haunted IKEA-style store where staff face a night shift of horrors; a wild, funny and chaotic ride."
+ },
+ "olive kitteridge": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Olive Kitteridge",
+  "author": "Elizabeth Strout",
+  "why": "Readers are split; one calls it perfect, another loathed its depressing tone."
+ },
+ "years of rice and salt": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "epic",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The years of rice and salt",
+  "author": "Kim Stanley Robinson",
+  "why": "An alternate history where Europe's plague wiped out nearly everyone and the world went another way; ambitious and sweeping."
+ },
+ "buckeye": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Buckeye",
+  "author": "Patrick Ryan",
+  "why": "Mentioned only as being started, with no real recommendation."
+ },
+ "wellness": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "satirical",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Wellness",
+  "author": "Nathan Hill",
+  "why": "A satirical novel about a marriage and modern obsessions with health; one reader rated it ten out of ten."
+ },
+ "kraken": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Kraken",
+  "author": "China Miéville",
+  "why": "Readers split between loving the author and losing interest in this book."
+ },
+ "treasure island": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "adventurous",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Treasure Island",
+  "author": "Robert Louis Stevenson",
+  "why": "A boy joins a pirate treasure hunt; a not-heavy adventure classic recommended as a great story."
+ },
+ "history of love": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The History of Love",
+  "author": "Nicole Krauss",
+  "why": "An old man and a girl are tied together by a lost manuscript; readers go back to it repeatedly."
+ },
+ "tommyknockers": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Tommyknockers",
+  "author": "Stephen King",
+  "why": "A small town is changed by a buried spacecraft; fun sci-fi horror from King."
+ }
+}

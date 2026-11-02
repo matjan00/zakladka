@@ -1,0 +1,1009 @@
+{
+ "as you wish": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "funny",
+   "cozy"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "As you wish",
+  "author": "Cary Elwes",
+  "why": "Behind-the-scenes stories of making The Princess Bride, told warmly by one of its stars; a light, fun read for fans."
+ },
+ "silence of the lambs": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Silence of the Lambs",
+  "author": "Thomas Harris",
+  "why": "An FBI trainee consults jailed Hannibal Lecter to catch a serial killer; a gripping, chilling thriller."
+ },
+ "fates and furies": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "thoughtful",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Fates and Furies",
+  "author": "Lauren Groff",
+  "why": "A marriage told from the husband's side and then the wife's; readers praise its compelling prose and twists."
+ },
+ "nine billion names of god": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "stories",
+  "title": "The Nine Billion Names of God",
+  "author": "Arthur C. Clarke",
+  "why": "A short story about monks and a computer with a great final line; readers call it amazing."
+ },
+ "dust": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "tense",
+   "dark",
+   "bleak"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Dust",
+  "author": "Hugh Howey",
+  "why": "Final volume of the Silo trilogy, where the survivors face the truth about their world; a gripping dystopian read."
+ },
+ "extremely loud and incredibly close": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Extremely Loud and Incredibly Close",
+  "author": "Jonathan Safran Foer",
+  "why": "A nine-year-old wanders New York after losing his father on 9/11; inventive and moving, though some find it twee."
+ },
+ "packing for mars": {
+  "keep": true,
+  "genre": "science",
+  "mood": [
+   "funny",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Packing for Mars",
+  "author": "Mary Roach",
+  "why": "A witty, informative look at the odd realities of human life in space; a Mary Roach favourite."
+ },
+ "sure ill join your cult": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "funny",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Sure, I'll Join Your Cult",
+  "author": "Maria Bamford",
+  "why": "A comedian's honest, funny memoir about mental illness and recovery."
+ },
+ "hotel new hampshire": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "dark",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Hotel New Hampshire",
+  "author": "John Irving",
+  "why": "An eccentric family and its misfortunes across years and countries; a classic Irving mix of comedy and tragedy."
+ },
+ "marriage portrait": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "atmospheric",
+   "tense",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Marriage Portrait",
+  "author": "Maggie O'Farrell",
+  "why": "A young Renaissance duchess suspects her husband plans to kill her; vivid, though some like it less than Hamnet."
+ },
+ "forsyte saga": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "epic",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Forsyte Saga (The Man of Property / Indian Summer of a Forsyte / In Chancery / Awakening / To Let)",
+  "author": "John Galsworthy",
+  "why": "A long family saga of an English upper-class family; a Nobel-winning author's classic portrait of possession and society."
+ },
+ "pull of the stars": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Pull of the Stars",
+  "author": "Emma Donoghue",
+  "why": "Three days in a Dublin maternity ward during the 1918 flu; moving, with a sharp sense of the era."
+ },
+ "freshwater": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "emotional",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Freshwater",
+  "author": "Akwaeke Emezi",
+  "why": "An autobiographical novel narrated by the multiple spirits within a young Nigerian woman; strange, intense and loved by readers."
+ },
+ "city the city": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "tense",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The City & The City",
+  "author": "China Miéville",
+  "why": "A detective investigates a murder in two cities occupying the same space; a clever, weird mystery."
+ },
+ "doctor zhivago": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "epic",
+   "emotional",
+   "melancholic"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Doctor Zhivago",
+  "author": "Boris Pasternak",
+  "why": "A doctor-poet's life and love through the Russian Revolution; a banned Nobel-winning classic."
+ },
+ "land remembered": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "epic",
+   "emotional",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "A Land Remembered",
+  "author": "Patrick D. Smith",
+  "why": "Three generations of a Florida pioneer family; a beloved state classic for many readers."
+ },
+ "dragon slippers": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "cozy",
+   "adventurous",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Dragon Slippers",
+  "author": "Jessica Day George",
+  "why": "A girl uses magical slippers and dragons to escape a bad fate; a charming childhood favourite."
+ },
+ "spares": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Spares",
+  "author": "Michael Marshall Smith",
+  "why": "A noir-tinged near-future about clones kept as spare body parts; recommended as a darker, strong read."
+ },
+ "anna karenina by leo tolstoy": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "emotional",
+   "thoughtful",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Anna Karenina",
+  "author": "Leo Tolstoy",
+  "why": "A married woman's affair and the lives around her in imperial Russia; a classic readers happily reread."
+ },
+ "heartwood": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "tense",
+   "atmospheric",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Heartwood",
+  "author": "Amity Gaige",
+  "why": "A search for a missing hiker on the Appalachian Trail, told through several women's lives; readers find it absorbing."
+ },
+ "play it as it lays": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "bleak",
+   "melancholic",
+   "dark"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Play It as It Lays",
+  "author": "Joan Didion",
+  "why": "A numb Hollywood actress drifts through emptiness and despair; spare, haunting and highly praised."
+ },
+ "bubblegum": {
+  "keep": false,
+  "genre": "literary",
+  "mood": [
+   "mind-bending"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Bubblegum",
+  "author": "Adam Levin",
+  "why": "Readers disagree, with one enjoying the self-indulgent style and another finding it mid, so no clear recommendation."
+ },
+ "metamorphosis of prime intellect": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "mind-bending"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Metamorphosis of Prime Intellect",
+  "author": "Roger Williams",
+  "why": "An all-powerful AI grants immortality and reshapes human life; a disturbing online cult classic."
+ },
+ "mill on the floss": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Mill on the Floss",
+  "author": "George Eliot",
+  "why": "A sister and brother grow up in a rural English community; readers are in awe of Eliot's depth."
+ },
+ "another roadside attraction": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "mind-bending",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Another roadside attraction",
+  "author": "Tom Robbins",
+  "why": "A quirky tale of hippies and a roadside zoo that find a stolen mummy; playful, witty and unconventional."
+ },
+ "woom": {
+  "keep": false,
+  "genre": "horror",
+  "mood": [
+   "dark"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Woom",
+  "author": "Duncan Ralston",
+  "why": "A very graphic horror novella that readers found queasy and disliked."
+ },
+ "even cowgirls get the blues": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "adventurous",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Even Cowgirls Get the Blues",
+  "author": "Tom Robbins",
+  "why": "A hitchhiking woman with giant thumbs joins a ranch of cowgirls; a funny, wild counterculture novel."
+ },
+ "this tender land": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "adventurous",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "This Tender Land",
+  "author": "William Kent Krueger",
+  "why": "Orphans flee a boarding school and travel a river during the Depression; a warm, adventurous story."
+ },
+ "time travellers wife": {
+  "keep": true,
+  "genre": "romance",
+  "mood": [
+   "emotional",
+   "melancholic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Time Traveler's Wife",
+  "author": "Audrey Niffenegger",
+  "why": "A man involuntarily travels in time and loves the woman he keeps meeting; it makes readers cry."
+ },
+ "this perfect day": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "tense",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "This Perfect Day",
+  "author": "Ira Levin",
+  "why": "In a perfectly controlled dystopia, one man starts to question everything; a clever thriller by the Rosemary's Baby author."
+ },
+ "emily wildes encyclopaedia of faeries": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "cozy",
+   "hopeful",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Emily Wilde's Encyclopaedia of Faeries",
+  "author": "Heather Fawcett",
+  "why": "A grumpy scholar studies faeries in a remote village; a cozy, charming fantasy that readers say pulls them out of slumps."
+ },
+ "fools errand": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "emotional",
+   "epic",
+   "melancholic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Fool's Errand",
+  "author": "Robin Hobb",
+  "why": "The retired royal assassin Fitz is pulled back into court intrigue; a favourite among Robin Hobb fans."
+ },
+ "alone": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Alone",
+  "author": "Edgar Allan Poe",
+  "why": "The comments recommend different books with this name; it does not match the listed author or any clear recommendation."
+ },
+ "sing unburied sing": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "emotional",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Sing, Unburied, Sing",
+  "author": "Jesmyn Ward",
+  "why": "A family road trip in Mississippi haunted by ghosts and racism; painful but powerful."
+ },
+ "middlemarch by george eliot": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "thoughtful",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Middlemarch",
+  "author": "George Eliot",
+  "why": "A sweeping portrait of a provincial English town and the lives in it; a famous classic of the Victorian novel."
+ },
+ "murder on the orient express": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "fast",
+   "atmospheric"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Murder on the Orient Express",
+  "author": "Agatha Christie",
+  "why": "Poirot investigates a murder on a snowbound train; a classic puzzle mystery with a famous twist."
+ },
+ "random family": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "bleak",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Random Family",
+  "author": "Adrian Nicole LeBlanc",
+  "why": "A reporter follows a Bronx family over a decade with intimate detail; readers say it is so good they wish to read it again."
+ },
+ "shirley": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Shirley",
+  "author": "Charlotte Brontë",
+  "why": "Charlotte Brontë's novel of industrial unrest and women's roles in Yorkshire; slower and less popular than Jane Eyre but interesting."
+ },
+ "raptor red": {
+  "keep": true,
+  "genre": "science",
+  "mood": [
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Raptor Red",
+  "author": "Robert T. Bakker",
+  "why": "A year in the life of a raptor dinosaur, told as a novel by a palaeontologist."
+ },
+ "climb": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "tense",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "The Climb",
+  "author": "Anatoli Boukreev",
+  "why": "A guide's account of the 1996 Everest disaster, offering a different view from Into Thin Air."
+ },
+ "broken sword": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "epic"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Broken Sword",
+  "author": "Poul Anderson",
+  "why": "A Norse-inflected fantasy of elves, trolls and a cursed changeling; influential and grim."
+ },
+ "god emperor of dune": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "mind-bending",
+   "epic"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "God Emperor of Dune",
+  "author": "Frank Herbert",
+  "why": "Thousands of years later, Leto rules Dune as a tyrant; philosophical and divisive, fans find it fascinating."
+ },
+ "market forces": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "tense",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Market Forces",
+  "author": "Richard K. Morgan",
+  "why": "Corporate executives settle deals with road-duels in a brutal near future; a savage satire from Richard Morgan."
+ },
+ "strange case of dr jekyll and mr hyde": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Strange Case of Dr Jekyll and Mr Hyde",
+  "author": "Robert Louis Stevenson",
+  "why": "A respectable doctor's experiment unleashes his violent double; a short classic of Victorian horror."
+ },
+ "maia": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "adventurous",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Maia",
+  "author": "Richard Adams",
+  "why": "A long, lush tale set in the same world as Shardik, following a servant girl; loved by a small group of readers."
+ },
+ "burning chrome": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "atmospheric",
+   "fast"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "stories",
+  "title": "Burning Chrome",
+  "author": "William Gibson",
+  "why": "Gibson's cyberpunk short stories, including the origins of the Sprawl; stylish and influential."
+ },
+ "book of lost things": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "emotional",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The book of lost things",
+  "author": "John Connolly",
+  "why": "A grieving boy enters a dark fairy-tale world; known for a deeply moving ending."
+ },
+ "changeling": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "tense",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Changeling",
+  "author": "Victor D. LaValle",
+  "why": "A new father is pulled into a fairy-tale nightmare after a terrible event; readers couldn't put it down."
+ },
+ "wishful drinking": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "funny"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Wishful Drinking",
+  "author": "Carrie Fisher",
+  "why": "Carrie Fisher's witty, candid account of fame, addiction and bipolar disorder; readers find it hilarious."
+ },
+ "slade house": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "tense",
+   "dark",
+   "atmospheric"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Slade House",
+  "author": "David Mitchell",
+  "why": "Every nine years, a visitor to a strange house in a small alley disappears; a creepy, quick haunted-house read."
+ },
+ "journey to the center of the earth": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "adventurous"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Journey to the Center of the Earth",
+  "author": "Jules Verne",
+  "why": "A professor and his nephew climb down a volcano to the Earth's core; a classic adventure."
+ },
+ "last picture show": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "melancholic",
+   "bleak"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Last Picture Show",
+  "author": "Larry McMurtry",
+  "why": "Teenagers grow up in a dying Texas town in the 1950s; spare, bittersweet and sometimes uncomfortable."
+ },
+ "maniac": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "dark",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "The MANIAC",
+  "author": "Benjamín Labatut",
+  "why": "A fictionalised life of John von Neumann and the origins of modern computing and AI; fascinating and unsettling."
+ },
+ "underland": {
+  "keep": true,
+  "genre": "science",
+  "mood": [
+   "atmospheric",
+   "thoughtful",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Underland",
+  "author": "Robert Macfarlane",
+  "why": "A writer explores the worlds beneath the earth, from caves to nuclear tombs, blending science and myth."
+ },
+ "molloy": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "bleak",
+   "mind-bending",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Molloy",
+  "author": "Samuel Beckett",
+  "why": "Two broken narrators go in search of each other and their mother; experimental, with long unbroken paragraphs."
+ },
+ "birds": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "tense",
+   "dark"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "stories",
+  "title": "The Birds",
+  "author": "Daphne du Maurier",
+  "why": "A short, eerie story of birds attacking a Cornish farming family; the basis for the Hitchcock film."
+ },
+ "witches abroad": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Witches Abroad",
+  "author": "Terry Pratchett",
+  "why": "Discworld witches travel to stop a fairy godmother's story; a funny parody of fairy tales."
+ },
+ "book of three": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "adventurous",
+   "cozy"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Book of Three",
+  "author": "Lloyd Alexander",
+  "why": "An assistant pig-keeper joins a quest against evil in a Welsh-inspired world; a children's fantasy classic."
+ },
+ "american kingpin": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "tense",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "American Kingpin",
+  "author": "Nick Bilton",
+  "why": "The story of the Silk Road dark-net market and its creator, told like a thriller; praised as top non-fiction storytelling."
+ },
+ "tell me everything": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Tell Me Everything",
+  "author": "Elizabeth Strout",
+  "why": "The comments mention it for other authors and books, so the match with Elizabeth Strout is unclear."
+ },
+ "land of stories": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "cozy",
+   "adventurous",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Land of Stories: The Wishing Spell",
+  "author": "Chris Colfer",
+  "why": "Twins fall into a fairy-tale world in this children's series; easy and enjoyable."
+ },
+ "birdsong": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "dark",
+   "bleak"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Birdsong",
+  "author": "Sebastian Faulks",
+  "why": "A love story in pre-war France that turns into the horror of the trenches; devastating and unforgettable."
+ },
+ "marrow": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "epic",
+   "mind-bending",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Marrow",
+  "author": "Robert Reed",
+  "why": "Explorers aboard a vast alien starship are trapped in a mystery with immortal crew; fans love its big ideas."
+ },
+ "equal rites": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Equal Rites",
+  "author": "Terry Pratchett",
+  "why": "A girl born a wizard in a world where only men can be; a funny early Discworld story."
+ },
+ "go between": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "melancholic",
+   "atmospheric",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Go-Between",
+  "author": "L. P. Hartley",
+  "why": "A boy delivers secret letters between lovers one hot summer; an elegant story of lost innocence."
+ },
+ "small mercies": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "dark",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Small Mercies",
+  "author": "Dennis Lehane",
+  "why": "A Boston mother searches for her daughter during the 1974 busing crisis; a gripping crime novel."
+ },
+ "desperation": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "tense",
+   "dark",
+   "fast"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Desperation",
+  "author": "Stephen King",
+  "why": "Travelers are trapped in a Nevada mining town ruled by an evil cop; readers say it pulled them in for days."
+ },
+ "pawn of prophecy": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "adventurous",
+   "cozy"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Pawn of Prophecy",
+  "author": "David Eddings",
+  "why": "A farm boy sets out on a classic quest; simple, predictable, comforting fun."
+ },
+ "into the drowning deep": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "tense",
+   "dark",
+   "fast"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Into the Drowning Deep",
+  "author": "Mira Grant",
+  "why": "A scientific expedition finds deadly mermaids; a quick and gory sea-monster thriller."
+ },
+ "help": {
+  "keep": false,
+  "genre": "historical",
+  "mood": [
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Help",
+  "author": "Kathryn Stockett",
+  "why": "A popular book, but the comments mostly note it is disliked or controversial, so it is no clear recommendation."
+ }
+}

@@ -11,6 +11,7 @@ export const TABS = [
   ['polka', 'Półka', 'shelf'],
   ['sesja', 'Sesja', 'timer'],
   ['cytaty', 'Cytaty', 'quote'],
+  ['odkrywaj', 'Odkrywaj', 'compass'],
   ['statystyki', 'Statystyki', 'stats'],
 ];
 
@@ -25,6 +26,7 @@ export const ROUTES = {
   // ---- placeholders: later builders replace `load` with their own module ----
   sesja: { tab: 'sesja', title: 'Sesja', load: () => import('./session.js') }, // timer & sessions (#/sesja?book=<id>)
   cytaty: { tab: 'cytaty', title: 'Cytaty', load: () => import('./quotes.js') }, // quotes, OCR, Kindle import (#/cytaty?book=<id>)
+  odkrywaj: { tab: 'odkrywaj', title: 'Odkrywaj', load: () => import('./discover.js') }, // Reddit recommendations (data/books.json)
   statystyki: { tab: 'statystyki', title: 'Statystyki', load: () => import('./stats.js') },
   'co-dalej': { tab: 'start', title: 'Co dalej?', load: () => import('./next.js') },
   biblioteka: { tab: 'polka', title: 'Biblioteka w Nekli', load: () => import('./library.js') },

@@ -1,0 +1,973 @@
+{
+ "lions of al rassan": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The lions of Al-Rassan",
+  "author": "Guy Gavriel Kay",
+  "why": "A medieval-Spain-inspired world of three peoples, a tale of war, friendship and honour that readers call magnificent."
+ },
+ "blacktongue thief": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "adventurous",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Blacktongue Thief",
+  "author": "Christopher Buehlman",
+  "why": "A thief and a knight travel a grim world with sharp humour and gore; the author-read audiobook has readers laughing aloud."
+ },
+ "mountain in the sea": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Mountain in the Sea",
+  "author": "Ray Nayler",
+  "why": "A near-future story of contact with an intelligent octopus, a hacker and ethics; full of ideas that stay with readers."
+ },
+ "sky daddy": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Sky Daddy",
+  "author": "Kate Folk",
+  "why": "A strange, funny novel about a woman who falls for aircraft; absurd but sharp about modern dating."
+ },
+ "one": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "fast",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The One",
+  "author": "John Marrs",
+  "why": "A near-future thriller where a DNA test matches you to your soulmate; readers were hooked from page one."
+ },
+ "killer angels": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "tense",
+   "epic"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Killer Angels",
+  "author": "Michael Shaara",
+  "why": "The Battle of Gettysburg through the eyes of its generals, a Pulitzer-winning war novel that works even for readers who avoid war fiction."
+ },
+ "beautyland": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Beautyland",
+  "author": "Marie-Helene Bertino",
+  "why": "A strange, tender novel about a girl who believes she is an alien; sublime despite its odd premise."
+ },
+ "lamb the gospel according to biff christs childhood pal": {
+  "keep": true,
+  "genre": "humour",
+  "mood": [
+   "funny",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Lamb: The Gospel According to Biff, Christ's Childhood Pal",
+  "author": "Christopher Moore",
+  "why": "The missing years of Jesus told by his best friend, with irreverent humour; readers say it hooks from the start."
+ },
+ "angle of repose": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "thoughtful",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Angle of repose",
+  "author": "Wallace Stegner",
+  "why": "A retired historian pieces together his grandparents' pioneering life in the American West; slow, rich and rewarding."
+ },
+ "castle": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "bleak",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Castle",
+  "author": "Franz Kafka",
+  "why": "A surveyor tries to reach a castle's authorities in endless red tape; odd, funny and full of dread."
+ },
+ "burial rites": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "bleak",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Burial Rites",
+  "author": "Hannah Kent",
+  "why": "A woman awaits execution in 19th-century Iceland, told in beautiful prose; readers recommend anything by Kent."
+ },
+ "prophet": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Prophet",
+  "author": "Kahlil Gibran",
+  "why": "Not a clear recommendation of this book."
+ },
+ "trees": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Trees",
+  "author": "Percival L. Everett",
+  "why": "Not a clear recommendation of this book."
+ },
+ "parable of the talents": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Parable of the Talents",
+  "author": "Octavia E. Butler",
+  "why": "Butler's grim sequel about a religious fascist America and a prophet's family; not enjoyable but powerful and chillingly relevant."
+ },
+ "exquisite corpse": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "bleak"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Exquisite Corpse",
+  "author": "Poppy Z. Brite",
+  "why": "A serial killer story that is lyrical and gruesome; a one-sitting read that stays in the mind."
+ },
+ "open throat": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "mind-bending"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Open Throat",
+  "author": "Henry Hoke",
+  "why": "A mountain lion narrates a short, strange, poetic novel; readers say it is really good if you accept its vision."
+ },
+ "little friend": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Little Friend",
+  "author": "Donna Tartt",
+  "why": "Not a clear recommendation of this book."
+ },
+ "pushing ice": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Pushing Ice",
+  "author": "Alastair Reynolds",
+  "why": "Humans pursue an alien object across deep space and time; the timescales stay in readers' minds for years."
+ },
+ "luminaries": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "tense",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Luminaries",
+  "author": "Eleanor Catton",
+  "why": "A gold-rush mystery structured by astrology in 1860s New Zealand; long, intricate and absorbing."
+ },
+ "fear and loathing in las vegas": {
+  "keep": true,
+  "genre": "humour",
+  "mood": [
+   "funny",
+   "dark"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Fear and Loathing in Las Vegas",
+  "author": "Hunter S. Thompson",
+  "why": "A drug-fuelled road trip through Nevada, wildly funny and famously chaotic; a cult classic."
+ },
+ "island of the blue dolphins": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "adventurous",
+   "hopeful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Island of the Blue Dolphins",
+  "author": "Scott O’Dell",
+  "why": "A girl survives alone on an island for years; a short children's survival classic readers recommend."
+ },
+ "killers of the flower moon": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "tense",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Killers of the Flower Moon",
+  "author": "David Grann",
+  "why": "The true crime story of the murders of Osage people for their oil wealth, told like a thriller."
+ },
+ "deadly education": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "A Deadly Education",
+  "author": "Naomi Novik",
+  "why": "A cynical girl survives a deadly magical school; fast, sharp and ironic."
+ },
+ "passenger": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Passenger",
+  "author": "Cormac McCarthy",
+  "why": "A salvage diver, a missing passenger and a haunted sister; a tough, odd novel for devoted McCarthy readers."
+ },
+ "separate peace": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "A Separate Peace",
+  "author": "John Knowles",
+  "why": "Not a clear recommendation of this book."
+ },
+ "horse": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Horse",
+  "author": "Geraldine Brooks",
+  "why": "A racehorse's story links centuries of American history and art; remembered long after finishing."
+ },
+ "gateway": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "adventurous",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Gateway",
+  "author": "Frederik Pohl",
+  "why": "A prospector gambles on alien-made ships and is haunted by guilt; a classic of classic space SF."
+ },
+ "revival": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "emotional",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Revival",
+  "author": "Stephen King",
+  "why": "A preacher, a fixation on electricity and the dark where it leads; its final pages impress its fans."
+ },
+ "borne": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "atmospheric",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Borne",
+  "author": "Jeff VanderMeer",
+  "why": "A scavenger finds a living creature in a ruined city ruled by a giant bear; weird, atmospheric and beloved."
+ },
+ "all quiet on the western front": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "bleak",
+   "emotional"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "All Quiet on the Western Front",
+  "author": "Erich Maria Remarque",
+  "why": "A German soldier's view of the First World War; bleak, human and timeless anti-war writing."
+ },
+ "unconsoled": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Unconsoled",
+  "author": "Kazuo Ishiguro",
+  "why": "A pianist arrives in a town where the logic is dream-like; slow, strange and demanding Ishiguro."
+ },
+ "shades of grey": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Shades of Grey",
+  "author": "Jasper Fforde",
+  "why": "A colour-ruled caste society in a strange future Britain; funny, inventive and clever."
+ },
+ "bone clocks": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Bone Clocks",
+  "author": "David Mitchell",
+  "why": "A woman's life tangled with a secret war of immortals across decades; sprawling and ambitious."
+ },
+ "deluge": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Deluge",
+  "author": "Stephen Markley",
+  "why": "A near-future climate collapse seen from many angles and characters; a heavy, long novel that readers call a favourite."
+ },
+ "wind and truth": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Wind and Truth",
+  "author": "Brandon Sanderson",
+  "why": "Not a clear recommendation of this book."
+ },
+ "redwall": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "adventurous",
+   "cozy"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Redwall",
+  "author": "Brian Jacques",
+  "why": "Mice defend their abbey from a rat warlord in a classic animal adventure with feasts and bravery."
+ },
+ "age of innocence": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "melancholic",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Age of Innocence",
+  "author": "Edith Wharton",
+  "why": "A lawyer is torn between a proper fiancee and a forbidden love in Gilded Age New York."
+ },
+ "land": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Land",
+  "author": "Maggie O'Farrell",
+  "why": "Not a clear recommendation of this book."
+ },
+ "anne of green gables": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "cozy",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Anne of Green Gables",
+  "author": "Lucy Maud Montgomery",
+  "why": "An imaginative orphan finds a home on Prince Edward Island; a gentle, funny children's classic."
+ },
+ "americanah": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "thoughtful",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Americanah",
+  "author": "Chimamanda Ngozi Adichie",
+  "why": "A Nigerian woman's love story across Lagos, America and Britain; sharp on race and identity."
+ },
+ "last samurai": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "funny"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Last Samurai",
+  "author": "Helen Dewitt",
+  "why": "A single mother raises a genius son by teaching him languages; clever, odd and brilliant."
+ },
+ "immense world": {
+  "keep": true,
+  "genre": "science",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "An Immense World",
+  "author": "Ed Yong",
+  "why": "A tour through how animals sense the world, with creatures' strange perception; readers say it breaks the human-centred view."
+ },
+ "augustus": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "thoughtful",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Augustus",
+  "author": "John Williams",
+  "why": "The life of the Roman emperor told in letters and documents; praised as Williams's best."
+ },
+ "six of crows": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "adventurous",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Six of Crows",
+  "author": "Leigh Bardugo",
+  "why": "A crew of misfits plans an impossible heist in a fantasy city; described as Ocean's Eleven with magic."
+ },
+ "madame bovary": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "bleak",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Madame Bovary",
+  "author": "Gustave Flaubert",
+  "why": "A bored provincial wife's romantic delusions lead to ruin; the standard realist novel."
+ },
+ "empire of the vampire": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "fast"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Empire of the Vampire",
+  "author": "Jay Kristoff",
+  "why": "A vampire-hunter tells his life to a historian in a grim world of monsters; a long book readers can't put down."
+ },
+ "snow child": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Snow Child",
+  "author": "Eowyn Ivey",
+  "why": "Not a clear recommendation of this book."
+ },
+ "zen and the art of motorcycle maintenance": {
+  "keep": true,
+  "genre": "philosophy",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "nonfiction",
+  "title": "Zen and the Art of Motorcycle Maintenance",
+  "author": "Robert M. Pirsig",
+  "why": "A motorcycle trip and an inquiry into quality; layered and philosophical, with many readers re-reading it."
+ },
+ "world war z": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "tense",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "World War Z",
+  "author": "Max Brooks",
+  "why": "A series of interviews tell the story of a zombie war; clever, global and shaped like an oral history."
+ },
+ "heroes": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "funny"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Heroes",
+  "author": "Joe Abercrombie",
+  "why": "One bloody battle fought in a few days, with grim comedy and well-drawn soldiers; fans love its brutality."
+ },
+ "talisman": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "adventurous",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The talisman",
+  "author": "Stephen King and Peter Straub",
+  "why": "A boy crosses America and a parallel world to save his dying mother; a King and Straub team-up."
+ },
+ "big swiss": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Big Swiss",
+  "author": "Jen Beagin",
+  "why": "A phone-sex operator listens to a woman's therapy sessions; hilarious, wild and sexual."
+ },
+ "train dreams": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "melancholic",
+   "atmospheric"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Train dreams",
+  "author": "Denis Johnson",
+  "why": "A railway worker's life in the early American West, short and lyrical; one reader found it underwhelming."
+ },
+ "diamond age": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "adventurous",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Diamond Age",
+  "author": "Neal Stephenson",
+  "why": "A girl gets an interactive book that shapes her life in a nano-tech future; clever world-building."
+ },
+ "wide sargasso sea": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "dark",
+   "atmospheric"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Wide Sargasso Sea",
+  "author": "Jean Rhys",
+  "why": "The story of the mad woman in the attic from Jane Eyre, told from her side in the Caribbean."
+ },
+ "eyes of the dragon": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "adventurous",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Eyes of the Dragon",
+  "author": "Stephen King",
+  "why": "A prince is framed and the kingdom is in danger in a straightforward medieval fantasy from King."
+ },
+ "redshirts": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Redshirts",
+  "author": "John Scalzi",
+  "why": "Crew members on a starship notice their friends keep dying; fans of Star Trek enjoy this light, fast joke."
+ },
+ "little women": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "cozy",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Little Women",
+  "author": "Louisa May Alcott",
+  "why": "Four March sisters grow up during the Civil War; warm, much-loved and a good choice for readers young or old."
+ },
+ "deep": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Deep",
+  "author": "Rivers Solomon",
+  "why": "Descendants of drowned African women live underwater and keep their people's memory; short, moving and haunting."
+ },
+ "carrie": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Carrie",
+  "author": "Stephen King",
+  "why": "A bullied teen with telekinesis takes revenge; King's short debut that hooked readers young."
+ },
+ "north and south": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "emotional",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "North and South",
+  "author": "Elizabeth Cleghorn Gaskell",
+  "why": "A southern woman moves to a northern mill town and meets a proud manufacturer; romance and social class."
+ },
+ "cannery row": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "cozy",
+   "funny"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Cannery Row",
+  "author": "John Steinbeck",
+  "why": "Life among the poor and cheerful residents of a California fishing street; short and warmly written."
+ },
+ "light": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Light",
+  "author": "M. John Harrison",
+  "why": "A strange and gorgeous space opera with drugs and dread, ranked among readers' top five."
+ },
+ "quicksilver": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "fast",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Quicksilver",
+  "author": "Callie Hart",
+  "why": "A romantasy with a dangerous love story and fast plot; one reader calls it the best of five years."
+ },
+ "i am legend": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "bleak",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "I Am Legend",
+  "author": "Richard Matheson",
+  "why": "The last man on Earth among vampires; the final chapter lingers in readers' minds for years."
+ },
+ "christmas carol": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "hopeful",
+   "cozy"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "A Christmas Carol",
+  "author": "Charles Dickens",
+  "why": "Scrooge is visited by three ghosts on Christmas Eve; a short, familiar ghost story that still works for most readers."
+ },
+ "alienist": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Alienist",
+  "author": "Caleb Carr",
+  "why": "A psychologist helps hunt a killer in 1890s New York; far better than the TV series, fans say."
+ },
+ "stormlight archive": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Stormlight Archive",
+  "author": "Brandon Sanderson",
+  "why": "A vast epic series about knights, spren and a world of storms, loved by readers for its worldbuilding."
+ },
+ "gift of fear": {
+  "keep": true,
+  "genre": "other",
+  "mood": [
+   "thoughtful",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "The Gift of Fear",
+  "author": "Gavin de Becker",
+  "why": "A security expert explains how to read danger signs and trust your instincts; named required reading."
+ },
+ "secret garden": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "hopeful",
+   "cozy"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Secret Garden",
+  "author": "Frances Hodgson Burnett",
+  "why": "A lonely orphan finds a hidden garden and heals; a gentle children's classic."
+ }
+}

@@ -211,7 +211,7 @@ h2 { font: 400 1.3125rem/1.2 var(--font-plate); letter-spacing: .01em; }
 /* bottom tab bar: the mahogany rail with a brass edge; the lamp lights the tab you are on */
 #nav {
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
-  display: grid; grid-template-columns: repeat(5, 1fr);
+  display: grid; grid-auto-flow: column; grid-auto-columns: 1fr;
   height: calc(var(--nav-h) + var(--safe-b)); padding-bottom: var(--safe-b);
   background: var(--grain), linear-gradient(var(--mah-2), var(--mah-d));
   color: var(--on-mah-2);
@@ -223,6 +223,7 @@ h2 { font: 400 1.3125rem/1.2 var(--font-plate); letter-spacing: .01em; }
   transition: color var(--dur) var(--ease);
 }
 #nav button svg { width: 23px; height: 23px; }
+@media (max-width: 400px) { #nav button { font-size: .6875rem; letter-spacing: 0; } #nav button svg { width: 22px; height: 22px; } }
 #nav button.on { color: var(--brass-hi); font-weight: 700; }
 #nav button::after { /* the green glass of the lamp, glowing over the tab */
   content: ''; position: absolute; top: 3px; left: 50%; width: 32px; margin-left: -16px; height: 4px; border-radius: 0 0 4px 4px;

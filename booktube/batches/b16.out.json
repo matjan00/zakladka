@@ -1,0 +1,1030 @@
+{
+ "reaper man": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "thoughtful",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Reaper Man",
+  "author": "Terry Pratchett",
+  "why": "Discworld novel where Death takes a holiday to live as a farmhand; funny, warm and surprisingly moving about mortality."
+ },
+ "water knife": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "tense",
+   "dark",
+   "bleak"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Water Knife",
+  "author": "Paolo Bacigalupi",
+  "why": "Near-future thriller about water wars in the American Southwest, praised for feeling uncomfortably plausible."
+ },
+ "eleanor oliphant is completely fine": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "funny",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Eleanor Oliphant is Completely Fine",
+  "author": "Gail Honeyman",
+  "why": "A lonely, socially awkward woman slowly opens up; readers find it funny, heartbreaking and a gradual reveal."
+ },
+ "river is waiting": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "bleak",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The River Is Waiting",
+  "author": "Wally Lamb",
+  "why": "A family drama about addiction and loss that readers find devastating but powerful."
+ },
+ "coraline": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "dark",
+   "atmospheric",
+   "tense"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Coraline",
+  "author": "Neil Gaiman",
+  "why": "A short, genuinely creepy tale of a girl and her sinister other mother, scary even for adults."
+ },
+ "martin eden": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "emotional",
+   "melancholic",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Martin Eden",
+  "author": "Jack London",
+  "why": "A working-class sailor tries to become a writer; readers say it broke them and mirrors their own ambition."
+ },
+ "eye of the bedlam bride": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "fast",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Eye of the Bedlam Bride",
+  "author": "Matt Dinniman",
+  "why": "Latest in the Dungeon Crawler Carl LitRPG series; fans love the dark humour and relentless inventiveness."
+ },
+ "exordia": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "dark",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Exordia",
+  "author": "Seth Dickinson",
+  "why": "Cutting-edge sci-fi with strange alien tech and body horror; readers call it wild, with strong prose."
+ },
+ "woman in me": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "bleak",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "The Woman in Me",
+  "author": "Britney Spears",
+  "why": "The pop star tells her own story of fame and control; readers find it honest and heartbreaking."
+ },
+ "currently reading": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Currently Reading",
+  "author": "Teecee Design Studio",
+  "why": "Not a book; a generic phrase from reading-thread posts."
+ },
+ "from the mixed up files of mrs basil e frankweiler": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "adventurous",
+   "cozy",
+   "hopeful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "From the Mixed-Up Files of Mrs. Basil E. Frankweiler",
+  "author": "E. L. Konigsburg",
+  "why": "Two siblings run away to live in a New York museum and chase a mystery; a beloved children's classic."
+ },
+ "fellowship of the ring": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "adventurous",
+   "atmospheric"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Fellowship of the Ring",
+  "author": "J.R.R. Tolkien",
+  "why": "First part of The Lord of the Rings, the foundational quest fantasy that readers return to again."
+ },
+ "bury your gays": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Bury Your Gays",
+  "author": "Chuck Tingle",
+  "why": "Mostly mixed or negative reception in the comments."
+ },
+ "sound of gravel": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "bleak",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "The sound of gravel",
+  "author": "Ruth Wariner",
+  "why": "A woman's account of growing up in a polygamist Mormon family in Mexico; tragic and gripping."
+ },
+ "sophies world": {
+  "keep": true,
+  "genre": "philosophy",
+  "mood": [
+   "thoughtful",
+   "mind-bending",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Sophie's World",
+  "author": "Jostein Gaarder",
+  "why": "A teenager gets letters teaching her the history of philosophy inside a mystery; an accessible entry to the subject."
+ },
+ "elantris": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "adventurous",
+   "hopeful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Elantris",
+  "author": "Brandon Sanderson",
+  "why": "Sanderson's debut about a fallen magical city and the people trapped in it; fans praise its imagery and plot."
+ },
+ "making of the atomic bomb": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "thoughtful",
+   "epic",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "nonfiction",
+  "title": "The making of the atomic bomb",
+  "author": "Richard Rhodes",
+  "why": "Comprehensive, award-winning history of how the bomb was built, from the physics to the people; readers find it gripping."
+ },
+ "reincarnation blues": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "emotional",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Reincarnation blues",
+  "author": "Michael Poore",
+  "why": "A soul reincarnated thousands of times tries to get life right while loving Death; funny and warm."
+ },
+ "flashlight": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Flashlight",
+  "author": "Susan Choi",
+  "why": "Comments are split, with an abandoned read and lukewarm reactions."
+ },
+ "hidden valley road": {
+  "keep": true,
+  "genre": "science",
+  "mood": [
+   "emotional",
+   "thoughtful",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Hidden Valley Road",
+  "author": "Robert Kolker",
+  "why": "True story of a family with many schizophrenic sons, reading like a novel and tracing the history of the illness."
+ },
+ "adventures of huckleberry finn": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "adventurous",
+   "satirical",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Adventures of Huckleberry Finn",
+  "author": "Mark Twain",
+  "why": "A boy and a runaway slave drift down the Mississippi in Twain's satire of American society."
+ },
+ "trilogy": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Trilogy",
+  "author": "Jon Fosse",
+  "why": "Comments do not discuss this book; wrong match."
+ },
+ "forge of god": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "bleak",
+   "tense",
+   "epic"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The forge of God",
+  "author": "Greg Bear",
+  "why": "Hard sci-fi about Earth's destruction by alien machines, called stunning by readers who rate it among the best apocalypse novels."
+ },
+ "killing star": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "tense",
+   "bleak"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The killing star",
+  "author": "Charles R. Pellegrino and George Zebrowski",
+  "why": "Hard sci-fi about a ruthless alien first strike, loved for its cold logic on first contact."
+ },
+ "invisible women": {
+  "keep": true,
+  "genre": "science",
+  "mood": [
+   "thoughtful",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Invisible Women",
+  "author": "Caroline Criado Perez",
+  "why": "Shows with data how a world designed around men harms women; readers find it eye-opening and infuriating."
+ },
+ "tau zero": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "tense",
+   "adventurous"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Tau Zero",
+  "author": "Poul Anderson",
+  "why": "A starship that can't stop accelerating hurtles through cosmic time; a classic of hard sci-fi, though some find it heavy on physics."
+ },
+ "lords of discipline": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "emotional",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Lords of Discipline",
+  "author": "Pat Conroy",
+  "why": "A cadet at a Southern military academy confronts a secret society; praised for lyrical prose and powerful storytelling."
+ },
+ "maid": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Maid",
+  "author": "Nita Prose",
+  "why": "Mixed to negative reception in the comments."
+ },
+ "arrival": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "mind-bending",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "stories",
+  "title": "Stories of Your Life and Others",
+  "author": "Ted Chiang",
+  "why": "Ted Chiang's thoughtful, precise short stories, including the one behind the film Arrival, widely named among the best sf collections."
+ },
+ "plot": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Plot",
+  "author": "Jean Hanff Korelitz",
+  "why": "A writer learns someone is stealing a plot he took from a student; readers enjoy the twisty literary thriller."
+ },
+ "stainless steel rat": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "fast",
+   "adventurous"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Stainless Steel Rat",
+  "author": "Harry Harrison",
+  "why": "A roguish space con man is recruited to catch other criminals; a light, fun classic though some find it dated."
+ },
+ "iron widow": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "fast",
+   "dark",
+   "epic"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Iron Widow",
+  "author": "Xiran Jay Zhao",
+  "why": "A mecha reimagining of China's only empress, with a furious heroine; readers call it a fun sci-fi and fantasy blend."
+ },
+ "under the volcano": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "dark",
+   "melancholic",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Under the Volcano",
+  "author": "Malcolm Lowry",
+  "why": "A British consul drinks himself toward ruin on the Day of the Dead in Mexico; lush, demanding modernist prose."
+ },
+ "greenlights": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "hopeful",
+   "thoughtful",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Greenlights",
+  "author": "Matthew McConaughey",
+  "why": "The actor's stories and life lessons in a distinctive voice; readers like it, especially as an audiobook."
+ },
+ "never flinch": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Never Flinch",
+  "author": "Stephen King",
+  "why": "Comments mostly critical of the ending and quality."
+ },
+ "hollow places": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "atmospheric",
+   "funny",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Hollow Places",
+  "author": "T. Kingfisher",
+  "why": "A woman finds a portal to a strange otherworld through a museum wall; creepy with dark humour."
+ },
+ "young mungo": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "bleak",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Young Mungo",
+  "author": "Douglas Stuart",
+  "why": "A teenager in Glasgow falls for a boy from the rival religion; devastating and long remembered by readers."
+ },
+ "mysterious benedict society": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "adventurous",
+   "hopeful",
+   "fast"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Mysterious Benedict Society",
+  "author": "Trenton Lee Stewart",
+  "why": "Gifted children go undercover at a strange school to stop a villain; a clever adventure good for read-aloud."
+ },
+ "kings of the wyld": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "adventurous",
+   "epic"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Kings of the wyld",
+  "author": "Nicholas Eames",
+  "why": "A band of ageing mercenaries reunite for one last mission; fans compare it to a fun D&D campaign."
+ },
+ "bag of bones": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "atmospheric",
+   "emotional",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Bag of Bones",
+  "author": "Stephen King",
+  "why": "A widowed novelist is haunted at his lakeside house; a slow, emotional ghost story some call King's favourite."
+ },
+ "road to tender hearts": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "emotional",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Road to Tender Hearts",
+  "author": "Annie Hartnett",
+  "why": "A quirky road trip story described as funny, sentimental and addictive, with a Wes Anderson feel."
+ },
+ "last question": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "thoughtful",
+   "hopeful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "stories",
+  "title": "The Last Question",
+  "author": "Isaac Asimov",
+  "why": "A brief Asimov story tracing humanity's question about entropy across eons; named a favourite short story by many."
+ },
+ "jade city": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "dark",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Jade City",
+  "author": "Fonda Lee",
+  "why": "Mafia-style clans fight over magical jade in an Asian-inspired city; a sweeping, rich family saga."
+ },
+ "harsh mistress": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "adventurous",
+   "thoughtful",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The moon is a harsh mistress",
+  "author": "Robert A. Heinlein",
+  "why": "A lunar colony rebels against Earth with the help of a self-aware computer; a classic, though not all like it."
+ },
+ "strength of the few": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "tense",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Strength of the Few",
+  "author": "James Islington",
+  "why": "Sequel to The Will of the Many in a Roman-style magical world; fans find it gripping though some find the series overhyped."
+ },
+ "hearing trumpet": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "mind-bending",
+   "satirical"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "The hearing trumpet",
+  "author": "Leonora Carrington",
+  "why": "An old woman with an ear trumpet stumbles into cults and apocalypse in a surreal, absurd romp."
+ },
+ "quiet": {
+  "keep": true,
+  "genre": "philosophy",
+  "mood": [
+   "thoughtful",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Quiet",
+  "author": "Susan Cain",
+  "why": "Explains the strengths of introverts; readers say it helped them accept themselves."
+ },
+ "columbine": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "dark",
+   "tense",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Columbine",
+  "author": "Dave Cullen",
+  "why": "A careful, vivid account of the school shooting and its investigation; hard material but compulsively readable."
+ },
+ "children": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Children",
+  "author": "Melissa Albert",
+  "why": "Comments discuss other books; wrong match."
+ },
+ "crimson petal and the white": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "dark",
+   "atmospheric",
+   "bleak"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Crimson Petal and the White",
+  "author": "Michel Faber",
+  "why": "A prostitute climbs through Victorian London in a lush, immersive novel; readers praise it but find it bleak."
+ },
+ "virgin suicides": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "melancholic",
+   "dark",
+   "atmospheric"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Virgin Suicides",
+  "author": "Jeffrey Eugenides",
+  "why": "Neighbourhood boys try to understand five sisters in 1970s suburbia; haunting and lyrical."
+ },
+ "lost city of z": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "adventurous",
+   "tense",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "The Lost City of Z",
+  "author": "David Grann",
+  "why": "A journalist follows explorer Percy Fawcett's vanished search for a lost Amazon city; gripping adventure non-fiction."
+ },
+ "portrait of a lady": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "thoughtful",
+   "melancholic"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Portrait of a Lady",
+  "author": "Henry James",
+  "why": "A spirited American heiress's choices in Europe unfold in James's subtle prose; some find it improves as it goes."
+ },
+ "space opera": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "satirical",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Space Opera",
+  "author": "Catherynne M. Valente",
+  "why": "Earth must do well in a galactic song contest to survive; a flamboyant, absurd Eurovision-style romp."
+ },
+ "system of the world": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "epic",
+   "thoughtful",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "System of the World",
+  "author": "Neal Stephenson",
+  "why": "Closing volume of Stephenson's Baroque Cycle, a vast historical saga of science, money and intrigue in Newton's England."
+ },
+ "ship of fools": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "tense",
+   "dark",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Ship of fools",
+  "author": "Richard Paul Russo",
+  "why": "A grim space-horror tale aboard a starship encountering something terrible; a favourite of readers who like dark sf."
+ },
+ "rabbit run": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "bleak",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Rabbit, Run",
+  "author": "John Updike",
+  "why": "A restless former basketball star abandons his family; praised for prose style though the main character is unlikable."
+ },
+ "skinny legs and all": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "satirical",
+   "mind-bending"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Skinny Legs and All",
+  "author": "Tom Robbins",
+  "why": "Tom Robbins' playful, eccentric novel about art, religion and a giant turkey-shaped camper."
+ },
+ "good person": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "dark",
+   "satirical"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "A Good Person",
+  "author": "Kirsten King",
+  "why": "Readers enjoy spending time in the head of a deranged, difficult narrator in this darkly comic novel."
+ },
+ "manhunt": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "bleak",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Manhunt",
+  "author": "Gretchen Felker-Martin",
+  "why": "A queer, brutal post-apocalyptic horror novel readers describe as dark and unflinching."
+ },
+ "witches": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "funny",
+   "dark",
+   "fast"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Witches",
+  "author": "Roald Dahl",
+  "why": "Dahl's classic about a boy facing child-hating witches; so gripping it turned some kids into readers."
+ },
+ "juice": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "bleak",
+   "dark",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Juice",
+  "author": "Tim Winton",
+  "why": "Winton's bleak post-collapse Australian journey, compared to The Road in a Mad Max setting."
+ },
+ "little princess": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "emotional",
+   "hopeful",
+   "cozy"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "A Little Princess",
+  "author": "Frances Hodgson Burnett",
+  "why": "A girl's fortunes collapse at boarding school but her imagination keeps her going; a gentle children's classic."
+ },
+ "less than zero": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "bleak",
+   "satirical"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Less than Zero",
+  "author": "Bret Easton Ellis",
+  "why": "Bret Easton Ellis' debut of bored, drugged Los Angeles youth; disturbing and cold, a cult favourite."
+ },
+ "victorian psycho": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "satirical",
+   "fast"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Victorian Psycho",
+  "author": "Virginia Feito",
+  "why": "A governess in a Victorian household turns violent; readers call it unhinged, funny and gothic."
+ },
+ "lucky jim": {
+  "keep": true,
+  "genre": "humour",
+  "mood": [
+   "funny",
+   "satirical"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Lucky Jim",
+  "author": "Kingsley Amis",
+  "why": "A hapless junior lecturer stumbles through academic life; praised as one of the funniest novels ever."
+ },
+ "five little indians": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "bleak",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Five Little Indians",
+  "author": "Michelle Good",
+  "why": "Five residential-school survivors try to rebuild their lives; readers find it heartbreaking and powerful."
+ },
+ "me before you": {
+  "keep": true,
+  "genre": "romance",
+  "mood": [
+   "emotional",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Me Before You",
+  "author": "Jojo Moyes",
+  "why": "A carer and a paralysed man fall in love; readers say it made them cry, though its themes are debated."
+ },
+ "tell the wolves im home": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "melancholic",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Tell the Wolves I'm Home",
+  "author": "Carol Rifka Brunt",
+  "why": "A teenager grieves her uncle lost to AIDS in the 1980s and forms an unexpected friendship; tender and moving."
+ },
+ "lion women of tehran": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Lion Women of Tehran",
+  "author": "Marjan Kamali",
+  "why": "Two Iranian women's friendship across decades of upheaval; readers name it a top favourite."
+ }
+}

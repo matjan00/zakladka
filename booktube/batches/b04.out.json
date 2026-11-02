@@ -1,0 +1,1038 @@
+{
+ "salems lot": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "atmospheric",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "'Salem’s Lot",
+  "author": "Stephen King",
+  "why": "Vampires take over a small Maine town; readers call it an absolute classic of horror."
+ },
+ "my brilliant friend": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "thoughtful",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "My Brilliant Friend",
+  "author": "Elena Ferrante",
+  "why": "The intense friendship of two girls growing up in postwar Naples; the first Neapolitan novel and a widely praised read."
+ },
+ "frozen river": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "tense",
+   "atmospheric",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Frozen River",
+  "author": "Ariel Lawhon",
+  "why": "A midwife investigates a death in 1789 Maine, based on a real diary; readers named it a top read."
+ },
+ "severance": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "satirical",
+   "melancholic",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Severance",
+  "author": "Ling Ma",
+  "why": "A plague turns people into zombie-like routines while an office worker keeps going; funny and sad, called brilliant."
+ },
+ "on the beach": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "bleak",
+   "melancholic",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "On the Beach",
+  "author": "Nevil Shute",
+  "why": "People in Australia wait calmly for radiation from nuclear war to arrive; a quiet and moving apocalypse story."
+ },
+ "dog stars": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "atmospheric",
+   "emotional",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Dog Stars",
+  "author": "Peter Heller",
+  "why": "A pilot and his dog survive after a pandemic; lyrical post-apocalypse that readers recommend."
+ },
+ "trial": {
+  "keep": false,
+  "genre": "classic",
+  "mood": [
+   "dark",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Trial",
+  "author": "Franz Kafka",
+  "why": "The comments mostly say they disliked it or are just partway through, so nobody clearly recommends it."
+ },
+ "expanse": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "fast",
+   "epic",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Leviathan Wakes",
+  "author": "James S. A. Corey",
+  "why": "A ship crew uncovers a plot that may start a war across the solar system; realistic, gripping space opera."
+ },
+ "odyssey": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "adventurous",
+   "epic"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "poetry",
+  "title": "The Odyssey",
+  "author": "Homer",
+  "why": "Odysseus struggles for ten years to get home; the foundation of adventure storytelling, readers value modern translations."
+ },
+ "holes": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "funny",
+   "adventurous",
+   "hopeful"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Holes",
+  "author": "Louis Sachar",
+  "why": "A boy is sent to dig holes at a desert camp and learns its secret; clever and fast, loved since childhood."
+ },
+ "good earth": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "emotional",
+   "bleak",
+   "epic"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Good Earth",
+  "author": "Pearl S. Buck",
+  "why": "A Chinese peasant farmer's rise and the ups and downs of his family across years; a classic family saga."
+ },
+ "embassytown": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "thoughtful",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Embassytown",
+  "author": "China Miéville",
+  "why": "Humans on an alien world depend on a language in which one cannot lie; one reader's best ever."
+ },
+ "spear cuts through water": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "emotional",
+   "epic",
+   "atmospheric"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Spear Cuts Through Water",
+  "author": "Simon Jimenez",
+  "why": "A boy and a woman journey through a mythic empire; poetic and moving, with unusual storytelling."
+ },
+ "johnny got his gun": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "bleak",
+   "dark",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Johnny Got His Gun",
+  "author": "Dalton Trumbo",
+  "why": "A soldier maimed in World War I is trapped in his own mind; short and harrowing antiwar book."
+ },
+ "diaspora": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Diaspora",
+  "author": "Greg Egan",
+  "why": "Digital citizens and robots spread across the galaxy to avoid a cosmic threat; hard sci-fi with intense ideas."
+ },
+ "american psycho": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "satirical",
+   "bleak"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "American Psycho",
+  "author": "Bret Easton Ellis",
+  "why": "A wealthy 1980s banker narrates his casual murders; very graphic and satirical, giving readers nightmares."
+ },
+ "fairy tale": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "adventurous",
+   "fast",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Fairy Tale",
+  "author": "Stephen King",
+  "why": "A teenager inherits a secret portal to another world in his neighbour's shed; readers say they did not want it to end."
+ },
+ "shantaram": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "adventurous",
+   "epic",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Shantaram",
+  "author": "Gregory David Roberts",
+  "why": "A fugitive hides in Bombay and falls in with the underworld; a long, immersive tale based on the author's life."
+ },
+ "childhoods end": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "mind-bending",
+   "melancholic"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Childhood's End",
+  "author": "Arthur C. Clarke",
+  "why": "Peaceful alien overlords arrive and change humanity's future; short and thought-provoking classic."
+ },
+ "nickel boys": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "bleak",
+   "emotional",
+   "dark"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Nickel Boys",
+  "author": "Colson Whitehead",
+  "why": "Two Black teens suffer in a brutal Florida reform school; spare and devastating with not a word wasted."
+ },
+ "city of thieves": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "funny",
+   "tense",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "City of Thieves",
+  "author": "David Benioff",
+  "why": "Two young men must find a dozen eggs during the Siege of Leningrad; fast, funny and heartfelt."
+ },
+ "foster": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "melancholic"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Foster",
+  "author": "Claire Keegan",
+  "why": "A neglected girl is sent to live with relatives in rural Ireland; a short, quietly moving story."
+ },
+ "yesteryear": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "satirical",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Yesteryear",
+  "author": "Caro Claire Burke",
+  "why": "A tradwife influencer wakes up in the past; recommended by readers eager for it, though few have finished it."
+ },
+ "underworld": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "epic",
+   "thoughtful",
+   "mind-bending"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Underworld",
+  "author": "Don DeLillo",
+  "why": "American life from the Cold War onward, built around a baseball; astonishing, ambitious and demanding."
+ },
+ "magicians": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "funny",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Magicians",
+  "author": "Lev Grossman",
+  "why": "A student finds a secret magic college that is not as good as the Narnia of his dreams; darker and sharper."
+ },
+ "ubik": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "tense",
+   "dark"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Ubik",
+  "author": "Philip K. Dick",
+  "why": "Reality begins to decay around a team of psychic-detecting agents; short, weird and typically Dick."
+ },
+ "atlas shrugged": {
+  "keep": false,
+  "genre": "philosophy",
+  "mood": [
+   "satirical"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Atlas Shrugged",
+  "author": "Ayn Rand",
+  "why": "It is only named as something the commenters tried or warned about, with little actual recommendation."
+ },
+ "orbital": {
+  "keep": false,
+  "genre": "literary",
+  "mood": [
+   "thoughtful",
+   "atmospheric",
+   "melancholic"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Orbital",
+  "author": "Samantha Harvey",
+  "why": "The comments are more critical than positive; one reader finds it irritating and another has not yet read it."
+ },
+ "push": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "dark",
+   "tense",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Push",
+  "author": "Ashley Audrain",
+  "why": "A woman fears her daughter has something wrong with her; a disturbing psychological thriller about motherhood."
+ },
+ "lapvona": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "satirical",
+   "bleak"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Lapvona",
+  "author": "Ottessa Moshfegh",
+  "why": "A medieval village suffers famine and cruelty; terrifying and grotesque and loved by the reader."
+ },
+ "beartown": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "tense",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Beartown",
+  "author": "Fredrik Backman",
+  "why": "A hockey town splits after a crime; readers say it is the Backman they will always name first."
+ },
+ "jurassic park": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "tense",
+   "fast",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Jurassic Park",
+  "author": "Michael Crichton",
+  "why": "Cloned dinosaurs run wild on a theme-park island; a fast techno-thriller that beats the film."
+ },
+ "things they carried": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "dark",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "stories",
+  "title": "The Things They Carried",
+  "author": "Tim O'Brien",
+  "why": "Linked stories about soldiers in the Vietnam War, what they carry and what they tell; widely taught and often reread."
+ },
+ "contact": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "hopeful",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Contact",
+  "author": "Carl Sagan",
+  "why": "A scientist receives a message from space and must decide what it means; readers sit stunned after finishing it."
+ },
+ "pride and prejudice": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "funny",
+   "hopeful",
+   "cozy"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Pride and Prejudice",
+  "author": "Jane Austen",
+  "why": "Elizabeth Bennet and Mr Darcy fight pride on the way to love; readers return decades later and still enjoy it."
+ },
+ "life": {
+  "keep": false,
+  "genre": "memoir",
+  "mood": [
+   "funny",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Life",
+  "author": "Keith Richards",
+  "why": "The comments do not discuss this memoir; they are about other books, so the match is wrong."
+ },
+ "crossing": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "atmospheric",
+   "bleak",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Crossing",
+  "author": "Cormac McCarthy",
+  "why": "A boy crosses into Mexico several times, with a wolf and a loss; sublime, spare and demanding in his pace."
+ },
+ "stars my destination": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "fast",
+   "dark",
+   "adventurous"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Stars My Destination",
+  "author": "Alfred Bester",
+  "why": "A vengeful man with strange powers pursues rich enemies across the solar system; a classic that drags readers along."
+ },
+ "forever war": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "bleak",
+   "thoughtful",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Forever War",
+  "author": "Joe Haldeman",
+  "why": "A soldier fights an interstellar war while time dilation leaves him lost at home; short and reality-minded military sci-fi."
+ },
+ "to the lighthouse": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "melancholic",
+   "thoughtful",
+   "atmospheric"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "To the Lighthouse",
+  "author": "Virginia Woolf",
+  "why": "A family holiday on a Scottish island unfolds through shifting inner thoughts; lyrical but demanding."
+ },
+ "enchanted forest chronicles": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "cozy",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Enchanted Forest Chronicles",
+  "author": "Patricia C. Wrede",
+  "why": "A princess who dislikes being a princess goes to live with dragons; funny, clever children's fantasy fondly remembered."
+ },
+ "of mice and men": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "bleak",
+   "emotional"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Of Mice and Men",
+  "author": "John Steinbeck",
+  "why": "Two migrant workers dream of a farm of their own; very short and heartbreaking."
+ },
+ "lottery": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "stories",
+  "title": "The Lottery",
+  "author": "Shirley Jackson",
+  "why": "A small town holds its yearly ritual; a very short, shocking story whose tropes started here."
+ },
+ "unbroken": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "tense",
+   "emotional",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Unbroken",
+  "author": "Laura Hillenbrand",
+  "why": "An Olympic runner survives a plane crash, the sea and a prison camp in World War II; a testament to the will to live."
+ },
+ "as i lay dying": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "dark",
+   "mind-bending",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "As I Lay Dying",
+  "author": "William Faulkner",
+  "why": "A poor Southern family carries their mother's coffin to burial through a series of voices; short but difficult."
+ },
+ "suitable boy": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "epic",
+   "emotional",
+   "funny"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "A Suitable Boy",
+  "author": "Vikram Seth",
+  "why": "A mother in newly independent India searches for a husband for her daughter; a huge, absorbing family novel."
+ },
+ "seven husbands of evelyn hugo": {
+  "keep": true,
+  "genre": "romance",
+  "mood": [
+   "emotional",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Seven Husbands of Evelyn Hugo",
+  "author": "Taylor Jenkins Reid",
+  "why": "An old film star tells a young journalist about her many marriages; easy and addictive, recommended widely."
+ },
+ "murder of roger ackroyd": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "fast",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Murder of Roger Ackroyd",
+  "author": "Agatha Christie",
+  "why": "Poirot investigates a village murder with a famous twist; readers love it and its ending."
+ },
+ "wolf hall": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "atmospheric",
+   "thoughtful",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Wolf Hall",
+  "author": "Hilary Mantel",
+  "why": "Thomas Cromwell rises in Henry VIII's court; rich and intense, though the style is demanding."
+ },
+ "true grit": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "funny",
+   "adventurous",
+   "tense"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "True Grit",
+  "author": "Charles Portis",
+  "why": "A girl hires a rough marshal to find her father's killer; sharp-voiced, funny western."
+ },
+ "all the colors of the dark": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "tense",
+   "atmospheric",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "All the Colors of the Dark",
+  "author": "Chris Whitaker",
+  "why": "A long mystery about a missing girl in 1970s Missouri; readers are drawn in by its characters."
+ },
+ "everlasting": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "mind-bending",
+   "emotional",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Everlasting",
+  "author": "Alix E. Harrow",
+  "why": "A historian cursed to relive a king's life shapes history across time; could not be put down according to readers."
+ },
+ "david copperfield": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "emotional",
+   "funny",
+   "hopeful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "David Copperfield",
+  "author": "Charles Dickens",
+  "why": "A boy's rise from a hard childhood to novelist; warm, long Dickens with many memorable characters."
+ },
+ "troop": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "tense",
+   "bleak"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The troop",
+  "author": "Nick Cutter",
+  "why": "Boy scouts on a remote island face a horrifying infection; gruesome and fast, a repeat read for horror fans."
+ },
+ "house of suns": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "epic",
+   "mind-bending",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "House of Suns",
+  "author": "Alastair Reynolds",
+  "why": "Clones of one person travel the galaxy and meet a threat; vast space opera readers return to."
+ },
+ "four winds": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "bleak",
+   "hopeful"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Four Winds",
+  "author": "Kristin Hannah",
+  "why": "A Texas family struggles in the Dust Bowl, especially the second half; emotional and popular."
+ },
+ "monster calls": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "emotional",
+   "melancholic",
+   "dark"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "A Monster Calls",
+  "author": "Patrick Ness",
+  "why": "A boy facing his mother's illness is visited by a tree monster; short and moving, best in the illustrated edition."
+ },
+ "wedding people": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "funny",
+   "hopeful",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Wedding People",
+  "author": "Alison Espach",
+  "why": "A woman crashes a wedding at a hotel while at a low point; light, funny and heartfelt."
+ },
+ "fourth wing": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "fast",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "novel",
+  "title": "Fourth Wing",
+  "author": "Rebecca Yarros",
+  "why": "A frail woman enters a war college where cadets bond with dragons; polarising but a binge read for fans."
+ },
+ "on earth were briefly gorgeous": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "melancholic",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "On Earth We're Briefly Gorgeous",
+  "author": "Ocean Vuong",
+  "why": "A son writes to his mother who cannot read, about family and violence; a lyrical, short debut by a poet."
+ },
+ "gone away world": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "mind-bending",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Gone-Away World",
+  "author": "Nick Harkaway",
+  "why": "After a war that destroyed reality, a man travels to put out a fire; funny and odd."
+ },
+ "in search of lost time": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "thoughtful",
+   "melancholic"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "In Search of Lost Time",
+  "author": "Marcel Proust",
+  "why": "A narrator reflects on memory, love and society across seven volumes; famously long and demanding yet widely revered."
+ },
+ "dubliners": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "melancholic",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "stories",
+  "title": "Dubliners",
+  "author": "James Joyce",
+  "why": "Fifteen stories of ordinary life in Dublin; short and precise, ending with a famous long one."
+ },
+ "artemis": {
+  "keep": false,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Artemis",
+  "author": "Andy Weir",
+  "why": "The comments are lukewarm or compare it unfavorably, so it is not a clear recommendation."
+ },
+ "indifferent stars above": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "emotional",
+   "tense",
+   "bleak"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "The Indifferent Stars Above",
+  "author": "Daniel James Brown",
+  "why": "The true story of the Donner Party's ill-fated overland journey; recommended as a non-fiction page-turner."
+ },
+ "tress of the emerald sea": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "cozy",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Tress of the Emerald Sea",
+  "author": "Brandon Sanderson",
+  "why": "A girl sails a sea of spores to rescue the boy she loves; whimsical and charming."
+ },
+ "american gods": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "mind-bending",
+   "atmospheric",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "American Gods",
+  "author": "Neil Gaiman",
+  "why": "Old gods fight new ones in modern America; a solid road-trip novel that many prefer to the TV series."
+ },
+ "fingersmith": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "tense",
+   "dark",
+   "mind-bending"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Fingersmith",
+  "author": "Sarah Waters",
+  "why": "Victorian pickpockets and a heiress get mixed in a plot with major twists; a favourite of many readers."
+ },
+ "old mans war": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "fast",
+   "funny",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Old Man’s War",
+  "author": "John Scalzi",
+  "why": "Seniors join the army to fight aliens in new young bodies; quick and fun, though sequels weaken."
+ },
+ "ministry of time": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "thoughtful",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Ministry of Time",
+  "author": "Kaliane Bradley",
+  "why": "A civil servant looks after a man from Franklin's lost expedition brought to the present; a time-travel romance."
+ }
+}

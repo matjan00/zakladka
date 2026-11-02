@@ -1,0 +1,979 @@
+{
+ "waves": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "melancholic",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Waves",
+  "author": "Virginia Woolf",
+  "why": "Six friends' inner lives in poetic, stream-of-consciousness prose; beautiful but demanding, loved by readers of experimental fiction."
+ },
+ "exhalation": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "stories",
+  "title": "Exhalation",
+  "author": "Ted Chiang",
+  "why": "Ted Chiang's thoughtful short science fiction about time, free will and consciousness, picked as a favourite story collection."
+ },
+ "shuggie bain": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "emotional",
+   "bleak"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Shuggie Bain",
+  "author": "Douglas Stuart",
+  "why": "A boy in 1980s Glasgow cares for his alcoholic mother; devastating and beautifully written."
+ },
+ "kaiju preservation society": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "funny",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Kaiju Preservation Society",
+  "author": "John Scalzi",
+  "why": "A breezy adventure about people protecting giant monsters on a parallel Earth; just fun, with quick, witty writing."
+ },
+ "jude the obscure": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "bleak",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Jude the Obscure",
+  "author": "Thomas Hardy",
+  "why": "A stonemason's doomed struggle against class and marriage in Victorian England, grim and moving."
+ },
+ "of human bondage": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Of Human Bondage",
+  "author": "William Somerset Maugham",
+  "why": "A long coming-of-age story of an orphan with a club foot, called one of the best books by readers."
+ },
+ "careless people": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "tense",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Careless People",
+  "author": "Sarah Wynn-Williams",
+  "why": "An insider's account of working at Facebook, interesting and eye-opening for many readers."
+ },
+ "gnomon": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "tense"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Gnomon",
+  "author": "Nick Harkaway",
+  "why": "A near-future surveillance state and an interrogation across layered stories; complex but rewarding for fans of puzzle plots."
+ },
+ "death of the author": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Death of the Author",
+  "author": "Nnedi Okorafor",
+  "why": "A novel where a writer's life and her creations intertwine; a recent release that readers enjoyed."
+ },
+ "alias grace": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "dark",
+   "thoughtful"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "alias Grace",
+  "author": "Margaret Atwood",
+  "why": "A fictional take on a real convicted murderess, told through her memory; Atwood's literary mystery."
+ },
+ "riddley walker": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "bleak",
+   "mind-bending"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "Riddley Walker",
+  "author": "Russell Hoban",
+  "why": "A boy narrates a post-nuclear England in invented broken English; underrated, odd and moving."
+ },
+ "solenoid": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "mind-bending",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Solenoid",
+  "author": "Mircea Cărtărescu",
+  "why": "A Romanian teacher's mundane life collides with surreal visions in a huge, brilliant dreamlike novel."
+ },
+ "invisible monsters": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "funny",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Invisible Monsters",
+  "author": "Chuck Palahniuk",
+  "why": "A disfigured model's twisted road trip in this wild, transgressive novel."
+ },
+ "bury our bones in the midnight soil": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Bury Our Bones in the Midnight Soil",
+  "author": "V. E. Schwab",
+  "why": "Not a clear recommendation of this book."
+ },
+ "lady tans circle of women": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Lady Tan's Circle of Women",
+  "author": "Lisa See",
+  "why": "A woman physician in Ming-dynasty China fights for her place; engrossing historical fiction on women's lives."
+ },
+ "mary": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Mary",
+  "author": "Nat Cassidy",
+  "why": "Not a clear recommendation of this book."
+ },
+ "stiff": {
+  "keep": true,
+  "genre": "science",
+  "mood": [
+   "funny",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Stiff",
+  "author": "Mary Roach",
+  "why": "A funny, fascinating tour of what happens to human bodies after death, praised as laugh-out-loud science writing."
+ },
+ "vita nostra": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Vita Nostra",
+  "author": "Marina and Sergey Dyachenko",
+  "why": "A girl enters a strange institute where reality bends and she is slowly transformed; readers re-read it yearly."
+ },
+ "down the drain": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "fast",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Down the Drain",
+  "author": "Julia Fox",
+  "why": "A celebrity memoir read cover to cover in one day by fans who found it gripping."
+ },
+ "under the whispering door": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "cozy",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Under the Whispering Door",
+  "author": "T. J. Klune",
+  "why": "A cozy afterlife tale about a man who runs a tea shop for the dead; warm and good for grief."
+ },
+ "outlander": {
+  "keep": true,
+  "genre": "romance",
+  "mood": [
+   "epic",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Outlander",
+  "author": "Diana Gabaldon",
+  "why": "A WWII nurse is thrown back to 18th-century Scotland; a huge romantic saga with devoted fans."
+ },
+ "forever": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "epic",
+   "adventurous"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Forever",
+  "author": "Pete Hamill",
+  "why": "An Irish man gains immortality as long as he stays in New York, tracing the city's history."
+ },
+ "gormenghast": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "atmospheric"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Gormenghast",
+  "author": "Mervyn Peake",
+  "why": "A vast crumbling castle and its rigid inhabitants, written in rich, long sentences; a gothic classic of fantasy."
+ },
+ "ringworld": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "adventurous",
+   "mind-bending"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Ringworld",
+  "author": "Larry Niven",
+  "why": "Explorers visit an enormous artificial ring with a strange civilisation; a hard-SF classic of big ideas."
+ },
+ "last letter": {
+  "keep": true,
+  "genre": "romance",
+  "mood": [
+   "emotional",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Last Letter",
+  "author": "Rebecca Yarros",
+  "why": "A wartime love story told in letters; an ugly-cry read for those who like emotional romance."
+ },
+ "neverending story": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "adventurous",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Neverending Story",
+  "author": "Michael Ende",
+  "why": "A boy finds a book that takes him to a magical world, much richer than the film; a child's fantasy classic."
+ },
+ "eyre affair": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "funny",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Eyre Affair",
+  "author": "Jasper Fforde",
+  "why": "A detective chases a villain who steals characters from books in an alternate England; funny and clever for bookworms."
+ },
+ "call of the wild": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "adventurous",
+   "bleak"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "The Call of the Wild",
+  "author": "Jack London",
+  "why": "A sled dog turns wild in the Klondike gold rush; short, easy and a favourite classic."
+ },
+ "gone girl": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "novel",
+  "title": "Gone Girl",
+  "author": "Gillian Flynn",
+  "why": "A wife vanishes and secrets unravel in a twisty thriller with unlikeable characters that readers dissect."
+ },
+ "eversion": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "adventurous"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Eversion",
+  "author": "Alastair Reynolds",
+  "why": "A short reality-bending sci-fi adventure that readers praise as a taste of Reynolds's writing."
+ },
+ "hands of the emperor": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Hands of the Emperor",
+  "author": "Victoria Goddard",
+  "why": "A slow-building fantasy of a young man's service to a legendary emperor, loved for its heart and humour."
+ },
+ "tigana": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "emotional",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Tigana",
+  "author": "Guy Gavriel Kay",
+  "why": "A land under a sorcerer's curse, a war of memory; admired for glorious prose even if some plots bother readers."
+ },
+ "year of magical thinking": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "melancholic",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Year of Magical Thinking, The",
+  "author": "Joan Didion",
+  "why": "A memoir of the year after her husband's sudden death and the irrational ways grief works."
+ },
+ "thief": {
+  "keep": false,
+  "genre": "other",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Thief",
+  "author": "Megan Whalen Turner",
+  "why": "Not a clear recommendation of this book."
+ },
+ "spinning silver": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "atmospheric",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Spinning Silver",
+  "author": "Naomi Novik",
+  "why": "A moneylender's daughter in a wintry Eastern European world, a clever fairy-tale retelling with multiple narrators."
+ },
+ "do androids dream of electric sheep": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "tense"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Do Androids Dream of Electric Sheep?",
+  "author": "Philip K. Dick",
+  "why": "A bounty hunter hunts androids in a ruined world and asks what makes someone human; the book behind Blade Runner."
+ },
+ "house of mirth": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "bleak",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The House of Mirth",
+  "author": "Edith Wharton",
+  "why": "A society woman falls out of favour in New York's Gilded Age; tragic and beautifully written."
+ },
+ "ninth house": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Ninth House",
+  "author": "Leigh Bardugo",
+  "why": "Secret societies at Yale deal in dark magic, with a harsh mystery that hooks readers."
+ },
+ "just mercy": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Just Mercy",
+  "author": "Bryan Stevenson",
+  "why": "A lawyer's fight for the wrongly condemned, moving and eye-opening about the US justice system."
+ },
+ "chain gang all stars": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Chain Gang All Stars",
+  "author": "Nana Kwame Adjei-Brenyah",
+  "why": "A near-future where prisoners fight to the death on TV, praised by critics for its sharp edge and urgency."
+ },
+ "open": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "thoughtful",
+   "fast"
+  ],
+  "length": "long",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Open",
+  "author": "Andre Agassi",
+  "why": "A tennis star's honest, surprising life story, great even for those who do not follow tennis."
+ },
+ "all creatures great and small": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "cozy",
+   "funny"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "All Creatures Great and Small (All Creatures Great and Small #1-2)",
+  "author": "James Herriot",
+  "why": "A young Yorkshire vet's warm, funny stories about farms and animals; readers re-read it for comfort."
+ },
+ "names": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Names",
+  "author": "Don DeLillo",
+  "why": "DeLillo's novel of expatriates in Greece and a cult murdering people; admired by readers who love his cool style."
+ },
+ "fifth head of cerberus": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "mind-bending",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "The Fifth Head Of Cerberus",
+  "author": "Gene Wolfe",
+  "why": "Three linked tales of two planets and identity; a dreamlike science fiction classic."
+ },
+ "cows": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "bleak"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "Cows",
+  "author": "Matthew Stokoe",
+  "why": "An extremely violent, grim comic horror novel; one reader calls it the most unhinged thing they've read."
+ },
+ "where the red fern grows": {
+  "keep": true,
+  "genre": "ya",
+  "mood": [
+   "emotional",
+   "melancholic"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Where the Red Fern Grows",
+  "author": "Wilson Rawls",
+  "why": "A boy and his two hunting dogs in the Ozarks; short and tear-jerking."
+ },
+ "orlando": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "funny",
+   "mind-bending"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "Orlando",
+  "author": "Virginia Woolf",
+  "why": "A poet who changes sex and lives for centuries across English history; playful and demanding."
+ },
+ "clockwork orange": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "dark",
+   "satirical"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "A Clockwork Orange",
+  "author": "Anthony Burgess",
+  "why": "A delinquent in a violent future England is reconditioned; short and iconic, in invented slang."
+ },
+ "possession": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "thoughtful",
+   "emotional"
+  ],
+  "length": "long",
+  "diff": 3,
+  "type": "novel",
+  "title": "Possession",
+  "author": "A. S. Byatt",
+  "why": "Two scholars uncover the secret love of Victorian poets in a rich, layered romance and mystery."
+ },
+ "steppenwolf": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "thoughtful",
+   "melancholic"
+  ],
+  "length": "medium",
+  "diff": 3,
+  "type": "novel",
+  "title": "Steppenwolf",
+  "author": "Herman Hesse",
+  "why": "A middle-aged man torn between bourgeois and wild impulses; a great book that some find a difficult read."
+ },
+ "endurance shackletons incredible voyage": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "adventurous",
+   "tense"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Endurance; Shackleton's incredible voyage",
+  "author": "Alfred Lansing",
+  "why": "The real story of Shackleton's lost ship and crew survival in Antarctica, reads like an adventure novel."
+ },
+ "slewfoot": {
+  "keep": true,
+  "genre": "horror",
+  "mood": [
+   "dark",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Slewfoot",
+  "author": "Brom",
+  "why": "A witch-tale about a goat-legged being in colonial Pennsylvania, illustrated; good Halloween reading."
+ },
+ "kitchen confidential": {
+  "keep": true,
+  "genre": "memoir",
+  "mood": [
+   "funny",
+   "dark"
+  ],
+  "length": "medium",
+  "diff": 1,
+  "type": "nonfiction",
+  "title": "Kitchen Confidential",
+  "author": "Anthony Bourdain",
+  "why": "A chef's blunt, funny memoir of kitchen life, found witty and warm."
+ },
+ "matrix": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "thoughtful",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Matrix",
+  "author": "Lauren Groff",
+  "why": "An abbess in medieval France builds a world of women in a short, magical-realist novel."
+ },
+ "caste": {
+  "keep": true,
+  "genre": "history",
+  "mood": [
+   "thoughtful",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "nonfiction",
+  "title": "Caste",
+  "author": "Isabel Wilkerson",
+  "why": "A study of America's hidden caste system, urged by readers who want to understand US history and society."
+ },
+ "i cheerfully refuse": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "hopeful",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "I Cheerfully Refuse",
+  "author": "Leif Enger",
+  "why": "A family goes on the run in a collapsing near-future America; readers enjoyed it but some withheld judgment."
+ },
+ "sun also rises": {
+  "keep": true,
+  "genre": "classic",
+  "mood": [
+   "melancholic",
+   "thoughtful"
+  ],
+  "length": "short",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Sun Also Rises",
+  "author": "Ernest Hemingway",
+  "why": "Expatriates in 1920s Paris and Spain travel, drink and aimlessly drift; Hemingway's famous spare style."
+ },
+ "underground railroad": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "dark",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Underground Railroad",
+  "author": "Colson Whitehead",
+  "why": "A girl's escape from slavery on a literal railroad; an alternative-history novel that won big awards."
+ },
+ "remnant population": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "thoughtful",
+   "hopeful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Remnant Population",
+  "author": "Elizabeth Moon",
+  "why": "An old woman is the last of her colony and must meet aliens; praised as outstanding by readers."
+ },
+ "cold mountain": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Cold Mountain",
+  "author": "Charles Frazier",
+  "why": "A wounded Confederate soldier walks home across the Civil War South to his love; poetic and slow."
+ },
+ "confessions": {
+  "keep": true,
+  "genre": "crime",
+  "mood": [
+   "dark",
+   "tense"
+  ],
+  "length": "short",
+  "diff": 1,
+  "type": "novel",
+  "title": "Confessions",
+  "author": "Kanae Minato",
+  "why": "A teacher's chilling confession opens a revenge story told by several voices; gripping and short."
+ },
+ "prodigal summer": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "hopeful",
+   "atmospheric"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Prodigal Summer",
+  "author": "Barbara Kingsolver",
+  "why": "Three lives intertwine in Appalachian nature in Kingsolver's love of the natural world."
+ },
+ "greenwood": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "thoughtful",
+   "epic"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "GREENWOOD",
+  "author": "Michael Christie",
+  "why": "A multigenerational tale of trees and a family across time; many readers name it a current favourite."
+ },
+ "narrow road to the deep north": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "bleak",
+   "emotional"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Narrow Road to the Deep North",
+  "author": "Richard Flanagan",
+  "why": "A surgeon on the Burma railway and a love story; harrowing, heartbreaking and prize-winning."
+ },
+ "buried giant": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "melancholic",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Buried Giant",
+  "author": "Kazuo Ishiguro",
+  "why": "An old couple travels a misty post-Arthurian Britain in search of their son; quiet and moving, about memory."
+ },
+ "housekeeping": {
+  "keep": true,
+  "genre": "literary",
+  "mood": [
+   "melancholic",
+   "atmospheric"
+  ],
+  "length": "short",
+  "diff": 3,
+  "type": "novel",
+  "title": "Housekeeping",
+  "author": "Marilynne Robinson",
+  "why": "Two sisters and their strange aunt in a remote lake town; haunting prose beloved by literary fans."
+ },
+ "kushiels dart": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "epic",
+   "dark"
+  ],
+  "length": "long",
+  "diff": 2,
+  "type": "novel",
+  "title": "Kushiel's Dart",
+  "author": "Jacqueline Carey",
+  "why": "A courtesan spy in a world of intrigue, with deep worldbuilding and heavy themes; the start of a series."
+ },
+ "island of sea women": {
+  "keep": true,
+  "genre": "historical",
+  "mood": [
+   "emotional",
+   "thoughtful"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Island of Sea Women",
+  "author": "Lisa See",
+  "why": "Two women divers on a Korean island over decades, a gripping portrait of friendship; engrossing."
+ },
+ "gunslinger": {
+  "keep": true,
+  "genre": "fantasy",
+  "mood": [
+   "dark",
+   "adventurous"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "The Gunslinger",
+  "author": "Stephen King",
+  "why": "A gunslinger chases the man in black across a desert, opening a strange epic; fans say read the series."
+ },
+ "armor": {
+  "keep": true,
+  "genre": "scifi",
+  "mood": [
+   "tense",
+   "fast"
+  ],
+  "length": "medium",
+  "diff": 2,
+  "type": "novel",
+  "title": "Armor",
+  "author": "John Steakley",
+  "why": "A reluctant soldier in powered armour fights in endless wars; a gritty military SF recommended by veterans of the genre."
+ }
+}
