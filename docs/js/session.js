@@ -105,6 +105,53 @@ async function holdScreen(on) {
   }
 }
 
+// ---------- alarm (dzwonek) ----------
+const ALARM_CHOICES = [0, 15, 30, 45, 60];
+let audio = null;
+let ringTimer = null;
+function prepAudio() { // must run inside a tap so the phone lets us make sound later
+  try {
+    audio = audio || new (window.AudioContext || window.webkitAudioContext)();
+    if (audio.state === 'suspended') audio.resume();
+  } catch { audio = null; }
+}
+function beep() {
+  try {
+    if (!audio) return;
+    const t = audio.currentTime;
+    [0, 0.25, 0.5].forEach((d) => {
+      const o = audio.createOscillator(), g = audio.createGain();
+      o.type = 'sine'; o.frequency.value = 880;
+      g.gain.setValueAtTime(0.0001, t + d);
+      g.gain.exponentialRampToValueAtTime(0.4, t + d + 0.02);
+      g.gain.exponentialRampToValueAtTime(0.0001, t + d + 0.2);
+      o.connect(g).connect(audio.destination);
+      o.start(t + d); o.stop(t + d + 0.22);
+    });
+  } catch {}
+}
+function stopRing() { clearInterval(ringTimer); ringTimer = null; }
+function ring(r, b) {
+  setRunning({ ...r, alarmFired: true });
+  const loop = () => { beep(); try { navigator.vibrate?.([300, 150, 300, 150, 300]); } catch {} };
+  loop();
+  ringTimer = setInterval(loop, 2500);
+  setTimeout(stopRing, 60000);
+  const rec = ui.openSheet(
+    `<div class="sheet-head"><h2>Czas minął!</h2></div>
+     <p class="muted ss-stop-sum">Czytasz już ${r.alarmMin} min. Wybierz, co dalej.</p>
+     <div class="btn-row"><button class="btn ghost" data-r="go">Czytam dalej</button><button class="btn primary" data-r="stop">Zakończ sesję</button></div>`,
+    { label: 'Dzwonek', onClose: stopRing }
+  );
+  rec.body.addEventListener('click', (e) => {
+    const t = e.target.closest('[data-r]');
+    if (!t) return;
+    stopRing();
+    rec.close();
+    if (t.dataset.r === 'stop') openStop(runningSession() || r, b);
+  });
+}
+
 function pickBook(ctx) {
   const run = runningSession();
   if (run && store.book(run.bookId)) return store.book(run.bookId);
@@ -139,6 +186,7 @@ export function render(el, ctx) {
   const reading = b.status === 'czytam';
   const ownMs = own.reduce((a, s) => a + activeMs(s), 0);
   const ownSpeed = speedOf(own);
+  const alarmMin = Number(store.setting('alarmMin')) || 0;
 
   el.innerHTML = `
     <header class="screen-head"><h1 class="t-display">Sesja</h1></header>
@@ -157,6 +205,11 @@ export function render(el, ctx) {
       <p class="t-label ss-state">${run ? (paused ? 'Przerwa' : 'Czytasz') : 'Gotowy'}</p>
       <output class="ss-clock num" id="clock" role="timer" aria-live="off">${clockText(run ? activeMs(run) : 0)}</output>
       <p class="faint t-sm ss-sub">${run ? `od ${timeOf(run.start)} · od strony ${run.fromPage}` : reading ? 'Wciśnij start, kiedy otworzysz książkę.' : 'Ta książka nie jest teraz na półce „Czytam”.'}</p>
+      ${run
+        ? (run.alarmMin ? `<p class="faint t-sm ss-alarm num">${icon('timer', 14)} Dzwonek po ${run.alarmMin} min${run.alarmFired ? ' — już zadzwonił' : ''}</p>` : '')
+        : reading
+        ? `<div class="ss-alarm-pick"><span class="t-label">Dzwonek po</span><div class="chips">${ALARM_CHOICES.map((m) => `<button class="chip ${alarmMin === m ? 'on' : ''}" data-alarm="${m}">${m ? m + ' min' : 'Wył.'}</button>`).join('')}</div></div>`
+        : ''}
       <div class="ss-controls">
         ${run
           ? `<button class="btn ss-main" data-act="${paused ? 'resume' : 'pause'}">${paused ? 'Wznów' : 'Przerwa'}</button>
@@ -185,18 +238,27 @@ export function render(el, ctx) {
   // ---- live clock (updates only the text node) ----
   let timer = null;
   const clock = el.querySelector('#clock');
+  const tick = () => {
+    clock.textContent = clockText(activeMs(run));
+    if (run.alarmMin && !run.alarmFired && activeMs(run) >= run.alarmMin * 60000) {
+      clearInterval(timer);
+      ring(run, b);
+    }
+  };
   if (run && !paused) {
-    timer = setInterval(() => (clock.textContent = clockText(activeMs(run))), 500);
+    timer = setInterval(tick, 500);
     holdScreen(true);
   } else holdScreen(false);
   const onVis = () => {
     if (document.visibilityState === 'visible') {
-      if (run && !paused) (clock.textContent = clockText(activeMs(run))), holdScreen(true);
+      if (run && !paused) tick(), holdScreen(true);
     }
   };
   document.addEventListener('visibilitychange', onVis);
 
   el.onclick = async (e) => {
+    const al = e.target.closest('[data-alarm]');
+    if (al) return store.setSetting('alarmMin', Number(al.dataset.alarm));
     const t = e.target.closest('[data-act],[data-del]');
     if (!t) return;
     if (t.dataset.del) return deleteSession(t.dataset.del);
@@ -208,7 +270,8 @@ export function render(el, ctx) {
       return;
     }
     if (a === 'start') {
-      await setRunning({ bookId: b.id, start: Date.now(), pausedMs: 0, pausedAt: null, fromPage: Number(b.currentPage) || 0 });
+      if (alarmMin) prepAudio();
+      await setRunning({ bookId: b.id, start: Date.now(), pausedMs: 0, pausedAt: null, fromPage: Number(b.currentPage) || 0, alarmMin });
       return;
     }
     const r = runningSession();

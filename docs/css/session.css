@@ -23,6 +23,10 @@
 .ss-controls { display: flex; gap: var(--s3); margin-top: var(--s5); justify-content: center; }
 .ss-main { flex: 1; min-height: 54px; font-size: 1.0625rem; max-width: 200px; }
 .ss-start { min-height: 56px; padding: 0 var(--s6); font-size: 1.0625rem; }
+.ss-alarm-pick { display: grid; gap: var(--s2); justify-items: center; margin-top: var(--s4); }
+.ss-alarm-pick .t-label { color: var(--on-desk-2); }
+.ss-alarm-pick .chips { justify-content: center; }
+.ss-alarm { margin-top: var(--s3); display: inline-flex; align-items: center; gap: 6px; }
 .ss-hint { margin-top: var(--s4); max-width: 32ch; margin-inline: auto; }
 
 .ss-est { display: grid; gap: 6px; }
