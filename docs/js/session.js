@@ -130,13 +130,21 @@ function beep() {
     });
   } catch {}
 }
-function stopRing() { clearInterval(ringTimer); ringTimer = null; }
-function ring(r, b) {
+let ringStop = null;
+function stopRing() {
+  clearInterval(ringTimer); ringTimer = null;
+  clearTimeout(ringStop); ringStop = null;
+  try { navigator.vibrate?.(0); } catch {}
+}
+function ring(r, b, late) {
   setRunning({ ...r, alarmFired: true });
-  const loop = () => { beep(); try { navigator.vibrate?.([300, 150, 300, 150, 300]); } catch {} };
-  loop();
-  ringTimer = setInterval(loop, 2500);
-  setTimeout(stopRing, 60000);
+  // late = the phone slept through the time (browser freezes pages with screen off): don't buzz on unlock, just show the sheet
+  if (!late) {
+    const loop = () => { beep(); try { navigator.vibrate?.([300, 150, 300, 150, 300]); } catch {} };
+    loop();
+    ringTimer = setInterval(loop, 2500);
+    ringStop = setTimeout(stopRing, 15000);
+  }
   const rec = ui.openSheet(
     `<div class="sheet-head"><h2>Czas minął!</h2></div>
      <p class="muted ss-stop-sum">Czytasz już ${r.alarmMin} min. Wybierz, co dalej.</p>
@@ -242,7 +250,7 @@ export function render(el, ctx) {
     clock.textContent = clockText(activeMs(run));
     if (run.alarmMin && !run.alarmFired && activeMs(run) >= run.alarmMin * 60000) {
       clearInterval(timer);
-      ring(run, b);
+      ring(run, b, activeMs(run) - run.alarmMin * 60000 > 5000 || document.visibilityState !== 'visible');
     }
   };
   if (run && !paused) {
