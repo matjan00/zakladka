@@ -12,7 +12,7 @@ const MIN_SPEED_MS = 10 * 60000; // below this much reading time the speed is no
 // ---------- model ----------
 /** The session in progress: { bookId, start, pausedMs, pausedAt|null, fromPage } or null. Lives in settings → survives reload. */
 export const runningSession = () => store.setting('runningSession') || null;
-const setRunning = (v) => store.setSetting('runningSession', v);
+const setRunning = (v) => { if (!v) stopKeepAlive(); return store.setSetting('runningSession', v); };
 
 /** Reading time in ms. Works for a running, paused or saved session. */
 export const activeMs = (s, now = Date.now()) => Math.max(0, (s.end ?? s.pausedAt ?? now) - s.start - (s.pausedMs || 0));
@@ -109,14 +109,53 @@ async function holdScreen(on) {
 const ALARM_CHOICES = [0, 15, 30, 45, 60];
 let audio = null;
 let ringTimer = null;
+// Same trick as the gym rest timer: an <audio> element (not WebAudio) so the phone treats it as media.
+// A silent looping track also keeps the page alive with the screen off, so the timer is not frozen.
+let clip = null, clipReady = false, keep = null;
+function wavBytes(samples, rate = 24000) {
+  const n = samples.length, out = new Uint8Array(44 + n * 2), v = new DataView(out.buffer);
+  const str = (o, s) => { for (let i = 0; i < s.length; i++) out[o + i] = s.charCodeAt(i); };
+  str(0, 'RIFF'); v.setUint32(4, 36 + n * 2, true); str(8, 'WAVEfmt ');
+  v.setUint32(16, 16, true); v.setUint16(20, 1, true); v.setUint16(22, 1, true);
+  v.setUint32(24, rate, true); v.setUint32(28, rate * 2, true); v.setUint16(32, 2, true); v.setUint16(34, 16, true);
+  str(36, 'data'); v.setUint32(40, n * 2, true);
+  for (let i = 0; i < n; i++) v.setInt16(44 + i * 2, samples[i], true);
+  return out;
+}
+function alarmWav(rate = 24000) {
+  const beeps = [[0, 2500], [0.2, 2500], [0.4, 3000], [0.95, 2500], [1.15, 2500], [1.35, 3000]];
+  const len = 0.12, n = Math.floor(1.6 * rate), pcm = new Int16Array(n);
+  for (const [t, f] of beeps) {
+    const s0 = Math.floor(t * rate), m = Math.floor(len * rate);
+    for (let i = 0; i < m && s0 + i < n; i++) {
+      const env = Math.min(1, i / (0.008 * rate), (m - i) / (0.015 * rate));
+      pcm[s0 + i] = Math.round(Math.tanh(2.2 * Math.sin((2 * Math.PI * f * i) / rate)) / Math.tanh(2.2) * 0.95 * env * 32767);
+    }
+  }
+  return wavBytes(pcm, rate);
+}
+function stopKeepAlive() { try { keep?.pause(); } catch {} }
 function prepAudio() { // must run inside a tap so the phone lets us make sound later
   try {
     audio = audio || new (window.AudioContext || window.webkitAudioContext)();
     if (audio.state === 'suspended') audio.resume();
   } catch { audio = null; }
+  try {
+    if (!clip) { clip = new Audio(URL.createObjectURL(new Blob([alarmWav()], { type: 'audio/wav' }))); clip.preload = 'auto'; }
+    if (!clipReady) {
+      clip.muted = true;
+      clip.play().then(() => { clip.pause(); clip.currentTime = 0; clip.muted = false; clipReady = true; }).catch(() => { clip.muted = false; });
+    }
+    if (!keep) {
+      keep = new Audio(URL.createObjectURL(new Blob([wavBytes(new Int16Array(24000))], { type: 'audio/wav' })));
+      keep.loop = true; keep.volume = 0.02;
+    }
+    keep.play().catch(() => {});
+  } catch { clip = null; }
 }
 function beep() {
   try {
+    if (clip) { clip.muted = false; clip.volume = 1; clip.currentTime = 0; clip.play().catch(() => {}); return; }
     if (!audio) return;
     const t = audio.currentTime;
     [0, 0.25, 0.5].forEach((d) => {
@@ -135,6 +174,7 @@ function stopRing() {
   clearInterval(ringTimer); ringTimer = null;
   clearTimeout(ringStop); ringStop = null;
   try { navigator.vibrate?.(0); } catch {}
+  stopKeepAlive();
 }
 function ring(r, b, late) {
   setRunning({ ...r, alarmFired: true });
@@ -261,6 +301,7 @@ export function render(el, ctx) {
     if (document.visibilityState === 'visible') {
       if (run && !paused) tick(), holdScreen(true);
     }
+    if (run && alarmMin && !run.alarmFired && document.visibilityState === 'visible') prepAudio();
   };
   document.addEventListener('visibilitychange', onVis);
 
