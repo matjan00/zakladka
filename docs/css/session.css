@@ -39,3 +39,6 @@
 .ss-pick-cover { flex: none; }
 .ss-stop-sum { margin: -6px 0 var(--s4); }
 .ss-err { color: var(--bad); margin-bottom: var(--s3); }
+
+.ss-switch { display: grid; gap: var(--s2); margin-bottom: var(--s4); }
+.ss-switch .chips { flex-wrap: wrap; }

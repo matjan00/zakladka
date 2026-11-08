@@ -470,12 +470,12 @@ export function renderDetail(el, ctx) {
       <section class="progress-card desk">
         <div class="pc-top">
           <div><span class="t-label">Postęp</span>
-            <p class="pc-num num">${b.pages ? `<b>${b.currentPage || 0}</b> / ${b.pages} <span class="faint">${pl(b.pages, 'strona', 'strony', 'stron')}</span>` : `<span class="faint">strona</span> <b>${b.currentPage || 0}</b>`}</p></div>
-          <span class="pc-pct num">${b.pages ? Math.round(p * 100) + '%' : ''}</span>
+            <p class="pc-num num">${store.isPct(b) ? `<b>${b.currentPage || 0}%</b> <span class="faint">Kindle</span>` : b.pages ? `<b>${b.currentPage || 0}</b> / ${b.pages} <span class="faint">${pl(b.pages, 'strona', 'strony', 'stron')}</span>` : `<span class="faint">strona</span> <b>${b.currentPage || 0}</b>`}</p></div>
+          <span class="pc-pct num">${store.totalOf(b) ? Math.round(p * 100) + '%' : ''}</span>
         </div>
-        ${b.pages ? ui.thread(p) : `<p class="faint t-sm">Dodaj liczbę stron, a pokażę, ile zostało.</p>`}
+        ${store.totalOf(b) ? ui.thread(p) : `<p class="faint t-sm">Dodaj liczbę stron (albo włącz postęp z Kindle w %), a pokażę, ile zostało.</p>`}
         <div class="btn-row" style="margin-top:14px">
-          <button class="btn" data-act="page">Zapisz stronę</button>
+          <button class="btn" data-act="page">${store.isPct(b) ? 'Zapisz %' : 'Zapisz stronę'}</button>
           <button class="btn primary" data-go="sesja?book=${esc(b.id)}">${icon('timer')}Sesja</button>
         </div>
       </section>` : ''}
@@ -565,12 +565,12 @@ export function openPageSheet(id) {
   const b = store.book(id);
   if (!b) return;
   const rec = ui.openSheet(
-    `<div class="sheet-head"><h2>Na której stronie jesteś?</h2></div>
+    `<div class="sheet-head"><h2>${store.isPct(b) ? 'Ile % pokazuje Kindle?' : 'Na której stronie jesteś?'}</h2></div>
      <form class="page-form">
        <div class="page-input"><button type="button" class="icon-btn" data-d="-1" aria-label="Mniej">−</button>
          <input name="page" inputmode="numeric" value="${b.currentPage || ''}" aria-label="Bieżąca strona" class="num">
          <button type="button" class="icon-btn" data-d="1" aria-label="Więcej">+</button></div>
-       <p class="faint t-sm center">${b.pages ? `z ${b.pages} ${b.pages === 1 ? 'strony' : 'stron'}` : 'Liczbę stron dodasz w edycji książki.'}</p>
+       <p class="faint t-sm center">${store.isPct(b) ? 'z 100%' : b.pages ? `z ${b.pages} ${b.pages === 1 ? 'strony' : 'stron'}` : 'Liczbę stron dodasz w edycji książki.'}</p>
        <button class="btn primary wide" style="margin-top:18px">Zapisz</button>
      </form>`,
     { label: 'Bieżąca strona' }
@@ -580,11 +580,11 @@ export function openPageSheet(id) {
   f.onsubmit = async (e) => {
     e.preventDefault();
     let page = Math.max(0, Number(String(f.page.value).replace(/\D/g, '')) || 0);
-    if (b.pages) page = Math.min(page, b.pages);
+    if (store.totalOf(b)) page = Math.min(page, store.totalOf(b));
     if (rec.closed) return; // double tap
     rec.close();
     await store.updateBook(id, { currentPage: page });
-    if (b.pages && page >= b.pages && b.status === 'czytam') {
+    if (store.totalOf(b) && page >= store.totalOf(b) && b.status === 'czytam') {
       if (await ui.confirmSheet({ title: 'Koniec książki?', text: 'To już ostatnia strona. Przenieść na półkę „Przeczytane”?', ok: 'Tak, przeczytana' })) {
         await store.setStatus(id, 'przeczytane');
         ui.toast('Gratulacje! Kolejna przeczytana.');
@@ -647,8 +647,9 @@ export function openEdit(id) {
        <div class="field"><span class="t-label">Autor</span><input name="author" value="${esc(b.author)}"></div>
        <div class="field-row">
          <div class="field"><span class="t-label">Liczba stron</span><input name="pages" inputmode="numeric" value="${b.pages || ''}"></div>
-         <div class="field"><span class="t-label">Bieżąca strona</span><input name="currentPage" inputmode="numeric" value="${b.currentPage || ''}"></div>
+         <div class="field"><span class="t-label">Bieżąca strona / %</span><input name="currentPage" inputmode="numeric" value="${b.currentPage || ''}"></div>
        </div>
+       <label class="field" style="flex-direction:row;align-items:center;gap:10px"><input type="checkbox" name="kindlePct" ${b.kindlePct ? 'checked' : ''}><span>Postęp z Kindle w % (bez stron)</span></label>
        <div class="field-row">
          <div class="field"><span class="t-label">Rok wydania</span><input name="year" inputmode="numeric" value="${b.year || ''}"></div>
          <div class="field"><span class="t-label">Format</span><select name="format">${FORMATS.map(([k, l]) => `<option value="${k}" ${b.format === k ? 'selected' : ''}>${l}</option>`).join('')}</select></div>
@@ -721,6 +722,7 @@ export function openEdit(id) {
       author: f.author.value.trim(),
       pages: num(f.pages.value),
       currentPage: num(f.currentPage.value) || 0,
+      kindlePct: f.kindlePct.checked,
       year: num(f.year.value),
       format: f.format.value,
       genre: f.genre.value.trim(),

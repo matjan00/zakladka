@@ -122,7 +122,7 @@ export function render(el, ctx) {
 /** The book in hand, lying on the green leather desk under the lamp. */
 function nowCard(b, titled) {
   const p = store.progressOf(b);
-  const left = b.pages ? Math.max(0, b.pages - (b.currentPage || 0)) : null;
+  const left = store.totalOf(b) ? Math.max(0, store.totalOf(b) - (b.currentPage || 0)) : null;
   const { cls, no } = ui.callNo(b);
   return `<article class="now-card desk">
     ${titled ? '<h2>Czytam teraz</h2>' : ''}
@@ -132,11 +132,11 @@ function nowCard(b, titled) {
         <button class="nc-title t-title" data-book="${esc(b.id)}" aria-label="${esc(b.title)}">${esc(shortTitle(b.title))}</button>
         <p class="nc-author">${esc(b.author || '')}</p>
         <span class="sig">Sygn. ${esc(cls)} ${esc(no)}</span>
-        ${b.pages ? `<div class="nc-progress">${ui.thread(p)}<p class="t-sm num"><b>${Math.round(p * 100)}%</b><span class="faint"> · strona&nbsp;${b.currentPage || 0}&nbsp;z&nbsp;${b.pages}</span></p>${left ? `<p class="faint t-sm">zostało ${plN(left, 'strona', 'strony', 'stron')}</p>` : ''}</div>` : `<p class="faint t-sm">strona ${b.currentPage || 0}</p>`}
+        ${store.totalOf(b) ? `<div class="nc-progress">${ui.thread(p)}<p class="t-sm num"><b>${Math.round(p * 100)}%</b>${store.isPct(b) ? '<span class="faint"> · Kindle</span>' : `<span class="faint"> · strona&nbsp;${b.currentPage || 0}&nbsp;z&nbsp;${b.pages}</span>`}</p>${left && !store.isPct(b) ? `<p class="faint t-sm">zostało ${plN(left, 'strona', 'strony', 'stron')}</p>` : ''}</div>` : `<p class="faint t-sm">strona ${b.currentPage || 0}</p>`}
       </div>
     </div>
     <div class="nc-btns">
-      <button class="btn" data-page="${esc(b.id)}">Zapisz stronę</button>
+      <button class="btn" data-page="${esc(b.id)}">${store.isPct(b) ? 'Zapisz %' : 'Zapisz stronę'}</button>
       <button class="btn primary" data-go="sesja?book=${esc(b.id)}">${icon('timer')}Sesja</button>
     </div>
   </article>`;

@@ -214,7 +214,10 @@ export const book = (id) => get('books', id);
 export const readsOf = (bookId) => where('reads', (r) => r.bookId === bookId).sort((a, b) => String(a.started || '').localeCompare(String(b.started || '')));
 export const openRead = (bookId) => readsOf(bookId).find((r) => !r.finished) || null;
 export const lastRead = (bookId) => readsOf(bookId).at(-1) || null;
-export const progressOf = (b) => (b && b.pages ? Math.max(0, Math.min(1, (Number(b.currentPage) || 0) / b.pages)) : 0);
+/** Kindle books show no pages, only a percentage: for them currentPage is 0-100 and the "total" is 100. */
+export const isPct = (b) => !!(b && b.kindlePct);
+export const totalOf = (b) => (b ? (b.kindlePct ? 100 : Number(b.pages) || 0) : 0);
+export const progressOf = (b) => { const t = totalOf(b); return t ? Math.max(0, Math.min(1, (Number(b.currentPage) || 0) / t)) : 0; };
 
 export async function addBook(p) {
   const b = await put('books', newBook(p));

@@ -51,9 +51,10 @@ const fmtDM = new Intl.DateTimeFormat('pl-PL', { day: 'numeric', month: 'long' }
 
 /** "Zostało około 3 h 20 min czytania. Skończysz około czwartku." (or a gentle invitation when there is no data yet). */
 export function estimate(b) {
-  if (!b.pages) return { text: 'Dodaj liczbę stron książki, a oszacuję, kiedy ją skończysz.' };
-  const left = b.pages - (Number(b.currentPage) || 0);
-  if (left <= 0) return { text: 'To już ostatnia strona — gratulacje!' };
+  const total = store.totalOf(b);
+  if (!total) return { text: 'Dodaj liczbę stron książki, a oszacuję, kiedy ją skończysz.' };
+  const left = total - (Number(b.currentPage) || 0);
+  if (left <= 0) return { text: store.isPct(b) ? 'To już koniec książki — gratulacje!' : 'To już ostatnia strona — gratulacje!' };
   const own = sessionsOf(b.id);
   const ownSpeed = speedOf(own);
   const speed = ownSpeed || speedOf(store.all('sessions'));
@@ -235,16 +236,18 @@ export function render(el, ctx) {
   const ownMs = own.reduce((a, s) => a + activeMs(s), 0);
   const ownSpeed = speedOf(own);
   const alarmMin = Number(store.setting('alarmMin')) || 0;
+  const readingList = store.books().filter((x) => x.status === 'czytam').sort((a, c) => (c.updated || 0) - (a.updated || 0));
 
   el.innerHTML = `
     <header class="screen-head"><h1 class="t-display">Sesja</h1></header>
 
+    ${!run && readingList.length > 1 ? `<div class="ss-switch"><span class="t-label">Którą czytasz?</span><div class="chips">${readingList.map((x) => `<button class="chip ${x.id === b.id ? 'on' : ''}" data-sel="${esc(x.id)}">${esc(shortTitle(x.title))}</button>`).join('')}</div></div>` : ''}
     <section class="ss-book">
       <button class="ss-cover" data-act="pick" ${run ? 'disabled' : ''} aria-label="${run ? esc(b.title) : 'Zmień książkę'}">${ui.coverHTML(b, 'm', { ribbon: reading })}</button>
       <div class="ss-meta">
         <p class="t-book ss-title">${esc(shortTitle(b.title))}</p>
         <p class="muted ss-author">${esc(b.author || '')}</p>
-        ${b.pages ? `<div class="ss-prog">${ui.thread(p)}<p class="t-sm num faint">strona ${b.currentPage || 0} z ${b.pages}</p></div>` : `<p class="t-sm faint num">strona ${b.currentPage || 0}</p>`}
+        ${store.totalOf(b) ? `<div class="ss-prog">${ui.thread(p)}<p class="t-sm num faint">${store.isPct(b) ? `${b.currentPage || 0}% (Kindle)` : `strona ${b.currentPage || 0} z ${b.pages}`}</p></div>` : `<p class="t-sm faint num">strona ${b.currentPage || 0}</p>`}
         ${run ? '' : `<button class="link-btn ss-change" data-act="pick">Zmień książkę</button>`}
       </div>
     </section>
@@ -272,7 +275,7 @@ export function render(el, ctx) {
     <section class="ss-est panel">
       <span class="t-label">Kiedy skończysz</span>
       <p class="t-read ss-est-text">${esc(est.text)}</p>
-      ${est.speed ? `<p class="faint t-sm num">${Math.round(est.speed)} str./h · ${est.basis}</p>` : ''}
+      ${est.speed ? `<p class="faint t-sm num">${Math.round(est.speed)} ${store.isPct(b) ? '%' : 'str.'}/h · ${est.basis}</p>` : ''}
     </section>
 
     <section class="section">
@@ -306,6 +309,8 @@ export function render(el, ctx) {
   document.addEventListener('visibilitychange', onVis);
 
   el.onclick = async (e) => {
+    const sel = e.target.closest('[data-sel]');
+    if (sel) { selId = sel.dataset.sel; return ctx.refresh(); }
     const al = e.target.closest('[data-alarm]');
     if (al) return store.setSetting('alarmMin', Number(al.dataset.alarm));
     const t = e.target.closest('[data-act],[data-del]');
@@ -387,17 +392,17 @@ function openStop(r0, b) {
   const speed = speedOf(sessionsOf(b.id)) || speedOf(store.all('sessions'));
   let guess = r.fromPage;
   if (speed) guess = Math.round(r.fromPage + speed * (ms / 3600000));
-  if (b.pages) guess = Math.min(guess, b.pages);
+  if (store.totalOf(b)) guess = Math.min(guess, store.totalOf(b));
   guess = Math.max(guess, r.fromPage);
   let done = false;
   const rec = ui.openSheet(
-    `<div class="sheet-head"><h2>Na której stronie skończyłeś?</h2></div>
-     <p class="muted ss-stop-sum num">Czytałeś ${durText(ms)}, od strony ${r.fromPage}.</p>
+    `<div class="sheet-head"><h2>${store.isPct(b) ? 'Ile % pokazuje Kindle?' : 'Na której stronie skończyłeś?'}</h2></div>
+     <p class="muted ss-stop-sum num">Czytałeś ${durText(ms)}, od ${store.isPct(b) ? r.fromPage + '%' : 'strony ' + r.fromPage}.</p>
      <form class="page-form">
        <div class="page-input"><button type="button" class="icon-btn" data-d="-1" aria-label="Mniej">−</button>
          <input name="page" inputmode="numeric" value="${guess}" aria-label="Strona, na której skończyłeś" class="num">
          <button type="button" class="icon-btn" data-d="1" aria-label="Więcej">+</button></div>
-       <p class="faint t-sm center">${b.pages ? `z ${plN(b.pages, 'strony', 'stron', 'stron')}` : ''}${speed ? ' · podpowiedź z Twojego tempa' : ''}</p>
+       <p class="faint t-sm center">${store.isPct(b) ? 'z 100%' : b.pages ? `z ${plN(b.pages, 'strony', 'stron', 'stron')}` : ''}${speed ? ' · podpowiedź z Twojego tempa' : ''}</p>
        <button class="btn primary wide" style="margin-top:18px">Zapisz sesję</button>
        <div class="btn-row" style="margin-top:8px"><button type="button" class="btn ghost" data-close>Wróć do czytania</button><button type="button" class="btn ghost" data-act="discard">Odrzuć</button></div>
      </form>`,
@@ -422,7 +427,7 @@ function openStop(r0, b) {
     e.preventDefault();
     if (done) return; // double tap
     let page = Math.max(0, Number(String(f.page.value).replace(/\D/g, '')) || 0);
-    if (b.pages) page = Math.min(page, b.pages);
+    if (store.totalOf(b)) page = Math.min(page, store.totalOf(b));
     done = true;
     rec.close();
     const s = await store.put('sessions', { bookId: b.id, start: r.start, end: r.pausedAt, pausedMs: r.pausedMs || 0, fromPage: r.fromPage, toPage: page });
@@ -435,9 +440,9 @@ function openStop(r0, b) {
 async function afterSave(b, s, page) {
   await store.updateBook(b.id, { currentPage: page });
   const ms = activeMs(s), pg = sessionPages(s);
-  const sp = pg > 0 && ms >= 60000 ? ` · ${Math.round(pg / (ms / 3600000))} str./h` : '';
-  ui.toast(pg ? `${plN(pg, 'strona', 'strony', 'stron')} w ${durText(ms)}${sp}` : `Sesja zapisana: ${durText(ms)}`);
-  if (b.pages && page >= b.pages && b.status === 'czytam') {
+  const sp = pg > 0 && ms >= 60000 ? ` · ${Math.round(pg / (ms / 3600000))} ${store.isPct(b) ? '%' : 'str.'}/h` : '';
+  ui.toast(pg ? `${store.isPct(b) ? pg + '%' : plN(pg, 'strona', 'strony', 'stron')} w ${durText(ms)}${sp}` : `Sesja zapisana: ${durText(ms)}`);
+  if (store.totalOf(b) && page >= store.totalOf(b) && b.status === 'czytam') {
     if (await ui.confirmSheet({ title: 'Koniec książki?', text: 'To już ostatnia strona. Przenieść na półkę „Przeczytane”?', ok: 'Tak, przeczytana' })) {
       await store.setStatus(b.id, 'przeczytane');
       ui.toast('Gratulacje! Kolejna przeczytana.');
@@ -475,7 +480,7 @@ function openManual(b) {
     const min = num(f.min.value);
     const fromP = num(f.from.value);
     let toP = f.to.value.trim() === '' ? fromP : num(f.to.value);
-    if (b.pages) toP = Math.min(toP, b.pages);
+    if (store.totalOf(b)) toP = Math.min(toP, store.totalOf(b));
     const start = new Date(`${f.day.value}T${f.time.value}`).getTime();
     const bad = !min ? 'Wpisz, ile minut trwała sesja.' : !start ? 'Podaj dzień i godzinę.' : start > Date.now() ? 'Ta sesja jest jeszcze w przyszłości.' : toP < fromP ? 'Strona końcowa nie może być przed początkową.' : '';
     if (bad) return (err.textContent = bad), (err.hidden = false);
