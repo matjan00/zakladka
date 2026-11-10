@@ -181,7 +181,13 @@ function ring(r, b, late) {
   setRunning({ ...r, alarmFired: true });
   // late = the phone slept through the time (browser freezes pages with screen off): don't buzz on unlock, just show the sheet
   if (!late) {
-    const loop = () => { beep(); try { navigator.vibrate?.([300, 150, 300, 150, 300]); } catch {} };
+    const t0 = Date.now(), wasHidden = document.visibilityState !== 'visible';
+    const loop = () => {
+      // stop by the clock (timers can be delayed by the phone); never keep buzzing after an unlock
+      if (Date.now() - t0 > 15000 || (wasHidden && document.visibilityState === 'visible')) return stopRing();
+      beep();
+      if (document.visibilityState === 'visible') { try { navigator.vibrate?.([300, 150, 300, 150, 300]); } catch {} }
+    };
     loop();
     ringTimer = setInterval(loop, 2500);
     ringStop = setTimeout(stopRing, 15000);
