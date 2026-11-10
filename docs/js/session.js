@@ -135,7 +135,10 @@ function alarmWav(rate = 24000) {
   }
   return wavBytes(pcm, rate);
 }
-function stopKeepAlive() { try { keep?.pause(); } catch {} }
+function stopKeepAlive() {
+  try { keep?.pause(); } catch {}
+  try { if ('mediaSession' in navigator) { navigator.mediaSession.playbackState = 'none'; navigator.mediaSession.metadata = null; } } catch {}
+}
 function prepAudio() { // must run inside a tap so the phone lets us make sound later
   try {
     audio = audio || new (window.AudioContext || window.webkitAudioContext)();
@@ -148,10 +151,19 @@ function prepAudio() { // must run inside a tap so the phone lets us make sound 
       clip.play().then(() => { clip.pause(); clip.currentTime = 0; clip.muted = false; clipReady = true; }).catch(() => { clip.muted = false; });
     }
     if (!keep) {
-      keep = new Audio(URL.createObjectURL(new Blob([wavBytes(new Int16Array(24000))], { type: 'audio/wav' })));
-      keep.loop = true; keep.volume = 0.02;
+      // Chrome only treats a page as "playing audio" (exempt from background freezing) if the samples are not pure silence,
+      // so this is a barely-there 30 Hz hum (amplitude ~0.1%), inaudible on a phone speaker.
+      const hum = new Int16Array(24000).map((_, i) => Math.round(40 * Math.sin((2 * Math.PI * 30 * i) / 24000)));
+      keep = new Audio(URL.createObjectURL(new Blob([wavBytes(hum)], { type: 'audio/wav' })));
+      keep.loop = true; keep.volume = 1;
     }
     keep.play().catch(() => {});
+    try { // a media notification makes Android keep the page running with the screen off
+      if ('mediaSession' in navigator) {
+        navigator.mediaSession.metadata = new MediaMetadata({ title: 'Czytasz — dzwonek ustawiony', artist: 'Zakładka' });
+        navigator.mediaSession.playbackState = 'playing';
+      }
+    } catch {}
   } catch { clip = null; }
 }
 function beep() {
